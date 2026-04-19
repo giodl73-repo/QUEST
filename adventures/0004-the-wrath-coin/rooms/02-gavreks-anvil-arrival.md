@@ -34,6 +34,8 @@ She does **not** yet mention the hammer or the murder.
 
 **Mid-afternoon, before the rite:** Thane Krun Ironhaft arrives at the shrine-gate on horseback, flanked by Jarek Stoneforge (unless Jarek is dead/captured from Scene 1 — in which case Krun arrives alone with two other household-guards). He does not dismount.
 
+> **[DM note — kinship-seed]:** Krun is about to name Grom *"cousin"* without explanation. The kinship is not public. **The reveal comes at Scene 4** (Sigga's disclosure: Krun and Duren shared a mother, Hilda Stoneforge). **Do not telegraph surprise.** Read the line flat, as though it is normal Thorbardin etiquette. The party's confusion is the intended reception; Sigga will resolve it. If a PC rolls Insight DC 12 on the "cousin" word, you may tell them *"Not normal Thorbardin etiquette"* — but no more.
+
 Krun's words to Grom:
 
 *"Cousin. You have come for the rite. Go with Reorx. But I would speak with you before you return south — at my hold, at dusk tomorrow. There is business between our lines that has waited three years. Come alone if you come."*

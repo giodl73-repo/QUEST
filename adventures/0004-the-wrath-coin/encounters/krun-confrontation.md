@@ -46,7 +46,7 @@ sources:
 - Str 10, Dex 11, Con 16, Int 14, Wis 14, Cha 15
 - Saves: Con +5, Wis +4, Cha +4
 - **Warhammer:** +2, 1d8 bludgeoning (unenthusiastic).
-- **Voice of the Thane** (1/short rest, action): target Wis DC 14 or lose action + disadvantage on next attack. Full power unless kinship-reveal is invoked (then at disadvantage on save).
+- **Voice of the Thane** (REACTION-conditional, 1/combat, per v1.3 persona-panel revision): when a creature within 5 ft makes a melee attack, Krun may use his reaction to declare the attack *"unlawful in Thorbardin hold."* Target Wis save DC 14 or the attack misses entirely. Kessa (Qualinesti, no Thorbardin jurisdiction-recognition) has advantage. **If kinship-reveal has been invoked:** save-DC drops to 10 (political authority collapsed). *Replaced earlier action-tax version per Gygax + Jaquays + Stuart panel.*
 - **Blood-call (1/combat, reaction):** when reduced to 0 HP, summons Jarek or guards — next attack Krun would take is intercepted (at 1 HP instead).
 
 ### Jarek Stoneforge (if present)

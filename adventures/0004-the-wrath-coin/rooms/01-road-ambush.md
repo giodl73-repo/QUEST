@@ -56,6 +56,7 @@ campaign: moon-silver-cycle
 ## GM Notes
 
 - **This scene can be skipped** if the party (a) takes the alternate southeastern trail (Survival DC 12 to find it, costs half a day), (b) arrives after dusk (Jarek stands down — he will not fight in the dark against Kessa's and Grom's darkvision), or (c) negotiates at first contact (Persuasion DC 18 convinces Jarek to let them pass — he judges it not worth the cost).
+- **If Scene 1 is skipped (any of a/b/c), Jarek still appears at Scene 6** — either as Krun's backup at Kruntharrak (guilt-driven to re-engage) OR encountered at Scene 5's shaft (monthly maintenance trip). He is not a one-scene NPC; his guilt-psychology is central. Do not let Scene 1 skip erase him.
 - **Jarek's voice is a tell.** He will not say Duren's name. He will not meet Grom's eyes. Grom's Insight DC 12 catches the flinch.
 - **Capturing Jarek alive changes Scene 5 and Scene 6.** His evidence becomes Thorbardin-admissible. Strongly preferable to party outcomes.
 

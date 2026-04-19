@@ -39,13 +39,47 @@ Krun is effectively cornered. He will attempt the attunement *desperately* — r
 
 **Initiative.** If the party has declared intent to stop Krun, they roll initiative against Krun (+0 Init). Krun is 5 ft from the coin. The coin takes 1 round to attune (Wrath-Coin's fast-attune).
 
-- **Turn 1 — if Krun goes first:** Krun grabs the coin. It is now in his hand but not yet attuned (1-round window).
-- **Turn 1 — party actions:** interdict. Options:
-  - **Aelric Shove attack** (contested Athletics; Krun +0, Aelric +5): on success, coin flies from Krun's grip; spends 1 round on the floor.
-  - **Thera Disarm** (Cunning Action + thieves'-tools DC 15; Expertise +7): pluck the coin from Krun's hand.
-  - **Kessa Counterspell?** Attunement is not a spell; **Magic Missile at Krun's wrist** (target Krun; force damage 3d4+3 = 8-14; Krun HP 40; plus: a called-shot-disarm on hit, Sleight of Hand DC 10 — not RAW, but DM may allow).
-  - **Grom Guiding Bolt at Krun or at the coin itself (objects take damage from spells);** if coin is shot: 4d6 radiant; moon-silver resists magic but takes 1/2 damage; still likely survives; but may skip from Krun's hand.
-- **Turn 2 — if Krun still holds the coin at start:** attunement completes. Krun is now attuned. The coin's effects begin immediately.
+### Attunement-Race flowchart (DM reference)
+
+```
+ROUND 1 — Krun's turn (Init +0)
+  ├─ Free object-interact: grab coin (if 5 ft reach; auto-succeeds)
+  ├─ Coin in hand → ATTUNEMENT BEGINS (burn-warm 1 round)
+  └─ End of turn: nothing yet happens; coin is warm
+
+ROUND 1 — PC turns (intervene before Krun's NEXT turn)
+  ├─ [A] Aelric Shove: Athletics contest (+5 vs Krun +0) → coin flies to floor
+  ├─ [B] Thera Disarm: Cunning Action + Thieves' Tools DC 15 (Expertise +7) → pluck from hand
+  ├─ [C] Kessa Magic Missile at Krun's wrist: 3d4+3 auto-hit → Krun Con save DC 10 or drops (DM-adjudicated Sleight of Hand; not RAW)
+  ├─ [D] Grom Guiding Bolt at the coin (AC 15; moon-silver resists magic → half damage): coin HP 10; 2-3 hits destroy it. Krun drops damaged coin.
+  └─ [E] Thera hand crossbow at Krun's hand (attack at disadvantage for called shot): hit → Krun Con DC 10 or drops
+
+ROUND 2 — Krun's turn
+  ├─ If Krun STILL holds coin at start of turn: ATTUNEMENT COMPLETES end-of-turn
+  │    └─ Wis DC 12 re-keying save (mandatory)
+  │         ├─ Fail (likely): re-keys to Sigga's rage → Krun stabs self (1d4+2)
+  │         └─ Succeed: Krun numbly attuned; father-killer dead; no target
+  └─ If coin has been dropped/stolen: Krun attempts to recover (Athletics / Acrobatics / initiative re-positioning)
+```
+
+**Key timing rule:** attunement begins Round 1 (Krun's grab) and completes **end of Krun's Round 2 turn** — giving the party one full round of intervention. If the coin leaves Krun's hand before Round 2 ends, attunement does NOT complete.
+
+**Intervention summary:**
+- **[A] Shove** (Athletics +5 vs +0): coin on floor; Krun spends next turn retrieving.
+- **[B] Disarm** (Thieves' Tools DC 15; Expertise +7): Thera holds the coin. Does NOT attune her (she has not turned a face toward skin).
+- **[C] Magic Missile + drop** (force damage + Sleight DC 10): *DM discretion on the drop-adjudication; Kessa must narrate the wrist-target.*
+- **[D] Guiding Bolt at coin** (cleanest path; coin AC 15, HP 10, half-damage from magic → ~5 damage/hit): destroys coin in 2-3 hits.
+- **[E] Ranged interdict** (called shot disadvantage; on hit Con DC 10).
+
+## Non-Grom Option C (P0 note from 5-persona panel)
+
+While Grom is the canonical Option-C candidate at Krun's fate, other PC-driven decisions at Scene 6 also warrant Option C spawning:
+
+- **Thera disarms the coin + decides what to do with it** (not just handing it to Grom): spawn Thera-agent with the Wrath-Coin's six-grievance context; ask whether she pockets, drops, or destroys.
+- **Kessa identifies the 6th grievance** (Aelwen's own, via apron-scrap cross-reference): spawn Kessa-agent; ask whether she names it aloud (which primes Reciprocal Forgiveness) or records silently.
+- **Aelric invokes Solamnic kin-witness protocol** for the kinship-reveal: spawn Aelric-agent; his Oath-weighted voice is distinct from Grom's.
+
+**One Option C per scene** (per `session-runner` 2.3). Pick the decision that best reflects the scene's pivot. Grom's Krun-fate remains the default; others are alternatives if Grom's decision is Option-A-tractable (e.g., Grom clearly acts per heuristic without deep sheet-consultation).
 
 ## If Krun attunes the coin
 
