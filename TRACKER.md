@@ -1,6 +1,6 @@
 # Marathon Tracker
 
-Last updated: 2026-04-19 by `session-handoff` (S03).
+Last updated: 2026-04-19 by `session-handoff` (S04).
 
 ## Sessions
 
@@ -9,6 +9,7 @@ Last updated: 2026-04-19 by `session-handoff` (S03).
 | S01 | 0001-tomb-of-the-silver-rose | varduin-muster | 2026-04-18 | 65 | 65.0 | ADVISORY |
 | S02 | 0002-the-bone-collector-trap | varduin-muster | 2026-04-19 | 65 | 65.0 | ADVISORY |
 | S03 | 0003-the-silversmiths-mirror | varduin-muster | 2026-04-19 | **74** | **74.48** | ADVISORY (last advisory) |
+| S04 | 0004-the-wrath-coin | varduin-muster | 2026-04-19 | **76** | **76.12** | **PASS (first binding; +20 over 56)** |
 
 ## Adventures
 
@@ -16,13 +17,14 @@ Last updated: 2026-04-19 by `session-handoff` (S03).
 |---|---|---|---|---|
 | 0001-tomb-of-the-silver-rose | played, rev 3 | 3 | S01 | Rev 3: Scriptorium compressed; Cold Pulse v1.1-compliant; Aelwen's daughter Heva named; Mira Vaenshold-Silversmith seeded. |
 | 0002-the-bone-collector-trap | **played, rev 2** | 2 | S02 | Rev 2 applied all 5-persona review fixes pre-play. Played 2026-04-19; gate 65/80; panel mean 65.0/80. Outcome: Varran-reliquary attuned by Aelric (campaign-permanent: remembers Varran only as dying); Keloth killed in Scene 6 combat; Pella at Brother Laen's mother's by her own choice; Mira-letter delivered; 5 shelf-reliquaries recovered; Varduin east wing burned; Sir Venric fell. **Cross-adventure signal missed on dice** (Kessa Inv 12 / Perc 11 vs DC 13 twice). |
-| 0003-the-silversmiths-mirror | **played, P0-revised** | P0 post-5-persona | S03 | Campaign position 3/7 Moon-Silver Cycle. Emotion: Love. Spotlight: Kessa. **Played 2026-04-19; gate 74/80; panel mean 74.48/80 (spread 0.9). Highest-scoring session in workshop history (+9 over prior mean).** Outcome: Mira saved and departed for Stonfold with Harel; **Mirror destroyed via Reorx-rite (Kessa Portent rescue)**; no PC attuned; Kann + Vend dead; Pevra + Lorn + Gorr captured. **Cross-adventure phrase CAUGHT** (Kessa Inv 16). Aelwen's journal page, Kann's Stonfold finger-bone, Tova Stonfold + Felor all planted as seeds for #0004-#0007. |
+| 0003-the-silversmiths-mirror | **played, P0-revised** | P0 post-5-persona | S03 | Campaign position 3/7 Moon-Silver Cycle. Emotion: Love. Spotlight: Kessa. Gate 74/80; panel 74.48/80; spread 0.9. Mirror destroyed. |
+| 0004-the-wrath-coin | **played, P0-revised** | P0 post-5-persona | S04 | Campaign position 4/7 Moon-Silver Cycle. Emotion: Rage. Spotlight: Grom. **Played 2026-04-19; gate 76/80; panel mean 76.12/80 (spread 1.6). First binding-threshold session; PASS +20 over threshold.** Outcome: Krun Reorx-exiled (golden path); Wrath-Coin destroyed; Duren re-interred; Grom's burn-scar stopped aching; Jarek captured alive (Thorbardin-bound); **Hint 2 UNLOCKED + Hint 3 PLANTED**; Aelwen diptych complete; Wena's note for #0005. |
 
 ## Parties
 
 | Slug | Members | Status | Sessions played | Notes |
 |---|---|---|---|---|
-| varduin-muster | Aelric of Crownhold · Thera Hillfoot · Kessa Moonweave · Grom Ironhand | active | 3 | Post-S03: Aelric's Varran-memory state unchanged (still only remembers him dying). **No new attunements** — all four PCs declined the Mirror. **Kessa carries:** Aelwen's journal page (Hint 4 pre-plant), cross-adventure phrase in notebook (S02 recovery — pattern-link pending), Kann's Stonfold finger-bone ID'd (Felor engraved on cord). **Grom carries:** ~8 oz inert un-forged Mirror-silver; Mira's Council file-note with Seralen's name in ink. **Thera carries:** Seralen's *"Do not look"* note. **Aelric:** Mira's silver pendant (gift). **XP 1,675 each** (L3; 125 shy of L4). |
+| varduin-muster | Aelric of Crownhold · Thera Hillfoot · Kessa Moonweave · Grom Ironhand | active | 4 | **Post-S04, at L4 (XP 2,075 each).** Aelric's Varran-memory state unchanged. **Kessa:** Aelwen diptych (journal page #0003 + apron-scrap #0004; complete); Vethrenn's margin NOW READABLE; ledger-phrase cross-ref pending; Portent [4] held; Kann's Stonfold finger-bone. **Grom:** Duren's final letter; Duren's hammer in grave; ~1 oz inert Wrath-Coin-silver + ~8 oz inert Mirror-silver; **burn-scar stopped aching**; **Hint 3 held silently** (campaign-permanent). **Thera:** Seralen's note + Scene 5 scouts' map + various; Adda grief still unexamined. **Aelric:** **Wena Laen's sealed note (#0005 hook)**; Mira's pendant. |
 
 ## Parties (historical note)
 
@@ -30,23 +32,24 @@ Last updated: 2026-04-19 by `session-handoff` (S03).
 
 ## Rubric
 
-- Current version: **v1.2** (amended 2026-04-19 post-S02).
+- Current version: **v1.3** (amended 2026-04-19 post-S03). Proposals F + G pending for v1.4.
 - **Amendments adopted:**
   - v1.0 → v1.1 proposal A: Mechanical fairness cross-dimensional-harmlessness anchor.
   - v1.0 → v1.1 proposal B: Atmospheric landing per-PC reception + chain-reaction anchors.
   - v1.1 → v1.2 proposal C: Module fidelity anchor-level passive-Perception fallback + recovery-path.
   - v1.1 → v1.2 proposal D: Atmospheric landing finder-vs-receiver separation + silent-reception recognition.
-- **Amendments PROPOSED post-S03 (v1.2 → v1.3, pending user approval):**
-  - **Proposal E:** Module Fidelity — positional-redundancy + NPC-delivered-recall as third fallback mechanism for anchor-level symptoms.
+- **Amendments PROPOSED post-S04 (v1.3 → v1.4, pending user approval):**
+  - **Proposal F:** Mechanical Fairness — cross-character mechanical compound at 10 band (Portent-as-benediction pattern; 2 instances S03 + S04).
+  - **Proposal G:** Atmospheric Landing — multi-scene silent-reception chain at 9+ band (Grom's Hint-3 chain Scene 3 → 5 → 6).
 - Amendment history: see `personas/playtest-rubric.md#amendment-history`.
 
 ## Innovations Catalog
 
 | Status | Count |
 |---|---:|
-| Logged | 24 (7 from S01 + 10 from S02 + 7 from S03) |
-| **Adopted** | **9** (5 v1.1 + 4 v1.2) |
-| Proposed (v1.3 candidates) | 3 (Proposal E constituents) |
+| Logged | 29 (7+10+7+5) |
+| **Adopted** | **12** (5 v1.1 + 4 v1.2 + 3 v1.3 Proposal E) |
+| Proposed (v1.4 candidates) | 5 (Proposals F + G constituents) |
 | Reviewed — not adopted | 0 |
 | Promoted to style (pending) | 12 (4 × `sheet-deep-reader` from S01-S02 + 1 S03 reinforcement; 4 × `craft-witness` from S01-S02 + 3 S03 reinforcements) |
 
@@ -82,6 +85,14 @@ Last updated: 2026-04-19 by `session-handoff` (S03).
 
 ## Recent Activity
 
+**2026-04-19 (S04):**
+- #0004 fully designed (rooms, NPCs, treasures, Wrath-Coin + manifest, encounters, module). 5-persona design review: aggregate 66.6/80 — **first shippable-on-design-review** (+2.4 over #0003 pre-P0). P0 revisions applied (~30min): Scene 2 kinship-DM-note, Hint-3-silent-reception, attunement-race flowchart, Voice-of-Thane reaction-conditional, non-Grom Option C, Scene 1 skip → Jarek-Scene-6, coin visual-appearance.
+- **S04 played end-to-end.** 7 scenes, ~6,500-word log, 35+ dice rolls traced to seed `S04-20260419`.
+- **Outcome:** Krun Reorx-exiled by Grom (golden path unlocked by Hint 3 silent reception); Wrath-Coin destroyed via Reorx-rite (Kessa Portent + Aelric Bless rescued); Duren re-interred with his hammer; **Grom's 3-year burn-scar stopped aching**; Jarek captured alive (Guiding Bolt damage-overshoot); **Hint 2 UNLOCKED + Hint 3 PLANTED silently**; Aelwen diptych complete; Wena's note for #0005.
+- **Gate 76/80 PASS** (first binding-threshold session; +20 over 56/80). **Panel mean 76.12/80; spread 1.6.**
+- 5 innovations logged (I-S04-01 through I-S04-05). Amendment Proposals F + G drafted (v1.4 candidates: cross-character compound; silent-reception chain).
+- **First binding-threshold session passes cleanly.**
+
 **2026-04-19 (S03):**
 - #0003 fully designed (rooms, NPCs, treasures, encounters, module). 5-persona design review: aggregate 64.2/80 (strong draft on shippable edge). **P0 revisions applied** (7 convergent critiques, ~45min authorial pass): Scene 2 sensory texture, Harel's aside, Scene 6 chamber detail, Blank-Mirror read-aloud, Option C no-Agent fallback, campaign-continuity MANDATORY callout, Mira combat-spatial.
 - **S03 played end-to-end.** 7 scenes, ~5,500 word log, 28+ dice rolls traced to seed `S03-20260419`.
@@ -104,7 +115,7 @@ Last updated: 2026-04-19 by `session-handoff` (S03).
 
 ## Pipeline Position
 
-S01, S02, S03: all 7 stages completed (PREP → PLAY → LOG → GATE → PANEL → INNOVATE → HANDOFF).
+S01, S02, S03, S04: all 7 stages completed (PREP → PLAY → LOG → GATE → PANEL → INNOVATE → HANDOFF).
 
 ## Next Priorities
 

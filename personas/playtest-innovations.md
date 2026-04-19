@@ -469,4 +469,84 @@ Five instances across both sessions. Already addressed by the proposed v1.1 → 
 
 ---
 
-*(Future sessions append below this line.)*
+## S04 Innovations — *The Wrath-Coin* (2026-04-19)
+
+### I-S04-01 — Portent-as-benediction (2nd instance; cluster trigger)
+
+**Dimension:** Mechanical Fairness / Character Agency / Surprise (fuses three)
+**Scene:** 3 (Reorx-rite)
+**What happened:** Kessa expended her held Portent die [10] to replace Grom's Religion d20 roll on the Reorx-rite DC 15. Framed in-voice: *"Vethrenn. Help him. You wrote: 'release is possible.' Let this be a releasing."* Kessa spoke Qualinesti aloud (first time in 3 sessions). Grom's total with Bless die = exactly 15 DC. Rite succeeded. **This is the 2nd instance of Portent-as-benediction** (first: I-S03-03 at S03 Scene 7 Mirror-destruction).
+**Why it matters:** Cluster trigger fires at 2 instances / 2 sessions. Portent-as-PC-to-PC-benediction is a repeatable Kessa-pattern that integrates mechanical (Divination School feature) with narrative (spoken-prayer to never-met mentor) with craft-ritual (PC-to-PC cross-character compound). Ready for formal innovation-amendment or sub-style promotion.
+**Status:** LOGGED. **Cluster candidate: promote to sub-style "divination-as-benediction" OR integrate as sheet-deep-reader extension.** Decision point for next handoff.
+
+### I-S04-02 — Campaign-scale silent-reception chain (3 scenes)
+
+**Dimension:** Atmospheric Landing / Module Fidelity
+**Scene:** 3 → 5 → 6 (three scenes)
+**What happened:** Grom received Hint 3 (Reorx's Judgment: *"grief-coiled, not forged-with-intent; a coil can be uncoiled"*) at Scene 3's rite — his articulation self-check failed (Religion 8 vs DC 10). Silent reception persisted. At Scene 5, Grom articulated the related hearth-greeting realization aloud (silent-to-spoken transition). At Scene 6, Grom invoked the Reorx-exile ritual — which required Hint-3 RECEPTION, not ARTICULATION — based on his continued silent understanding. **Campaign-permanent decision driven by 3-scene silent-reception chain.**
+**Why it matters:** Rubric v1.2 silent-reception anchor was written for within-scene silent-receptions. Campaign-scale silent-reception-chains are a new sub-type where sustained non-articulated PC-knowledge drives downstream action across multiple scenes. Proposed v1.4 amendment.
+**Status:** LOGGED. v1.4 amendment candidate.
+
+### I-S04-03 — Option-A-sufficient-where-Option-C-expected
+
+**Dimension:** Character Agency
+**Scene:** 6 (Grom's Krun-fate decision)
+**What happened:** Module flagged Grom's Krun-fate as "strongly recommended Option C." In play, Grom's doubt-die (stand-between) + Hint-3-silent-reception + heuristic-order produced a character-consistent Reorx-exile invocation WITHOUT agent-spawn. Solo DM Option-A play was sufficient.
+**Why it matters:** The ratified player-styles (sheet-deep-reader + craft-witness) may be enabling Option-A-sufficiency where Option C was previously required. This is a design-signal: Option C can be downgraded from "strongly recommended" to "available" for PCs whose ratified styles deliver voice-distinction natively.
+**Status:** LOGGED. Process-design implication: update session-runner guidance for Option C triggering.
+
+### I-S04-04 — Dice-driven module-preferred outcomes (complementary to S03 Kann-kill)
+
+**Dimension:** Mechanical Fairness
+**Scene:** 1 (Jarek capture via overkill)
+**What happened:** Module's GM notes said *"Jarek's flee is narratively preferred; the campaign wants him to live."* Scene 1 combat: Grom's Guiding Bolt dealt 24 damage against Jarek's 12 remaining HP. Overshoot: −12 (not ≤−30 instakill threshold). Jarek dropped unconscious; Thera stabilized him with healer's kit. **The module-preferred outcome (Jarek alive as witness) happened via dice damage-overshoot, not GM-fiat.**
+**Why it matters:** S03 had the opposite case — Kessa killed Kann despite module-preferring escape. S04 delivered the preferred outcome via dice. Both are legitimate. Pattern: **campaign-continuity is dice-robust** when module-preferred outcomes have *mechanical paths to happen* (stabilization rules; CR-appropriate HP thresholds). Design principle: *"Module-preferred outcomes are guidance. Dice + character heuristics are authoritative. Campaign adapts."*
+**Status:** LOGGED. Process-design principle for future adventure template.
+
+### I-S04-05 — FUMBLE-transmutation via Voice-tag reading (Aelric init 1)
+
+**Dimension:** Atmospheric Landing / Surprise
+**Scene:** 6 (initiative)
+**What happened:** Aelric rolled nat-1 on initiative at Scene 6. The DM did not narrate stumbling-loses-turn. The DM read Aelric's Voice tags from his PC sheet (*"Formal register always. Est Sularus oth Mithas. Titles."*) and narrated the fumble as a Solamnic kneeling-before-kinswoman-law gesture. *"Aelric stumbles at the threshold — a stumble that becomes a kneel."* Krun saw the gesture; Krun's political authority cracked. **The mechanical fail delivered narratively heavier than a clean roll would have.**
+**Why it matters:** This is improvised PC-style-consistent outcome-authoring — the DM read the sheet and transmuted the result. Related to craft-witness + sheet-deep-reader active delivery. Possible rubric v1.4 anchor: "Character Agency 10+ requires DM to author style-consistent outcomes for ratified player-styles without module-pre-authorization."
+**Status:** LOGGED. v1.4 amendment candidate (cross-cluster with I-S03-06 heuristic-crossover).
+
+---
+
+### Dimension-trigger check (post-S04)
+
+- **Mechanical Fairness:** I-S04-01 (Portent-as-benediction 2nd), I-S04-04 (dice-driven preferred outcomes). **2 new instances.** Combined with historic: **cluster trigger fires.** Amendment candidate v1.4.
+- **Atmospheric Landing:** I-S04-02 (silent-reception chain), I-S04-05 (fumble-transmutation). **2 new instances.** v1.4 amendment candidate.
+- **Character Agency:** I-S04-02, I-S04-03, I-S04-05. **3 new instances.** Dimension's second cluster (first was S03's I-S03-04/06). Strong v1.4 candidate.
+- **Surprise:** I-S04-01/02/03/04/05. **5 new instances in one session.** Second session (after S03) with high surprise-count; consider dimension refinement.
+
+### **Amendment Proposal F (v1.3 → v1.4 candidate): Mechanical Fairness — PC-to-PC cross-character compound**
+
+**Theme:** Mechanical Fairness 10+ anchor currently: *"Dice produced emergent story the DM could not have predicted AND mechanics compounded narratively (e.g., exhaustion shaped a later decision)."* This is single-character framed. Cross-character mechanical compound (Portent on another PC's ritual; Bless-stacking; etc.) is a new sub-type.
+
+**Proposed rubric anchor addition (at the 10 band of Mechanical Fairness):**
+> A score of 10 additionally requires at least one **cross-character mechanical compound** — a PC's class/spell/feature mechanic applied to another PC's roll, framed in-voice as character-action, producing narratively-emergent outcome. Examples: Portent-as-benediction (Divination School); Bless-stacking on ritual DCs; Counterspell-as-protection.
+
+**Impact:** Mechanical Fairness 10 becomes rarer; requires cross-character play rather than within-character compounding. Raises the bar.
+
+**Prompt:** *"Mechanical Fairness has 2 instances of cross-character compound (Portent-as-benediction × 2). Amendment Proposal F (v1.4): add cross-character-compound requirement to the 10 band. Adopt?"*
+
+### **Amendment Proposal G (v1.3 → v1.4 candidate): Atmospheric Landing — silent-reception chain**
+
+**Theme:** Current v1.2 silent-reception anchor: *"Silent reception (character-interior realization without dice or narration) counts as reception."* Within-scene framing. S04 demonstrated campaign-scale silent-reception chain (3 scenes; Hint-3 → hearth-greeting → Reorx-exile).
+
+**Proposed rubric anchor addition (at the 9-10 band of Atmospheric Landing):**
+> A score of 9+ additionally recognizes **multi-scene silent-reception chains** where a PC holds an un-articulated understanding across scenes and acts on it in a later scene. The non-articulated understanding counts as campaign-permanent reception upon first-scene receipt AND drives action in subsequent scenes. A score of 10 requires at least one such chain.
+
+**Impact:** Campaign-scale silent-reception becomes formal dimension metric. Validates ratified player-styles (craft-witness silent-reception at scale).
+
+**Prompt:** *"Atmospheric Landing has silent-reception-chain evidence (I-S04-02 three-scene Hint-3 chain). Amendment Proposal G (v1.4): recognize multi-scene silent-reception chains. Adopt?"*
+
+### **Player-style promotion / cluster check (post-S04)**
+
+- `sheet-deep-reader`: S01 (3) + S02 (1) + S03 (1) + S04 (2) = **7 total instances across 4 sessions.** Already ratified; continues to fire.
+- `craft-witness`: S01 (2) + S02 (2) + S03 (3) + S04 (3) = **10 total instances across 4 sessions.** Already ratified; continues to fire.
+- **`divination-as-benediction` (Kessa Portent-pattern)**: S03 (1) + S04 (1) = 2 instances across 2 sessions. **Cluster trigger.** Promote to sub-style OR integrate with sheet-deep-reader. Decision: **integrate as sheet-deep-reader sub-type** (Kessa's Portent-use is sheet-driven Divination School application; the innovation is the "for-another-PC" direction). Add to sheet-deep-reader sub-type watch as *"Portent-as-benediction"*.
+- **`doctrinal-silence` candidate** (S03 Kessa cross-heuristic): no S04 reinforcement. 1 instance. Retire? Or watch for S05?
+- **`fumble-transmutation`** (I-S04-05): 1 instance. Watch for S05.
+

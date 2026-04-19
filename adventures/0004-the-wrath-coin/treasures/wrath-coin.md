@@ -20,7 +20,9 @@ sources:
 
 ## Appearance
 
-One ounce exactly. Circular, 1.5 inches diameter, 2mm thick. Moon-silver through-and-through (no core, no plating). One face bears **Aelwen's rage-glyph** — a fist clenched inside a flame, Vaenshold-provincial engraving; the flame is stylized like a three-petaled half-bloomed rose turned upside down. The other face is **polished to full convergence** — the mirror-bright finish Aelwen's craft demanded. *This is the only one of Aelwen's six forgings that Aelwen completed to her own standard.* The Mirror was unfinished. The Reliquary was workshop-rushed. The Rose was a client commission. The Coin is Aelwen *as she meant to forge.*
+**Player-facing description:** *a silver coin about the size of an old Solamnic gold piece — larger than a copper penny, smaller than a saucer; two inches shy of your palm's width. It sits heavier in your hand than one ounce should sit. Not much heavier — three ounces; four ounces; a weight that asks a question. The engraved face is cooler than the mirror face by perhaps a thumbnail's-width of temperature difference. The mirror face has the too-bright shine of a thing polished by someone who cared.*
+
+**Technical:** One ounce exactly. Circular, 1.5 inches diameter, 2mm thick. Moon-silver through-and-through (no core, no plating). One face bears **Aelwen's rage-glyph** — a fist clenched inside a flame, Vaenshold-provincial engraving; the flame is stylized like a three-petaled half-bloomed rose turned upside down. The other face is **polished to full convergence** — the mirror-bright finish Aelwen's craft demanded. *This is the only one of Aelwen's six forgings that Aelwen completed to her own standard.* The Mirror was unfinished. The Reliquary was workshop-rushed. The Rose was a client commission. The Coin is Aelwen *as she meant to forge.*
 
 When placed on an open palm, the coin **weighs more than an ounce.** Estimates vary — three ounces, four, once reported as a pound in a 16th-century Thorbardin metallurgist's journal. The weight is subjective; the scale reads one ounce. The weight is *felt*, not measured.
 

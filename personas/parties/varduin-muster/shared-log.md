@@ -60,3 +60,29 @@ Mira wrote Seralen's name in ink on a Council file-note for the first time in th
 
 Nobody attuned. Nobody bears the cost. The Mirror was spared by being ended.
 
+---
+
+## S04 — 2026-04-19 — *The Wrath-Coin*
+
+The muster rode seven days southwest to Gavrek's Anvil for Duren's three-year rite. Thera caught Jarek's single plait behind a staged wagon on the Kharolis switchback; combat turned in one round (Aelric Smite dropped Merc1; Thera sneak-attacked Jarek; Grom's Guiding Bolt finished at 24 damage against 12 HP). Grom stabilized Jarek with his healer's kit — dice damage-overshoot made the module-preferred capture a dice-driven outcome, not a DM-fiat. Jarek alive meant Scene 5 uncontested and Scene 6 diplomatically soluble.
+
+At the shrine, Grom touched the forge-iron and greeted the hearth — *"Thou'rt seen"* — and Sigga Coalbeard decided, without saying so. Krun arrived at mid-afternoon, named Grom *"cousin"* without explanation, and rode east. Three Insight rolls missed their DCs (Grom 9 on Sigga; Kessa 7 on lineage; any PC 9 on "cousin"). The confusion held. The DM did not telegraph.
+
+At dawn Day 2 Grom performed the Reorx-rite. He rolled Religion 12 against DC 15 with advantage — failed. **Kessa stepped forward and spoke Qualinesti aloud — the first time in three sessions — to Vethrenn's ghost: *"Vethrenn. Help him. You wrote: release is possible. Let this be a releasing."*** She applied her held Portent [10]. Aelric pre-cast Bless. Grom's d20 replaced to 10; +3 Religion; +2 Bless die; total 15 exactly. Rite completed. **Hint 2 unlocked** — Vethrenn's warded margin surfaced. **Hint 3 planted silently** — Grom received Reorx's Judgment through craft-witness channel (self-check articulation failed at Religion 8; silent reception counts). Sigga disclosed: *"His hammer is not in the grave."*
+
+In the archive cellar, Sigga revealed the Krun-Duren half-kinship (Hilda Stoneforge, their shared mother; Duren PC -30, Krun PC -49, Hilda died PC -22). Krun killed Duren over the coin, not over coin. Kessa's Investigation 14 found Aelwen's apron-scrap pinned to the commission-bundle: *"The Coin I will forge with full polish. This will be my good work. Empty it. Break it."* She laid it beside the #0003 journal page on the cellar floor. Same hand. One hour apart, 180 years ago. *"She despaired. Then she forged anyway. Then she went to the pine."*
+
+At the shaft, Thera's Investigation 22 caught the cut-beam sabotage. Thunder-stone residue. Duren's destruction-plan oil-cloth. **Grom realized, aloud for the first time, that the hearth-greeting on the morning of Duren's death had made him late to fetch water — late enough to survive the charge.** *"He sent me for water because he knew. It was his last teaching."* Aelric's hand on his shoulder. *"Brother."*
+
+At Kruntharrak dusk Day 2: Grom rolled 20 CRIT on initiative, stood between Krun and the coin. Thera plucked the coin in its cloth — **did not attune** (no skin-face turn). Krun drew his warhammer but did not swing. Aelric's nat-1 initiative transmuted into a Solamnic kneel-gesture — *"Thane Krun Ironhaft, I declare you arrested on charges of fratricide"* — and his Persuasion 23 broke Krun's authority. **Grom — acting on Hint 3's silent understanding without articulating it — invoked the Reorx-exile ritual.** *"Your grievance is fifty years old. It is a coil. Reorx did not accept my great-great-great-grandmother's forgings because they were grief-coiled, not forged-with-intent. A coil can be uncoiled. You are exiled from Thorbardin, ritual-bound."* Religion 13 vs DC 12. **Krun accepted.** His signet on the table; Kruntharrak passes to Thora Stoneforge.
+
+At Gavrek's Anvil at dawn Day 3, Duren's hammer placed in the grave. Grom re-performed the rite. Religion 21. **Grom's burn-scar on his left hand stopped aching** — the three-year pulse simply not there. He touched it with his right thumb and felt only what a scar should feel: old, healed, forgotten. Sigga's hand on his shoulder. Then at the forge: Wrath-Coin destroyed by Reorx-rite (Religion 21 with Aelric's Bless advantage). **Six rage-sparks dispersed east.** The moon-silver un-forged; a small puddle cooling on the anvil. Grom placed it in the pouch where the Mirror-silver already lived — two inert residues now.
+
+Sigga gave Grom Duren's sealed final letter — written the night before his death. *"I sent you for water because I suspected the charge was already set and you were too young to stop it. This was a gift. Receive it as a gift."* Grom folded it, placed it beside Duren's tongs and Mira's Seralen-name-note. Three objects in one pocket.
+
+Brother Laen's courier arrived mid-morning Day 3. 250 gp. **Wena Laen's sealed note to Aelric:** *"He keeps writing to me as if I were still eleven. Tell him I am twenty-eight. I know what a Pride-Circlet is."* Aelric read it twice, placed it in his tabard's breast-pouch. Grom's hand on his shoulder. *"Brother."* #0005's hook delivered.
+
+Sigga's parting line: *"I heard Mira Vaenshold went to Stonfold. A silversmith's lineage meeting a silversmith's lineage. Good."* Kessa wrote it in her book — Mira + Sigga + Harel + Tova, the craft-chain locked.
+
+**Current state (post-S04):** XP 2,075 each — **L4 achieved**. Party purse ~977 gp. Aelric carries Wena's note. Thera carries Seralen's still-unread note. Kessa carries the Aelwen diptych (now complete) and a Portent [4] still held. Grom carries Duren's final letter, Hint 3 silently, a burn-scar that no longer aches, and two destroyed-moon-silver residues. The party has taken two of Aelwen's six forgings out of the world. Two more wait.
+

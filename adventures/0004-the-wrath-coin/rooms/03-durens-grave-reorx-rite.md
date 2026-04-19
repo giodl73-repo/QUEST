@@ -52,6 +52,8 @@ Grom, at the moment of the seventh strike, receives an **insight** — non-verba
 
 Grom does not hear this as a voice. He *knows* it, the way he knows the inside-curve is honest. He will act on it; he cannot yet quote it. (The party will learn what Grom knows by watching him act — Scenes 4, 5, 6 will show his instinct re-tuned.)
 
+> **[DM note — silent reception is reception]:** Grom understands this the way he knows stone or fire — without words, with absolute certainty. The knowing lands in his hands. **This is not "nothing happened."** Craft-witness reception is the player-style ratified post-S03; silent reception counts per rubric v1.2. If the player asks *"what did I just get,"* answer: *"Something changed. You cannot name it yet. It will act through you."* Do not paraphrase the insight in-character unless Grom rolls Religion DC 10 self-check.
+
 **Grom Religion DC 10 self-check** to articulate the insight to himself: passes on any roll. On a nat-20, Grom can articulate it aloud to the party as: *"Aelwen's forgings — they are coils, not tools. Reorx did not accept them. They can be uncoiled."* **If articulated aloud, Kessa will immediately cross-reference with Vethrenn's margin-note** — *"release is possible"* — and the two hints lock together in-session. This is a **massive synthesis moment**.
 
 ## The missing hammer
