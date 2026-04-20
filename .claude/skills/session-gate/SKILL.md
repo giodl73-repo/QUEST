@@ -43,6 +43,7 @@ date: <today>
 author: session-gate
 verdict: [PASS / FAIL / ADVISORY]
 total: <N>/80
+route: [A|C|D]
 ---
 
 # S{N} GATE — <Adventure Title>
@@ -70,6 +71,18 @@ For advisory-only sessions (first 3, or explicit `advisory: true` in PREP), no p
 ## Dimensions Below Threshold
 
 List any dimension that scored below 7/10. Describe what would raise it.
+
+## Player-Style Instances
+
+Track ratified player-style firings this session. These feed directly into `playtest-innovation`'s cluster checks.
+
+| Style | Instances | Scene references |
+|---|---|---|
+| sheet-deep-reader | N | Scene X, Scene Y |
+| craft-witness | N | Scene X |
+| <any other ratified style> | N | ... |
+
+Also flag any NPC-arc-completion instances: NPCs who delivered their arc-completion moment by character logic this session (not DM scripting). Running campaign total toward the 3-instance cluster threshold.
 
 ## Innovation Flags
 

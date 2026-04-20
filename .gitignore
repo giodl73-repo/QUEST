@@ -16,4 +16,6 @@ node_modules/
 
 # Claude Code / agent artifacts
 .claude/
+!.claude/skills/
+!.claude/skills/**
 *.log

@@ -58,9 +58,12 @@ class SessionState:
     scene_index: int
     scenes_completed: list[int]
     pending_checkpoint: str | None
+    route: str | None = None  # "A" | "C" | "D" — set when session outcome is determined
 
     @classmethod
     def from_dict(cls, data: dict) -> "SessionState":
+        # Accept legacy session.json files that predate the route field
+        data.setdefault("route", None)
         return cls(**data)
 
     def to_dict(self) -> dict:

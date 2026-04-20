@@ -4,7 +4,7 @@
       "hp": 28,
       "hp_max": 28,
       "spell_slots": {
-        "L1": 2
+        "L1": 1
       },
       "attunements": [],
       "lay_on_hands": 0,
@@ -40,10 +40,10 @@
     }
   },
   "session": {
-    "adventure": "0006-the-thread-that-frays",
-    "session": "S06",
-    "dice_seed": "S06-20260419",
-    "scene_index": 8,
+    "adventure": "0007-the-silver-ingot-confession",
+    "session": "S07",
+    "dice_seed": "S07-20260420",
+    "scene_index": 7,
     "scenes_completed": [
       0,
       1,
@@ -52,12 +52,18 @@
       4,
       5
     ],
-    "pending_checkpoint": "scene_8_beat_0"
+    "pending_checkpoint": "scene_7_beat_0"
   },
   "campaign": {
     "hints": {
-      "hint-4-third-vein-kessa-complete": "articulated",
-      "thread-destroyed": "spool-destroyed-dawn-stonfold"
+      "hint-2-full-delivery": "vethrenn-margin-kessa-closes-loop",
+      "hint-1-fresco": "delivered",
+      "hint-3-grom-hands": "delivered",
+      "hint-4-aelwen-voice": "delivered",
+      "campaign-status": "complete",
+      "ingot-location": "sixth-vault-space-vaenshold",
+      "pride-circlet": "destroyed-same-forge",
+      "commonplace-book": "left-in-archive"
     },
     "campaign_permanent": []
   }

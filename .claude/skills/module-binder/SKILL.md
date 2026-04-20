@@ -120,6 +120,7 @@ Template:
 - **DCs visible in-place AND in cheatsheet.**
 - **Critical SRD rules inlined in cheatsheet.** (New.)
 - **Page-breakability:** `---` between rooms so print-cuts fall cleanly.
+- **`## Encounters Appendix` uses H2, not H3.** All top-level appendix sections (`## Encounters Appendix`, `## Wandering Pressure`, `## DM Cheatsheet`) must use H2 (`##`) headers, never H3 (`###`). The session-runner's loader parses `### Scene N —` as scene headers; if an appendix section uses H3, the loader will parse its entries as fake scenes, causing spurious scene navigation during play. This is a hard rule.
 
 ### 6. Consistency warnings
 

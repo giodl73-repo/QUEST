@@ -40,6 +40,8 @@ Before designing rooms, commit to:
 - **Seeds-retrieved:** each planted seed from prior adventures gets an activation in this one. For each seed, note which room/scene hosts the retrieval.
 - **Seeds-to-plant:** each seed scheduled to be planted here needs a concrete in-fiction placement (an NPC mentions it, a document references it, an object bears its mark).
 - **Hints scheduled:** if the spine schedules a hint-unlock here, the module MUST include the unlocking scene (see rubric v1.2 — hints have recovery paths, but the scheduled scene is the primary route).
+- **Hint structure mandate:** Every cross-session hint requires all three components: (1) **Plant** — where and how it enters the world; (2) **Delivery mechanism** — the specific roll, passive check, or auto-deliver condition that makes it available; (3) **Convergence point** — which scene in which future adventure this hint is designed to land. A hint with only a plant and no delivery mechanism will fail silently.
+- **Three-route outcomes (A/C/D):** Name the three possible session outcomes explicitly before designing rooms — Route A (charter/fallback: the goal is achieved conventionally), Route C (destruction/default: the artifact is spent; the grief discharged without release), Route D (inversion/optimal: the emotional core is named and released; full closure). Every scene's GM Notes should note which route(s) it supports and whether missing the scene closes off a route.
 
 These obligations are cross-checked at `adventure-lint` time.
 
@@ -107,6 +109,8 @@ If the dungeon's setting honestly rules out temporal pressure (e.g., frozen-in-t
 
 Every NPC named in `premise.md` or in any room/treasure/encounter file MUST have `npcs/<slug>.md`. Skill creates skeletons for missing NPCs and flags them for the human to flesh out. Skeleton must include: appearance, stat block (or "non-combatant"), public vs. private knowledge, behavior matrix (what they do in 5-6 likely party interactions), private motive.
 
+**NPC arc-completion:** For any NPC with an emotional arc (grief, shame, longing, pride, rage), identify the specific thing they are capable of saying or doing that closes their arc. Write it under `## Arc-Completion` in their `npcs/<slug>.md`: the exact line or act, and the conditions under which it fires (what the party must have done or said; what scene structure must be present). This is designable — do not leave it to improvisation. When an NPC fires their arc-completion moment by character logic rather than DM scripting, it produces the highest-quality atmospheric landing in the session. See `skills/npc-architect/SKILL.md` for the full arc-completion design procedure.
+
 ### 8. Map ↔ rooms consistency check
 Before declaring done:
 - Every room number on the map has a corresponding `NN-<slug>.md` file.
@@ -114,7 +118,22 @@ Before declaring done:
 - Connections declared in each room match the map.
 Report mismatches; don't silent-fix.
 
-### 9. Never overwrite silently
+### 9. P0 self-review — run before asking for persona review
+
+Two checks that every persona will converge on. Catching them yourself saves a full review round.
+
+**Decision-point fallback check:** For every scene where a PC must make a meaningful decision (attune/refuse; speak/stay; open/destroy; confess/stay silent):
+- [ ] A fallback path exists if the PC declines the obvious choice.
+- [ ] The scene does not stall if the PC freezes or chooses the unexpected option.
+- [ ] At least one scaffold is written for what the PC might say (short/medium versions; the player overrides if they want to go longer).
+
+**Critical-roll failure state check:** For every scene with a critical roll (the roll that determines which route A/C/D is taken):
+- [ ] A graceful failure path is written — what happens if the roll fails? (The campaign must still continue; failure changes texture/route, not access.)
+- [ ] The failure state is written in the GM Notes, not merely implied by "the DC is accessible."
+
+A design that passes both checks will survive playtesting. One that fails them will produce a stall or dead end at the worst possible moment.
+
+### 10. Never overwrite silently
 If a file exists, write `<name>.v2.md` and report.
 
 ## Quality Gates (RUN BEFORE DECLARING DONE)
