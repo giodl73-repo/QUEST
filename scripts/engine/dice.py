@@ -100,3 +100,37 @@ class DiceEngine:
                 f.write(json.dumps(asdict(result)) + "\n")
 
         return result
+
+    def log_external_roll(
+        self,
+        expression: str,
+        rolls: list[int],
+        mod: int,
+        total: int,
+        label: str,
+        scene_id: int | None = None,
+        beat_index: int | None = None,
+    ) -> None:
+        """Log a dice roll that happened outside the engine (e.g. LLM-narrated).
+
+        Does not consume a seed position — the roll already happened. Writes a
+        JSONL entry marked with log_stub="external" so the audit trail is complete.
+        """
+        if self._log_path is None:
+            return
+        entry = {
+            "expression": expression,
+            "rolls": rolls,
+            "kept": None,
+            "mod": mod,
+            "bless_roll": None,
+            "total": total,
+            "crit": (len(rolls) == 1 and rolls[0] == 20 and "d20" in expression),
+            "fumble": (len(rolls) == 1 and rolls[0] == 1 and "d20" in expression),
+            "seed_position": None,
+            "scene_id": scene_id,
+            "beat_index": beat_index,
+            "log_stub": f"external:{label}",
+        }
+        with self._log_path.open("a", encoding="utf-8") as f:
+            f.write(json.dumps(entry) + "\n")

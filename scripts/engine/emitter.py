@@ -89,12 +89,12 @@ class Emitter:
             )
 
         updates = raw.get("state_updates", {})
-        valid_keys = self._party_slugs | {"hints"}
+        valid_keys = self._party_slugs | {"hints", "route", "external_rolls"}
         for key in updates:
             if key not in valid_keys:
                 raise ValidationError(
-                    f"unknown PC {key!r} in state_updates. "
-                    f"Valid slugs: {', '.join(sorted(self._party_slugs))}"
+                    f"unknown key {key!r} in state_updates. "
+                    f"Valid keys: {', '.join(sorted(valid_keys))}"
                 )
 
         return InboundPacket(
