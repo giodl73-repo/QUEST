@@ -4,9 +4,33 @@ pc: thera-hillfoot
 class: rogue
 subclass: thief
 race: lightfoot-halfling
-level: 3
+level: 4
 author: party-builder
 created: 2026-04-18
+heuristics:
+  doubt_die:
+    "1-3": "look-for-profit"
+    "4-6": "look-for-story"
+  decision_order:
+    - key: survival
+      condition: "any_pc_below_half_hp"
+    - key: curiosity
+      condition: "always"
+    - key: profit
+      condition: "always"
+    - key: loyalty
+      condition: "always"
+  signature_moves:
+    - id: "pocket-search"
+      trigger: "always"
+      mechanical_effect: null
+    - id: "cunning-action-hide"
+      trigger: "always"
+      mechanical_effect: null
+  voice_tags:
+    - "abanasinian-vernacular"
+    - "sentence-fragments"
+    - "quieter-not-louder-when-serious"
 ---
 
 # Thera Hillfoot, of Varduin

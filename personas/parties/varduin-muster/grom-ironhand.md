@@ -4,9 +4,37 @@ pc: grom-ironhand
 class: cleric
 subclass: life-domain
 race: hill-dwarf
-level: 3
+level: 4
 author: party-builder
 created: 2026-04-18
+heuristics:
+  doubt_die:
+    "1-3": "mend"
+    "4-6": "stand-between"
+  decision_order:
+    - key: mend
+      condition: "any_pc_below_half_hp"
+    - key: whole
+      condition: "any_pc_below_half_hp"
+    - key: honor-reorx
+      condition: "always"
+    - key: own-debts
+      condition: "always"
+  signature_moves:
+    - id: "bless-party"
+      trigger: "always"
+      mechanical_effect: "bless"
+    - id: "greet-hearth"
+      trigger: "always"
+      mechanical_effect: null
+    - id: "preserve-life"
+      trigger: "any_pc_below_half_hp"
+      mechanical_effect: null
+  voice_tags:
+    - "forge-metaphor-for-everything"
+    - "dwarvish-expletives"
+    - "curt-but-warm"
+    - "craft-nicknames"
 ---
 
 # Grom Ironhand, Forge-Priest of Reorx

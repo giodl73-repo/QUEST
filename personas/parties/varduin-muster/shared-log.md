@@ -40,6 +40,26 @@ Session end: Grom sitting beside Aelric at the way-house bench. Aelric says he c
 
 ---
 
+## S05 — 2026-04-19 — *The Pride-Circlet*
+
+The muster rode eleven days southeast to Korrath-by-the-Sea to answer Wena Laen's letter — the one where she said she knew what a Pride-Circlet was. They arrived in a city that smelled of Second House money and Vaenshold-lineage silver selling for 15 gp at market stalls. Kessa noticed before anyone else. She wrote the address down.
+
+Lady Tiran of the Purple Rose received them in a reception hall with sixty years of wealth held immaculate. The locked ebony case on the table had flat-cut velvet; Thera noticed it was empty before anyone spoke. Tiran told them what she wanted — to see how her dead husband Edric had seen her, once, before the lung ailment finished what it had started — and she did not apologize.
+
+Wena briefed them in her room at the chapter-house, fixing a spare hinge. She had Tiran's research on Aelwen's six forgings. The sixth: shame-keyed; provenance unknown. Kessa read it, cross-referenced the journal page and the apron-scrap, and said quietly: *"I think it is the object she could not make because she was too ashamed to."* Aelric heard the Blank-Circlet warning and did not respond.
+
+The joint meeting happened in Scene 04. Tiran asked if Wena's refusal was theological or personal. Wena said both. Then offered: *"I can be present when you tell someone who loves you what you are most proud of. That is not the Circlet. That is just talking."* Tiran said Edric is dead. Wena said then tell me, I am here. The room was very quiet. Felor absolutely still. Grom watched Tiran's face decide.
+
+In the archive: Aelwen's water-reflection fragment — third piece. Doubt. Resolve. Horror. Aelren tried the water-reflection method once and would not describe what she saw. Aelric stood very still.
+
+In the vault, Aelric picked up the Pride-Circlet. Cool two seconds, then warm. Twenty seconds turning it in his hands. He set it back down. Oath resolved the question before grief could. He did not say Varran's name. Tiran watched, then: *"I will not use it tonight."* Felor blinked twice.
+
+At dawn: Wena at the gate in work clothes. She gave them Tiran's research. Said Tiran had told her what Edric saw, that it was sufficient, that she would not repeat it. Grom touched the gate-hinge Wena had installed. Inside curve: true. He nodded once and went.
+
+**Post-S05:** XP 2,525 (L4). ~1,110 gp. Kessa carries the Aelwen triplet + Tiran's six-forging research. Aelric's breast-pouch: Wena's note + Laen's letter + Varran's saddle-lashing. Pride-Circlet in party custody, unattuned. It needs disposing before the finale.
+
+---
+
 ## S03 — 2026-04-19 — *The Silversmith's Mirror*
 
 The muster rode three days south to Crystalmir-by-the-Fells. Thera's reflex caught Lorn surveilling the market without being caught in return (CRIT 23), and Kessa's Arcana confirmed the arch's smith-mark was Aelwen's hand. Mira Vaenshold took them in — addressed Kessa as *"silversmith's kin,"* gave tea, and drew the door to the hearth-room closed against the mirror in her cellar. Harel, Mira's 15-year-old apprentice, caught Thera on the way out and named the back-alley watch: the P0 revision turned Scene 3 from optional to offered.

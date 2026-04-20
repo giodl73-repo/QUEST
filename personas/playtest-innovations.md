@@ -547,6 +547,79 @@ Five instances across both sessions. Already addressed by the proposed v1.1 → 
 - `sheet-deep-reader`: S01 (3) + S02 (1) + S03 (1) + S04 (2) = **7 total instances across 4 sessions.** Already ratified; continues to fire.
 - `craft-witness`: S01 (2) + S02 (2) + S03 (3) + S04 (3) = **10 total instances across 4 sessions.** Already ratified; continues to fire.
 - **`divination-as-benediction` (Kessa Portent-pattern)**: S03 (1) + S04 (1) = 2 instances across 2 sessions. **Cluster trigger.** Promote to sub-style OR integrate with sheet-deep-reader. Decision: **integrate as sheet-deep-reader sub-type** (Kessa's Portent-use is sheet-driven Divination School application; the innovation is the "for-another-PC" direction). Add to sheet-deep-reader sub-type watch as *"Portent-as-benediction"*.
-- **`doctrinal-silence` candidate** (S03 Kessa cross-heuristic): no S04 reinforcement. 1 instance. Retire? Or watch for S05?
-- **`fumble-transmutation`** (I-S04-05): 1 instance. Watch for S05.
+- **`doctrinal-silence` candidate** (S03 Kessa cross-heuristic): no S04 reinforcement. 1 instance. **Retire.** S05 did not produce a doctrinal-silence beat; Aelric's Oath-decision is decision-order-consistent (Oath beats Self), not heuristic-override. Cluster inactive.
+- **`fumble-transmutation`** (I-S04-05): 1 instance. Watch for S05. **S05: no fumbles.** Still 1 instance.
+- **`hint-synthesis-in-voice`** (NEW S05): Kessa articulated the Hint 4 synthesis aloud in-session (I-S05-01). This is a new pattern: PC synthesizes multi-adventure hints into a named theory before the finale. Watch for #0006+ repeat.
+
+---
+
+## S05 Innovations — *The Pride-Circlet* (2026-04-19)
+
+### I-S05-01 — Hint 4 synthesis articulated in-voice by a PC (first in campaign)
+
+**Dimension:** Atmospheric Landing / Surprise
+**Scene:** 03 (Wena's Briefing; Tiran's research notes)
+**What happened:** Kessa read Tiran's note on the unnamed sixth forging ("shame or self-concealment") then cross-referenced her carried fragments (#0003 journal page: "I should have forged an ingot instead"; #0004 apron-scrap: "empty it, break it"). She articulated aloud: *"I think the sixth is not an object she made. I think it is the object she could not make because she was too ashamed to."* This is Hint 4's intellectual synthesis — five adventures before the auto-delivery at #0007.
+**Why it matters:** Hint 4 is designed to auto-deliver via passive-Perception 15 at #0007. It was pre-planted in #0003 (ingot reference). It was reinforced in #0004 (apron-scrap). S05 produced the first in-voice synthesis by a PC — not through the module's designed delivery mechanism but through accumulated cross-session research. The #0007 finale now has a named theory waiting for confirmation. This is "hint-synthesis-in-voice" — a new category where a PC names the finale's key insight before it is formally delivered.
+**Status:** LOGGED. New innovation type; watch for #0006 repeat (would confirm as cluster).
+
+### I-S05-02 — Oath-decision replaces Option C (Aelric's Circlet choice)
+
+**Dimension:** Character Agency / Surprise
+**Scene:** 06 (The Vault)
+**What happened:** Module flagged Scene 06 as "Option C strongly recommended" for Aelric's Pride-Circlet decision. In play, Aelric picked up the Circlet, felt it warm, and set it down in <20 seconds. His decision order: (2) Order's honor = a knight who cannot see failures cannot hold honor; Pride-Circlet destroys self-correction. Option C spawn not needed. The Oath resolved the decision before the grief-paragraph could be adjudicated.
+**Why it matters:** Second session in a row (S04: Grom's Reorx-exile; S05: Aelric's Circlet) where the module's "strongly recommended Option C" did not fire because the ratified player-styles (sheet-deep-reader: decision order) delivered voice-distinction natively. Reinforces I-S04-03. **Cluster: Option-A-sufficient-where-Option-C-expected now at 2 instances.** Ready for formal cluster promotion.
+**Status:** LOGGED. Cluster trigger with I-S04-03.
+
+### I-S05-03 — Craft-witness produces theology by juxtaposition (Grom vault)
+
+**Dimension:** Atmospheric Landing
+**Scene:** 06 (The Vault)
+**What happened:** Grom stood near the vault door, felt the Circlet wanting, and touched the vault stone wall instead. Internal observation: *"It is practicing at being worn again. The stone is cold and does not want anything."* Craft-witness produced a theological statement by contrasting two materials — the Circlet's desire vs. forge-stone's indifference. Not spoken aloud; fully silent reception.
+**Why it matters:** Craft-witness has previously produced theological observations through language (S01: "This is a starvation"; S04: "A coil can be uncoiled"). S05 is the first instance where craft-witness produces theology through *juxtaposition* rather than direct statement. The forge-priest reads two materials and the comparison does the work. New sub-type within craft-witness: **material-comparison theology.**
+**Status:** LOGGED. Craft-witness sub-type candidate.
+
+### I-S05-04 — 100% manifest symptom delivery (first in campaign)
+
+**Dimension:** Module Fidelity
+**Scene:** all 7
+**What happened:** 13 of 13 designed manifest symptoms landed — every symptom from the v1.3-compliant manifest file. Previous sessions: S01 (most), S02 (most), S03 (8/10 = 80%), S04 (22/23 = 96%). S05 achieved 100% for the first time.
+**Why it matters:** 100% delivery is a rubric v1.3 validation point — the positional-redundancy anchor (requiring ≥2 of 3 fallback paths) is working as designed. No symptom was skipped, missed due to positioning failure, or abandoned. Combined with the marathon-runner CLI handling all 7 scenes mechanically, the pipeline is mature.
+**Status:** LOGGED. Rubric v1.3 validation confirmed.
+
+### I-S05-05 — Golden path achieved without a combat encounter or dice roll
+
+**Dimension:** Encounter craft / Pacing
+**Scene:** 04 (Joint Meeting; golden path pivot)
+**What happened:** Wena offered to witness Tiran without the Circlet. Tiran accepted. No dice were rolled in this session (0 total for S05). The golden path outcome was reached entirely through:
+- NPC character logic (Wena's training as a novice making the offer she was trained to make)
+- PC facilitation (Aelric creating space; Kessa not interrupting; Grom reading Tiran's state)
+- The joint-meeting scene structure (two NPCs with incompatible positions in the same room, party as witness)
+**Why it matters:** 0-dice sessions are a new experience for the workshop (all prior sessions had 13-30+ dice rolls). This confirms the system can handle purely social/narrative resolution without mechanical weight. Also confirms that the scene-engine can produce compelling play even when Python-resolved beats are minimal.
+**Status:** LOGGED.
+
+### I-S05-06 — Wena's reciprocal-witness offer (emergent NPC resolution)
+
+**Dimension:** Atmospheric Landing / Improviser
+**Scene:** 04 (Joint Meeting)
+**What happened:** The module's Scene 04 scripted dialogue included Wena's offer as a possibility ("if party navigates well"). In play, the offer emerged naturally from the character logic without DM needing to "play" it consciously. Wena said "I can be present when you tell someone who loves you what you are most proud of. That is not the Circlet. That is just talking." This unlocked Tiran's admission and pivoted the session to the golden path.
+**Why it matters:** Companion to I-S03-05 (Mira's ink-writing; unscripted NPC completion). S05 produced another unscripted NPC-completion-chain: Wena's offer → Tiran's admission → golden path. Both NPCs spoke the thing the session needed to hear at the moment it was needed, from character logic rather than DM scripting.
+**Status:** LOGGED. NPC-arc-completion cluster now at 2 instances (S03 Mira + S05 Wena).
+
+---
+
+### Dimension-trigger check (post-S05)
+
+- **Atmospheric Landing:** I-S05-01, I-S05-03, I-S05-06 — 3 new instances (hint-synthesis, material-comparison, NPC-completion). Strong v1.4 amendment candidate.
+- **Module Fidelity:** I-S05-04 — 100% delivery validates v1.3 positional-redundancy. No new amendment needed; confirmation logged.
+- **Character Agency:** I-S05-02 — Option-A-sufficient cluster now at 2 instances (I-S04-03 + I-S05-02). **Promote to formal pattern?** The session-runner's "strongly recommended Option C" may need downgrading to "available" for parties with ratified player-styles.
+- **Encounter craft:** I-S05-05 — 0-dice sessions are valid. Encounter craft at 8/10 without a single dice roll.
+
+### **Player-style count update (post-S05)**
+
+- `sheet-deep-reader`: S01 (3) + S02 (1) + S03 (1) + S04 (2) + S05 (3: Kessa-synthesis, Aelric-Oath, Aelric-silent-reception) = **10 total instances across 5 sessions.**
+- `craft-witness`: S01 (2) + S02 (2) + S03 (3) + S04 (3) + S05 (3: gate-hinge, vault-stone, Wena's-hinge) = **13 total instances across 5 sessions.**
+- `NPC-arc-completion` cluster: S03 Mira (1) + S05 Wena (1) = 2 instances. One more needed for cluster promotion.
+- `hint-synthesis-in-voice`: S05 (1). Watch for #0006.
+- `Option-A-sufficient` cluster: S04 (1) + S05 (1) = 2 instances. Ready for formal pattern promotion — "Option C is available, not mandatory, for parties with ratified player-styles."
 
