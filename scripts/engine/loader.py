@@ -17,6 +17,8 @@ class Scene:
     read_aloud: str
     gm_notes: str
     stat_blocks: list[dict]
+    npc_arc_candidates: list[dict] = field(default_factory=list)
+    # Each entry: {"npc": str, "arc_completion": str, "condition": str}
 
 
 @dataclass
@@ -64,6 +66,52 @@ def _parse_stat_blocks(text: str) -> list[dict]:
     return blocks
 
 
+def _parse_npc_arc_completions(text: str) -> dict[str, dict]:
+    """Extract Arc-Completion sections from the NPCs section of module.md.
+
+    Returns a dict mapping NPC name (lowercase) to
+    {"arc_completion": <moment text>, "condition": <condition text>}.
+    """
+    arcs: dict[str, dict] = {}
+    # Find NPC blocks: ## NPCs ... each NPC headed by ### <Name>
+    npc_section = re.search(r"^## NPCs\b(.*?)(?=^## |\Z)", text, re.MULTILINE | re.DOTALL)
+    if not npc_section:
+        return arcs
+
+    npc_blocks = re.split(r"^### ", npc_section.group(1), flags=re.MULTILINE)
+    for block in npc_blocks:
+        if not block.strip():
+            continue
+        # First line is the NPC name
+        name_line = block.splitlines()[0].strip()
+        npc_name = name_line.lower()
+
+        arc_m = re.search(
+            r"## Arc-Completion\s*\n\*\*The moment:\*\*\s*(.+?)(?=\*\*What it produces|\Z)",
+            block, re.DOTALL,
+        )
+        cond_m = re.search(r"\*\*The condition:\*\*\s*(.+?)(?=\n\n|\n##|\Z)", block, re.DOTALL)
+
+        if arc_m:
+            arcs[npc_name] = {
+                "npc": name_line,
+                "arc_completion": arc_m.group(1).strip(),
+                "condition": cond_m.group(1).strip() if cond_m else "",
+            }
+    return arcs
+
+
+def _match_arc_candidates(scene_body: str, arcs: dict[str, dict]) -> list[dict]:
+    """Return arc candidates whose NPC name appears in the scene body."""
+    candidates = []
+    for npc_name_lower, arc in arcs.items():
+        # Match on first word of name to catch "Mira" matching "Mira Vaenshold"
+        first_word = npc_name_lower.split()[0] if npc_name_lower else ""
+        if first_word and re.search(r"\b" + re.escape(first_word) + r"\b", scene_body, re.IGNORECASE):
+            candidates.append(arc)
+    return candidates
+
+
 def _parse_dc_table(text: str) -> list[dict]:
     rows = []
     table_match = re.search(r"### Quick Reference.*?\n(\|.*?)(?=\n##|\Z)", text, re.DOTALL)
@@ -107,6 +155,7 @@ def load_adventure(path: Path) -> Adventure:
         except Exception:
             pass
 
+    npc_arcs = _parse_npc_arc_completions(text)
     scene_parts = _split_scenes(text)
     scenes = []
     for idx, name, body in scene_parts:
@@ -116,6 +165,7 @@ def load_adventure(path: Path) -> Adventure:
             read_aloud=_parse_read_aloud(body),
             gm_notes="",
             stat_blocks=_parse_stat_blocks(body),
+            npc_arc_candidates=_match_arc_candidates(body, npc_arcs),
         ))
 
     dc_table = _parse_dc_table(text)

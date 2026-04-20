@@ -303,6 +303,11 @@ class SceneRunner:
                 "scene_name": scene.name,
                 "gm_notes": scene.gm_notes,
                 "hints": campaign.hints,
+                "npc_arc_candidates": scene.npc_arc_candidates,
+                # npc_arc_candidates: list of {npc, arc_completion, condition}.
+                # If non-empty, check whether conditions are met and deliver the
+                # arc-completion moment if so. Do not force it — only fire if the
+                # party's actions in this scene satisfy the condition.
             },
             scene_narrative_so_far=list(narrative_so_far),
         )

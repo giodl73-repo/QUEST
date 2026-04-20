@@ -214,6 +214,14 @@ def cmd_resume(args) -> int:
             if key == "hints":
                 for hint_key, hint_val in updates.items():
                     campaign.hints[hint_key] = hint_val
+            elif key == "route":
+                if updates in ("A", "C", "D"):
+                    session.route = updates
+                    print(f"Route set to: {updates}")
+                else:
+                    print(f"WARNING: invalid route {updates!r} — must be A, C, or D")
+            elif key == "external_rolls":
+                pass  # logged by LLM narrative; no state change needed
             elif key in party.slugs():
                 pc = party[key]
                 for field_name, val in updates.items():
@@ -244,6 +252,23 @@ def cmd_resume(args) -> int:
     return 0
 
 
+def cmd_set_route(args) -> int:
+    route = args.route.upper()
+    if route not in ("A", "C", "D"):
+        print(f"ERROR: route must be A, C, or D — got {args.route!r}", file=sys.stderr)
+        return 1
+    sm = StateManager(state_dir=_state_dir())
+    loaded = sm.read_session()
+    if loaded is None:
+        print("ERROR: no active session.", file=sys.stderr)
+        return 1
+    session = loaded["session"]
+    session.route = route
+    sm.write_session(party=loaded["party"], session=session, campaign=loaded["campaign"])
+    print(f"Route set to: {route}")
+    return 0
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(prog="marathon.py", description="Marathon D&D session engine")
     sub = parser.add_subparsers(dest="command")
@@ -256,12 +281,21 @@ def main() -> int:
     sub.add_parser("resume", help="Re-enter from last checkpoint")
     sub.add_parser("status", help="Print current state snapshot")
 
+    p_route = sub.add_parser("set-route", help="Record session outcome route (A, C, or D)")
+    p_route.add_argument("route", choices=["A", "C", "D", "a", "c", "d"])
+
     args = parser.parse_args()
     if args.command is None:
         parser.print_usage(sys.stderr)
         return 2
 
-    return {"start": cmd_start, "resume": cmd_resume, "status": cmd_status}[args.command](args)
+    dispatch = {
+        "start": cmd_start,
+        "resume": cmd_resume,
+        "status": cmd_status,
+        "set-route": cmd_set_route,
+    }
+    return dispatch[args.command](args)
 
 
 if __name__ == "__main__":
