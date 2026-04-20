@@ -98,6 +98,26 @@ Nobody attuned. Nobody bears the cost. The Mirror was spared by being ended.
 
 ---
 
+## S07 — 2026-04-20 — *The Silver-Ingot Confession*
+
+The muster rode to the Kharolis border foothills at dawn and mined a quarter-pound of cold-vein ore from Tova's pencil-sketch site. Grom failed his pre-forge blessing at the vein — the words were not ready. He said they would come when the forge was ready. He was correct.
+
+At Vaenshold, the workshop door opened outward. Grom walked through first and stopped in front of the fresco of Ilendra's parents — the same faces he had seen by Perception CRIT 23 in their tomb six sessions ago. He said "I know them." Behind the workshop, a sixty-year-old pine tree; the ground behind it slightly lower. Kessa answered Thera's question directly: *"Aelwen hanged herself from the original tree. Heva planted a replacement."* Aelric stood at the pine for forty-five seconds and went back inside.
+
+The long night: Kessa opened Vethrenn's commonplace book to the margin-note, read it one final time, and wrote her answer below Vethrenn's words: *"She was right. Here is how: you name the shame over hot metal, in the place where the grief began. You do not ask for anything. You name it and forge it and that is the releasing. — K., PC 20, Vaenshold workshop."* She closed the book. Aelric cleaned the Varran-armor without playing the Minute. Thera read the letter in Aelwen's workshop to see if the place changed what it said. It did not. Grom checked the forge temperature four times and said *"Thou'rt seen"* at each check. He did not try to bless the ore again.
+
+At dawn, Grom performed the Silver-Ingot Confession. He named Aelwen's shame — things made to hold grief instead of releasing it; the tool that could have been made; the shame that held the hammer still. Then his own: *"I was slow and I was proud and I called it patience."* He lifted the silver. Religion 23, Route D. It flowed clean.
+
+All four hints landed simultaneously: the fresco changed (Hint 1); Kessa's book-warm at the threshold had already confirmed the method (Hint 2); Grom's hands performed the Judgment he had been carrying since S04 without articulating it (Hint 3); and every PC heard, in the way silver speaks when it is worked with purpose: *"I should have forged an ingot instead"* (Hint 4). Kessa: *"She did. We did it for her."*
+
+Then Grom destroyed the Pride-Circlet in the same forge, same dawn. The obsidian splintered. The Circlet's desire to be worn simply stopped — no vapor, no drama. Religion 15 exactly.
+
+Grom placed the ingot in the sixth vault-space. Kessa left Vethrenn's book on the archive shelf with her answer written in the margin — for whoever comes next. Aelric told the steward: *"We completed work that was left unfinished two hundred years ago. The estate can now rest."* On the road home, Thera cut a loaf of bread long-ways. She was aware of doing it. She did not explain.
+
+**The Moon-Silver Cycle is complete. Campaign closed.**
+
+---
+
 ## S04 — 2026-04-19 — *The Wrath-Coin*
 
 The muster rode seven days southwest to Gavrek's Anvil for Duren's three-year rite. Thera caught Jarek's single plait behind a staged wagon on the Kharolis switchback; combat turned in one round (Aelric Smite dropped Merc1; Thera sneak-attacked Jarek; Grom's Guiding Bolt finished at 24 damage against 12 HP). Grom stabilized Jarek with his healer's kit — dice damage-overshoot made the module-preferred capture a dice-driven outcome, not a DM-fiat. Jarek alive meant Scene 5 uncontested and Scene 6 diplomatically soluble.
