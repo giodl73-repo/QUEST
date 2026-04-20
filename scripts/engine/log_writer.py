@@ -14,6 +14,11 @@ class LogWriter:
         narratives: dict[str, str],
         dice_log_path: Path,
         output_dir: Path,
+        party_slug: str = "varduin-muster",
+        duration: str = "",
+        outcome: str = "",
+        rubric_version: str = "v1.3",
+        innovations_flagged: list[str] | None = None,
     ) -> None:
         self._slug = adventure_slug
         self._session = session
@@ -22,6 +27,11 @@ class LogWriter:
         self._narratives = narratives
         self._dice_log_path = dice_log_path
         self._output_dir = output_dir
+        self._party_slug = party_slug
+        self._duration = duration
+        self._outcome = outcome
+        self._rubric_version = rubric_version
+        self._innovations = innovations_flagged or []
 
     def _load_dice_log(self) -> list[dict]:
         if not self._dice_log_path.exists():
@@ -59,9 +69,12 @@ class LogWriter:
             "---",
             f"session: {session_name}",
             f"adventure: {self._slug}",
-            f"party: varduin-muster",
+            f"party: {self._party_slug}",
             f"date: {date.today().isoformat()}",
             f"dice-seed: {s['dice_seed']}",
+            f"duration: {self._duration}",
+            f"outcome: {self._outcome}",
+            f"rubric-version: {self._rubric_version}",
             "author: session-runner",
             "---",
             "",
@@ -92,6 +105,12 @@ class LogWriter:
                 text = text.replace(stub, formatted)
             lines += [f"### Scene {scene_id_str}", "", text, "---", ""]
 
+        lines += ["## Curse symptoms landed", "", "(none recorded)", ""]
+        lines += ["## Player-style surprises", "", "(none recorded)", ""]
+        lines += ["## Open threads for next session", "", "(none recorded)", ""]
+
         output = self._output_dir / f"{session_name}-log.md"
-        output.write_text("\n".join(lines), encoding="utf-8")
+        tmp = output.with_suffix(".md.tmp")
+        tmp.write_text("\n".join(lines), encoding="utf-8")
+        tmp.replace(output)
         return output

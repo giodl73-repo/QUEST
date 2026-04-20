@@ -93,3 +93,19 @@ def test_validate_inbound_defaults_optional_fields(emitter):
     packet = emitter.validate_inbound(raw, current_scene_index=3)
     assert packet.innovations_flagged == []
     assert packet.notes_for_log == ""
+
+
+def test_validate_inbound_above_max_scene_raises(emitter):
+    raw = {"narrative": "Text", "state_updates": {}, "advance_to_scene": 99}
+    with pytest.raises(ValidationError, match="exceeds max scene"):
+        emitter.validate_inbound(raw, current_scene_index=3, max_scene=5)
+
+
+def test_validate_inbound_non_mutable_field_not_in_scope():
+    # This is tested in integration — just confirm validate_inbound itself
+    # passes non-mutable field through (filtering happens in marathon.py)
+    from scripts.engine.emitter import Emitter, InboundPacket
+    e = Emitter(state_dir=__import__("pathlib").Path("/tmp"), party_slugs=["aelric"])
+    raw = {"narrative": "X", "state_updates": {"aelric": {"hp_max": 999}}, "advance_to_scene": 1}
+    packet = e.validate_inbound(raw, current_scene_index=0)
+    assert packet.state_updates["aelric"]["hp_max"] == 999  # validation passes; filtering in CLI

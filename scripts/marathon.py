@@ -2,6 +2,7 @@
 """marathon.py — CLI entry point for the Marathon D&D session engine."""
 from __future__ import annotations
 import argparse
+import datetime
 import json
 import os
 import sys
@@ -13,6 +14,7 @@ if str(_REPO_ROOT) not in sys.path:
 
 from scripts.engine.state import StateManager, PartyState, SessionState, CampaignFacts
 from scripts.engine.loader import load_adventure, load_party, LoadError
+from scripts.engine.emitter import Emitter, ValidationError
 
 
 def _state_dir() -> Path:
@@ -35,7 +37,7 @@ def cmd_status(args) -> int:
     sep = "=" * 50
     print(sep)
     print(f"SESSION: {session.session} | ADVENTURE: {session.adventure}")
-    print(f"SCENE: {session.scene_index} | COMPLETED: {session.scenes_completed}")
+    print(f"SCENE: index={session.scene_index} | COMPLETED: {session.scenes_completed}")
     print()
     print("PARTY STATE:")
     for slug in party.slugs():
@@ -53,6 +55,11 @@ def cmd_status(args) -> int:
         print("  (resume with: python marathon.py resume)")
     else:
         print("PENDING CHECKPOINT: none")
+    dice_log = _state_dir() / "dice_log.jsonl"
+    roll_count = 0
+    if dice_log.exists():
+        roll_count = sum(1 for line in dice_log.read_text(encoding="utf-8").splitlines() if line.strip())
+    print(f"DICE LOG: {roll_count} rolls this session (seed: {session.dice_seed})")
     print(sep)
     return 0
 
@@ -86,7 +93,6 @@ def cmd_start(args) -> int:
         }
         for pc in pcs
     }
-    import datetime
     session_dict = {
         "adventure": adventure_slug,
         "session": session_name,
@@ -104,16 +110,40 @@ def cmd_start(args) -> int:
         campaign=CampaignFacts.from_dict(campaign_dict),
     )
     print(f"State written to {_state_dir()}/session.json")
+    dice_log_path = _state_dir() / "dice_log.jsonl"
+    print(f"Dice log: {dice_log_path}")
     return 0
+
+
+_MUTABLE_PC_FIELDS = frozenset({
+    "hp", "conditions", "concentration", "attunements",
+    "lay_on_hands", "spell_slots",
+})
 
 
 def cmd_resume(args) -> int:
     sm = StateManager(state_dir=_state_dir())
     checkpoint = sm.read_checkpoint()
+    loaded = sm.read_session()
 
     if checkpoint is None:
         print("No checkpoint found. Use 'start' to begin a new session.")
         return 1
+
+    if checkpoint and loaded:
+        checkpoint_session = checkpoint.get("session", "")
+        current_session = loaded["session"].session
+        if checkpoint_session != current_session:
+            print(f"WARNING: Checkpoint is from session {checkpoint_session!r}, "
+                  f"but current session is {current_session!r}.")
+            answer = input("Delete stale checkpoint and continue? (y/n): ").strip().lower()
+            if answer == "y":
+                sm.delete_checkpoint()
+                print("Stale checkpoint deleted.")
+                return 0
+            else:
+                print("Keeping stale checkpoint. Exiting.")
+                return 1
 
     session_id = checkpoint.get("session", "?")
     beat_type = checkpoint.get("beat_type", "?")
@@ -162,8 +192,6 @@ def cmd_resume(args) -> int:
         print("Checkpoint preserved. Run 'resume' again to retry.")
         return 1
 
-    from scripts.engine.emitter import Emitter, ValidationError
-    loaded = sm.read_session()
     party_slugs = list(loaded["party"].slugs()) if loaded else []
     emitter = Emitter(state_dir=_state_dir(), party_slugs=party_slugs)
 
@@ -188,9 +216,11 @@ def cmd_resume(args) -> int:
                     campaign.hints[hint_key] = hint_val
             elif key in party.slugs():
                 pc = party[key]
-                for field, val in updates.items():
-                    if hasattr(pc, field):
-                        setattr(pc, field, val)
+                for field_name, val in updates.items():
+                    if field_name in _MUTABLE_PC_FIELDS:
+                        setattr(pc, field_name, val)
+                    else:
+                        print(f"WARNING: ignoring non-mutable field {field_name!r} for {key}")
 
         session.scene_index = packet.advance_to_scene
         sm.write_session(party=party, session=session, campaign=campaign)

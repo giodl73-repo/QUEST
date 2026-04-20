@@ -42,13 +42,20 @@ class Heuristics:
         dd = pc.heuristics.get("doubt_die", {})
         rng = random.Random(f"{seed}-{slug}")
         roll = rng.randint(1, 6)
-        interpretation = "unknown"
         for range_str, result in dd.items():
             lo, hi = (int(x) for x in range_str.split("-"))
             if lo <= roll <= hi:
-                interpretation = result
-                break
-        return DoubtDieResult(roll=roll, interpretation=interpretation)
+                return DoubtDieResult(roll=roll, interpretation=result)
+        raise HeuristicsError(
+            f"doubt_die roll {roll} matched no range in PC {slug!r}. "
+            f"Check heuristics.doubt_die YAML for gaps."
+        )
+
+    def select_target(self, slug: str, enemies: list, scene_context: dict):
+        """Select target enemy per PC's decision order. Returns first enemy or None."""
+        if not enemies:
+            return None
+        return enemies[0]  # default: first enemy (full implementation in scene.py v2)
 
     def bless_active(self, slug: str) -> bool:
         return self._bless.get(slug, False)

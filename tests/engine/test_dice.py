@@ -119,3 +119,18 @@ def test_roll_results_logged_to_jsonl(tmp_path):
     assert "expression" in entry
     assert "total" in entry
     assert "seed_position" in entry
+
+
+def test_roll_result_has_log_stub_fields():
+    d = DiceEngine(seed="stub-test")
+    r = d.roll("1d20", scene_id=3, beat_index=1, log_stub="STUB_ABC")
+    assert r.scene_id == 3
+    assert r.beat_index == 1
+    assert r.log_stub == "STUB_ABC"
+
+
+def test_roll_result_log_stub_defaults_to_none():
+    d = DiceEngine(seed="stub-default")
+    r = d.roll("1d20")
+    assert r.scene_id is None
+    assert r.log_stub is None

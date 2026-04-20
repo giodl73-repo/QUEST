@@ -21,6 +21,9 @@ class RollResult:
     crit: bool
     fumble: bool
     seed_position: int
+    scene_id: int | None = None
+    beat_index: int | None = None
+    log_stub: str | None = None
 
 
 _EXPR_RE = re.compile(r"^(\d+)d(\d+)([+-]\d+)?$", re.IGNORECASE)
@@ -41,6 +44,9 @@ class DiceEngine:
         adv: bool = False,
         disadv: bool = False,
         bless: bool = False,
+        scene_id: int | None = None,
+        beat_index: int | None = None,
+        log_stub: str | None = None,
     ) -> RollResult:
         expr = expression.strip().lower()
         m = _EXPR_RE.match(expr)
@@ -83,6 +89,9 @@ class DiceEngine:
             crit=crit,
             fumble=fumble,
             seed_position=self._position,
+            scene_id=scene_id,
+            beat_index=beat_index,
+            log_stub=log_stub,
         )
         self._position += 1
 
