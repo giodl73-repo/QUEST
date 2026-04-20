@@ -60,11 +60,32 @@ forge while working the silver. The response is binding.
 
 **If Agent tool unavailable:** ask the Grom-player in-character: *"Grom, the ore is in the crucible. The forge is right. What do you say while you work?"* Their answer is binding.
 
+**[P0 FIX — Scaffold versions if player is uncertain]**
+
+If the Grom-player doesn't know where to start, offer one of these as a starting point they can modify:
+
+**Short (speak directly; ~20 words):**
+> *"She made things to hold grief instead of releasing it. She could have forged the release. I am naming the shame she could not. I am finishing it."*
+
+**Medium (~60 words):**
+> *"Reorx accepted her soul. He did not accept her work — because she made holdings, not tools. Grief-coiled, not forged-with-intent. I know this because he told me so. What she should have said is: she was too ashamed to forge the thing that would have released what she made. I am saying it now. The silver hears it. The forge confirms it. This is the work she could not do. It is done."*
+
+**Long (~120 words; for a player who wants to inhabit the moment fully):**
+> *"Aelwen of Vaenshold made six objects in the year before she died. She made them from grief because grief was what she had. She made them to hold what she could not release. She could have made a seventh — a tool of release, an ingot of honest shame — and she had the silver on this bench and the forge at temperature and two hundred years of smith-knowledge in her hands. She chose the pine tree instead. That choice was made from shame: she could not say, over hot silver, that she had spent her life holding grief instead of releasing it. I can say it. I am saying it. She made things to hold grief instead of releasing it. She could have made the tool of release. She was too ashamed to try. I am not ashamed. I am finishing the work."*
+
+Write Grom's actual response verbatim in the session log — whether the player speaks it themselves, uses one of these scaffolds, or the subagent provides it. **It is binding.**
+
 ---
 
 ### Part 2 — The Ingot Completes
 
-**🎲 Grom Religion DC 12** (advantage from prior hearth-greetings + Hint 3 reception; Aelric may cast Bless L1 + 1d4). DC 12 is accessible — this is not a challenge; it is a threshold. The work is the thing; the rite confirms it.
+**🎲 Grom Religion DC 12** (advantage from prior hearth-greetings + Hint 3 reception; Aelric may cast Bless L1 + 1d4 if he chooses).
+
+**[P0 FIX — Graceful failure state]**
+
+On **success (12+):** full Route D — ingot whole, voice clear, fresco changes cleanly, all four hints deliver at full power. See Part 2 below.
+
+On **failure (≤11):** the ingot forms but cracks along one seam — not broken, cracked. Still usable. The ingot still speaks (Hint 4 auto-delivers at passive 15), but quieter: *"I should have..."* — the voice trails. The fresco changes, but less sharply: *"the faces look almost as if they have been told the truth."* Route C outcome rather than Route D; still a valid ending; the campaign closes. The crack does not mean Grom failed — it means Aelwen's shame was heavier than expected. He finishes the work anyway. **Log the failure; do not re-roll.** A cracked ingot is not a bad ingot; it is an honest one.
 
 When the ingot is cast and the words are spoken, the following happen simultaneously (deliver all in one narration after the rite completes):
 
