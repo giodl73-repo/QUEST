@@ -1,6 +1,6 @@
 # Marathon Tracker
 
-Last updated: 2026-04-20 by `session-handoff` (S06).
+Last updated: 2026-04-20 by `session-handoff` (C2-S01).
 
 ## Sessions
 
@@ -13,6 +13,7 @@ Last updated: 2026-04-20 by `session-handoff` (S06).
 | S05 | 0005-the-pride-circlet | varduin-muster | 2026-04-19 | **78** | **68.6** | **PASS (+22 over 56; panel dip = tactical structural artifact of 0-dice session)** |
 | S06 | 0006-the-thread-that-frays | varduin-muster | 2026-04-20 | **78** | **77.0** | **PASS (+22 over 56; highest non-structural panel mean; 100% manifest delivery)** |
 | S07 | 0007-the-silver-ingot-confession | varduin-muster | 2026-04-20 | **78** | **76.0** | **PASS (ties campaign high; Route D; all 4 hints; 100% manifest; CAMPAIGN COMPLETE)** |
+| **C2-S01** | **0008-the-first-clause** | **compact-wardens** | **2026-04-20** | **72** | **—** | **ADVISORY (C2 opens; 100% manifest; Hint 1 delivered S01; Route D; 0 dice)** |
 
 ## Adventures
 
@@ -25,12 +26,14 @@ Last updated: 2026-04-20 by `session-handoff` (S06).
 | 0005-the-pride-circlet | **played, compiled** | rev 1 | S05 | Campaign position 5/7 Moon-Silver Cycle. Emotion: Pride. Spotlight: Aelric. **Gate 78/80 (highest ever); panel 68.6/80 (structural 0-dice dip). Golden ending: Tiran heard without Circlet; no PC attuned; Kessa articulates Hint 4 synthesis in-voice; Aelwen triplet complete; 100% manifest delivery (first time). First session via marathon-runner CLI.** |
 | 0006-the-thread-that-frays | **played, compiled** | rev 1 | S06 | Campaign position 6/7 Moon-Silver Cycle. Emotion: Longing. Spotlight: Thera. **Gate 78/80; panel 77.0/80 (highest non-structural panel mean). Golden ending: Thread destroyed; Thera named Adda aloud; Nenn named both longing-objects; three-vein synthesis complete; 100% manifest delivery (second consecutive). v1.4 cross-character compound validated.** |
 | 0007-the-silver-ingot-confession | **played, compiled** | P0-revised | S07 | Campaign position 7/7 Moon-Silver Cycle. Emotion: Shame. Spotlight: Grom. **Gate 78/80 (ties campaign high); panel 76.0/80. Route D (Religion 23). All 4 hints simultaneous. Pride-Circlet destroyed same forge same dawn. Ingot placed in sixth vault-space. CAMPAIGN COMPLETE.** |
+| 0008-the-first-clause | **played, compiled** | P0-revised | C2-S01 | Campaign 2 position 1/7 Conclave Compact. Emotion: Suspicion. Spotlight: Thessaly. **Gate 72/80 ADVISORY. Route D. 100% manifest delivery. Hint 1 delivered Session 1. Tessamine arc-completion fired. Thessaly named wound. 0 dice.** |
 
 ## Parties
 
 | Slug | Members | Status | Sessions played | Notes |
 |---|---|---|---|---|
 | varduin-muster | Aelric of Crownhold · Thera Hillfoot · Kessa Moonweave · Grom Ironhand | **CAMPAIGN COMPLETE** | 7 | **Post-S07, at L4 (XP 3,925 each).** Aelric: Varran-reliquary attuned (held without opening at S07 finale). Kessa: Vethrenn's book LEFT in Vaenshold archive (not carried); Portent [4] never deployed. Grom: Silver-Ingot Confession performed; ingot in sixth vault-space. Thera: cut bread long-ways (road home from S07). **Moon-Silver Cycle complete.** |
+| compact-wardens | Thessaly Nightmantle · Orik Flintback · Sera Ashfall · Calder of the Third Road | **active** | 1 | **Post-C2-S01, L5 (XP 300 each).** Thessaly: Clause of Witness (unattuned) + Tessamine's reconstruction document. Named wound in Session 1. Orik: full resources. Sera: spotted courier in Korrath harbor. Calder: full resources. |
 
 ## Parties (historical note)
 
@@ -53,7 +56,7 @@ Last updated: 2026-04-20 by `session-handoff` (S06).
 
 | Status | Count |
 |---|---:|
-| Logged | **43** (7+10+7+5+6+3+4 across S01-S07) |
+| Logged | **46** (7+10+7+5+6+3+4 across C1-S01–S07 + 3 C2-S01) |
 | **Adopted** | **12** (5 v1.1 + 4 v1.2 + 3 v1.3 Proposal E) |
 | Proposed (v1.4 candidates; ratified) | 7 (Proposals F + G + Option-A-sufficient pattern) |
 | Reviewed — not adopted | 0 |

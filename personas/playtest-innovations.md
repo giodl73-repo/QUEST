@@ -720,3 +720,47 @@ Five instances across both sessions. Already addressed by the proposed v1.1 → 
 - `NPC-arc-completion` (promoted threshold reached S06): final campaign count = 3 instances. Promotion confirmed.
 - `Option-A-sufficient` (I-S04-03 + I-S05-02): confirmed validated pattern across campaign. 2 instances sufficient for design principle: Option C is available, not mandatory, for parties with ratified player-styles.
 
+---
+
+## C2-S01 Innovations — *The First Clause* (2026-04-20) — Campaign 2 opens
+
+### I-C2-S01-01 — NPC-self-naming (Henneth's three-year observation)
+
+**Dimension:** Atmospheric Landing / Surprise
+**Scene:** 03 (The Study)
+**What happened:** Henneth asked *"Is that why it dims when Sevel lies?"* He had been observing the dimming for three years without vocabulary for it. He named the phenomenon the moment the party gave him the explanation. The NPC arc-completion was collaborative: Henneth was already halfway there; the party gave him the second half.
+**Why the rubric did not anticipate it:** NPC-arc-completion captures the moment an NPC delivers their designed emotional payload. This is that, plus: the NPC was already carrying the observation; he just needed the word. The arc-completion was co-constructed, not one-directional. New sub-type: **NPC-self-naming** — the NPC names the phenomenon before the party does, once given vocabulary.
+**Status:** LOGGED. NPC-arc-completion sub-type candidate. Running campaign 2 total: 1 instance.
+
+### I-C2-S01-02 — act-without-announcement confirmed universal (new party, Session 1)
+
+**Dimension:** Character Agency / Atmospheric Landing
+**Scene:** 06 (Tessamine's Archive, Return)
+**What happened:** Sera gave Thessaly space in the final scene by looking at the harbor window. She did not announce she was doing it; she did not explain it afterward. Care expressed through attention withdrawal. The pattern identified in campaign 1 S07 (Thera's bread) fired in Session 1 of campaign 2 with a completely different party and a completely different PC.
+**Why it matters:** act-without-announcement was logged as a 1-instance pattern from campaign 1. Campaign 2 Session 1 confirms it as universal — it emerged from Sera's sheet (voice tags: "shows care through attention, not words") without any campaign 1 context. **Cluster trigger reached: 2 instances across 2 campaigns.** Propose amendment to Atmospheric Landing.
+**Status:** LOGGED. **Amendment candidate: Atmospheric Landing anchor for cross-session behavioral consequence without announcement.**
+
+### I-C2-S01-03 — grief-paragraph-dialogue fires Session 1 (not Session 6)
+
+**Dimension:** Character Agency / Atmospheric Landing
+**Scene:** 06 (Tessamine's Archive, Return)
+**What happened:** Thessaly named her wound in Scene 06: *"I cast a spell at my Test that I was not supposed to cast. It cost someone something I can't give back. No one saw me do it."* This is grief-paragraph content surfaced as spoken dialogue in Session 1 — the same sub-type as Thera's *"I counted too"* (campaign 1 S06). Thessaly's grief-paragraph contained the exact right sentence for the exact right moment, and it emerged from the artifact's invitation (Tessamine's arc-completion condition: "Thessaly names the inscription's meaning") without DM prompting.
+**Why it matters:** grief-paragraph-dialogue (sheet-deep-reader sub-type) fired in Session 1, not Session 6. The npc-architect design created the structural invitation earlier than campaign 1 did. **Cluster confirmation: grief-paragraph-dialogue now has 2 instances across 2 campaigns (Thera S06-C1; Thessaly S01-C2).** The pattern is confirmed as a design tool, not a late-campaign accident.
+**Status:** LOGGED. sheet-deep-reader sub-type: grief-paragraph-dialogue. **2 instances across 2 campaigns — confirmed.**
+
+---
+
+### Dimension-trigger check (post-C2-S01)
+
+- **Atmospheric Landing:** I-C2-S01-01, I-C2-S01-02, I-C2-S01-03 — three new instances. act-without-announcement (2 across 2 campaigns) now meets amendment threshold.
+- **act-without-announcement amendment proposal:** Atmospheric Landing 9+ band anchor: "A score of 9+ recognizes cross-session behavioral consequence without announcement — a PC acting differently as a result of a prior session's naming event, without scene structure or declaration." Propose amendment to v1.5.
+
+### Player-style count update (post-C2-S01)
+
+**Campaign 2 opening counts:**
+- `sheet-deep-reader`: 4 instances in S01 (Thessaly ×3 + Calder ×1). Campaign 2 opens with immediate sheet-deep-reader firing — confirmed universal, not party-specific.
+- `craft-witness`: 0 instances in S01. No forge-priest; Calder's morning ritual has not produced atmospheric reception yet. Watch for S02.
+- `act-without-announcement`: 1 instance (Sera S01). Campaign 2 total: 1. Cross-campaign total: 2 (Thera C1-S07 + Sera C2-S01). Amendment threshold reached.
+- `NPC-arc-completion`: 1 instance (Henneth). Campaign 2 total: 1.
+- `NPC-self-naming` (new sub-type candidate): 1 instance.
+
