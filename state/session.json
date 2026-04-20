@@ -3,7 +3,9 @@
     "aelric-of-crownhold": {
       "hp": 28,
       "hp_max": 28,
-      "spell_slots": {},
+      "spell_slots": {
+        "L1": 2
+      },
       "attunements": [],
       "lay_on_hands": 0,
       "concentration": null,
@@ -38,10 +40,10 @@
     }
   },
   "session": {
-    "adventure": "0005-the-pride-circlet",
-    "session": "S05",
-    "dice_seed": "S05-20260419",
-    "scene_index": 7,
+    "adventure": "0006-the-thread-that-frays",
+    "session": "S06",
+    "dice_seed": "S06-20260419",
+    "scene_index": 8,
     "scenes_completed": [
       0,
       1,
@@ -50,11 +52,12 @@
       4,
       5
     ],
-    "pending_checkpoint": "scene_7_beat_0"
+    "pending_checkpoint": "scene_8_beat_0"
   },
   "campaign": {
     "hints": {
-      "hint-4-synthesis": "articulated-by-kessa"
+      "hint-4-third-vein-kessa-complete": "articulated",
+      "thread-destroyed": "spool-destroyed-dawn-stonfold"
     },
     "campaign_permanent": []
   }
