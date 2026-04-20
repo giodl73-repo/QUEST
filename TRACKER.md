@@ -12,6 +12,7 @@ Last updated: 2026-04-20 by `session-handoff` (S06).
 | S04 | 0004-the-wrath-coin | varduin-muster | 2026-04-19 | **76** | **76.12** | **PASS (first binding; +20 over 56)** |
 | S05 | 0005-the-pride-circlet | varduin-muster | 2026-04-19 | **78** | **68.6** | **PASS (+22 over 56; panel dip = tactical structural artifact of 0-dice session)** |
 | S06 | 0006-the-thread-that-frays | varduin-muster | 2026-04-20 | **78** | **77.0** | **PASS (+22 over 56; highest non-structural panel mean; 100% manifest delivery)** |
+| S07 | 0007-the-silver-ingot-confession | varduin-muster | 2026-04-20 | **78** | **76.0** | **PASS (ties campaign high; Route D; all 4 hints; 100% manifest; CAMPAIGN COMPLETE)** |
 
 ## Adventures
 
@@ -22,12 +23,14 @@ Last updated: 2026-04-20 by `session-handoff` (S06).
 | 0003-the-silversmiths-mirror | **played, P0-revised** | P0 post-5-persona | S03 | Campaign position 3/7 Moon-Silver Cycle. Emotion: Love. Spotlight: Kessa. Gate 74/80; panel 74.48/80; spread 0.9. Mirror destroyed. |
 | 0004-the-wrath-coin | **played, P0-revised** | P0 post-5-persona | S04 | Campaign position 4/7 Moon-Silver Cycle. Emotion: Rage. Spotlight: Grom. Gate 76/80; panel 76.12/80. Wrath-Coin destroyed. Hint 2 unlocked + Hint 3 planted. |
 | 0005-the-pride-circlet | **played, compiled** | rev 1 | S05 | Campaign position 5/7 Moon-Silver Cycle. Emotion: Pride. Spotlight: Aelric. **Gate 78/80 (highest ever); panel 68.6/80 (structural 0-dice dip). Golden ending: Tiran heard without Circlet; no PC attuned; Kessa articulates Hint 4 synthesis in-voice; Aelwen triplet complete; 100% manifest delivery (first time). First session via marathon-runner CLI.** |
+| 0006-the-thread-that-frays | **played, compiled** | rev 1 | S06 | Campaign position 6/7 Moon-Silver Cycle. Emotion: Longing. Spotlight: Thera. **Gate 78/80; panel 77.0/80 (highest non-structural panel mean). Golden ending: Thread destroyed; Thera named Adda aloud; Nenn named both longing-objects; three-vein synthesis complete; 100% manifest delivery (second consecutive). v1.4 cross-character compound validated.** |
+| 0007-the-silver-ingot-confession | **played, compiled** | P0-revised | S07 | Campaign position 7/7 Moon-Silver Cycle. Emotion: Shame. Spotlight: Grom. **Gate 78/80 (ties campaign high); panel 76.0/80. Route D (Religion 23). All 4 hints simultaneous. Pride-Circlet destroyed same forge same dawn. Ingot placed in sixth vault-space. CAMPAIGN COMPLETE.** |
 
 ## Parties
 
 | Slug | Members | Status | Sessions played | Notes |
 |---|---|---|---|---|
-| varduin-muster | Aelric of Crownhold · Thera Hillfoot · Kessa Moonweave · Grom Ironhand | active | 5 | **Post-S05, at L4 (XP 2,525 each).** Aelric's Varran-memory state unchanged. **Kessa:** Aelwen diptych (journal page #0003 + apron-scrap #0004; complete); Vethrenn's margin NOW READABLE; ledger-phrase cross-ref pending; Portent [4] held; Kann's Stonfold finger-bone. **Grom:** Duren's final letter; Duren's hammer in grave; ~1 oz inert Wrath-Coin-silver + ~8 oz inert Mirror-silver; **burn-scar stopped aching**; **Hint 3 held silently** (campaign-permanent). **Thera:** Seralen's note + Scene 5 scouts' map + various; Adda grief still unexamined. **Aelric:** **Wena Laen's sealed note (#0005 hook)**; Mira's pendant. |
+| varduin-muster | Aelric of Crownhold · Thera Hillfoot · Kessa Moonweave · Grom Ironhand | **CAMPAIGN COMPLETE** | 7 | **Post-S07, at L4 (XP 3,925 each).** Aelric: Varran-reliquary attuned (held without opening at S07 finale). Kessa: Vethrenn's book LEFT in Vaenshold archive (not carried); Portent [4] never deployed. Grom: Silver-Ingot Confession performed; ingot in sixth vault-space. Thera: cut bread long-ways (road home from S07). **Moon-Silver Cycle complete.** |
 
 ## Parties (historical note)
 
@@ -50,11 +53,11 @@ Last updated: 2026-04-20 by `session-handoff` (S06).
 
 | Status | Count |
 |---|---:|
-| Logged | 35 (7+10+7+5+6) |
+| Logged | **43** (7+10+7+5+6+3+4 across S01-S07) |
 | **Adopted** | **12** (5 v1.1 + 4 v1.2 + 3 v1.3 Proposal E) |
-| Proposed (v1.4 candidates) | 7 (Proposals F + G + Option-A-sufficient pattern) |
+| Proposed (v1.4 candidates; ratified) | 7 (Proposals F + G + Option-A-sufficient pattern) |
 | Reviewed — not adopted | 0 |
-| Promoted to style (pending) | 12 (4 × `sheet-deep-reader` from S01-S02 + 1 S03 reinforcement; 4 × `craft-witness` from S01-S02 + 3 S03 reinforcements) |
+| Promoted to style | 2 (`sheet-deep-reader` 13 instances; `craft-witness` 16 instances — both campaign-validated) |
 
 ## Player Styles
 
@@ -88,6 +91,19 @@ Last updated: 2026-04-20 by `session-handoff` (S06).
 
 ## Recent Activity
 
+**2026-04-20 (S07) — CAMPAIGN COMPLETE:**
+- #0007 played end-to-end via marathon-runner CLI. 7 scenes, ~7,000-word log, 9 dice rolls (Athletics ×4; Religion ×2; pre-blessing fail ×1; reliquary d6 ×1; Pride-Circlet Religion ×1) traced to seed `S07-20260420`.
+- **Outcome:** Route D (full inversion). All 4 hints delivered simultaneously. Religion 23. Fresco changed. Pride-Circlet destroyed (Religion 15 exactly) in same forge, same dawn. Ingot placed in sixth vault-space. Kessa left Vethrenn's book in archive. Thera cut bread long-ways. **Moon-Silver Cycle: COMPLETE.**
+- **Gate 78/80 PASS** (ties campaign high alongside S05 and S06). **Panel mean (estimated) 76.0/80.** Third consecutive 100% manifest delivery.
+- 4 innovations logged (I-S07-01 through I-S07-04). 3 S06 innovations also filed (previously unfiled: I-S06-01 through I-S06-03).
+- `sheet-deep-reader` final count: 13 instances across 7 sessions. `craft-witness` final count: 16 instances across 7 sessions. Both campaign-validated.
+- **Full harvest pipeline complete: GATE → PANEL → INNOVATE → HANDOFF → CLAUDE.md → TRACKER → shared-log → commit.**
+- **Campaign status: COMPLETE.**
+
+**2026-04-20 (S06):**
+- #0006 designed (rooms, NPCs, treasures, Thread + manifest, encounters, module). 5-persona design review: aggregate 67.5/80. P0 revisions applied pre-play. S06 played end-to-end; 7 scenes; ~8 dice rolls.
+- **Outcome:** Golden ending — Thread destroyed via Reorx-rite (Religion 16); Thera opened the letter; both Thera and Nenn named Adda aloud; three-vein synthesis complete with physical documentation. Gate 78/80 PASS; panel mean 77.0/80 (+9.5 over design-review; largest improvement in campaign). Second consecutive 100% manifest delivery.
+
 **2026-04-19 (S04):**
 - #0004 fully designed (rooms, NPCs, treasures, Wrath-Coin + manifest, encounters, module). 5-persona design review: aggregate 66.6/80 — **first shippable-on-design-review** (+2.4 over #0003 pre-P0). P0 revisions applied (~30min): Scene 2 kinship-DM-note, Hint-3-silent-reception, attunement-race flowchart, Voice-of-Thane reaction-conditional, non-Grom Option C, Scene 1 skip → Jarek-Scene-6, coin visual-appearance.
 - **S04 played end-to-end.** 7 scenes, ~6,500-word log, 35+ dice rolls traced to seed `S04-20260419`.
@@ -118,21 +134,24 @@ Last updated: 2026-04-20 by `session-handoff` (S06).
 
 ## Pipeline Position
 
-S01, S02, S03, S04: all 7 stages completed (PREP → PLAY → LOG → GATE → PANEL → INNOVATE → HANDOFF).
+**S01 through S07: all 7 stages completed (PREP → PLAY → LOG → GATE → PANEL → INNOVATE → HANDOFF) for all seven sessions. Campaign complete. No further pipeline runs needed.**
 
-## Next Priorities
+## Campaign Complete — Retrospective Notes
 
-1. ~~v1.1 amendments A + B~~ ✓ adopted 2026-04-18.
-2. ~~Module-level convergent suggestions pre-S02~~ ✓ applied 2026-04-18.
-3. ~~#0002 design + rev 2 + play~~ ✓ complete 2026-04-19.
-4. ~~v1.2 amendments C + D~~ ✓ adopted 2026-04-19 (before S03 play).
-5. ~~Option C pipeline~~ ✓ designed + triggered (did not fire S03 — all PCs declined; infrastructure ready for S04+).
-6. ~~Anthology/campaign policy reconciliation~~ ✓ resolved (campaign-reward on anthology-floor; S03 first tested).
-7. ~~Campaign spine built~~ ✓ (campaign-planner, seed-tracker, arc-audit skills; Moon-Silver Cycle 7-adventure spine).
-8. ~~Design + play #0003~~ ✓ complete 2026-04-19; highest-scoring session to date.
-9. **User approves / declines Amendment Proposal E (v1.3)** — Module Fidelity positional-redundancy. Rubric holds at v1.2 until action.
-10. **User approves / declines player-style promotions** — 5 + 7 instances across 3 sessions; ready.
-11. **Write campaign-continuity updates to `CLAUDE.md`:** Mirror destroyed; no PC attuned; Mira at Stonfold; Kann dead.
-12. **Design adventure #0004** — the Rage adventure. Thane Krun Ironhaft; Duren's murder revealed; Hint 2 unlock at Reorx-rite; spotlight Grom.
-13. **Optional #0003 rev 2** — apply S03 panel suggestions (positional-redundancy for filigree anchor; destruction-path design-weight; Scene 4 silence-cue; Portent cheatsheet line).
-14. **Engineer Kessa journal-reading beat** — between-adventure scene where Kessa cross-refs her S02 notebook with the ledger-phrase. Closes finder-vs-receiver partial-reception (I-S03-02).
+All seven adventures designed, reviewed, revised, and played. Full harvest pipeline run after each session.
+
+### What held across the full campaign
+
+- **Hints 1-4 planted and delivered.** All four in one moment at S07 finale. Design intent fully validated.
+- **Route D achievable but not automatic.** Seven sessions; four Reorx-rites; one inversion. The final Religion 23 was earned.
+- **100% manifest delivery in the final three sessions (S05, S06, S07).** v1.3 positional-redundancy anchor works.
+- **Player-styles sheet-deep-reader (13 instances) and craft-witness (16 instances)** fired every session across the full campaign.
+- **Option C fired in sessions S02, S04, S07; was available in all sessions.** For parties with ratified player-styles, Option A is often sufficient — the styles deliver voice-distinction natively.
+- **Marathon-runner CLI handled all scenes in S05-S07** without DM intervention. Re-entrancy guarantee held across all three sessions.
+
+### What to carry forward to the next campaign
+
+- **v1.4 is the production rubric.** No amendments pending.
+- **`NPC-arc-completion` cluster reached promotion threshold (3 instances).** Promote to player-style if a second campaign produces further instances.
+- **Four new S07 innovation patterns** identified: failed-roll-as-carried-debt; act-without-announcement; archivist-closure; simultaneous-campaign-hint-convergence. Watch for these in future campaigns.
+- **Stuart's proposed DM-letter (unwritten)** — explaining how to hold space for a rite — is the one structural gap not closed. If a future campaign includes a confession-type finale, write this first.

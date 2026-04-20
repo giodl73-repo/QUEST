@@ -623,3 +623,100 @@ Five instances across both sessions. Already addressed by the proposed v1.1 → 
 - `hint-synthesis-in-voice`: S05 (1). Watch for #0006.
 - `Option-A-sufficient` cluster: S04 (1) + S05 (1) = 2 instances. Ready for formal pattern promotion — "Option C is available, not mandatory, for parties with ratified player-styles."
 
+---
+
+## S06 Innovations — *The Thread-That-Frays* (2026-04-20)
+
+### I-S06-01 — Gate-hinge bookend (craft-witness 4-scene silent arc)
+
+**Dimension:** Atmospheric Landing
+**Scene:** 02 (planted) → 07 (confirmed)
+**What happened:** Grom checked Nenn's gate-hinge in Scene 2 (read it as honest work; "inside-curve true"). He confirmed it in Scene 7 (gate hinge still true; craft-witness closing loop). Four scenes. Zero words about Nenn between the two checks. The hinge said everything the craft-witness needed to say. Longest craft-witness silent arc in the campaign.
+**Why it matters:** Previous craft-witness arcs were contained within a single session. The gate-hinge arc spans Scene 2 to Scene 7 — four scenes — without a word about the NPC. The craft-witness silent arc v1.4 amendment was ratified exactly for this pattern; this is the first instance of the amendment scoring at its designed ceiling. The arc proves that a spatial-return craft check is sufficient to close a 4-scene relationship.
+**Status:** LOGGED. v1.4 amendment validated.
+
+### I-S06-02 — Option C "I counted too" — sheet-content-surfaced line
+
+**Dimension:** Character Agency / Surprise
+**Scene:** 05 (Thera and Nenn at the gate)
+**What happened:** Thera's Option C subagent produced the line "I counted too" from Thera's grief-paragraph (she counted the years after Adda died; PC sheet). The line was not in the module; it emerged from the sheet. Nenn said he had counted; Thera said she had too. This is sheet-deep-reader at its most complete: the PC's grief-paragraph contained the exact right sentence for the exact right moment.
+**Why it matters:** Previous sheet-deep-reader instances surfaced decision frameworks (Aelric's Oath), institutional knowledge (Thera's Solamnic expertise), and research habits (Kessa's Vethrenn history). This is the first instance where sheet-deep-reader surfaced *grief-paragraph content* as spoken dialogue — the specific emotional fact in the PC's backstory became the character's most important line of the session.
+**Status:** LOGGED. sheet-deep-reader sub-type: grief-paragraph-dialogue.
+
+### I-S06-03 — Mira as emerging craft-witness (NPC craft-witness behavior)
+
+**Dimension:** Atmospheric Landing
+**Scene:** 07 (Aftermath at Stonfold)
+**What happened:** Mira said "the forge feels cleaner" to Grom after the Thread was destroyed. She was reading the forge's spiritual state the way Grom does — sensing the forge's condition, not describing it analytically. She is not a forge-priest; she is Aelwen's great-great-great-granddaughter learning the Stonfold vein. This is craft-witness behavior outside the party's ratified craft-witness PC.
+**Why it matters:** craft-witness has been defined as a PC player-style. S06 produced the first NPC instance of craft-witness behavior: Mira detecting spiritual state through material attention. This suggests craft-witness is not only a PC pattern but an NPC characterization tool. Third NPC-arc-completion-adjacent event (Mira, Wena, Mira again).
+**Status:** LOGGED. NPC-arc-completion cluster now at 3 instances (S03 Mira + S05 Wena + S06 Mira). **Cluster promotion threshold reached.**
+
+---
+
+### Dimension-trigger check (post-S06)
+
+- **Atmospheric Landing:** I-S06-01, I-S06-03 — craft-witness arc validation; NPC-craft-witness new type.
+- **Character Agency:** I-S06-02 — sheet-deep-reader grief-paragraph-dialogue. Third consecutive sheet-deep-reader surprise.
+- **NPC-arc-completion:** S03 Mira + S05 Wena + S06 Mira = **3 instances across 3 sessions. Cluster promotion threshold reached.**
+
+### Player-style count update (post-S06)
+
+- `sheet-deep-reader`: +1 (I-S06-02 Thera grief-paragraph) = **11 total instances across 6 sessions.**
+- `craft-witness`: +1 (I-S06-01 gate-hinge arc) = **14 total instances across 6 sessions.**
+- `NPC-arc-completion`: S03 Mira (1) + S05 Wena (1) + S06 Mira (1) = **3 instances — cluster trigger reached.** Promote.
+- `hint-synthesis-in-voice`: S05 (1) — no S06 instance. Still 1.
+- `Option-A-sufficient`: S04 (1) + S05 (1) — no S06 instance (Thera's Option C did fire). Still 2.
+
+---
+
+## S07 Innovations — *The Silver-Ingot Confession* (2026-04-20) — CAMPAIGN FINALE
+
+### I-S07-01 — Campaign-debt confession (mechanic failure as carried emotional content)
+
+**Dimension:** Atmospheric Landing / Character Agency
+**Scene:** 01 (Cold-Vein Site; failure) → 06 (Confession; discharge)
+**What happened:** Grom's pre-forge blessing failed (Religion 8 vs DC 10) at the cold-vein site. He said the words would come when the forge was ready. At the confession (Scene 06), he named not only Aelwen's shame but his own: *"I was slow and I was proud and I called it patience."* The failed pre-blessing — a dice outcome in Scene 01 — became carried emotional content and was discharged three scenes later as a third named thing in the confession. The ingot carries two shames: hers and his.
+**Why it matters:** Atmospheric Landing anchors capture specific sensory images and finder-vs-receiver chains. They do not anticipate that a mechanic failure can be carried forward as emotional content and discharged in a binding confession three scenes later. This is a new pattern: failed-roll-as-carried-debt, discharged verbally at the session's climactic moment. The failure is not a loss; it is a setup.
+**Status:** LOGGED. New pattern: failed-roll-as-carried-debt.
+
+### I-S07-02 — Act-without-announcement (cross-session behavioral consequence)
+
+**Dimension:** Character Agency / Atmospheric Landing
+**Scene:** 07 (Road Home)
+**What happened:** Thera cut bread long-ways on the road home. She was aware of doing it. She did not announce it or explain it. Grom watched and said nothing. The first time she did the thing she had been not-doing for twenty-three years, she did it without a scene or a speech or a dice roll. The S06 naming of Adda produced a cross-session behavioral change in S07 without any additional scene structure.
+**Why it matters:** Character agency anchors capture decision-point choices in scenes. They do not anticipate cross-session behavioral consequences: a prior session's verbal disclosure generating a physical act in the next session, without DM prompt, without scene structure, without announcement. The act is the closure. The character does not narrate her own growth; she just does the thing.
+**Status:** LOGGED. New pattern: cross-session behavioral-consequence without announcement.
+
+### I-S07-03 — Archive-placement as closure (archivist inversion of sheet-deep-reader)
+
+**Dimension:** Character Agency / Atmospheric Landing
+**Scene:** 07 (Aftermath)
+**What happened:** Kessa answered Vethrenn's two-hundred-year-old margin question in her own hand, then left the book on the workshop archive shelf rather than taking it. She did not collect the answer; she gave it back to the world. Sheet-deep-reader's usual register is accumulation (carry the evidence, cross-reference the fragments). Here, the pattern inverted: the catalog is complete; the archive is the right home for what was found.
+**Why it matters:** sheet-deep-reader is defined as a PC who reads their sheet as a live source of agency and accumulates cross-session evidence. S07 produced the first instance of sheet-deep-reader *inversion*: the accumulated knowledge is placed rather than carried. The closure is spatial, not personal. This is a new sub-type: **archivist-closure** — the reader becomes the archivist.
+**Status:** LOGGED. sheet-deep-reader sub-type: archivist-closure.
+
+### I-S07-04 — Simultaneous hint delivery as campaign resonance
+
+**Dimension:** Atmospheric Landing / Module Fidelity / Surprise
+**Scene:** 06 (Ingot-Forging)
+**What happened:** All four campaign hints (Fresco-Heal; Vethrenn's margin; Reorx's Judgment; Aelwen's Confession) were delivered in the same scene — Scene 06, ingot-forging — converging at the moment the silver flowed clean. Each hint was planted in a different session (S01, S01, S04, S03). The simultaneous convergence was not scripted; it emerged from the design of the rite + the specific dice outcome (Religion 23 → Route D) + the spatial logic of the forge.
+**Why it matters:** Module Fidelity captures whether planned manifest symptoms land. It does not capture multi-session hint convergence as a resonance event. The rubric has no anchor for "all campaign hints delivered simultaneously at a single structural moment." This is a new phenomenon: the finale's dice outcome triggers a retroactive convergence across 7 sessions of campaign history. Seven sessions of campaign debt discharged in one moment.
+**Status:** LOGGED. New pattern: simultaneous-campaign-hint-convergence.
+
+---
+
+### Dimension-trigger check (post-S07) — CAMPAIGN COMPLETE
+
+**Campaign total innovations: 43 (7+10+7+5+6+3+4 across S01-S07).**
+
+- **Atmospheric Landing:** I-S07-01, I-S07-03, I-S07-04 — three instances. Strong cluster evidence for "long-arc debt discharge" as a new Atmospheric Landing anchor above the 10-band.
+- **Character Agency:** I-S07-02, I-S07-03 — cross-session behavioral consequence; archivist-closure.
+- **Module Fidelity:** I-S07-04 — simultaneous-campaign-hint-convergence. First and only instance; campaign-specific.
+
+### Player-style count update (post-S07) — FINAL CAMPAIGN TOTALS
+
+- `sheet-deep-reader`: +2 (I-S07-01 Grom grief-paragraph discharge; I-S07-03 Kessa archivist-closure) = **13 total instances across 7 sessions.** Both new sub-types confirmed: grief-paragraph-dialogue (S06) and archivist-closure (S07).
+- `craft-witness`: +2 (I-S07-01 Grom carries pre-blessing failure; I-S07-02 Grom witnesses Thera's bread without speaking) = **16 total instances across 7 sessions.** Campaign complete.
+- `NPC-arc-completion` (promoted threshold reached S06): final campaign count = 3 instances. Promotion confirmed.
+- `Option-A-sufficient` (I-S04-03 + I-S05-02): confirmed validated pattern across campaign. 2 instances sufficient for design principle: Option C is available, not mandatory, for parties with ratified player-styles.
+

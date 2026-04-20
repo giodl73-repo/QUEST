@@ -121,15 +121,44 @@ Facts established in played sessions become **campaign-permanent** and constrain
 - **Felor of the Second House of Istar** is canon as the Istaran client who contracted Kann. Engraved in tiny Nerakan on Kann's Stonfold finger-bone cord; confirmed by Kessa Identify ritual. Felor works for **Lady Tiran of the Purple Rose's faction** — seed for #0005 active.
 - **Aelwen's journal page** is in Kessa's custody. Contains: "I made six. I made the Rose first. I made the Reliquary second. I made the Mirror third. I made three more in secret after the Mirror and I can no longer remember what I named them. I think I should have forged an ingot instead." **Hint 4 pre-plant for #0007 finale** — the ingot-reference is now in play.
 
-### Campaign-permanent party state (post-S03)
+#### S06-specific campaign-permanent facts (2026-04-20)
 
-- **Varduin Muster** is a four-PC party at **XP 1,675 each (L3; 125 shy of L4).** Next adventure should guarantee L4.
-- **Aelric** attuned to the Varran-reliquary (1/3 slots used). Memory-state unchanged. **New:** a silver pendant from Mira's rack, gifted Scene 7 — "made in anger last year," no mechanical effect, sentimental only.
-- **Thera** carries Pella's drawings + Vesk's sealed letter "to P, when you are ten" + **Seralen's *"Do not look"* note** (S03 Scene 6, folded three times in her pocket; unexamined) + scouts' map + Lorn's longbow + Pevra's worry-stones (Idra's).
-- **Kessa** carries Keloth's mother's bracelet (unattuned, archival) + S02 vault-ledger transcription + **Aelwen's journal page (Hint 4 pre-plant)** + **Kann's Stonfold moon-silver finger-bone (ID'd; "Felor" engraved; unattuned)** + ledger-phrase transcription (S03 recovery; pattern-link pending). **Portent [1] still held.**
-- **Grom** carries Duren's tongs + Istari traveler's token + **~8 oz inert un-forged Mirror moon-silver** (post-destruction) + **Mira's Council file-note with Seralen's name in ink.** Did not shatter any S02 reliquary; the 5 shelf-reliquaries + 1 empty remain with Rose Council.
+- **Thread-That-Frays DESTROYED** via Grom's Reorx-rite at Stonfold forge-hall at dawn (Religion 16). **Four of Aelwen's six forgings are now destroyed** (Mirror S03 + Coin S04 + Thread S06) plus one forged-complete (Ingot S07). Two remain: Varran-Reliquary (attuned by Aelric; campaign-permanent) + Silver Rose (Solamnic archive; never in party hands). No future session may re-introduce the Thread as intact.
+- **Thera opened Vesk's letter.** She named her longing for Adda aloud — in Stonfold, in the forge-hall, with Nenn Hillfoot present. She said *"I counted too"* when Nenn said he had counted. This is the first time Thera has named Adda's absence in this campaign. **Thera's Adda-grief is no longer unexpressed.**
+- **Nenn Hillfoot named both longing-objects** (Adda + Thera) by his own initiative. He was not prompted. The golden path was completed by Nenn, not the party. **Nenn's address is known to Thera.** He is at Stonfold; the gate-hinge he fitted eight months ago was true. He will receive visits.
+- **Three-vein synthesis COMPLETE** — Kessa recovered Tova's archive copies confirming all three cold-vein sources: Vaenshold (grief-vein; Aelwen's estate), Stonfold (longing-vein; Tova's family mine), and the unnamed Kharolis border vein (shame-vein; cold-vein silver; Tova's pencil-sketch map). **Kessa has the physical documentation.** The Silver-Ingot Confession's material provenance is confirmed.
+- **Hint 4 foundation physically confirmed.** The three-vein synthesis from Tova's archive made Hint 4's auto-delivery at #0007 a confirmed structural event, not a theory.
+- **v1.4 cross-character mechanical compound fired** for the first time: Aelric's Bless cast on Grom for the Reorx-rite. The ratified amendment validated on first use.
+- **Party XP: ~3,425 each (L4; L5 threshold 6,500).** Party purse ~1,180 gp + artifacts.
+
+#### S07-specific campaign-permanent facts (2026-04-20) — CAMPAIGN COMPLETE
+
+- **Moon-Silver Cycle: COMPLETE.** Route D (full inversion) achieved at dawn, PC 20, Vaenshold workshop. Religion 23.
+- **The Silver-Ingot Confession was performed** by Grom Ironhand of the Varduin Muster, at Aelwen's forge, 200 years after she could not. His exact words are verbatim in `adventures/0007-the-silver-ingot-confession/sessions/S07-log.md`. The ingot carries two shames: Aelwen's (things made to hold grief; the tool withheld; shame held the hammer) and Grom's (the failed pre-blessing at the vein; *"I was slow and I was proud and I called it patience"*). Both are named. Both are forged.
+- **All four hints delivered simultaneously** at Scene 06 ingot-forging:
+  - Hint 1 (Fresco-Heal, S01): fresco of Ilendra's parents changed. Their faces no longer hold what they were holding.
+  - Hint 2 (Vethrenn's margin, S01): already unlocked S04; Kessa's book warmed at the workshop threshold and she confirmed *"I know how"* before the night began.
+  - Hint 3 (Reorx's Judgment, S04): Grom performed it. The understanding planted silently in S04 spoke through his hands into the silver at the confession.
+  - Hint 4 (Aelwen's Confession, S03/S05): auto-delivered at passive 15. Every PC heard: *"I should have forged an ingot instead."* Kessa: *"She did. We did it for her."*
+- **The ingot is in the sixth vault-space at Vaenshold workshop.** The vault door is not locked. It is findable. This is the ending-condition of the Silver-Ingot Confession and the campaign.
+- **Pride-Circlet DESTROYED** in the same forge, same dawn (Religion 15 exactly). The Circlet's desire to be worn simply stopped. No vapor. No drama. The obsidian splintered along its laurel-band seam. **Five of Aelwen's six forgings are resolved.** One (Varran-Reliquary) remains with Aelric as a campaign-permanent commitment.
+- **Aelric held the Varran-reliquary without opening it.** His d6 rolled letter-of-Measure (2): honor what you committed to. He committed to the Minute in S02. He acknowledged it as release without replaying it. **He does not play the Minute again.** His grief for Varran is named, carried, and honored.
+- **Kessa's commonplace book (Vethrenn's, with her margin answer)** is on the Vaenshold workshop archive shelf. She wrote: *"She was right. Here is how: you name the shame over hot metal, in the place where the grief began. You do not ask for anything. You name it and forge it and that is the releasing. — K., PC 20, Vaenshold workshop."* She did not take the book. It is findable. The 200-year-old question is answered.
+- **Thera cut bread long-ways** on the road home from Vaenshold. First time since Adda died when she was eight. She was aware of doing it. She did not explain. **Thera's Adda-grief is complete.** She acts from the named longing (S06) without announcement.
+- **The cross-adventure phrase *"I will not look at the rose again"*** — delivered S03 from Mira's ledger; source Keloth's vault-ledger (S02). Campaign echo fully closed. Kessa's transcription (S02) and Mira's ledger instance (S03) are in her notebook; the pattern-link was not formally cross-referenced in play but the campaign is complete and the phrase's purpose is fulfilled.
+- **Party XP: ~3,925 each. Level 4. Campaign over. L5 (6,500) never reached — campaign ended at its proper conclusion.**
+
+### Campaign-permanent party state (FINAL — post-S07)
+
+- **Varduin Muster** — four PCs, campaign complete. XP 3,925 each (L4).
+- **Aelric** — attuned to Varran-reliquary (1/3 slots; campaign-permanent). Held reliquary without opening it at S07 finale. Told the Vaenshold steward: *"We completed work that was left unfinished two hundred years ago."*
+- **Thera** — carries Pella's drawings + Vesk's sealed letter (read S06) + Seralen's note + scouts' map. **Cut bread long-ways on the road home from S07.** The longing is named; the act follows.
+- **Kessa** — carries Keloth's mother's bracelet (unattuned, archival) + vault-ledger transcription + Kann's finger-bone + Portent [4] (never deployed). **Left Vethrenn's commonplace book in the Vaenshold workshop archive.** Catalog complete; archive is the right home.
+- **Grom** — carries Duren's final letter + Duren's tongs + ~8 oz inert Mirror-silver + ~1 oz inert Coin-silver. Burn-scar stopped aching S04. **Performed the Silver-Ingot Confession S07.** Campaign-permanent: the confession is verbatim in the session log; it speaks for him.
 
 ### Updates
+
+Campaign-continuity is updated post-every-session in `HANDOFF-S{N}.md` and aggregated here. If any DM narration contradicts a campaign-permanent fact, the fact wins.
 
 Campaign-continuity is updated post-every-session in `HANDOFF-S{N}.md` and aggregated here. If any DM narration contradicts a campaign-permanent fact, the fact wins.
 
