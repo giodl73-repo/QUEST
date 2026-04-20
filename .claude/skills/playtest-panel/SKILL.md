@@ -116,6 +116,25 @@ Specific suggestions from a single lens. Each tagged with lens-of-origin.
 ## Questions Raised About the Module or the System
 
 Meta-level notes: where the playtest pipeline itself needs work; where the module should be revised; where the rubric may need amendment (feed into `playtest-innovation`).
+
+## Ratified Player-Style Instances
+
+| Style | Instances this session | Key scene references |
+|---|---|---|
+| sheet-deep-reader | N | ... |
+| craft-witness | N | ... |
+
+Cross-session running totals (for cluster / de-promotion tracking):
+- sheet-deep-reader: N total across M sessions
+- craft-witness: N total across M sessions
+
+## NPC-Arc-Completion Instances
+
+NPCs who delivered their arc-completion moment by character logic (not DM scripting) this session:
+
+- None / <NPC name — scene ref — what they said or did>
+
+Campaign running total: N instances across M sessions. Cluster promotion threshold: 3 instances across ≥ 2 sessions.
 ```
 
 ## Discipline

@@ -69,6 +69,19 @@ author: session-handoff
 
 Table: PC, HP, slot reserves, exhaustion (if persistent), attunements, notable inventory, open character threads.
 
+## Design obligations carried forward
+
+Artifacts that must be resolved before the campaign closes (list only unresolved ones):
+- `<artifact>`: must be [destroyed / attuned / disposed of] by session N — reason: <why it can't persist>
+
+Hints that must fire before the campaign can close (list only undelivered ones):
+- `<hint name>`: status [planted / missed / re-available] — delivery mechanism: <what triggers it>
+
+Threads that cannot lapse (named facts or character states that future sessions must not contradict):
+- <thread>: <the fact that must remain honored>
+
+If all artifacts are resolved and all hints delivered: write "None — campaign obligations complete."
+
 ## Open threads (for next session's DM)
 
 (From the session log's "Open threads" + panel's "Questions Raised" + any pending innovation proposals.)

@@ -204,6 +204,7 @@ date: <today>
 dice-seed: <seed>
 duration: <in-fiction hours>
 outcome: <one-line: "Rose retrieved via Option B; party kept it.">
+route: [A|C|D]   # A = charter/fallback, C = destruction/default, D = inversion/optimal
 author: session-runner
 ---
 
@@ -256,11 +257,13 @@ If `sessions/S{N}-log.md` exists, bump to `S{N}.v2-log.md` and report.
 - [ ] Every PC acted at least twice per scene they were present in.
 - [ ] Every PC used at least one signature move during the session.
 - [ ] No fake dice rolls (every mechanical resolution has a `🎲` line).
+- [ ] All dice go through Python DiceEngine (marathon-runner CLI). Do not call `scripts/dice.sh` directly for session dice — it bypasses the JSONL audit log. If running without marathon-runner, use `scripts/dice.sh` for every roll but note the logging gap.
 - [ ] ≥ 3 manifest symptoms landed (if the adventure has a manifest).
 - [ ] Wandering-pressure tables rolled on schedule.
 - [ ] Session log ≥ 2,000 words (a real playthrough should produce substance).
 - [ ] `<!-- SURPRISE -->` tags captured (expect 3-8 in a first session).
 - [ ] Dice seed logged in both PREP and LOG frontmatter.
+- [ ] `route:` field set in LOG frontmatter (A, C, or D).
 
 ## Anti-patterns
 

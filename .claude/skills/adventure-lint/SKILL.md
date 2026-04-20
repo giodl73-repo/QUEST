@@ -66,6 +66,14 @@ A report file at `adventures/<slug>/lint-report-YYYY-MM-DD.md` with:
 - Central artifact has ≥ 2 meaningfully-different retrieval paths?
 - Post-recovery real-decision has ≥ 3 valid outcomes? (Search premise + module for "return / keep / destroy / sell" or equivalent.)
 
+#### P0 table-readiness gates (all personas — convergent)
+
+These two checks are what every persona will flag in the first paragraph of their review. Catch them here.
+
+- **Decision-point fallback:** For every scene with a meaningful PC decision, does a fallback path exist if the PC declines or freezes? Search GM Notes for "if the party refuses", "if the PC says no", or explicit fallback language. Flag any decision scene with no documented fallback.
+- **Critical-roll failure state:** For every scene with a named DC that gates a route outcome (A/C/D), is a graceful failure path written in the GM Notes? "The DC is accessible" is not a failure state. Failure must change texture/route without blocking all outcomes.
+- **Rite/confession scene DM-letter:** If the module includes a rite or confession-type scene (a PC must speak aloud, name something, or perform a ritual), is a DM-letter or hold-space note present? (Either inline in GM Notes or referenced at `skills/dm-letter/SKILL.md`.) A rite scene without hold-space guidance will stall when the player hesitates.
+
 #### Campaign-awareness gates *(new — if a campaign spine exists)*
 
 - Does `premise.md` reference the campaign spine (`docs/campaign/<slug>.md`)?

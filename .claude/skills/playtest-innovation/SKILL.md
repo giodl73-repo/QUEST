@@ -132,6 +132,18 @@ After a rubric amendment, `session-runner`'s next PREP stage reads the new versi
 - Any proposals auto-dismissed (reason).
 - Suggested next step: `session-handoff`.
 
+## Watchlist — Patterns to Watch in Future Campaigns
+
+These patterns were identified in the Moon-Silver Cycle (S01–S07) but have only one instance each. They become amendment candidates if they appear in a future campaign.
+
+**failed-roll-as-carried-debt** (I-S07-01): A failed roll becomes emotional content that is discharged verbally at the session's climactic moment — the failure is not a setback but a setup. Watch for: a player naming a prior failed roll in a confession, rite, or decision scene; a failure that becomes the texture of the climax rather than a mechanical consequence.
+
+**act-without-announcement** (I-S07-02): A prior session's verbal disclosure generates a cross-session behavioral change in the next session without any new scene structure, announcement, or dice roll. Watch for: a PC acting differently after naming something in a prior session; behavioral change that is simply done, not performed.
+
+**archivist-closure** (I-S07-03): A sheet-deep-reader PC places accumulated evidence rather than carrying it — the catalog is complete; the archive is the right home. Watch for: a PC choosing to leave knowledge in the world rather than keeping it; the reader becoming the archivist at the moment of completion.
+
+**simultaneous-campaign-hint-convergence** (I-S07-04): All campaign hints land in the same moment, retroactively charging the campaign's entire history. Watch for: a climactic scene where every hint the party has been carrying fires simultaneously; convergence that is not scripted but emerges from the rite mechanics + spatial logic of the finale.
+
 ## Anti-patterns
 
 - Logging innovations that are actually just "things that went well."
