@@ -40,6 +40,22 @@ Session end: Grom sitting beside Aelric at the way-house bench. Aelric says he c
 
 ---
 
+## S06 — 2026-04-20 — *The Thread-That-Frays*
+
+The muster rode four days southeast to Stonfold, fighting off an artifact-collector's roadside ambush on the way. Aelric dropped the Council letter in the cold (nat-1 initiative) and then presented it with full Solamnic authority when it mattered (nat-20 Persuasion). Guard1 dropped to Kessa's Magic Missile.
+
+Nenn Hillfoot was at the Stonfold gate. He said Thera's name. She said she had counted too. She showed him the letter without giving it. Grom checked the gate-hinge that Nenn had fitted eight months ago. Inside curve: true.
+
+Tova's archive gave Kessa the three-vein confirmation: Vaenshold (grief), Stonfold (longing), and the cold vein — the shame-material Aelwen had when she couldn't forge the sixth. Kessa named all three. Grom touched the door-frame.
+
+In the forge-hall at dawn, Thera opened the letter. Named the longing for Adda aloud. Nenn named both — Adda and Thera. The spool vibrated and went still. Grom performed the Reorx-rite (Religion 16). The vapor smelled like what you miss before you know you've started missing it. The thread is gone.
+
+Thera said: "I know where it is now." The gate closed. Hinge still true.
+
+**Post-S06:** XP ~3,425 (L4). Thread destroyed. Thera has Nenn's address. Kessa has the three-vein archive copies. The party rides home.
+
+---
+
 ## S05 — 2026-04-19 — *The Pride-Circlet*
 
 The muster rode eleven days southeast to Korrath-by-the-Sea to answer Wena Laen's letter — the one where she said she knew what a Pride-Circlet was. They arrived in a city that smelled of Second House money and Vaenshold-lineage silver selling for 15 gp at market stalls. Kessa noticed before anyone else. She wrote the address down.

@@ -1,6 +1,6 @@
 # Marathon Tracker
 
-Last updated: 2026-04-19 by `session-handoff` (S05).
+Last updated: 2026-04-20 by `session-handoff` (S06).
 
 ## Sessions
 
@@ -11,6 +11,7 @@ Last updated: 2026-04-19 by `session-handoff` (S05).
 | S03 | 0003-the-silversmiths-mirror | varduin-muster | 2026-04-19 | **74** | **74.48** | ADVISORY (last advisory) |
 | S04 | 0004-the-wrath-coin | varduin-muster | 2026-04-19 | **76** | **76.12** | **PASS (first binding; +20 over 56)** |
 | S05 | 0005-the-pride-circlet | varduin-muster | 2026-04-19 | **78** | **68.6** | **PASS (+22 over 56; panel dip = tactical structural artifact of 0-dice session)** |
+| S06 | 0006-the-thread-that-frays | varduin-muster | 2026-04-20 | **78** | **77.0** | **PASS (+22 over 56; highest non-structural panel mean; 100% manifest delivery)** |
 
 ## Adventures
 
