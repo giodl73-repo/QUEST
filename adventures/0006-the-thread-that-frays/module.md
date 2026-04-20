@@ -232,9 +232,9 @@ This is the session's **required combat encounter** (S05 Tactician panel feedbac
 **Features:**
 
 - **Nenn at the gate.** He does not move toward her. He does not move away. He waits.
-- **Tova Stonfold** steps out from behind Nenn within thirty seconds of the party's arrival. She has been watching. She looks at Grom. Says: *"Forge-priest. The spool will be yours to deal with. Come inside."* Does not wait.
+- **Tova Stonfold** steps out from behind Nenn within thirty seconds. She looks at Grom: *"Forge-priest. The spool will be yours to deal with. Come inside."* Does not wait. **As she leads the party through the gate**, the hinge swings true — no squeal, no resistance. Grom passive 13 / Stonecunning: recently re-fitted; good inside-curve work. Tova, unprompted: *"The gate-tender repaired that eight months ago. Nenn. Quiet man. Good with his hands."* **[P0 FIX: Nenn planted before Scene 03.]** If the party asks about the Thread: *"I will show it to you. But I will not hand it to you until the girl has spoken to her father. That is the condition."* [P0 FIX: safety net.] If asked who longs for someone here: *"You know him by the gate."*
 - **The courtyard.** Functional. Three forge-halls — the smell: hot metal, pine-resin, and something cooler and blue that is the Stonfold-vein silver's specific scent. A well. A stone building that is probably the archive. Children watching from a second-floor window.
-- **Mira Vaenshold** — visible at the far end of the courtyard, working at a smaller forge with Harel. She looks up when the party arrives. Harel waves. Mira nods once. She does not approach immediately; she is mid-work.
+- **Mira Vaenshold** — visible at the far end of the courtyard, working at a smaller forge with Harel. She looks up when the party arrives. Harel waves. Mira nods once. **If Thera reaches Mira before Scene 03:** *"The gate-tender — Nenn. He fixed the main gate hinge the first week he was here. Good hands. Tova lets him work mornings."* [P0 FIX: Mira also plants Nenn.]
 
 **Encounter:** None. This is an arrival scene with one emotional beat at maximum compression.
 
@@ -476,7 +476,7 @@ On Nenn: *"He has been here eight months. He is good at his job. He does not tal
 
 #### Branch A — Grom performs the Reorx-rite
 
-**Religion DC 15 at dawn** (advantage if Grom has performed hearth-greetings at Stonfold forges throughout Day 3; Tova confirms the forge reaches temperature). Same form as previous rites.
+**Religion DC 15 at dawn** (advantage if Grom has performed hearth-greetings at Stonfold forges throughout Day 3). **Tova confirms ≥1,800°C — no check needed**: *"It is hot enough. I have burned silver here before."* [P0 FIX: forge-temperature verified.]
 
 **What happens:** the thread un-spools into the forge-fire. Not dramatically — the silver melts cleanly; the thread dissolves; a small bright vapor rises. **The vapor smells like something the party cannot name.** Grom's craft-witness: *"It smells like what you miss before you know you've started missing it."*
 
@@ -557,7 +557,7 @@ He is quiet for a long time. Then, to the spool: *"I longed for Adda. And I long
 **GM Notes:**
 
 - All three branches are valid. The golden path is Branch C (reciprocal naming), but Branch A (Reorx-rite) is equally legitimate. Branch B (thread-pulled) is the hardest but the most emotionally honest.
-- Nenn's presence: he is at the door. He was not invited. He stays unless the party asks him to leave. If asked to leave, he goes. He comes back in Scene 7 regardless.
+- **Nenn's presence [P0 FIX]:** he is at the door; not invited; stays unless asked to leave. **If the party moves to leave with the Thread before any resolution path has begun**, Nenn steps into the doorway: *"She should decide first."* One line; no force. Grom Insight DC 10: not obstruction — accuracy. *This is not done yet.* If Thera has already decided, Nenn witnesses only.
 - The smell in Branch A: *"What you miss before you know you've started missing it"* is a craft-witness description Grom generates from the vapor. Let it land. It is not mechanical; it is the art in the engine.
 - **POST-SESSION MANDATORY:** Write Spool disposition (destroyed/attuned/full+surrendered) + Thera's attunement state (if any) + Nenn's naming (if any) to CLAUDE.md.
 

@@ -17,8 +17,11 @@ created: 2026-04-19
 
 - **Nenn at the gate.** He does not move toward her. He does not move away. He waits.
 - **Tova Stonfold** steps out from behind Nenn within thirty seconds of the party's arrival. She has been watching. She looks at Grom. Says: *"Forge-priest. The spool will be yours to deal with. Come inside."* Does not wait.
+- **Tova's gate-hinge observation (P0 fix — plant Nenn):** as she leads the party through the gate, the hinge swings true — no squeal, no resistance. Grom's passive Perception 13 / Stonecunning: recently re-fitted; very good inside-curve work. **Tova, without prompting:** *"The gate-tender repaired that hinge eight months ago. Quiet man. Nenn, his name is. Good with his hands."* This is the first time Nenn's name is spoken aloud before Scene 03.
+- **Tova on the spool (P0 fix — safety net + plant):** if the party asks about the Thread in Scene 02 before meeting Nenn: *"I will show it to you. But I will not hand it to you until the girl has spoken to her father. That is the condition."* She does not explain why. She does not need to.
+- **Tova on the spool's vibration (P0 fix — plant Nenn's longing):** Tova may add, unprompted or if asked: *"There is someone in this holding for whom the spool is very loud. I can feel it from the archive. I have not let him near it."* If the party asks who: *"You will know him by the gate."*
 - **The courtyard.** Functional. Three forge-halls (the smell: hot metal, pine-resin, something cooler and blue that is the Stonfold-vein silver's specific scent). A well. A stone building that is probably the archive. Children watching from a second-floor window.
-- **Mira Vaenshold** — visible at the far end of the courtyard, working at a smaller forge with Harel. She looks up when the party arrives. Harel waves. Mira nods once. She does not approach immediately; she is mid-work.
+- **Mira Vaenshold** — visible at the far end of the courtyard, working at a smaller forge with Harel. She looks up when the party arrives. Harel waves. Mira nods once. She will approach when her work-piece is safe. **If Thera reaches Mira before Scene 03:** Mira may say, quietly: *"The gate-tender — Nenn. He has been here eight months. He does not talk much. He fixed the hinge on the main gate the first week he arrived. Tova lets him work the morning shift because he is quiet."* She does not say he is Thera's father; she does not know if Thera knows. She is giving the party information that is accurate.
 
 **Encounter:** None. This is an arrival scene with one emotional beat at maximum compression.
 

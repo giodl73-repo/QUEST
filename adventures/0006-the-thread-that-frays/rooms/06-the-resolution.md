@@ -19,7 +19,7 @@ created: 2026-04-19
 
 ### Branch A — Grom performs the Reorx-rite
 
-**Religion DC 15 at dawn** (advantage if Grom has performed hearth-greetings at Stonfold forges throughout Day 3; Tova confirms the forge reaches temperature). Same as previous rites.
+**Religion DC 15 at dawn** (advantage if Grom has performed hearth-greetings at Stonfold forges throughout Day 3). **Tova confirms the forge reaches ≥1,800°C at dawn** — no check needed to verify temperature; she has run this forge for thirty years. If the party asks: *"It is hot enough. I have burned silver here before."*
 
 **What happens:** the thread un-spools into the forge-fire. Not dramatically — the silver melts cleanly; the thread dissolves; a small bright vapor rises. **The vapor smells like something the party cannot name.** Grom's craft-witness: *"It smells like what you miss before you know you've started missing it."*
 
@@ -102,7 +102,7 @@ He is quiet for a long time. Then, to the spool: *"I longed for Adda. And I long
 **GM Notes:**
 
 - **All three branches are valid.** The golden path is Branch C (reciprocal naming), but Branch A (Reorx-rite) is equally legitimate. Branch B (thread-pulled) is the hardest but the most emotionally honest.
-- **Nenn's presence.** He is at the door. He was not invited. He stays unless the party asks him to leave. If he is asked to leave, he goes. He comes back in Scene 07 regardless.
+- **Nenn's presence (P0 fix — active moment).** He is at the door. He was not invited. He stays unless the party asks him to leave. **If the party moves to leave with the Thread before any resolution path has begun** — before Thera has spoken her choice — Nenn steps into the doorway. Not threatening. He says: *"She should decide first."* That is all. He does not move. He does not explain. Grom's Insight DC 10: *"He is not stopping them out of obstruction. He is stopping them out of accuracy — this is not done yet."* If the party acknowledges him, he waits. If Thera has already decided, Nenn does not need to intervene; he is witness.
 - **The smell in Branch A.** *"What you miss before you know you've started missing it"* is a craft-witness description Grom generates from the vapor. Let it land. It is not mechanical; it is the art in the engine.
 - **POST-SESSION MANDATORY:** Write Spool disposition (destroyed/attuned/full+surrendered) + Thera's attunement state (if any) + Nenn's naming (if any) to CLAUDE.md.
 
