@@ -109,11 +109,15 @@ S01 and S02 surfaced an Option-A limitation: when a PC faces a session-defining 
 
 #### When to use Option C
 
+**Updated guidance (post-S05, I-S04-03 + I-S05-02):** Option C is **available**, not mandatory, for parties with ratified player-styles (`sheet-deep-reader` + `craft-witness`). Two consecutive sessions (S04: Grom's Reorx-exile; S05: Aelric's Circlet decision) showed that ratified player-styles deliver voice-distinction natively for their spotlight moments, making Option C unnecessary. **Downgrade "strongly recommended" to "available"** when the PC whose decision is at stake has a ratified player-style and a clear decision-order that can resolve the beat without grief-paragraph adjudication.
+
 Spawn an agent when **all three** conditions are met:
 
 1. The decision shapes the session's final state (not just the current scene).
 2. The decision is specific to one PC's backstory, grief-paragraph, or playstyle heuristics.
 3. The decision would be played inauthentically by the solo DM — specifically when the solo DM would produce a generic answer where the PC's specific voice would produce a distinct one.
+
+**When NOT to spawn (post-S05 guidance):** If the PC's decision-order resolves the beat cleanly (e.g., Aelric: Oath → Order → Party → Self; "The Oath was sufficient"), do not spawn. The absence of a spawn is not a failure — it is evidence the player-styles are working.
 
 **Examples of Option-C-appropriate moments:**
 - Aelric's decision to attune the Varran-reliquary.
