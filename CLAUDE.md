@@ -82,6 +82,18 @@ Facts established in played sessions become **campaign-permanent** and constrain
 - **Aelwen's Letter is in the Rose Council's archive** (S01 outcome). The Mira-letter was delivered to Brother Laen post-S02; Council contract was formal and has now been fulfilled at S03.
 - **The cross-adventure phrase *"I will not look at the rose again"*** exists on Keloth's wall-ledger in the vault (S02, physically present uncredited) AND in Mira's sales-ledger margin (S03, caught by Kessa Investigation 16). Kessa has now transcribed BOTH instances into Vethrenn's commonplace book. **The pattern-link between her S02 vault-transcription and Mira's ledger-phrase is NOT YET FORGED** — she has both phrases separately; she has not cross-referenced them. Recovery path remains open for S04+ (between-adventure journal-reading beat expected).
 
+#### S05-specific campaign-permanent facts (2026-04-19)
+
+- **Pride-Circlet is in party custody, UNATTUNED.** Velvet-wrapped. Second House archive lists it as "in care of Varduin Muster pending disposition." No PC attuned. **Must be destroyed (Reorx-rite) or otherwise disposed of before #0007 finale.**
+- **No PC attuned the Pride-Circlet.** Aelric picked it up, felt it warm, set it down without holding it to his head. Oath was sufficient. **No Pride-Lock curse on any PC.**
+- **Lady Tiran: heard without the Circlet.** She told Wena Laen what Edric saw. She is at peace and dying. Not attuned. Her final-state is closed; she is not a campaign thread.
+- **Wena Laen stays at Korrath-by-the-Sea.** Chapter-house novice. Post-campaign arc. She has a hinge to install.
+- **Kessa carries Tiran's six-forging research** (original; most complete Aelwen manifest). Sixth forging: shame-keyed, provenance unknown, not in any known market.
+- **Aelwen triplet complete in Kessa's custody:** journal page (#0003, doubt) + apron-scrap (#0004, resolve) + water-reflection fragment (#0005, horror). Three Aelwen writings recovered across three adventures.
+- **Hint 4 pre-synthesis articulated by Kessa in-voice (S05 Scene 03).** *"I think the sixth is not an object she made. I think it is the object she could not make because she was too ashamed to."* This names the ingot-as-missing-ending theory — the intellectual foundation of the #0007 Silver-Ingot Confession. **Campaign-permanent; the #0007 finale will confirm this theory, not deliver it cold.**
+- **Aelric's breast-pouch: three objects** — Wena's note + Laen's formal letter + Varran's blue-leather saddle-lashing. The saddle-lashing was named as a carried object for the first time.
+- **Party XP: 2,525 each (L4; L5 threshold 6,500).**
+
 #### S04-specific campaign-permanent facts (2026-04-19)
 
 - **Thane Krun Ironhaft — Reorx-exiled by Grom.** Ritual-bound exile; cannot return to Thorbardin. Kruntharrak mine-hold passes to Thora Stoneforge (Krun's second cousin; line-continuity rule). **Krun cannot be re-introduced as a hold-holder in any future session.**

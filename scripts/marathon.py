@@ -222,7 +222,19 @@ def cmd_resume(args) -> int:
                     else:
                         print(f"WARNING: ignoring non-mutable field {field_name!r} for {key}")
 
+        # Advance scene index
         session.scene_index = packet.advance_to_scene
+
+        # Advance beat cursor: increment beat index so SceneRunner doesn't re-run the same beat
+        if session.pending_checkpoint:
+            parts = session.pending_checkpoint.split("_beat_")
+            if len(parts) == 2:
+                try:
+                    beat_idx = int(parts[1])
+                    session.pending_checkpoint = f"{parts[0]}_beat_{beat_idx + 1}"
+                except ValueError:
+                    session.pending_checkpoint = None
+
         sm.write_session(party=party, session=session, campaign=campaign)
 
     sm.delete_checkpoint()

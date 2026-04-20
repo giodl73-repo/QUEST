@@ -4,9 +4,37 @@ pc: kessa-moonweave
 class: wizard
 subclass: school-of-divination
 race: qualinesti-elf
-level: 3
+level: 4
 author: party-builder
 created: 2026-04-18
+heuristics:
+  doubt_die:
+    "1-3": "catalog"
+    "4-6": "test"
+  decision_order:
+    - key: understand
+      condition: "always"
+    - key: record
+      condition: "always"
+    - key: dont-violate-test
+      condition: "involves_evil"
+    - key: protect
+      condition: "any_pc_below_half_hp"
+  signature_moves:
+    - id: "detect-magic-reflex"
+      trigger: "always"
+      mechanical_effect: null
+    - id: "write-inscription"
+      trigger: "always"
+      mechanical_effect: null
+    - id: "portent-held"
+      trigger: "always"
+      mechanical_effect: null
+  voice_tags:
+    - "scholarly-precision"
+    - "too-many-words-when-stressed"
+    - "qualifies-statements"
+    - "quotes-vethrenn-without-noticing"
 ---
 
 # Kessa Moonweave, Red Robe of the Third Rank

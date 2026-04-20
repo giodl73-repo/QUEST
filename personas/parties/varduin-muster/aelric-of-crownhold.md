@@ -4,9 +4,33 @@ pc: aelric-of-crownhold
 class: paladin
 subclass: oath-of-devotion
 race: human-solamnic
-level: 3
+level: 4
 author: party-builder
 created: 2026-04-18
+heuristics:
+  doubt_die:
+    "1-3": "follow-measure-strictly"
+    "4-6": "follow-measure-spirit"
+  decision_order:
+    - key: oath
+      condition: "involves_evil OR involves_undead"
+    - key: order
+      condition: "has_council_interest"
+    - key: party
+      condition: "any_pc_below_half_hp"
+    - key: self
+      condition: "always"
+  signature_moves:
+    - id: "oath-spoken"
+      trigger: "involves_evil OR involves_undead"
+      mechanical_effect: null
+    - id: "lay-on-hands-reserved"
+      trigger: "any_pc_below_half_hp"
+      mechanical_effect: "lay_on_hands"
+  voice_tags:
+    - "formal-register"
+    - "est-sularus-spoken-aloud"
+    - "terse-under-stress"
 ---
 
 # Aelric of Crownhold, Knight of the Crown (Initiate)

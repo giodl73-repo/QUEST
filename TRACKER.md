@@ -1,6 +1,6 @@
 # Marathon Tracker
 
-Last updated: 2026-04-19 by `session-handoff` (S04).
+Last updated: 2026-04-19 by `session-handoff` (S05).
 
 ## Sessions
 
@@ -10,6 +10,7 @@ Last updated: 2026-04-19 by `session-handoff` (S04).
 | S02 | 0002-the-bone-collector-trap | varduin-muster | 2026-04-19 | 65 | 65.0 | ADVISORY |
 | S03 | 0003-the-silversmiths-mirror | varduin-muster | 2026-04-19 | **74** | **74.48** | ADVISORY (last advisory) |
 | S04 | 0004-the-wrath-coin | varduin-muster | 2026-04-19 | **76** | **76.12** | **PASS (first binding; +20 over 56)** |
+| S05 | 0005-the-pride-circlet | varduin-muster | 2026-04-19 | **78** | **68.6** | **PASS (+22 over 56; panel dip = tactical structural artifact of 0-dice session)** |
 
 ## Adventures
 
@@ -18,13 +19,14 @@ Last updated: 2026-04-19 by `session-handoff` (S04).
 | 0001-tomb-of-the-silver-rose | played, rev 3 | 3 | S01 | Rev 3: Scriptorium compressed; Cold Pulse v1.1-compliant; Aelwen's daughter Heva named; Mira Vaenshold-Silversmith seeded. |
 | 0002-the-bone-collector-trap | **played, rev 2** | 2 | S02 | Rev 2 applied all 5-persona review fixes pre-play. Played 2026-04-19; gate 65/80; panel mean 65.0/80. Outcome: Varran-reliquary attuned by Aelric (campaign-permanent: remembers Varran only as dying); Keloth killed in Scene 6 combat; Pella at Brother Laen's mother's by her own choice; Mira-letter delivered; 5 shelf-reliquaries recovered; Varduin east wing burned; Sir Venric fell. **Cross-adventure signal missed on dice** (Kessa Inv 12 / Perc 11 vs DC 13 twice). |
 | 0003-the-silversmiths-mirror | **played, P0-revised** | P0 post-5-persona | S03 | Campaign position 3/7 Moon-Silver Cycle. Emotion: Love. Spotlight: Kessa. Gate 74/80; panel 74.48/80; spread 0.9. Mirror destroyed. |
-| 0004-the-wrath-coin | **played, P0-revised** | P0 post-5-persona | S04 | Campaign position 4/7 Moon-Silver Cycle. Emotion: Rage. Spotlight: Grom. **Played 2026-04-19; gate 76/80; panel mean 76.12/80 (spread 1.6). First binding-threshold session; PASS +20 over threshold.** Outcome: Krun Reorx-exiled (golden path); Wrath-Coin destroyed; Duren re-interred; Grom's burn-scar stopped aching; Jarek captured alive (Thorbardin-bound); **Hint 2 UNLOCKED + Hint 3 PLANTED**; Aelwen diptych complete; Wena's note for #0005. |
+| 0004-the-wrath-coin | **played, P0-revised** | P0 post-5-persona | S04 | Campaign position 4/7 Moon-Silver Cycle. Emotion: Rage. Spotlight: Grom. Gate 76/80; panel 76.12/80. Wrath-Coin destroyed. Hint 2 unlocked + Hint 3 planted. |
+| 0005-the-pride-circlet | **played, compiled** | rev 1 | S05 | Campaign position 5/7 Moon-Silver Cycle. Emotion: Pride. Spotlight: Aelric. **Gate 78/80 (highest ever); panel 68.6/80 (structural 0-dice dip). Golden ending: Tiran heard without Circlet; no PC attuned; Kessa articulates Hint 4 synthesis in-voice; Aelwen triplet complete; 100% manifest delivery (first time). First session via marathon-runner CLI.** |
 
 ## Parties
 
 | Slug | Members | Status | Sessions played | Notes |
 |---|---|---|---|---|
-| varduin-muster | Aelric of Crownhold · Thera Hillfoot · Kessa Moonweave · Grom Ironhand | active | 4 | **Post-S04, at L4 (XP 2,075 each).** Aelric's Varran-memory state unchanged. **Kessa:** Aelwen diptych (journal page #0003 + apron-scrap #0004; complete); Vethrenn's margin NOW READABLE; ledger-phrase cross-ref pending; Portent [4] held; Kann's Stonfold finger-bone. **Grom:** Duren's final letter; Duren's hammer in grave; ~1 oz inert Wrath-Coin-silver + ~8 oz inert Mirror-silver; **burn-scar stopped aching**; **Hint 3 held silently** (campaign-permanent). **Thera:** Seralen's note + Scene 5 scouts' map + various; Adda grief still unexamined. **Aelric:** **Wena Laen's sealed note (#0005 hook)**; Mira's pendant. |
+| varduin-muster | Aelric of Crownhold · Thera Hillfoot · Kessa Moonweave · Grom Ironhand | active | 5 | **Post-S05, at L4 (XP 2,525 each).** Aelric's Varran-memory state unchanged. **Kessa:** Aelwen diptych (journal page #0003 + apron-scrap #0004; complete); Vethrenn's margin NOW READABLE; ledger-phrase cross-ref pending; Portent [4] held; Kann's Stonfold finger-bone. **Grom:** Duren's final letter; Duren's hammer in grave; ~1 oz inert Wrath-Coin-silver + ~8 oz inert Mirror-silver; **burn-scar stopped aching**; **Hint 3 held silently** (campaign-permanent). **Thera:** Seralen's note + Scene 5 scouts' map + various; Adda grief still unexamined. **Aelric:** **Wena Laen's sealed note (#0005 hook)**; Mira's pendant. |
 
 ## Parties (historical note)
 
@@ -47,9 +49,9 @@ Last updated: 2026-04-19 by `session-handoff` (S04).
 
 | Status | Count |
 |---|---:|
-| Logged | 29 (7+10+7+5) |
+| Logged | 35 (7+10+7+5+6) |
 | **Adopted** | **12** (5 v1.1 + 4 v1.2 + 3 v1.3 Proposal E) |
-| Proposed (v1.4 candidates) | 5 (Proposals F + G constituents) |
+| Proposed (v1.4 candidates) | 7 (Proposals F + G + Option-A-sufficient pattern) |
 | Reviewed — not adopted | 0 |
 | Promoted to style (pending) | 12 (4 × `sheet-deep-reader` from S01-S02 + 1 S03 reinforcement; 4 × `craft-witness` from S01-S02 + 3 S03 reinforcements) |
 
