@@ -32,7 +32,7 @@ def cmd_status(args) -> int:
     party = loaded["party"]
     checkpoint = sm.read_checkpoint()
 
-    sep = "═" * 50
+    sep = "=" * 50
     print(sep)
     print(f"SESSION: {session.session} | ADVENTURE: {session.adventure}")
     print(f"SCENE: {session.scene_index} | COMPLETED: {session.scenes_completed}")
@@ -40,9 +40,9 @@ def cmd_status(args) -> int:
     print("PARTY STATE:")
     for slug in party.slugs():
         pc = party[slug]
-        slots = " ".join(f"{k}:{v}" for k, v in pc.spell_slots.items()) or "—"
-        attune = ", ".join(pc.attunements) or "—"
-        conds = ", ".join(pc.conditions) or "—"
+        slots = " ".join(f"{k}:{v}" for k, v in pc.spell_slots.items()) or "-"
+        attune = ", ".join(pc.attunements) or "-"
+        conds = ", ".join(pc.conditions) or "-"
         print(f"  {slug:<28} HP {pc.hp}/{pc.hp_max}  Slots {slots}  "
               f"Attune: {attune}  Conds: {conds}")
     print()
@@ -120,9 +120,9 @@ def cmd_resume(args) -> int:
     scene_id = checkpoint.get("scene_id", "?")
     scene_name = checkpoint.get("scene_name", "?")
 
-    sep = "═" * 50
+    sep = "=" * 50
     print(sep)
-    print(f"RESUMING: {session_id} | SCENE {scene_id} — {scene_name}")
+    print(f"RESUMING: {session_id} | SCENE {scene_id} - {scene_name}")
     print(f"BEAT: {beat_type}")
     print()
 
