@@ -64,7 +64,8 @@ class Emitter:
         if self._checkpoint_path.exists():
             self._checkpoint_path.unlink()
 
-    def validate_inbound(self, raw: dict, current_scene_index: int) -> InboundPacket:
+    def validate_inbound(self, raw: dict, current_scene_index: int,
+                         max_scene: int | None = None) -> InboundPacket:
         if "narrative" not in raw:
             raise ValidationError("narrative field is required")
         if not raw["narrative"]:
@@ -81,6 +82,10 @@ class Emitter:
             raise ValidationError(
                 f"invalid scene advance: {advance} is less than current scene "
                 f"{current_scene_index} — scene advances must be forward"
+            )
+        if max_scene is not None and advance > max_scene:
+            raise ValidationError(
+                f"invalid scene advance: {advance} exceeds max scene {max_scene}"
             )
 
         updates = raw.get("state_updates", {})

@@ -115,7 +115,13 @@ class StateManager:
     def read_session(self) -> dict | None:
         if not self.session_path.exists():
             return None
-        data = json.loads(self.session_path.read_text(encoding="utf-8"))
+        try:
+            data = json.loads(self.session_path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            raise RuntimeError(
+                f"Session state corrupted: {self.session_path}. "
+                "Cannot recover automatically."
+            )
         return {
             "party": PartyState.from_dict(data["party"]),
             "session": SessionState.from_dict(data["session"]),
@@ -128,7 +134,10 @@ class StateManager:
     def read_checkpoint(self) -> dict | None:
         if not self.checkpoint_path.exists():
             return None
-        return json.loads(self.checkpoint_path.read_text(encoding="utf-8"))
+        try:
+            return json.loads(self.checkpoint_path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            return None  # treat corrupted checkpoint as absent; caller decides
 
     def delete_checkpoint(self) -> None:
         if self.checkpoint_path.exists():

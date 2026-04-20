@@ -23,6 +23,7 @@ _PYTHON_TYPES = frozenset({
 _LLM_TYPES = frozenset({
     "read_aloud", "option_c", "dialogue", "memory_fragment",
     "atmospheric_chain", "hint_delivery", "loot_narration",
+    "grief_beat", "key_loot_narration",
 })
 
 

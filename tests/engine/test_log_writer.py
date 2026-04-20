@@ -94,3 +94,29 @@ def test_log_writer_summary_section(tmp_path, session_data, party_data, dice_log
     content = out.read_text()
     assert "Session Summary" in content
     assert "defeated the guards" in content
+
+
+def test_log_writer_uses_party_slug_param(tmp_path, session_data, party_data, dice_log):
+    lw = LogWriter("test-adventure", session_data, party_data, party_data,
+                   {}, dice_log, tmp_path, party_slug="custom-party")
+    out = lw.write()
+    content = out.read_text(encoding="utf-8")
+    assert "custom-party" in content
+
+
+def test_log_writer_atomic_write(tmp_path, session_data, party_data, dice_log):
+    lw = LogWriter("test-adventure", session_data, party_data, party_data,
+                   {}, dice_log, tmp_path)
+    out = lw.write()
+    assert not (tmp_path / "S04-log.md.tmp").exists()
+    assert out.exists()
+
+
+def test_log_writer_has_extra_sections(tmp_path, session_data, party_data, dice_log):
+    lw = LogWriter("test-adventure", session_data, party_data, party_data,
+                   {}, dice_log, tmp_path, innovations_flagged=["portent-benediction"])
+    out = lw.write()
+    content = out.read_text(encoding="utf-8")
+    assert "Curse symptoms" in content
+    assert "surprises" in content.lower() or "Surprises" in content
+    assert "Open threads" in content

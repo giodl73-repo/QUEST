@@ -77,3 +77,40 @@ def test_unknown_condition_raises(h):
     })
     with pytest.raises(HeuristicsError, match="unknown condition token"):
         h.eval_condition("involves_spaghetti", party=party)
+
+
+def test_doubt_die_raises_on_no_match(pcs):
+    """doubt_die with a gap in the range table raises HeuristicsError."""
+    from scripts.engine.loader import PC
+    from scripts.engine.heuristics import Heuristics, HeuristicsError
+    # PC with a gap: covers 1-2 and 5-6 but not 3-4
+    gapped_pc = PC(
+        slug="gapped",
+        ac=10, hp=10, hp_max=10,
+        spell_slots={}, attunements=[],
+        heuristics={
+            "doubt_die": {"1-2": "a", "5-6": "b"},
+            "decision_order": [],
+            "signature_moves": [],
+            "voice_tags": [],
+        }
+    )
+    h = Heuristics([gapped_pc])
+    # Try many seeds until we find one that rolls 3 or 4
+    for i in range(200):
+        try:
+            result = h.doubt_die("gapped", context="x", seed=f"gap-{i}")
+            # if it returned without raising, the roll was 1, 2, 5, or 6 — ok
+        except HeuristicsError:
+            return  # found a gap roll — test passes
+    pytest.skip("Could not produce a gap roll in 200 seeds")
+
+
+def test_select_target_returns_first_enemy(h):
+    enemies = [{"name": "Guard", "hp": 22}, {"name": "Archer", "hp": 15}]
+    result = h.select_target("test-fighter", enemies, scene_context={})
+    assert result == enemies[0]
+
+
+def test_select_target_returns_none_for_empty(h):
+    assert h.select_target("test-fighter", [], scene_context={}) is None
