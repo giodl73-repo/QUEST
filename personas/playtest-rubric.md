@@ -1,10 +1,10 @@
 ---
 name: playtest-rubric
 description: Versioned, forward-only session-quality rubric for the marathon playtest pipeline. Scores session logs on 8 dimensions, 0-10 each. Updates via innovation-amendment when 2+ innovations cluster in a dimension.
-version: v1.3
-status: ratified from S03 Amendment Proposal E
+version: v1.4
+status: ratified from S05 Amendment Proposals F + G
 created: 2026-04-18
-last-amended: 2026-04-19 (post-S03)
+last-amended: 2026-04-19 (post-S05)
 ---
 
 # Playtest Session Rubric
@@ -32,6 +32,8 @@ Each session log (finalized at LOG stage) is scored against this rubric by `sess
 - **10:** Dice produced emergent story the DM could not have predicted AND mechanics compounded narratively (e.g., exhaustion shaped a later decision).
 
 > **v1.1 cross-dimensional-harmlessness anchor:** A score of 7+ requires that no session mechanic **regularly** damages atmospheric-landing, module-fidelity, or character-agency payoffs as its designed behavior. A mechanic that costs resources cleanly (HP, slots, hit dice, time) is fine; a mechanic that inflicts check-disadvantage on atmospheric-gate rolls is cross-dimensionally damaging and caps the dimension at 6.
+
+> **v1.4 cross-character mechanical compound anchor (new):** A score of 10 additionally requires at least one **cross-character mechanical compound** — a PC's class/spell/feature mechanic applied to another PC's roll or action, framed in-voice as character-action, producing a narratively-emergent outcome. Examples: Portent-as-benediction (Divination School replacing another PC's die); Bless-stacking on a ritual; Counterspell-as-protection. Rationale: S03 + S04 documented Kessa's Portent replacing Grom's Religion rolls twice across two sessions, each time framed as in-voice benediction ("Vethrenn... let it be through me"). Single-character compounding was already in the 10 band; cross-character compounding is a stronger form.
 
 ### 3. Pacing (0-10)
 **Question:** Did scenes earn their length? Did the session feel tight or slack?
@@ -78,6 +80,8 @@ Each session log (finalized at LOG stage) is scored against this rubric by `sess
 
 > **v1.2 finder-vs-receiver + silent reception anchor (new):** A score of 7+ requires **two-column per-PC tracking** — *finder* (who rolled or noticed the beat) separated from *receiver* (which PC the beat emotionally landed on). They may be the same PC; they may diverge. **Silent reception** (character-interior realization without dice or narration, per module's explicit instruction) counts as reception — it need not be externalized to count. Rationale: S02 showed Kessa finding the bread-scrap but Grom receiving its weight (I-S02-01); the module's per-PC table under-predicted this kind of chain. Also S02 showed Aelric's Varran-no-pyre realization at Sir Venric's pyre (I-S02-08) — fully interior, no dice, module's explicit *"let the player feel it"* instruction.
 
+> **v1.4 multi-scene silent-reception chain anchor (new):** A score of 9+ additionally recognizes **sustained silent-reception chains** where a PC holds an un-articulated understanding across multiple scenes and acts on it in a later scene. The non-articulated understanding counts as campaign-permanent reception upon first-scene receipt AND drives action in subsequent scenes. A score of 10 requires at least one such chain. Rationale: S04 documented Grom's Hint 3 (Reorx's Judgment) received silently at Scene 3's rite; self-check articulation failed; silent reception persisted through Scenes 4-5; Grom invoked Reorx-exile at Scene 6 from the silent understanding without ever speaking it. Campaign-scale silent-reception (3 scenes) is a distinct achievement beyond single-scene silent reception captured in v1.2.
+
 ### 7. Surprise (0-10)
 **Question:** Did anything emergent happen that the DM, the players, or the module did not predict?
 
@@ -114,6 +118,7 @@ Do not score generously out of sympathy. Do not score harshly to seem rigorous. 
 | v1.1 | 2026-04-18 | **Mechanical fairness** — cross-dimensional-harmlessness anchor. **Atmospheric landing** — per-PC reception tracking + inter-PC chain-reaction. | Mech fair: I-S01-08, I-S01-09. Atmos: I-S01-02, I-S01-10, I-S01-12. |
 | v1.2 | 2026-04-19 | **Module fidelity** — anchor-level passive-Perception fallback (DC = active+2) + recovery-path for post-session re-discovery (9+ and 10 bands). **Atmospheric landing** — finder-vs-receiver two-column tracking + silent-reception recognition (7+ band). | Mod fid: I-S01-03, I-S02-02, I-S02-03, I-S02-06. Atmos: I-S02-01, I-S02-07, I-S02-08. |
 | v1.3 | 2026-04-19 | **Module fidelity** — positional-redundancy anchor: anchor-level symptoms require at least 2 of 3 fallback paths (check+passive; multi-location placement; NPC-delivered recall). Adventures relying on single-location positional symptoms cap at 8. | Mod fid: I-S03-01, I-S03-04, I-S03-07. |
+| v1.4 | 2026-04-19 | **Mechanical fairness** — cross-character mechanical compound at 10 band: a PC's mechanic applied to another PC's roll/action, framed in-voice as character-action (e.g., Portent-as-benediction). **Atmospheric landing** — multi-scene silent-reception chain at 9+ band: PC holds un-articulated understanding across 3+ scenes and acts on it later. | Mech fair: I-S03-03, I-S04-01. Atmos: I-S04-02, I-S05-03. |
 
 ## How Amendments Work
 
