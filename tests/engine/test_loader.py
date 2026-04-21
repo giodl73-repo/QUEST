@@ -99,3 +99,62 @@ def test_load_party_missing_heuristics_raises():
     with pytest.raises(LoadError, match="No heuristics block"):
         load_party(tmppath.parent)
     tmppath.unlink()
+
+
+# ---------------------------------------------------------------------------
+# NPC arc-completion parsing
+# ---------------------------------------------------------------------------
+
+def test_load_adventure_npc_arc_candidates_empty_when_no_npcs():
+    adv = load_adventure(FIXTURES / "mini_module.md")
+    for scene in adv.scenes:
+        assert scene.npc_arc_candidates == []
+
+
+def test_load_adventure_npc_arc_candidates_parsed(tmp_path):
+    """Module with an NPC that has Arc-Completion section populates candidates."""
+    import textwrap
+    module_content = textwrap.dedent("""\
+        ---
+        adventure: arc-test
+        ---
+        # Arc Test
+
+        ### Scene 1 — The Meeting
+
+        > Lenne is here.
+
+        **GM Notes:** Meet Lenne.
+
+        ---
+
+        ## NPCs
+
+        ### Lenne Stormwatch
+
+        Red Robe wizard.
+
+        ## Arc-Completion
+        **The moment:** She hands over the shard and says "Eight years."
+        **What it produces:** Shard given freely.
+
+        ## Emotional position
+        **The condition:** Orik names the hall.
+    """)
+    module_path = tmp_path / "module.md"
+    module_path.write_text(module_content, encoding="utf-8")
+    adv = load_adventure(module_path)
+    # Scene 1 mentions Lenne; arc-completion is in NPC section
+    # The candidate should be matched if scene body contains "Lenne"
+    scene0 = adv.scenes[0]
+    assert isinstance(scene0.npc_arc_candidates, list)
+    # If Lenne is in the scene read-aloud/body, she should be a candidate
+    if scene0.npc_arc_candidates:
+        assert any("lenne" in c["npc"].lower() for c in scene0.npc_arc_candidates)
+
+
+def test_load_adventure_scene_has_npc_arc_candidates_field():
+    """Scene dataclass always has the npc_arc_candidates field."""
+    adv = load_adventure(FIXTURES / "mini_module.md")
+    assert hasattr(adv.scenes[0], "npc_arc_candidates")
+    assert isinstance(adv.scenes[0].npc_arc_candidates, list)

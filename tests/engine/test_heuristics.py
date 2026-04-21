@@ -114,3 +114,40 @@ def test_select_target_returns_first_enemy(h):
 
 def test_select_target_returns_none_for_empty(h):
     assert h.select_target("test-fighter", [], scene_context={}) is None
+
+
+def test_eval_condition_or(h):
+    # "always OR always" should be True
+    assert h.eval_condition("always OR always") is True
+
+
+def test_eval_condition_and(h):
+    # "always AND always" should be True
+    assert h.eval_condition("always AND always") is True
+
+
+def test_eval_condition_not(h):
+    # "NOT always" should be False
+    assert h.eval_condition("NOT always") is False
+
+
+def test_eval_condition_not_unknown_raises(h):
+    with pytest.raises(HeuristicsError, match="unknown condition"):
+        h.eval_condition("NONEXISTENT_CONDITION")
+
+
+def test_eval_condition_involves_evil_false_by_default(h):
+    assert h.eval_condition("involves_evil") is False
+
+
+def test_eval_condition_involves_undead_false_by_default(h):
+    assert h.eval_condition("involves_undead") is False
+
+
+def test_eval_condition_has_council_interest_false_by_default(h):
+    assert h.eval_condition("has_council_interest") is False
+
+
+def test_eval_condition_any_pc_below_half_hp_with_no_party(h):
+    # When party is None, any_pc_below_half_hp should return False
+    assert h.eval_condition("any_pc_below_half_hp", party=None) is False

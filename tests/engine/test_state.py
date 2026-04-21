@@ -123,3 +123,123 @@ def test_state_manager_atomic_write(tmp_path):
 def test_state_manager_no_session_returns_none(tmp_path):
     sm = StateManager(state_dir=tmp_path)
     assert sm.read_session() is None
+
+
+# ---------------------------------------------------------------------------
+# New fields: route, party_slug
+# ---------------------------------------------------------------------------
+
+def test_session_state_route_defaults_to_none():
+    data = {"adventure": "t", "session": "S1", "dice_seed": "s",
+            "scene_index": 0, "scenes_completed": [], "pending_checkpoint": None}
+    ss = SessionState.from_dict(data)
+    assert ss.route is None
+
+
+def test_session_state_route_can_be_set():
+    data = {"adventure": "t", "session": "S1", "dice_seed": "s",
+            "scene_index": 0, "scenes_completed": [], "pending_checkpoint": None,
+            "route": "D"}
+    ss = SessionState.from_dict(data)
+    assert ss.route == "D"
+
+
+def test_session_state_party_slug_defaults():
+    data = {"adventure": "t", "session": "S1", "dice_seed": "s",
+            "scene_index": 0, "scenes_completed": [], "pending_checkpoint": None}
+    ss = SessionState.from_dict(data)
+    assert ss.party_slug == "compact-wardens"
+
+
+def test_session_state_party_slug_preserved():
+    data = {"adventure": "t", "session": "S1", "dice_seed": "s",
+            "scene_index": 0, "scenes_completed": [], "pending_checkpoint": None,
+            "party_slug": "varduin-muster"}
+    ss = SessionState.from_dict(data)
+    assert ss.party_slug == "varduin-muster"
+
+
+def test_session_state_to_dict_includes_route_and_party_slug():
+    data = {"adventure": "t", "session": "S1", "dice_seed": "s",
+            "scene_index": 0, "scenes_completed": [], "pending_checkpoint": None,
+            "route": "A", "party_slug": "compact-wardens"}
+    ss = SessionState.from_dict(data)
+    d = ss.to_dict()
+    assert d["route"] == "A"
+    assert d["party_slug"] == "compact-wardens"
+
+
+def test_state_manager_write_and_read_preserves_party_slug(tmp_path):
+    sm = StateManager(state_dir=tmp_path)
+    party_data = {"fighter": {"hp": 20, "hp_max": 20, "spell_slots": {}, "attunements": [],
+                               "lay_on_hands": 0, "concentration": None, "conditions": []}}
+    session_data = {"adventure": "test", "session": "S01", "dice_seed": "S01",
+                    "scene_index": 0, "scenes_completed": [], "pending_checkpoint": None,
+                    "party_slug": "compact-wardens"}
+    campaign_data = {"hints": {}, "campaign_permanent": []}
+    sm.write_session(
+        party=PartyState.from_dict(party_data),
+        session=SessionState.from_dict(session_data),
+        campaign=CampaignFacts.from_dict(campaign_data),
+    )
+    loaded = sm.read_session()
+    assert loaded["session"].party_slug == "compact-wardens"
+
+
+def test_state_manager_write_checkpoint_and_read(tmp_path):
+    sm = StateManager(state_dir=tmp_path)
+    payload = {"session": "S01", "beat_type": "read_aloud", "scene_id": 0}
+    sm.write_checkpoint(payload)
+    loaded = sm.read_checkpoint()
+    assert loaded["beat_type"] == "read_aloud"
+
+
+def test_state_manager_delete_checkpoint(tmp_path):
+    sm = StateManager(state_dir=tmp_path)
+    sm.write_checkpoint({"x": 1})
+    assert sm.checkpoint_path.exists()
+    sm.delete_checkpoint()
+    assert not sm.checkpoint_path.exists()
+
+
+def test_state_manager_delete_checkpoint_no_error_when_absent(tmp_path):
+    sm = StateManager(state_dir=tmp_path)
+    sm.delete_checkpoint()  # should not raise
+
+
+def test_state_manager_corrupted_session_raises(tmp_path):
+    (tmp_path / "session.json").write_text("NOT JSON", encoding="utf-8")
+    sm = StateManager(state_dir=tmp_path)
+    with pytest.raises(RuntimeError, match="corrupted"):
+        sm.read_session()
+
+
+def test_party_state_any_below_half_hp_true():
+    data = {
+        "a": {"hp": 5, "hp_max": 28, "spell_slots": {}, "attunements": [],
+              "lay_on_hands": 0, "concentration": None, "conditions": []},
+        "b": {"hp": 28, "hp_max": 28, "spell_slots": {}, "attunements": [],
+              "lay_on_hands": 0, "concentration": None, "conditions": []},
+    }
+    ps = PartyState.from_dict(data)
+    assert ps.any_below_half_hp() is True
+
+
+def test_party_state_any_below_half_hp_false_when_all_healthy():
+    data = {
+        "a": {"hp": 28, "hp_max": 28, "spell_slots": {}, "attunements": [],
+              "lay_on_hands": 0, "concentration": None, "conditions": []},
+    }
+    ps = PartyState.from_dict(data)
+    assert ps.any_below_half_hp() is False
+
+
+def test_party_state_slugs():
+    data = {
+        "thessaly": {"hp": 32, "hp_max": 32, "spell_slots": {}, "attunements": [],
+                     "lay_on_hands": 0, "concentration": None, "conditions": []},
+        "orik": {"hp": 52, "hp_max": 52, "spell_slots": {}, "attunements": [],
+                 "lay_on_hands": 0, "concentration": None, "conditions": []},
+    }
+    ps = PartyState.from_dict(data)
+    assert set(ps.slugs()) == {"thessaly", "orik"}

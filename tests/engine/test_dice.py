@@ -134,3 +134,58 @@ def test_roll_result_log_stub_defaults_to_none():
     r = d.roll("1d20")
     assert r.scene_id is None
     assert r.log_stub is None
+
+
+# ---------------------------------------------------------------------------
+# log_external_roll()
+# ---------------------------------------------------------------------------
+
+def test_log_external_roll_writes_to_jsonl(tmp_path):
+    import json
+    log_file = tmp_path / "dice_log.jsonl"
+    d = DiceEngine(seed="ext-test", log_path=log_file)
+    d.log_external_roll(
+        expression="1d20+3", rolls=[14], mod=3, total=17,
+        label="Orik menacing attack", scene_id=1, beat_index=0,
+    )
+    lines = log_file.read_text(encoding="utf-8").strip().split("\n")
+    assert len(lines) == 1
+    entry = json.loads(lines[0])
+    assert entry["total"] == 17
+    assert entry["rolls"] == [14]
+    assert entry["log_stub"] == "external:Orik menacing attack"
+    assert entry["seed_position"] is None
+
+
+def test_log_external_roll_no_log_path_no_crash():
+    d = DiceEngine(seed="no-log")
+    # Should not raise even without a log path
+    d.log_external_roll("1d20", [15], 3, 18, "test")
+
+
+def test_log_external_roll_does_not_advance_seed_position(tmp_path):
+    log_file = tmp_path / "dice_log.jsonl"
+    d = DiceEngine(seed="pos-test", log_path=log_file)
+    r1 = d.roll("1d20")
+    d.log_external_roll("1d20", [10], 0, 10, "external")
+    r2 = d.roll("1d20")
+    assert r2.seed_position == r1.seed_position + 1  # external didn't consume a position
+
+
+def test_log_external_roll_crit_detection(tmp_path):
+    import json
+    log_file = tmp_path / "dice_log.jsonl"
+    d = DiceEngine(seed="crit-ext", log_path=log_file)
+    d.log_external_roll("1d20+5", [20], 5, 25, "nat20 attack")
+    entry = json.loads(log_file.read_text(encoding="utf-8").strip())
+    assert entry["crit"] is True
+    assert entry["fumble"] is False
+
+
+def test_log_external_roll_fumble_detection(tmp_path):
+    import json
+    log_file = tmp_path / "dice_log.jsonl"
+    d = DiceEngine(seed="fumble-ext", log_path=log_file)
+    d.log_external_roll("1d20", [1], 0, 1, "nat1 attack")
+    entry = json.loads(log_file.read_text(encoding="utf-8").strip())
+    assert entry["fumble"] is True

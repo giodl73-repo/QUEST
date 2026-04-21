@@ -42,3 +42,39 @@ def test_cli_resume_no_checkpoint(tmp_path):
     )
     assert r.returncode == 1
     assert "No checkpoint found" in r.stdout
+
+
+def test_cli_set_route_no_session(tmp_path):
+    r = subprocess.run(
+        [sys.executable, "scripts/marathon.py", "set-route", "D"],
+        capture_output=True, text=True,
+        cwd=Path(__file__).parent.parent,
+        env={**__import__("os").environ, "PYTHONUTF8": "1",
+             "MARATHON_STATE_DIR": str(tmp_path)},
+    )
+    assert r.returncode == 1
+    assert "no active session" in r.stderr.lower()
+
+
+def test_cli_set_route_invalid_value(tmp_path):
+    r = subprocess.run(
+        [sys.executable, "scripts/marathon.py", "set-route", "X"],
+        capture_output=True, text=True,
+        cwd=Path(__file__).parent.parent,
+        env={**__import__("os").environ, "PYTHONUTF8": "1",
+             "MARATHON_STATE_DIR": str(tmp_path)},
+    )
+    # argparse should reject invalid choice before cmd_set_route runs
+    assert r.returncode != 0
+
+
+def test_cli_status_shows_event_log_when_empty(tmp_path):
+    r = subprocess.run(
+        [sys.executable, "scripts/marathon.py", "status"],
+        capture_output=True, text=True,
+        cwd=Path(__file__).parent.parent,
+        env={**__import__("os").environ, "PYTHONUTF8": "1",
+             "MARATHON_STATE_DIR": str(tmp_path)},
+    )
+    # No session exists — just check it doesn't crash
+    assert r.returncode == 0

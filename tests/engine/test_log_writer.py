@@ -120,3 +120,64 @@ def test_log_writer_has_extra_sections(tmp_path, session_data, party_data, dice_
     assert "Curse symptoms" in content
     assert "surprises" in content.lower() or "Surprises" in content
     assert "Open threads" in content
+
+
+# ---------------------------------------------------------------------------
+# Event log section in session log output
+# ---------------------------------------------------------------------------
+
+def test_log_writer_event_section_with_spells(tmp_path, session_data, party_data, dice_log):
+    from scripts.engine.event_log import EventLogger
+    event_log_path = tmp_path / "event_log.jsonl"
+    el = EventLogger(event_log_path)
+    el.log({"type": "spell_cast", "pc": "thessaly", "spell": "Counterspell",
+            "level": 3, "scene": 1, "context": "combat"})
+    el.log({"type": "spell_cast", "pc": "lenne", "spell": "Shield",
+            "level": 1, "scene": 2, "context": "combat"})
+    el.log({"type": "feature_used", "pc": "orik", "feature": "menacing_attack",
+            "scene": 1, "result": "frightened"})
+
+    lw = LogWriter("test-adventure", session_data, party_data, party_data,
+                   {}, dice_log, tmp_path, event_log_path=event_log_path)
+    out = lw.write()
+    content = out.read_text(encoding="utf-8")
+
+    assert "Mechanical events" in content
+    assert "Spells cast" in content
+    assert "Counterspell" in content
+    assert "Shield" in content
+    assert "Class features used" in content
+    assert "menacing_attack" in content
+
+
+def test_log_writer_event_section_with_near_death(tmp_path, session_data, party_data, dice_log):
+    from scripts.engine.event_log import EventLogger
+    event_log_path = tmp_path / "event_log.jsonl"
+    el = EventLogger(event_log_path)
+    el.log({"type": "near_death", "pc": "sera", "scene": 2,
+            "cause": "fireball", "stabilized_by": "calder"})
+
+    lw = LogWriter("test-adventure", session_data, party_data, party_data,
+                   {}, dice_log, tmp_path, event_log_path=event_log_path)
+    content = lw.write().read_text(encoding="utf-8")
+    assert "Near-death" in content
+    assert "sera" in content
+
+
+def test_log_writer_event_section_no_event_log(tmp_path, session_data, party_data, dice_log):
+    """When event_log_path is None, no Mechanical events section appears."""
+    lw = LogWriter("test-adventure", session_data, party_data, party_data,
+                   {}, dice_log, tmp_path, event_log_path=None)
+    content = lw.write().read_text(encoding="utf-8")
+    assert "Mechanical events" not in content
+
+
+def test_log_writer_event_section_empty_log_shows_hint(tmp_path, session_data, party_data, dice_log):
+    """Empty event log prompts the DM to include events in state_updates."""
+    event_log_path = tmp_path / "event_log.jsonl"
+    # Don't write any entries — file doesn't exist
+    lw = LogWriter("test-adventure", session_data, party_data, party_data,
+                   {}, dice_log, tmp_path, event_log_path=event_log_path)
+    content = lw.write().read_text(encoding="utf-8")
+    assert "Mechanical events" in content
+    assert "state_updates" in content  # the hint message
