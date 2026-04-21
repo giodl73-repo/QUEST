@@ -1,10 +1,10 @@
 ---
 name: playtest-rubric
 description: Versioned, forward-only session-quality rubric for the marathon playtest pipeline. Scores session logs on 8 dimensions, 0-10 each. Updates via innovation-amendment when 2+ innovations cluster in a dimension.
-version: v1.5
-status: ratified from C2-S02 Amendment Proposal H
+version: v1.6
+status: ratified from C2-S07 Amendment Proposal I
 created: 2026-04-18
-last-amended: 2026-04-20 (post-C2-S02)
+last-amended: 2026-04-21 (post-C2-S07 campaign retrospective)
 ---
 
 # Playtest Session Rubric
@@ -84,6 +84,8 @@ Each session log (finalized at LOG stage) is scored against this rubric by `sess
 
 > **v1.5 act-without-announcement anchor (new):** A score of 9+ additionally recognizes **cross-session behavioral consequence without announcement** — a PC acting differently in a later scene or session as a result of a prior naming event, without scene structure, dice, or declaration. The behavior is the completion; it does not require narration or confirmation from the PC or DM. A score of 10 requires at least one such act in the session. Rationale: Campaign 1 S07 (Thera's bread, cross-session consequence of naming Adda in S06) and Campaign 2 S01-S02 (Sera's hold-space acts — 3 consecutive instances of care expressed through attention withdrawal, never announced). Cross-campaign confirmation (Thera C1 + Sera C2) establishes this as universal. Constituent innovations: I-S07-02, I-C2-S01-02, I-C2-S02-04.
 
+> **v1.6 simultaneous-campaign-arc-convergence anchor (new):** A score of 10 additionally recognizes **simultaneous arc-convergence** — a moment when multiple outstanding PC and NPC arc-completions fire simultaneously because one naming act creates the conditions for all of them. This is distinct from a single arc-completion; it is a convergence. A score of 10 requires at least one such convergence OR at least one act-without-announcement (v1.5) OR at least one multi-scene silent-reception chain (v1.4) — these are three paths to the 10-band; any one suffices. Rationale: Campaign 1 S07 (all four hints simultaneously); Campaign 2 S04 (Calder names the plague village → inscription warms + Sevven names the Dalimvar numbers + Deva says "I still know the words" — four arc events simultaneously). Two cross-campaign instances. The mechanism: a moment of precise naming in the presence of the right witnesses triggers all outstanding arc-completions that were waiting for it. Constituent innovations: I-S07-04, I-C2-S04-01.
+
 ### 7. Surprise (0-10)
 **Question:** Did anything emergent happen that the DM, the players, or the module did not predict?
 
@@ -122,6 +124,7 @@ Do not score generously out of sympathy. Do not score harshly to seem rigorous. 
 | v1.3 | 2026-04-19 | **Module fidelity** — positional-redundancy anchor: anchor-level symptoms require at least 2 of 3 fallback paths (check+passive; multi-location placement; NPC-delivered recall). Adventures relying on single-location positional symptoms cap at 8. | Mod fid: I-S03-01, I-S03-04, I-S03-07. |
 | v1.4 | 2026-04-19 | **Mechanical fairness** — cross-character mechanical compound at 10 band: a PC's mechanic applied to another PC's roll/action, framed in-voice as character-action (e.g., Portent-as-benediction). **Atmospheric landing** — multi-scene silent-reception chain at 9+ band: PC holds un-articulated understanding across 3+ scenes and acts on it later. | Mech fair: I-S03-03, I-S04-01. Atmos: I-S04-02, I-S05-03. |
 | v1.5 | 2026-04-20 | **Atmospheric landing** — act-without-announcement anchor at 9+ band: cross-session behavioral consequence without announcement; a PC acting differently as result of a prior naming event, without scene structure or declaration. | Atmos: I-S07-02, I-C2-S01-02, I-C2-S02-04. |
+| v1.6 | 2026-04-21 | **Atmospheric landing** — simultaneous-campaign-arc-convergence as 10-band path: a naming act creates conditions for multiple outstanding arc-completions to fire simultaneously. Three paths to 10-band now: this, act-without-announcement (v1.5), or multi-scene silent-reception chain (v1.4). | Atmos: I-S07-04, I-C2-S04-01. |
 
 ## How Amendments Work
 

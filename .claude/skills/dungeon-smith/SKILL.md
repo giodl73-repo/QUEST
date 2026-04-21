@@ -111,6 +111,10 @@ Every NPC named in `premise.md` or in any room/treasure/encounter file MUST have
 
 **NPC arc-completion:** For any NPC with an emotional arc (grief, shame, longing, pride, rage), identify the specific thing they are capable of saying or doing that closes their arc. Write it under `## Arc-Completion` in their `npcs/<slug>.md`: the exact line or act, and the conditions under which it fires (what the party must have done or said; what scene structure must be present). This is designable — do not leave it to improvisation. When an NPC fires their arc-completion moment by character logic rather than DM scripting, it produces the highest-quality atmospheric landing in the session. See `skills/npc-architect/SKILL.md` for the full arc-completion design procedure.
 
+**NPC-as-information-holder:** Design some NPCs to hold intelligence rather than objects. They know something and will give the information when the party demonstrates they can use it correctly. Write a specific "information readiness condition" — not "if the party is trustworthy" but "what specific act demonstrates the party can receive this information correctly." *Example: Vorn Haleth knew a shard's location for 8 months and withheld it until she witnessed the party performing the accountability the compact requires.* Information-holder NPCs are distinct from artifact-holder NPCs; their arc-completion is a transfer of knowledge, not a transfer of an object.
+
+**Give the archivist something they cannot document.** If a PC on the party sheet has "systematic documentation" as their primary heuristic, design one scene per session that exceeds their current vocabulary — an experience they cannot categorize. The arc resolves across sessions as they find vocabulary. This produces a reliable 3-session character arc without any scripting: documentation-suspension → vocabulary found → forward-looking design.
+
 ### 8. Map ↔ rooms consistency check
 Before declaring done:
 - Every room number on the map has a corresponding `NN-<slug>.md` file.

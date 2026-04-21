@@ -80,7 +80,12 @@ Hints that must fire before the campaign can close (list only undelivered ones):
 Threads that cannot lapse (named facts or character states that future sessions must not contradict):
 - <thread>: <the fact that must remain honored>
 
-If all artifacts are resolved and all hints delivered: write "None — campaign obligations complete."
+**PC-authored deliverables in progress** (Campaign 2 addition — track these forward):
+- If any PC is composing, writing, or building something across sessions (a speech, a document, a sentence, a promise) that they have not yet delivered: name it here and its current stage.
+- *Example: "Thessaly is composing the compact's opening sentence. Stage: mentally designed (not written). Next session should provide vocabulary for her to commit it to paper."*
+- When the deliverable is spoken/completed for the first time, note it explicitly: **"Thessaly spoke the opening sentence — first time aloud. Campaign-permanent."**
+
+If all artifacts are resolved, all hints delivered, and all deliverables completed: write "None — campaign obligations complete."
 
 ## Open threads (for next session's DM)
 

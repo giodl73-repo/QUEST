@@ -124,11 +124,25 @@ If `npcs/<slug>.md` exists, write `npcs/<slug>.v2.md` and report.
 - [ ] At least one GM Note about what NOT to say prematurely.
 - [ ] If this NPC involves a rite/confession scene: DM-letter cross-reference included.
 
+## Arc-completion sub-types (Campaign 2 additions)
+
+Three distinct arc-completion structures emerged in Campaign 2. Design toward whichever fits the NPC:
+
+**Bilateral arc-completion:** The NPC's naming is enabled by a PC's naming. The PC must name something equivalent first; the NPC responds with their own naming. Neither naming was possible without the other. *Example: Sera named the settlement; Morreth named Ven. Thessaly named the Test wound; Vorn named the Crystalmir family.* Design: write the NPC's naming and the PC's naming as a pair — the PC's is the condition; the NPC's is the response. This structure produces the strongest atmospheric landing because both parties are witnessed.
+
+**Arc-completion-as-opening:** The NPC's arc-completion does not close their thread — it opens a new campaign thread. *Example: Lenne gave the Clause of Ambition and then asked to join the party.* Design: in the "what it produces" section, note whether the arc-completion is a closure or a pivot. If pivot: specify what new thread opens and what the party must be prepared to receive.
+
+**Arc-completion-as-faction-pivot:** The NPC's arc-completion changes the campaign's structural antagonist landscape, not just one NPC's thread. *Example: Mira Coldsteel stood her agents down permanently when the party explained Route D; the Unbound Conclave stopped being a direct threat.* Design: write the arc-completion condition to include "the party explains the structural fix, not just their immediate goal." The NPC is waiting to learn if the party understands the problem well enough to solve it.
+
+**NPC-as-information-holder (new pattern):** The NPC holds intelligence rather than an artifact. They know something and will give the information when the party demonstrates they can use it correctly. *Example: Vorn Haleth knew the Forgiveness shard location for eight months; she withheld it until she saw the party perform the reckoning the compact requires.* Design: write a specific "information readiness condition" — not just "if the party is trustworthy" but "what specific act demonstrates the party can receive this information correctly."
+
 ## What separates a good NPC-architect NPC from a generic one
 
 A generic NPC has: appearance, stat block, what they know, how they fight.
 
 An npc-architect NPC has all of that plus: **a specific sentence they haven't said yet, and the exact conditions under which they say it.** When they say it, the DM did not make them say it. The conditions did. That is the difference.
+
+Note whether the arc-completion closes the NPC's thread or opens a new one. Both are valid; only one needs to be prepared for.
 
 ## Anti-patterns
 
@@ -137,3 +151,4 @@ An npc-architect NPC has all of that plus: **a specific sentence they haven't sa
 - An arc-completion moment that is abstract ("she finally lets herself grieve") instead of physical/verbal ("she writes the name").
 - Behavior matrices that only describe success modes (no failure modes).
 - Forgetting to write what happens if the condition is never met.
+- Designing all arc-completions as closures without considering which NPCs should open new threads instead.
