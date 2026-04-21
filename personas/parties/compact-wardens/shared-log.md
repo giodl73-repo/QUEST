@@ -84,3 +84,16 @@ On the roof garden, Vorn said she had known where the Forgiveness shard was for 
 
 Five shards. Seventy-nine days.
 
+
+## S06 — 2026-04-20 — *The Forgiveness Key*
+
+Forty miles east of Palanthas, open farmland. Sera spotted the three agents from four hundred feet. They stepped from the treeline without hiding; they had been there four days. The coordinator said they knew the network had stood down and they hadn't. Thessaly invoked the same stand-down terms she had used at the White Quill entrance. Two agents lowered their weapons before she finished speaking. The coordinator asked what they had been doing it for. Calder answered: *"The right problem. The wrong method. The problem is still being solved. Come to Palanthas when the compact is spoken. Hear what it says."* She sheathed her sword: *"Fine."* 
+
+Pellan came out of his cottage and watched this happen. He said: *"That's the answer."* He went inside.
+
+In Thornmere: *"Yes. You're the ones."* He gave the shard without ceremony. Thessaly read the inscription: *"Let no covenant hold anger as its foundation."* She said: *"That's the point."* Orik checked the cottage doorframe. Calder noted, privately, that he has been thinking about the forty-one less. He did not say this aloud.
+
+In Pellan's garden, Calder asked about the tomatoes. Pellan said the plant needs to know what it is for. Calder said yes, thinking about the compact. Thessaly wrote the opening sentence of the new compact in the margin of the reconstruction document. She has been composing it for three sessions. She wrote it now and did not show it to anyone.
+
+Six shards. Seventy-six days.
+

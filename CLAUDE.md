@@ -232,6 +232,16 @@ Campaign-continuity is updated post-every-session in `HANDOFF-S{N}.md` and aggre
 - **Convergence: 79 days.**
 - **Party XP: 1,612 each.**
 
+### Campaign-permanent facts (C2-S06 — 2026-04-20)
+
+- **Clause of Forgiveness recovered** — Thessaly, unattuned. Six shards total.
+- **Last splinter cell stood down** — Calder answered the coordinator's question. She will come to hear the compact. Unbound Conclave field network fully inactive.
+- **Thessaly wrote the compact opening sentence** — In reconstruction document margin. Not shared yet. Campaign-permanent: the new compact has a first sentence.
+- **Six shards all with Thessaly, all unattuned.**
+- **Witness-list complete:** Mira, Deva, Vorn, Sevven (letter), Morreth (chapel record), Coordinator (Calder's invitation).
+- **Convergence: 76 days.**
+- **Party XP: 1,812 each.**
+
 ### Updates
 
 Campaign 2 continuity is updated post-every-session in `HANDOFF-S{N}.md` and aggregated here. If any DM narration contradicts a campaign-permanent fact, the fact wins.

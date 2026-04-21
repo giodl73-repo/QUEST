@@ -1,8 +1,7 @@
-{"type": "feature_used", "pc": "orik", "feature": "inside_curve_check", "scene": 0, "result": "building_reads_merchant_house_converted_staff_security_trained_not_armed"}
-{"type": "social_roll", "pc": "thessaly", "skill": "arcana", "dc": 0, "roll": 0, "outcome": "hint_4_auto", "scene": 1, "context": "Hint 4 delivered \u00e2\u20ac\u201d compact intent panel visible from doorway, auto-delivered"}
-{"type": "feature_used", "pc": "lenne", "feature": "research_methodology_recognition", "scene": 1, "result": "vorn_identified_as_methodological_peer"}
-{"type": "feature_used", "pc": "sera", "feature": "perimeter_assessment", "scene": 1, "result": "4_exits_2_observed_2_unobserved"}
-{"type": "social_roll", "pc": "thessaly", "skill": "persuasion", "dc": 0, "roll": 0, "outcome": "arc_completion_route_d", "scene": 3, "context": "Named Test wound to Vorn \u00e2\u20ac\u201d the spell, Mira's diminished ability, unexamined not contained"}
-{"type": "feature_used", "pc": "orik", "feature": "inside_curve_check", "scene": 3, "result": "doorframe_true_craft_witness_x4"}
-{"type": "feature_used", "pc": "lenne", "feature": "compact_language_design", "scene": 4, "result": "accountability_clause_drafting_begun_with_vorn"}
-{"type": "feature_used", "pc": "calder", "feature": "witness_list_accounting", "scene": 4, "result": "mira_deva_vorn_sevven_morreth_named"}
+{"type": "social_roll", "pc": "thessaly", "skill": "persuasion", "dc": 12, "roll": 18, "outcome": "success", "scene": 0, "context": "Splinter cell stand-down \u00e2\u20ac\u201d invoked Mira's stand-down; coordinator's question answered by Calder"}
+{"type": "social_roll", "pc": "calder", "skill": "persuasion", "dc": 10, "roll": 16, "outcome": "success", "scene": 0, "context": "Answered coordinator's 'what was it for' \u00e2\u20ac\u201d right problem, wrong method; come hear the compact"}
+{"type": "feature_used", "pc": "sera", "feature": "perimeter_assessment", "scene": 0, "result": "agents_spotted_400ft_party_had_surprise"}
+{"type": "feature_used", "pc": "orik", "feature": "inside_curve_check", "scene": 1, "result": "cottage_doorframe_true_craft_witness_x5"}
+{"type": "feature_used", "pc": "calder", "feature": "grief_weight_assessment", "scene": 1, "result": "41_thoughts_less_frequent_noting_the_change"}
+{"type": "feature_used", "pc": "thessaly", "feature": "compact_opening_sentence_drafted", "scene": 3, "result": "written_in_margin_of_reconstruction_doc_not_shared"}
+{"type": "feature_used", "pc": "lenne", "feature": "notebook_resource_estimation", "scene": 3, "result": "17_pages_remain_12_needed_accurate_estimate"}
