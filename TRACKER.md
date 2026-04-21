@@ -15,6 +15,7 @@ Last updated: 2026-04-20 by `session-handoff` (C2-S02).
 | S07 | 0007-the-silver-ingot-confession | varduin-muster | 2026-04-20 | **78** | **76.0** | **PASS (ties campaign high; Route D; all 4 hints; 100% manifest; CAMPAIGN COMPLETE)** |
 | **C2-S01** | **0008-the-first-clause** | **compact-wardens** | **2026-04-20** | **72** | **—** | **ADVISORY (C2 opens; 100% manifest; Hint 1 delivered S01; Route D; 0 dice)** |
 | **C2-S02** | **0009-the-ambitious-mages-vault** | **compact-wardens** | **2026-04-20** | **77** | **—** | **ADVISORY (Orik arc-completion; Hint 2 delivered; Lenne joins; Route D; 11 dice; v1.5 ratified)** |
+| **C2-S03** | **0010-the-grief-inscription** | **compact-wardens** | **2026-04-20** | **78** | **—** | **ADVISORY final (bilateral arc-completion Sera+Morreth; Mira faction-pivot; Route D; 0 combat dice; 100% manifest x4)** |
 
 ## Adventures
 
@@ -29,13 +30,14 @@ Last updated: 2026-04-20 by `session-handoff` (C2-S02).
 | 0007-the-silver-ingot-confession | **played, compiled** | P0-revised | S07 | Campaign position 7/7 Moon-Silver Cycle. Emotion: Shame. Spotlight: Grom. **Gate 78/80 (ties campaign high); panel 76.0/80. Route D (Religion 23). All 4 hints simultaneous. Pride-Circlet destroyed same forge same dawn. Ingot placed in sixth vault-space. CAMPAIGN COMPLETE.** |
 | 0008-the-first-clause | **played, compiled** | P0-revised | C2-S01 | Campaign 2 position 1/7 Conclave Compact. Emotion: Suspicion. Spotlight: Thessaly. **Gate 72/80 ADVISORY. Route D. 100% manifest delivery. Hint 1 delivered Session 1. Tessamine arc-completion fired. Thessaly named wound. 0 dice.** |
 | 0009-the-ambitious-mages-vault | **played, compiled** | post-P0-review | C2-S02 | Campaign 2 position 2/7 Conclave Compact. Emotion: Ambition. Spotlight: Orik. **Gate 77/80 ADVISORY. Route D. 100% manifest (4/4). Hint 2 delivered. Orik arc-completion. Lenne joins party. 11 dice.** |
+| 0010-the-grief-inscription | **played, compiled** | post-P0-review | C2-S03 | Campaign 2 position 3/7 Conclave Compact. Emotion: Grief. Spotlight: Sera. **Gate 78/80 ADVISORY (final). Route D. 100% manifest (4/4). Bilateral arc-completion Sera+Morreth. Mira faction-pivot. 0 combat dice.** |
 
 ## Parties
 
 | Slug | Members | Status | Sessions played | Notes |
 |---|---|---|---|---|
 | varduin-muster | Aelric of Crownhold · Thera Hillfoot · Kessa Moonweave · Grom Ironhand | **CAMPAIGN COMPLETE** | 7 | **Post-S07, at L4 (XP 3,925 each).** Aelric: Varran-reliquary attuned (held without opening at S07 finale). Kessa: Vethrenn's book LEFT in Vaenshold archive (not carried); Portent [4] never deployed. Grom: Silver-Ingot Confession performed; ingot in sixth vault-space. Thera: cut bread long-ways (road home from S07). **Moon-Silver Cycle complete.** |
-| compact-wardens | Thessaly · Orik · Sera · Calder · **Lenne** (joined S02) | **active** | 2 | **Post-C2-S02, L5 (XP 712 each).** Thessaly: 2 shards (unattuned) + reconstruction doc + convergence date. Orik: named the hall; carries Clause of Ambition. Sera: act-without-announcement ×3. Calder: reads endings. Lenne: 8yr research data + moon-calendar copy. Convergence: 88 days. |
+| compact-wardens | Thessaly · Orik · Sera · Calder · Lenne | **active** | 3 | **Post-C2-S03, L5 (XP 1,012 each).** Thessaly: 3 shards (all unattuned) + reconstruction doc. Orik: craft-witness confirmed. Sera: named settlement; carries Grief shard. Calder: chapel promise. Lenne: relived Volenn's death; didn't document. Convergence: 83 days. |
 
 ## Parties (historical note)
 
@@ -58,7 +60,7 @@ Last updated: 2026-04-20 by `session-handoff` (C2-S02).
 
 | Status | Count |
 |---|---:|
-| Logged | **50** (7+10+7+5+6+3+4 + 3 C2-S01 + 4 C2-S02) |
+| Logged | **54** (7+10+7+5+6+3+4 + 3 C2-S01 + 4 C2-S02 + 4 C2-S03) |
 | **Adopted** | **12** (5 v1.1 + 4 v1.2 + 3 v1.3 Proposal E) |
 | Proposed (v1.4 candidates; ratified) | 7 (Proposals F + G + Option-A-sufficient pattern) |
 | Reviewed — not adopted | 0 |

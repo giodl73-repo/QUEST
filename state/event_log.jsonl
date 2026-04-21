@@ -1,0 +1,7 @@
+{"type": "social_roll", "pc": "thessaly", "skill": "persuasion", "dc": 0, "roll": 0, "outcome": "success_roleplay", "scene": 0, "context": "Route D explanation to Mira Coldsteel \u00e2\u20ac\u201d no roll needed, explanation was specific"}
+{"type": "social_roll", "pc": "thessaly", "skill": "persuasion", "dc": 10, "roll": 18, "outcome": "success", "scene": 1, "context": "Explaining compact to Morreth \u00e2\u20ac\u201d he invites party inside; shortcut activated"}
+{"type": "saving_throw", "pc": "lenne", "save": "wisdom", "dc": 14, "roll": 3, "outcome": "fail", "effect": "relived_volenn_death_stunned_1_round", "scene": 2, "source": "clause_of_grief_1min_hold"}
+{"type": "condition_applied", "pc": "lenne", "condition": "stunned", "source": "clause_of_grief", "scene": 2, "duration": "1_round"}
+{"type": "condition_cleared", "pc": "lenne", "condition": "stunned", "scene": 2}
+{"type": "saving_throw", "pc": "sera", "save": "wisdom", "dc": 0, "roll": 0, "outcome": "route_d_gift", "effect": "saw_settlement_safe_not_relived_loss", "scene": 3, "source": "clause_of_grief_route_d"}
+{"type": "feature_used", "pc": "orik", "feature": "inside_curve_check", "scene": 3, "result": "frame_true_craft_witness_fires"}
