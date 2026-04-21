@@ -200,6 +200,16 @@ Campaign-continuity is updated post-every-session in `HANDOFF-S{N}.md` and aggre
 - **Sera** — **Named the settlement (S03). Saw them safe.** Carries Clause of Grief (unattuned). act-without-announcement confirmed: 5 C2 instances.
 - **Calder** — Named the chapel promise at the doorway (S03): *"The chapel will be in the witness-list. That was a promise."* Campaign-permanent.
 
+### Campaign-permanent facts (C2-S04 — 2026-04-20)
+
+- **Clause of Defiance recovered** — Session 4. Route D. Hint 3 delivered. Calder named the plague village. Thessaly carries it (unattuned). Four shards total.
+- **Hint 3 delivered** — *"What any mortal swore, any mortal may unsay. This was always true."* The new compact can incorporate Sylaren's amendment. It does not need to restore the original verbatim.
+- **Route D prerequisites: 4/4 confirmed** — Hints 1+2+3 delivered; bilateral arc-completion (Sera+Morreth S03); Mira as compact witness; three Orders assembled.
+- **The Dalimvar protocol** — specific instrument: Healing Tier protocol, PC 199-onwards, still operating 300yr later when Calder arrived three days late. The protocol killed forty-one people. The compact allowed it. The new compact must not.
+- **Splinter cell intel** — 3 cells; Palanthas contact (name unknown). The splinter faction operates outside Mira's authority. This is the 0012 antagonist.
+- **79 days to convergence** (from S04).
+- **Party XP: 1,312 each.**
+
 ### Campaign-permanent facts (C2-S03 — 2026-04-20)
 
 - **Clause of Grief recovered** — Route D. Bilateral arc-completion: Sera named the settlement; Morreth named Ven. Route D gift delivered (Sera saw settlement intact). Sera carries it (unattuned).
