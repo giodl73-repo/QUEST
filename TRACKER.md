@@ -16,7 +16,8 @@ Last updated: 2026-04-20 by `session-handoff` (C2-S02).
 | **C2-S01** | **0008-the-first-clause** | **compact-wardens** | **2026-04-20** | **72** | **—** | **ADVISORY (C2 opens; 100% manifest; Hint 1 delivered S01; Route D; 0 dice)** |
 | **C2-S02** | **0009-the-ambitious-mages-vault** | **compact-wardens** | **2026-04-20** | **77** | **—** | **ADVISORY (Orik arc-completion; Hint 2 delivered; Lenne joins; Route D; 11 dice; v1.5 ratified)** |
 | **C2-S03** | **0010-the-grief-inscription** | **compact-wardens** | **2026-04-20** | **78** | **—** | **ADVISORY final (bilateral arc-completion Sera+Morreth; Mira faction-pivot; Route D; 0 combat dice; 100% manifest x4)** |
-| **C2-S04** | **0011-the-defiant-word** | **compact-wardens** | **2026-04-20** | **76** | **—** | **PASS +20 (first binding; Hint 3; Calder names village; 4 simultaneous arc-completions; Route D; 100% manifest x5)** |
+| **C2-S04** | **0011-the-defiant-word** | **compact-wardens** | **2026-04-20** | **76** | **—** | **PASS +20 (first binding; Hint 3; Calder names village; 4 simultaneous arc-completions; Route D; 100% manifest x5)** | 
+| **C2-S05** | **0012-the-reckoning-stone** | **compact-wardens** | **2026-04-20** | **77** | **—** | **PASS +21 (Hint 4 auto S01; bilateral arc-completion Thessaly+Vorn; Vorn joins; 5 shards; 100% manifest x6)** |
 
 ## Adventures
 

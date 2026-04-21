@@ -924,3 +924,42 @@ Five instances across both sessions. Already addressed by the proposed v1.1 → 
 - `simultaneous-campaign-arc-convergence`: 2 instances. Amendment candidate.
 - `cross-session-pattern-tracking` (Sera): 1 instance. New behavior. Watch.
 
+
+---
+
+## C2-S05 Innovations — *The Reckoning Stone* (2026-04-20)
+
+### I-C2-S05-01 — Bilateral arc-completion confirmed as campaign structure
+
+**Dimension:** Atmospheric Landing / Character Agency
+**Scene:** 04 (Vorn's Study)
+**What happened:** Thessaly named the Test wound; Vorn named the Crystalmir family. Second bilateral arc-completion (S03: Sera → Morreth; S05: Thessaly → Vorn). Two adventures, two bilateral namings. Each time: one PC's naming enabled one NPC's naming.
+**Why it matters:** Bilateral arc-completion is confirmed as a campaign structure. The pattern is designable (npc-architect condition: "a PC names something equivalent first") and recurring.
+**Status:** LOGGED. bilateral-arc-completion: 2 instances. Campaign structure confirmed.
+
+### I-C2-S05-02 — Lenne's practitioner-recognition cascade (third consecutive session)
+
+**Dimension:** Atmospheric Landing / Character Agency
+**What happened:** Lenne identified Vorn as a methodological peer from how she engaged with research. Third consecutive session: Mira (S03, by school from posture), Deva (S04, by text-handling), Vorn (S05, by research methodology). She reads practitioners the way she reads objects — by their relationship to their material.
+**Status:** LOGGED. sheet-deep-reader sub-type: practitioner-by-material-relationship.
+
+### I-C2-S05-03 — Calder named the witness-list unprompted
+
+**Dimension:** Character Agency
+**What happened:** Calder named the witness-list — Mira, Deva, Vorn, Sevven, Morreth's chapel — without being asked. He was making sure the campaign's promises were accounted for. Decision-order: "what is the weight of this?" applied to the full campaign's commitment structure.
+**Status:** LOGGED. sheet-deep-reader commitment-accounting sub-type candidate.
+
+### I-C2-S05-04 — Lenne drafted compact language on the roof
+
+**Dimension:** Character Agency / Surprise
+**What happened:** Lenne began drafting accountability clause language with Vorn during the aftermath scene — uninvited, without asking, because she has the vocabulary and the right collaborator. documentation-suspension resolved (S03) → empty page filled (S04) → designing forward-looking documents (S05). Three-session character arc.
+**Status:** LOGGED. Character arc milestone: documentation practice transformed.
+
+---
+
+### Player-style count update (post-C2-S05)
+
+- `sheet-deep-reader`: +4 = **21 total C2 instances across 5 sessions.**
+- `craft-witness`: +1 (Orik building-assessment) = **4 C2 instances; session-invariant.**
+- `act-without-announcement`: +1 (Sera perimeter) = **7 C2 instances; 8 cross-campaign.**
+- `bilateral-arc-completion`: 2 instances. Campaign structure confirmed.
