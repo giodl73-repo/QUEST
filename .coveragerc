@@ -1,0 +1,7 @@
+[run]
+source = scripts
+
+[report]
+omit =
+    scripts/run_beats.py
+show_missing = true

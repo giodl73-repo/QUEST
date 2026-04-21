@@ -66,7 +66,7 @@ def test_validate_inbound_unknown_pc_raises(emitter):
         "state_updates": {"pella": {"hp": 5}},
         "advance_to_scene": 4,
     }
-    with pytest.raises(ValidationError, match="unknown PC"):
+    with pytest.raises(ValidationError, match="unknown key"):
         emitter.validate_inbound(raw, current_scene_index=3)
 
 
@@ -102,10 +102,63 @@ def test_validate_inbound_above_max_scene_raises(emitter):
 
 
 def test_validate_inbound_non_mutable_field_not_in_scope():
-    # This is tested in integration — just confirm validate_inbound itself
-    # passes non-mutable field through (filtering happens in marathon.py)
     from scripts.engine.emitter import Emitter, InboundPacket
     e = Emitter(state_dir=__import__("pathlib").Path("/tmp"), party_slugs=["aelric"])
     raw = {"narrative": "X", "state_updates": {"aelric": {"hp_max": 999}}, "advance_to_scene": 1}
     packet = e.validate_inbound(raw, current_scene_index=0)
-    assert packet.state_updates["aelric"]["hp_max"] == 999  # validation passes; filtering in CLI
+    assert packet.state_updates["aelric"]["hp_max"] == 999
+
+
+def test_validate_inbound_events_key_accepted(emitter):
+    raw = {
+        "narrative": "Lenne casts Shield.",
+        "state_updates": {"events": [
+            {"type": "spell_cast", "pc": "lenne", "spell": "Shield", "level": 1, "scene": 2}
+        ]},
+        "advance_to_scene": 3,
+    }
+    packet = emitter.validate_inbound(raw, current_scene_index=2)
+    assert "events" in packet.state_updates
+    assert packet.state_updates["events"][0]["spell"] == "Shield"
+
+
+def test_validate_inbound_route_key_accepted(emitter):
+    raw = {"narrative": "Done.", "state_updates": {"route": "D"}, "advance_to_scene": 1}
+    packet = emitter.validate_inbound(raw, current_scene_index=0)
+    assert packet.state_updates["route"] == "D"
+
+
+def test_emitter_read_checkpoint_returns_none_when_absent(tmp_path):
+    from scripts.engine.emitter import Emitter
+    e = Emitter(state_dir=tmp_path, party_slugs=[])
+    assert e.read_checkpoint() is None
+
+
+def test_emitter_read_checkpoint_returns_dict_when_present(emitter, tmp_path):
+    packet = emitter.build_outbound(
+        session="S01", scene_id=0, scene_name="Test", beat_type="read_aloud",
+        state_snapshot={}, dice_results=[], resolved_mechanics={},
+        decision_point={}, context={}, scene_narrative_so_far=[],
+    )
+    emitter.write_checkpoint(packet)
+    loaded = emitter.read_checkpoint()
+    assert loaded is not None
+    assert loaded["session"] == "S01"
+
+
+def test_emitter_delete_checkpoint_removes_file(emitter, tmp_path):
+    packet = emitter.build_outbound(
+        session="S01", scene_id=0, scene_name="T", beat_type="read_aloud",
+        state_snapshot={}, dice_results=[], resolved_mechanics={},
+        decision_point={}, context={}, scene_narrative_so_far=[],
+    )
+    emitter.write_checkpoint(packet)
+    assert (tmp_path / "checkpoint.json").exists()
+    emitter.delete_checkpoint()
+    assert not (tmp_path / "checkpoint.json").exists()
+
+
+def test_emitter_delete_checkpoint_no_error_when_absent(tmp_path):
+    from scripts.engine.emitter import Emitter
+    e = Emitter(state_dir=tmp_path, party_slugs=[])
+    e.delete_checkpoint()  # should not raise
