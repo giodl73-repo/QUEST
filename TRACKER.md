@@ -1,6 +1,6 @@
 # Marathon Tracker
 
-Last updated: 2026-04-20 by `session-handoff` (C2-S02).
+Last updated: 2026-04-21 by campaign-retrospective (Campaign 2 complete).
 
 ## Sessions
 

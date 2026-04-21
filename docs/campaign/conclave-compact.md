@@ -1,9 +1,10 @@
 ---
 campaign: conclave-compact
 party: compact-wardens
-status: active
+status: concluded
 created: 2026-04-20
-last-updated: 2026-04-20
+last-updated: 2026-04-21
+concluded: 2026-04-21
 design-spec: docs/specs/2026-04-20-conclave-compact-design.md
 ---
 
