@@ -2,6 +2,7 @@ from __future__ import annotations
 import json
 from pathlib import Path
 from datetime import date
+from scripts.engine.event_log import EventLogger
 
 
 class LogWriter:
@@ -14,11 +15,12 @@ class LogWriter:
         narratives: dict[str, str],
         dice_log_path: Path,
         output_dir: Path,
-        party_slug: str = "varduin-muster",
+        party_slug: str = "compact-wardens",
         duration: str = "",
         outcome: str = "",
-        rubric_version: str = "v1.3",
+        rubric_version: str = "v1.5",
         innovations_flagged: list[str] | None = None,
+        event_log_path: Path | None = None,
     ) -> None:
         self._slug = adventure_slug
         self._session = session
@@ -32,6 +34,7 @@ class LogWriter:
         self._outcome = outcome
         self._rubric_version = rubric_version
         self._innovations = innovations_flagged or []
+        self._event_log_path = event_log_path
 
     def _load_dice_log(self) -> list[dict]:
         if not self._dice_log_path.exists():
@@ -107,6 +110,57 @@ class LogWriter:
 
         lines += ["## Curse symptoms landed", "", "(none recorded)", ""]
         lines += ["## Player-style surprises", "", "(none recorded)", ""]
+
+        # Event log summary
+        if self._event_log_path:
+            el = EventLogger(self._event_log_path)
+            spells = el.spells_table()
+            features = el.features_table()
+            near_deaths = el.near_death_events()
+            summary = el.summary()
+
+            lines += ["## Mechanical events", ""]
+            if summary:
+                lines += ["### By type", ""]
+                lines += ["| Type | Count |", "|---|---:|"]
+                for etype, count in sorted(summary.items()):
+                    lines.append(f"| {etype} | {count} |")
+                lines.append("")
+
+            if spells:
+                lines += ["### Spells cast", ""]
+                lines += ["| PC | Spell | Level | Scene | Context |", "|---|---|---|---|---|"]
+                for s in spells:
+                    pc = s.get("pc", "?")
+                    spell = s.get("spell", "?")
+                    level = s.get("level", "?")
+                    scene = s.get("scene", "?")
+                    ctx = s.get("context", "—")
+                    lines.append(f"| {pc} | {spell} | {level} | {scene} | {ctx} |")
+                lines.append("")
+
+            if features:
+                lines += ["### Class features used", ""]
+                lines += ["| PC | Feature | Scene | Result |", "|---|---|---|---|"]
+                for f in features:
+                    pc = f.get("pc", "?")
+                    feat = f.get("feature", "?")
+                    scene = f.get("scene", "?")
+                    result = f.get("result", "—")
+                    lines.append(f"| {pc} | {feat} | {scene} | {result} |")
+                lines.append("")
+
+            if near_deaths:
+                lines += ["### Near-death events", ""]
+                for nd in near_deaths:
+                    pc = nd.get("pc", "?")
+                    cause = nd.get("cause", "?")
+                    scene = nd.get("scene", "?")
+                    lines.append(f"- **{pc}** at scene {scene}: {cause}")
+                lines.append("")
+            elif not summary:
+                lines += ["*(no events logged — include `events` in state_updates)*", ""]
+
         lines += ["## Open threads for next session", "", "(none recorded)", ""]
 
         output = self._output_dir / f"{session_name}-log.md"

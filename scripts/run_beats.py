@@ -26,7 +26,8 @@ session = loaded["session"]
 campaign = loaded["campaign"]
 
 adventure = load_adventure(Path(f"adventures/{session.adventure}/module.md"))
-pcs = load_party(Path("personas/parties/varduin-muster"))
+party_slug = getattr(session, "party_slug", "compact-wardens")
+pcs = load_party(Path(f"personas/parties/{party_slug}"))
 
 dice = DiceEngine(seed=session.dice_seed, log_path=state_dir / "dice_log.jsonl")
 heuristics = Heuristics(pcs)

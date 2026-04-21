@@ -89,7 +89,7 @@ class Emitter:
             )
 
         updates = raw.get("state_updates", {})
-        valid_keys = self._party_slugs | {"hints", "route", "external_rolls"}
+        valid_keys = self._party_slugs | {"hints", "route", "external_rolls", "events"}
         for key in updates:
             if key not in valid_keys:
                 raise ValidationError(
