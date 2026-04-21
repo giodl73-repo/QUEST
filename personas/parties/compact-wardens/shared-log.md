@@ -97,3 +97,26 @@ In Pellan's garden, Calder asked about the tomatoes. Pellan said the plant needs
 
 Six shards. Seventy-six days.
 
+
+## S07 — 2026-04-20 — *The New Covenant*
+
+Dawn at the Istar waterline. The three moons were full simultaneously for the first time since the Cataclysm. The Conclave Neutralists were waiting — two mages and a fighter who believed the compact's speaking would legitimize the Orders incorrectly. Lenne Counterspelled the Web and then the Fireball. Orik went through the center, Calder dropped Bless, Thessaly held against Hold Person. Three rounds. The Neutralists retreated.
+
+Thessaly had attuned the Witness shard on the voyage. She hadn't announced this. Sera had attuned the Grief shard. She had received a stranger's grief in the night and noted she didn't mind.
+
+The descent. Pre-Cataclysm stairs, dry during the convergence. Orik checked them. Sound. He was first down.
+
+In the outer chamber: the witnesses assembled. Mira Coldsteel, Deva, Vorn Haleth, the coordinator who had kept her word. Lenne and Vorn confirmed the accountability language one final time. Calder said his morning prayer in the ruins of the Tower of High Sorcery, to a goddess who departed three centuries ago, because someone should.
+
+In the inner vault: six indentations in a circle. A seventh, empty, at the center.
+
+Thessaly read the opening sentence she had been composing for three sessions. *"We speak this not to bind the Orders to each other but to bind each Order to the people who live beneath the consequences of what the Orders do, and to bind the right of those people to hold the Orders accountable for those consequences."* The witnesses had not heard it before. Neither had anyone.
+
+Six clauses. One per PC. Thessaly (Witness). Orik (Ambition — he held the shard a moment longer when it vibrated; he put it down). Sera (Grief — room temperature; she read it; enough). Calder (Defiance — with Sylaren's full amendment incorporated as the clause's completion: *"what any mortal swore, any mortal may unsay; this was always true"*). Lenne (Reckoning — with three sentences of accountability language: who the Orders answer to, how, and when). All five together: Forgiveness.
+
+The seventh space filled with the quality of stillness that had been missing from this room for three hundred years.
+
+Mira Coldsteel said: *"It's done."*
+
+Orik checked the first stair step on the way up.
+

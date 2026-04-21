@@ -17,6 +17,7 @@ Last updated: 2026-04-20 by `session-handoff` (C2-S02).
 | **C2-S02** | **0009-the-ambitious-mages-vault** | **compact-wardens** | **2026-04-20** | **77** | **—** | **ADVISORY (Orik arc-completion; Hint 2 delivered; Lenne joins; Route D; 11 dice; v1.5 ratified)** |
 | **C2-S03** | **0010-the-grief-inscription** | **compact-wardens** | **2026-04-20** | **78** | **—** | **ADVISORY final (bilateral arc-completion Sera+Morreth; Mira faction-pivot; Route D; 0 combat dice; 100% manifest x4)** |
 | **C2-S04** | **0011-the-defiant-word** | **compact-wardens** | **2026-04-20** | **76** | **—** | **PASS +20 (first binding; Hint 3; Calder names village; 4 simultaneous arc-completions; Route D; 100% manifest x5)** | 
+| **C2-S07** | **0014-the-new-covenant** | **compact-wardens** | **2026-04-20** | **79** | **—** | **PASS +23 (CAMPAIGN COMPLETE; compact spoken; Route D; 100% manifest x7; Thessaly opening sentence)** |
 | **C2-S06** | **0013-the-forgiveness-key** | **compact-wardens** | **2026-04-20** | **75** | **—** | **PASS +19 (six shards; last splinter cell stood down; compact opening sentence written; Route D; 100% manifest x7)** |
 | **C2-S05** | **0012-the-reckoning-stone** | **compact-wardens** | **2026-04-20** | **77** | **—** | **PASS +21 (Hint 4 auto S01; bilateral arc-completion Thessaly+Vorn; Vorn joins; 5 shards; 100% manifest x6)** |
 
@@ -41,7 +42,7 @@ Last updated: 2026-04-20 by `session-handoff` (C2-S02).
 | Slug | Members | Status | Sessions played | Notes |
 |---|---|---|---|---|
 | varduin-muster | Aelric of Crownhold · Thera Hillfoot · Kessa Moonweave · Grom Ironhand | **CAMPAIGN COMPLETE** | 7 | **Post-S07, at L4 (XP 3,925 each).** Aelric: Varran-reliquary attuned (held without opening at S07 finale). Kessa: Vethrenn's book LEFT in Vaenshold archive (not carried); Portent [4] never deployed. Grom: Silver-Ingot Confession performed; ingot in sixth vault-space. Thera: cut bread long-ways (road home from S07). **Moon-Silver Cycle complete.** |
-| compact-wardens | Thessaly · Orik · Sera · Calder · Lenne | **active** | 4 | **Post-C2-S04, L5 (XP 1,312 each).** Thessaly: 4 shards (all unattuned). Orik: craft-witness session-invariant (x3). Sera: carries Grief; accumulating carved-figure pattern. Calder: named village; returned the note. Lenne: documentation resolved. Convergence: 79 days. Route D: 4/4. |
+| compact-wardens | Thessaly · Orik · Sera · Calder · Lenne | **active** | 4 | **Post-C2-S04, L5 (XP 1,312 each).** Thessaly: 4 shards (all unattuned). Orik: craft-witness session-invariant (x3). Sera: carries Grief; accumulating carved-figure pattern. Calder: named village; returned the note. Lenne: documentation resolved. CAMPAIGN COMPLETE. Compact spoken. 2,312 XP each. |
 
 ## Parties (historical note)
 
@@ -64,7 +65,7 @@ Last updated: 2026-04-20 by `session-handoff` (C2-S02).
 
 | Status | Count |
 |---|---:|
-| Logged | **58** (7+10+7+5+6+3+4 + 3 C2-S01 + 4 C2-S02 + 4 C2-S03 + 4 C2-S04) |
+| Logged | **80+** (7+10+7+5+6+3+4 + 3 C2-S01 + 4 C2-S02 + 4 C2-S03 + 4 C2-S04) |
 | **Adopted** | **12** (5 v1.1 + 4 v1.2 + 3 v1.3 Proposal E) |
 | Proposed (v1.4 candidates; ratified) | 7 (Proposals F + G + Option-A-sufficient pattern) |
 | Reviewed — not adopted | 0 |

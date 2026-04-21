@@ -997,3 +997,45 @@ Five instances across both sessions. Already addressed by the proposed v1.1 → 
 - `sheet-deep-reader`: +4 = **25 total C2 instances across 6 sessions.**
 - `craft-witness`: +1 = **5 C2 instances; session-invariant.** Fires every session without exception.
 - `act-without-announcement`: +2 = **9 C2 instances; 10 cross-campaign.**
+
+---
+
+## C2-S07 Innovations — *The New Covenant* (2026-04-20) — CAMPAIGN COMPLETE
+
+### I-C2-S07-01 — Thessaly's opening sentence (act-without-announcement peak of campaign)
+
+**Dimension:** Character Agency / Atmospheric Landing
+**What happened:** Thessaly spoke the opening sentence of the new compact for the first time — composed across three sessions, written silently in a margin, never shared. *"We speak this not to bind the Orders to each other but to bind each Order to the people who live beneath the consequences of what the Orders do."* It said exactly what twelve years of Vorn's research concluded, in one sentence, in Thessaly's register.
+**Why it matters:** The opening sentence is the campaign's most consequential act-without-announcement. She composed it in S04 (mental design), committed to it in S05 (still not writing), wrote it silently in S06 (written, not shown), and spoke it in S07 (first time aloud). Four sessions of preparation without announcement, culminating in the compact's opening words.
+**Status:** LOGGED. Campaign-complete act-without-announcement.
+
+### I-C2-S07-02 — Calder incorporated Sylaren's amendment as clause completion
+
+**Dimension:** Character Agency / Atmospheric Landing
+**What happened:** Calder spoke the Defiance clause and then, as part of the clause — not as a footnote — spoke Sylaren's full amendment: *"And as Sylaren wrote, twelve years after she swore it: what any mortal swore, any mortal may unsay. This was always true."* He understood that the amendment was not separate from the clause. It was the clause's completion. Hint 3's promise honored in the speaking.
+**Status:** LOGGED. Hint delivery honored in the finale speaking.
+
+### I-C2-S07-03 — craft-witness x6: finale craft-witness
+
+**Dimension:** Atmospheric Landing
+**What happened:** Orik checked the stairs on the way down AND the first step on the way up as the water rose. Sixth consecutive session. Final craft-witness of the campaign. He is still the hall-guard in the ruins of Istar as the convergence window closes. He always will be.
+**Status:** LOGGED. craft-witness: session-invariant across all seven sessions of campaign 2. One per session. Never missed.
+
+### I-C2-S07-04 — Mira's "It's done"
+
+**Dimension:** Atmospheric Landing / NPC arc-completion
+**What happened:** Mira Coldsteel, who has not spoken during the compact speaking, said: *"It's done."* Twelve years of research, operational work, and waiting for the compact to be fixed — received. She said it the way you say the thing you have been waiting to say. It is a statement, not a celebration.
+**Status:** LOGGED. NPC arc-completion finale: Mira receives what she has been working toward.
+
+---
+
+### Campaign 2 final tallies
+
+- `sheet-deep-reader`: +4 (S07) = **29 total C2 instances across 7 sessions.**
+- `craft-witness`: +1 (Orik stairs) = **6 C2 instances; session-invariant; never missed a session.**
+- `act-without-announcement`: +2 (Thessaly attunement; opening sentence is its peak) = **11 C2 instances; 12 cross-campaign.**
+- `bilateral-arc-completion`: 2 instances (S03, S05). Campaign structure confirmed.
+- `NPC-arc-completion`: 5+ instances (C2). Campaign complete.
+
+**Campaign 2 innovation total: 22 (3+4+4+4+4+3+4 across S01-S07).**
+**Cross-campaign innovation total: 80+ (22 C2 + 58+ C1).**
