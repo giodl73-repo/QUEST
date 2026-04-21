@@ -764,3 +764,54 @@ Five instances across both sessions. Already addressed by the proposed v1.1 → 
 - `NPC-arc-completion`: 1 instance (Henneth). Campaign 2 total: 1.
 - `NPC-self-naming` (new sub-type candidate): 1 instance.
 
+---
+
+## C2-S02 Innovations — *The Ambitious Mage's Vault* (2026-04-20)
+
+### I-C2-S02-01 — grief-paragraph-dialogue confirmed cross-campaign (3rd instance)
+
+**Dimension:** Character Agency / Atmospheric Landing
+**Scene:** 03 (Research Floor)
+**What happened:** Orik named the hall — grief-paragraph content surfaced as artifact explanation: *"The shard vibrates for me because I'm still trying to prove it was worth going."* He understood the Clause of Ambition's mechanism by reading his own grief-paragraph, without prompting, and delivered it as spoken dialogue. Third instance of grief-paragraph-dialogue across 2 campaigns (Thera C1-S06, Thessaly C2-S01, Orik C2-S02). Three different PCs; three different grief-paragraphs; same pattern.
+**Why it matters:** Three instances across 2 campaigns = cluster-threshold met. grief-paragraph-dialogue is now a confirmed sheet-deep-reader sub-type. Formalized in `personas/player-styles/sheet-deep-reader.md`. The structural invitation pattern is confirmed: an artifact/NPC/place that mirrors the grief creates the opening; the dialogue comes from the sheet.
+**Status:** LOGGED. **sheet-deep-reader sub-type: grief-paragraph-dialogue — CONFIRMED. See sheet-deep-reader.md.**
+
+### I-C2-S02-02 — craft-witness from hall-guard (first non-craft-priest instance)
+
+**Dimension:** Atmospheric Landing
+**Scene:** 04 (Old Study)
+**What happened:** Orik touched the doorframe after receiving the shard — inside-curve structural assessment from eight years of hall-guarding. His hand went to the frame before he thought about it: load-bearing quality, settlement, wear. He was reading the tower the way he reads every structure he guards. The touch produced atmospheric reception: eight years of one person maintaining this space; the frame is true.
+**Why it matters:** craft-witness has previously required a designated craft-ritual (Grom's hearth-greeting). This is the first instance from a secular professional practice — a hall-guard's habitual structural attention. If Orik fires again in S03 or S04, craft-witness is confirmed as ritual-practice-as-antenna, not religious-class-as-antenna. That changes the style's applicability significantly.
+**Status:** LOGGED. craft-witness candidate, non-craft-priest. Watch for repeat before formalizing.
+
+### I-C2-S02-03 — act-without-announcement confirmed (3 instances in 2 sessions, Sera)
+
+**Dimension:** Atmospheric Landing / Character Agency
+**Scene:** 03 and 05
+**What happened:** Sera held space for Orik's arc-completion (Scene 03, parapet) and for Lenne's unfinished sentence (Scene 05, roof). Third and fourth consecutive instances of Sera expressing care through attention withdrawal — not announced, not explained, just done. Cross-campaign total now 4 (Thera C1-S07 + Sera C2-S01 + Sera C2-S02 ×2).
+**Why it matters:** Amendment v1.5 ratified from this pattern. Atmospheric Landing 9+ band now anchors on act-without-announcement. The amendment was proposed after C2-S01 (2 cross-campaign instances); C2-S02 confirms it was the right threshold to fire on. Ratified.
+**Status:** LOGGED. **Amendment v1.5 constituent. Ratified.**
+
+### I-C2-S02-04 — arc-completion-as-opening (Lenne joining party)
+
+**Dimension:** Character Agency / Surprise
+**Scene:** 05 (Tower Roof)
+**What happened:** Lenne's arc-completion fired in Scene 03 (gave the shard freely). Scene 05: she asked to join the party. The arc-completion did not close her NPC thread — it opened a new campaign thread (fifth party member; eight years of compact research; knowledge of Volenn's methods). First instance of an arc-completion producing a forward thread rather than a closure.
+**Why it matters:** npc-architect skill designs arc-completions as closure moments ("what happens if the condition is never met"). Lenne demonstrates that arc-completion can be a pivot — the NPC reorients toward the work rather than away from it. npc-architect should be updated to flag when an NPC's arc-completion is likely to open rather than close, so the DM is prepared for the forward thread.
+**Status:** LOGGED. npc-architect skill update recommended.
+
+---
+
+### Dimension-trigger check (post-C2-S02)
+
+- **Atmospheric Landing:** I-C2-S02-01, I-C2-S02-02, I-C2-S02-03 — three new instances. Act-without-announcement amendment v1.5 ratified. craft-witness non-craft-priest candidate logged.
+- **Character Agency / Surprise:** I-C2-S02-04 — arc-completion-as-opening. New pattern, 1 instance.
+
+### Player-style count update (post-C2-S02)
+
+- `sheet-deep-reader`: +4 (I-C2-S02-01 Orik grief-paragraph-dialogue; Lenne pattern-recognition; Calder dying-man's-to-do; Orik room-reading) = **8 total C2 instances across 2 sessions.** grief-paragraph-dialogue sub-type confirmed (3 cross-campaign).
+- `craft-witness`: +1 (I-C2-S02-02 Orik doorframe) = **1 C2 instance.** Non-craft-priest candidate. Watch for repeat before promoting.
+- `act-without-announcement`: +2 (I-C2-S02-03 Sera ×2) = **3 C2 instances; 4 cross-campaign.** Amendment v1.5 ratified.
+- `NPC-arc-completion`: +1 (Lenne S02) = **2 C2 instances** (Henneth S01 + Lenne S02). 1 more for cluster promotion.
+- `arc-completion-as-opening`: 1 instance. Watch.
+

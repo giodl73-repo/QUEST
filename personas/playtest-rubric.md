@@ -1,10 +1,10 @@
 ---
 name: playtest-rubric
 description: Versioned, forward-only session-quality rubric for the marathon playtest pipeline. Scores session logs on 8 dimensions, 0-10 each. Updates via innovation-amendment when 2+ innovations cluster in a dimension.
-version: v1.4
-status: ratified from S05 Amendment Proposals F + G
+version: v1.5
+status: ratified from C2-S02 Amendment Proposal H
 created: 2026-04-18
-last-amended: 2026-04-19 (post-S05)
+last-amended: 2026-04-20 (post-C2-S02)
 ---
 
 # Playtest Session Rubric
@@ -82,6 +82,8 @@ Each session log (finalized at LOG stage) is scored against this rubric by `sess
 
 > **v1.4 multi-scene silent-reception chain anchor (new):** A score of 9+ additionally recognizes **sustained silent-reception chains** where a PC holds an un-articulated understanding across multiple scenes and acts on it in a later scene. The non-articulated understanding counts as campaign-permanent reception upon first-scene receipt AND drives action in subsequent scenes. A score of 10 requires at least one such chain. Rationale: S04 documented Grom's Hint 3 (Reorx's Judgment) received silently at Scene 3's rite; self-check articulation failed; silent reception persisted through Scenes 4-5; Grom invoked Reorx-exile at Scene 6 from the silent understanding without ever speaking it. Campaign-scale silent-reception (3 scenes) is a distinct achievement beyond single-scene silent reception captured in v1.2.
 
+> **v1.5 act-without-announcement anchor (new):** A score of 9+ additionally recognizes **cross-session behavioral consequence without announcement** — a PC acting differently in a later scene or session as a result of a prior naming event, without scene structure, dice, or declaration. The behavior is the completion; it does not require narration or confirmation from the PC or DM. A score of 10 requires at least one such act in the session. Rationale: Campaign 1 S07 (Thera's bread, cross-session consequence of naming Adda in S06) and Campaign 2 S01-S02 (Sera's hold-space acts — 3 consecutive instances of care expressed through attention withdrawal, never announced). Cross-campaign confirmation (Thera C1 + Sera C2) establishes this as universal. Constituent innovations: I-S07-02, I-C2-S01-02, I-C2-S02-04.
+
 ### 7. Surprise (0-10)
 **Question:** Did anything emergent happen that the DM, the players, or the module did not predict?
 
@@ -119,6 +121,7 @@ Do not score generously out of sympathy. Do not score harshly to seem rigorous. 
 | v1.2 | 2026-04-19 | **Module fidelity** — anchor-level passive-Perception fallback (DC = active+2) + recovery-path for post-session re-discovery (9+ and 10 bands). **Atmospheric landing** — finder-vs-receiver two-column tracking + silent-reception recognition (7+ band). | Mod fid: I-S01-03, I-S02-02, I-S02-03, I-S02-06. Atmos: I-S02-01, I-S02-07, I-S02-08. |
 | v1.3 | 2026-04-19 | **Module fidelity** — positional-redundancy anchor: anchor-level symptoms require at least 2 of 3 fallback paths (check+passive; multi-location placement; NPC-delivered recall). Adventures relying on single-location positional symptoms cap at 8. | Mod fid: I-S03-01, I-S03-04, I-S03-07. |
 | v1.4 | 2026-04-19 | **Mechanical fairness** — cross-character mechanical compound at 10 band: a PC's mechanic applied to another PC's roll/action, framed in-voice as character-action (e.g., Portent-as-benediction). **Atmospheric landing** — multi-scene silent-reception chain at 9+ band: PC holds un-articulated understanding across 3+ scenes and acts on it later. | Mech fair: I-S03-03, I-S04-01. Atmos: I-S04-02, I-S05-03. |
+| v1.5 | 2026-04-20 | **Atmospheric landing** — act-without-announcement anchor at 9+ band: cross-session behavioral consequence without announcement; a PC acting differently as result of a prior naming event, without scene structure or declaration. | Atmos: I-S07-02, I-C2-S01-02, I-C2-S02-04. |
 
 ## How Amendments Work
 

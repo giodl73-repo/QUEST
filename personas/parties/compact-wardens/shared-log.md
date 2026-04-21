@@ -21,3 +21,19 @@ At Tessamine's archive on the return, Tessamine asked Thessaly what the inscript
 The session used zero dice. The party walked in with credentials, told the truth, and the adventure opened.
 
 ---
+
+## S02 — 2026-04-20 — *The Ambitious Mage's Vault*
+
+Two Unbound Conclave agents waited on the Kharolis foothills road, one mile from the tower. Osvin called out — last chance, give them the shard, this ends clean. The party declined. Sera had CRIT initiative; she fired twice in the first round, Orik's Menacing Attack frightened Osvin to 8 HP in the same exchange, and Osvin called retreat before the second round finished. The hired crossbowman threw down his weapon immediately. No one was hurt.
+
+Lenne Stormwatch had watched from the tower's narrow window. She came down when they knocked. She said: *"You're not Unbound Conclave."* She was right. They weren't.
+
+On the research floor: 327 trial entries, a padded cradle, a shard that vibrated in her hand every time she picked it up. She showed them. Orik read the room — the standing desk, the bedroll in the corner, the storage crates with a four-month gap in deliveries, the failed experiments kept in order on the shelf. He knew what he was looking at. He told her about the hall, the oil, the fire, the seven apprentices. *"The shard vibrates for me because I'm still trying to prove it was worth going."* He put it down. She went still. Then she picked it up, said it had been eight years and she thought it was a power source, and handed it to him. The vibration stopped before it left her palm.
+
+Volenn's old study: a moon-calendar on the south wall. Triple convergence — all three moons full simultaneously, first occurrence since the Cataclysm — circled in red ink. Three months. Thessaly copied the annotation word for word. The clock is now running.
+
+On the roof, watching the empty road, Lenne said she hadn't been to the Korrath market in four months. Then she said Volenn had died seven years and nine months before the convergence. Then: *"How many shards do you have?"* Two. Five more. *"I want to come with you."*
+
+Thessaly said they'd talk about it. She meant yes.
+
+---
