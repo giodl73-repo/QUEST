@@ -867,5 +867,60 @@ Five instances across both sessions. Already addressed by the proposed v1.1 → 
 - `NPC-arc-completion`: +2 (Morreth bilateral S03; Mira faction-pivot S03) = **4 C2 instances.** Cluster promotion threshold met. Promote.
 - `bilateral-arc-completion`: 1 instance. New sub-type of NPC-arc-completion.
 - `arc-completion-as-faction-pivot`: 1 instance. Second form of arc-completion-as-opening.
-- `documentation-suspension`: 1 instance (Lenne). sheet-deep-reader sub-type candidate.
+- `documentation-suspension`: 1 instance (Lenne S03). sheet-deep-reader sub-type candidate.
+
+---
+
+## C2-S04 Innovations — *The Defiant Word* (2026-04-20)
+
+### I-C2-S04-01 — Simultaneous multi-arc-completion (second instance)
+
+**Dimension:** Atmospheric Landing / Surprise
+**Scene:** 04 (Deep Archive)
+**What happened:** Four arc-completions fired simultaneously — Calder named the plague village (PC arc-completion); the second inscription warmed (artifact response); Sevven named the Dalimvar numbers (NPC arc-completion); Deva said *"I still know the words"* (NPC arc-completion). Same structure as campaign 1 S07 (all four hints simultaneously delivered).
+**Why it matters:** Second instance of simultaneous-campaign-arc-convergence (I-S07-04 was the first). Pattern confirmed as not campaign-1-specific. The mechanism: a moment of precise naming in the presence of the right witnesses triggers all outstanding arc-completions that were waiting for it. The convergence is structural, not scripted.
+**Status:** LOGGED. **simultaneous-campaign-arc-convergence: 2 instances across 2 campaigns. Amendment candidate for Atmospheric Landing 10-band.**
+
+### I-C2-S04-02 — Sera's cross-adventure pattern-accumulation (perimeter-reader becomes pattern-tracker)
+
+**Dimension:** Atmospheric Landing / Character Agency
+**Scene:** 04 (Deep Archive)
+**What happened:** Sera noticed the carved figure in the display case (Sylaren's, facing outward, from the ruins of Istar) and recognized it had the same placement as Morreth's carved figure in the chapel gap (S03). Two adventures apart. She said nothing about either instance.
+**Why it matters:** Perimeter-reading (Sera's established mode) applied to meaning-patterns across sessions. She is accumulating the shape of a pattern she has not yet named. sheet-deep-reader / craft-witness hybrid: the perimeter-reader becomes a pattern-tracker. This is a new behavior not captured by either existing style.
+**Status:** LOGGED. New behavior: cross-session pattern-tracking without announcement. Watch for what she does with the pattern when she names it.
+
+### I-C2-S04-03 — craft-witness confirmed universal: three consecutive sessions
+
+**Dimension:** Atmospheric Landing
+**Scene:** 01 (Entrance)
+**What happened:** Orik checked the tunnel hatch inside-curve on the way in. Third consecutive session with an inside-curve or structural assessment producing atmospheric reception (S02: Volenn's doorframe; S03: Morreth's sanctuary doorframe; S04: tunnel hatch). The pattern fires regardless of the emotional weight of the surrounding scene.
+**Why it matters:** Three consecutive sessions confirms craft-witness as a fully integrated behavior for Orik, not a periodic firing. The secular professional practice (hall-guard structural assessment) produces consistent atmospheric reception across all session types: highly emotional (S03 bilateral arc-completion), combat-adjacent (S04 entrance), and social-heavy (S02 research tower). **craft-witness is confirmed as session-invariant for Orik.** Update craft-witness.md to reflect secular-professional as the primary trigger, not craft-priest ritual.
+**Status:** LOGGED. **craft-witness: session-invariant confirmed. Three consecutive sessions. Update craft-witness.md.**
+
+### I-C2-S04-04 — archivist-closure confirmed cross-campaign (second instance)
+
+**Dimension:** Character Agency / Atmospheric Landing
+**Scene:** 05 (Sevven's Study)
+**What happened:** Calder read Sylaren's personal note and returned it to Sevven. He did not keep it. Second instance of archivist-closure across two campaigns (Kessa C1-S07 left Vethrenn's commonplace book in the workshop archive; Calder C2-S04 returned Sylaren's note to the personal correspondence).
+**Why it matters:** archivist-closure (sheet-deep-reader sub-type: the PC receives the accumulated knowledge and places it rather than carrying it) has now fired with two different PCs in two different campaigns with two different grief-relationships. The pattern is not character-specific or campaign-specific. It is a mode of closure that emerges when a PC who accumulates evidence encounters something that belongs in a permanent repository. **Confirm as sheet-deep-reader sub-type.**
+**Status:** LOGGED. **archivist-closure: 2 instances across 2 campaigns. Sub-type confirmed. Update sheet-deep-reader.md.**
+
+---
+
+### Dimension-trigger check (post-C2-S04)
+
+- **Atmospheric Landing:** I-C2-S04-01, I-C2-S04-02, I-C2-S04-03, I-C2-S04-04 — four new instances.
+- **simultaneous-campaign-arc-convergence:** 2 instances (C1-S07 + C2-S04). **Amendment candidate: Atmospheric Landing 10-band should recognize simultaneous arc-convergence as a distinct peak.**
+- **archivist-closure:** 2 cross-campaign instances. Sub-type confirmed; update sheet-deep-reader.md.
+- **craft-witness session-invariant:** 3 consecutive sessions for Orik. Update craft-witness.md definition.
+
+### Player-style count update (post-C2-S04)
+
+- `sheet-deep-reader`: +4 (Thessaly names splinter cell; Lenne reads Deva; Calder names village; Calder returns note) = **17 total C2 instances across 4 sessions.**
+- `craft-witness`: +1 (Orik hatch S04) = **3 C2 instances; session-invariant confirmed for Orik.**
+- `act-without-announcement`: +1 (Sera air-shaft S04) = **6 C2 instances.**
+- `NPC-arc-completion` (cluster promotion reached S03): **4 C2 instances confirmed.** Formally promote.
+- `archivist-closure`: 2 cross-campaign instances. Sub-type confirmed.
+- `simultaneous-campaign-arc-convergence`: 2 instances. Amendment candidate.
+- `cross-session-pattern-tracking` (Sera): 1 instance. New behavior. Watch.
 

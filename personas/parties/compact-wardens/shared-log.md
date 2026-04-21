@@ -55,3 +55,19 @@ Calder named the chapel promise at the doorway. Lenne opened her notebook and di
 Three shards. Eighty-three days.
 
 ---
+
+## S04 — 2026-04-20 — *The Defiant Word*
+
+Two agents at the hidden entrance, searching for a latch they didn't know how to find. Thessaly told them the main faction had stood down. They confirmed they were operating independently — three cells, a Palanthas contact whose name they didn't know — and left without a fight. Orik checked the tunnel hatch inside-curve on the way in: true, annual maintenance, three hundred years.
+
+Underground: Sevven read the party at a glance and said they had two Orders and needed a third. Lenne read Deva as Black Robe trained from how she handled the texts — *"Abjuration school reads differently. You handle them like someone taught to think defensively."* Deva confirmed four years. Thessaly asked formally. Deva said yes. Three Orders assembled. Sevven led them to the deep archive.
+
+In the archive, Sevven gave the shard to Calder. He said: *"Read both sides."* Calder read the front inscription. Sevven guided him to the reverse: *"What any mortal swore, any mortal may unsay. This was always true."*
+
+Calder named the plague village. Not the grief — the accounting. Forty-one dead. Seventeen surviving. The Healing Tier protocol. *"I was the delayed response."* The second inscription warmed — same quality as the first shard's brightening. Sevven named the Dalimvar protocol: seven hundred dead, PC 203, the only dissenting vote, nine years of watching, and the protocol ran for three hundred more years. Deva, from the third corner: *"I still know the words.*"
+
+In Sevven's study, Calder read Sylaren's personal note — *"it was the protocol, not you"* — and gave it back. He received it and returned it to the archive where it belonged. Lenne filled the empty notebook page she hadn't been able to fill since Morreth's chapel. Thessaly said: *"Seventy-nine days."*
+
+Four shards. Route D confirmed. Seventy-nine days.
+
+---

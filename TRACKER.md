@@ -16,6 +16,7 @@ Last updated: 2026-04-20 by `session-handoff` (C2-S02).
 | **C2-S01** | **0008-the-first-clause** | **compact-wardens** | **2026-04-20** | **72** | **—** | **ADVISORY (C2 opens; 100% manifest; Hint 1 delivered S01; Route D; 0 dice)** |
 | **C2-S02** | **0009-the-ambitious-mages-vault** | **compact-wardens** | **2026-04-20** | **77** | **—** | **ADVISORY (Orik arc-completion; Hint 2 delivered; Lenne joins; Route D; 11 dice; v1.5 ratified)** |
 | **C2-S03** | **0010-the-grief-inscription** | **compact-wardens** | **2026-04-20** | **78** | **—** | **ADVISORY final (bilateral arc-completion Sera+Morreth; Mira faction-pivot; Route D; 0 combat dice; 100% manifest x4)** |
+| **C2-S04** | **0011-the-defiant-word** | **compact-wardens** | **2026-04-20** | **76** | **—** | **PASS +20 (first binding; Hint 3; Calder names village; 4 simultaneous arc-completions; Route D; 100% manifest x5)** |
 
 ## Adventures
 
@@ -31,13 +32,14 @@ Last updated: 2026-04-20 by `session-handoff` (C2-S02).
 | 0008-the-first-clause | **played, compiled** | P0-revised | C2-S01 | Campaign 2 position 1/7 Conclave Compact. Emotion: Suspicion. Spotlight: Thessaly. **Gate 72/80 ADVISORY. Route D. 100% manifest delivery. Hint 1 delivered Session 1. Tessamine arc-completion fired. Thessaly named wound. 0 dice.** |
 | 0009-the-ambitious-mages-vault | **played, compiled** | post-P0-review | C2-S02 | Campaign 2 position 2/7 Conclave Compact. Emotion: Ambition. Spotlight: Orik. **Gate 77/80 ADVISORY. Route D. 100% manifest (4/4). Hint 2 delivered. Orik arc-completion. Lenne joins party. 11 dice.** |
 | 0010-the-grief-inscription | **played, compiled** | post-P0-review | C2-S03 | Campaign 2 position 3/7 Conclave Compact. Emotion: Grief. Spotlight: Sera. **Gate 78/80 ADVISORY (final). Route D. 100% manifest (4/4). Bilateral arc-completion Sera+Morreth. Mira faction-pivot. 0 combat dice.** |
+| 0011-the-defiant-word | **played, compiled** | post-P0-review | C2-S04 | Campaign 2 position 4/7 Conclave Compact. Emotion: Defiance. Spotlight: Calder. **Gate 76/80 PASS (first binding). Route D. 100% manifest (4/4). Hint 3 delivered. Calder named the plague village. 4 simultaneous arc-completions. 0 combat dice.** |
 
 ## Parties
 
 | Slug | Members | Status | Sessions played | Notes |
 |---|---|---|---|---|
 | varduin-muster | Aelric of Crownhold · Thera Hillfoot · Kessa Moonweave · Grom Ironhand | **CAMPAIGN COMPLETE** | 7 | **Post-S07, at L4 (XP 3,925 each).** Aelric: Varran-reliquary attuned (held without opening at S07 finale). Kessa: Vethrenn's book LEFT in Vaenshold archive (not carried); Portent [4] never deployed. Grom: Silver-Ingot Confession performed; ingot in sixth vault-space. Thera: cut bread long-ways (road home from S07). **Moon-Silver Cycle complete.** |
-| compact-wardens | Thessaly · Orik · Sera · Calder · Lenne | **active** | 3 | **Post-C2-S03, L5 (XP 1,012 each).** Thessaly: 3 shards (all unattuned) + reconstruction doc. Orik: craft-witness confirmed. Sera: named settlement; carries Grief shard. Calder: chapel promise. Lenne: relived Volenn's death; didn't document. Convergence: 83 days. |
+| compact-wardens | Thessaly · Orik · Sera · Calder · Lenne | **active** | 4 | **Post-C2-S04, L5 (XP 1,312 each).** Thessaly: 4 shards (all unattuned). Orik: craft-witness session-invariant (x3). Sera: carries Grief; accumulating carved-figure pattern. Calder: named village; returned the note. Lenne: documentation resolved. Convergence: 79 days. Route D: 4/4. |
 
 ## Parties (historical note)
 
@@ -60,7 +62,7 @@ Last updated: 2026-04-20 by `session-handoff` (C2-S02).
 
 | Status | Count |
 |---|---:|
-| Logged | **54** (7+10+7+5+6+3+4 + 3 C2-S01 + 4 C2-S02 + 4 C2-S03) |
+| Logged | **58** (7+10+7+5+6+3+4 + 3 C2-S01 + 4 C2-S02 + 4 C2-S03 + 4 C2-S04) |
 | **Adopted** | **12** (5 v1.1 + 4 v1.2 + 3 v1.3 Proposal E) |
 | Proposed (v1.4 candidates; ratified) | 7 (Proposals F + G + Option-A-sufficient pattern) |
 | Reviewed — not adopted | 0 |
