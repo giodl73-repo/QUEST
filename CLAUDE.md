@@ -160,7 +160,47 @@ Facts established in played sessions become **campaign-permanent** and constrain
 
 Campaign-continuity is updated post-every-session in `HANDOFF-S{N}.md` and aggregated here. If any DM narration contradicts a campaign-permanent fact, the fact wins.
 
-Campaign-continuity is updated post-every-session in `HANDOFF-S{N}.md` and aggregated here. If any DM narration contradicts a campaign-permanent fact, the fact wins.
+---
+
+## Campaign 2 — The Conclave Compact
+
+**Party:** compact-wardens (Thessaly Nightmantle, Orik Flintback, Sera Ashfall, Calder of the Third Road; Lenne Stormwatch joined C2-S02)
+**Campaign:** 7 adventures (0008–0014), conclave-compact spine.
+**Central question:** *When a covenant breaks, who bears the cost of mending it?*
+**Convergence deadline:** Triple-moon convergence in 88 days from C2-S02 (shortening each session). The compact must be spoken whole during this window or the next opportunity is three centuries away.
+
+### Campaign-permanent facts (C2-S01 — 2026-04-20)
+
+- **Clause of Witness recovered** — Korrath-by-the-Sea, Merchant Henneth's collection. Route A (honest explanation + Tessamine's letter). No combat. Thessaly carries it (unattuned).
+- **Hint 1 delivered** — Thessaly read the inscription (*"Let no mortal act without witness"*); it brightened; she said *"This is the first clause."* Unprompted. Session 1.
+- **Tessamine arc-completion fired** — compact's purpose spoken: *"The compact was not written to bind the Orders. It was written to bind the Orders to the people who live under the sky they argue about."* Reconstruction document (7 clauses, some incomplete) given to Thessaly.
+- **Thessaly named her wound (first time)** — *"I cast a spell at my Test that I was not supposed to cast. It cost someone something I can't give back."* Spoken to Tessamine. Session 1, Scene 06.
+- **Unbound Conclave courier active in Korrath** — spotted by Sera (passive 16). She saw the party leave with the shard.
+- **Route D prerequisite 1/4 confirmed** — Hint 1 delivered + wound named + compact's purpose received.
+- **Party XP: 300 each. Purse: 190 gp.**
+
+### Campaign-permanent facts (C2-S02 — 2026-04-20)
+
+- **Clause of Ambition recovered** — Volenn's Tower, Kharolis foothills, from Lenne Stormwatch. Route D. Orik named the hall, the oil, the fire, the seven apprentices: *"The shard vibrates for me because I'm still trying to prove it was worth going."* Vibration stopped before the shard left Lenne's palm. Orik carries it (unattuned).
+- **Hint 2 delivered** — Triple-moon convergence in 88 days (from C2-S02). Volenn's moon-calendar annotation: *"First occurrence since the Cataclysm. If the clauses were written to align with this event — the compact can only be spoken whole when the sky is right."* Thessaly copied it verbatim. The party has a hard deadline.
+- **Lenne Stormwatch joined the party** — Volenn's successor; 8 years of compact research data; Volenn's moon-calendar copy. She asked to join because Volenn was supposed to be at the convergence. She is his closest equivalent still living. Full PC sheet at `personas/parties/compact-wardens/lenne-stormwatch.md`.
+- **Route D prerequisites: 2/4 confirmed** — Hint 1 (C2-S01) + Hint 2 (C2-S02).
+- **Unbound Conclave agents (Osvin + Quiet One)** — fled Kharolis road ambush at 8 HP. Regrouping with mage-agent Mira Coldsteel. Will appear in adventure 0010.
+- **Rubric v1.5 ratified** — act-without-announcement anchor (Atmospheric Landing 9+ band). Sera hold-space ×3 in 2 sessions confirmed pattern.
+- **grief-paragraph-dialogue confirmed** as sheet-deep-reader sub-type — 3 cross-campaign instances.
+- **Party XP: 712 each. Purse: 190 gp. Party of 5.**
+
+### Campaign-permanent party state (post-C2-S02)
+
+- **Thessaly** — carries Clause of Witness (unattuned) + Clause of Ambition (unattuned) + reconstruction document + convergence date (85 days and closing). Named her wound C2-S01. Does not yet know if she will attune.
+- **Orik** — named the hall C2-S02. Carries the Clause of Ambition (unattuned). craft-witness candidate (doorframe inside-curve check C2-S02). His grief is named; not yet resolved.
+- **Sera** — three consecutive hold-space acts in two sessions (act-without-announcement confirmed). Spotted Unbound Conclave courier C2-S01. Has not yet named the settlement.
+- **Calder** — reads endings. Has not said what he thinks about Tessamine's timeline or Volenn's note. Full resources both sessions.
+- **Lenne** — joined C2-S02. 8yr compact research; moon-calendar copy; Arcane Ward (22 HP); Projected Ward reaction. Relived Volenn's death when she held the Clause of Grief for >1 minute (C2-S03 — see below). Her grief: Volenn died 8 months before the convergence he spent 40 years tracking.
+
+### Updates
+
+Campaign 2 continuity is updated post-every-session in `HANDOFF-S{N}.md` and aggregated here. If any DM narration contradicts a campaign-permanent fact, the fact wins.
 
 ## Canon Policy
 
