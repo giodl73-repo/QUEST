@@ -71,3 +71,16 @@ In Sevven's study, Calder read Sylaren's personal note — *"it was the protocol
 Four shards. Route D confirmed. Seventy-nine days.
 
 ---
+
+## S05 — 2026-04-20 — *The Reckoning Stone*
+
+Vorn Haleth received them as expected. She had been expecting them for weeks — she told her staff to receive the compact-wardens when they arrived. Orik read the building at a glance. The staff member at the desk was security-trained; he said nothing.
+
+In the public research room, Hint 4 was on the east wall. It had been there for three years. The twelve-year summary panel read: *"The compact was a protection mechanism, not a governance framework."* Thessaly stopped in the doorway and read it. Lenne recognized Vorn as a methodological peer and said so. Vorn asked how the party had done the same work in less time. Lenne: *"I had better equipment."*
+
+In Vorn's study, with the Clause of Reckoning visible through the glass case, Vorn asked whether the party understood what the reckoning requires — not of the Orders, but of them. Thessaly answered honestly. The spell at the Test. Her sister Mira, who doesn't know. She said it because the question deserved an honest answer. Vorn went still. Then she named the Crystalmir family her researcher had frightened two months ago. She opened the case. She gave Thessaly the shard. *"This clause is for both of us."*
+
+On the roof garden, Vorn said she had known where the Forgiveness shard was for eight months. She had withheld it because it required something she didn't have to give. Calder named the witness-list: Mira, Deva, Vorn, Sevven's letter, Morreth's chapel. Lenne began drafting the accountability clause language with Vorn without asking anyone's permission.
+
+Five shards. Seventy-nine days.
+

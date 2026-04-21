@@ -220,6 +220,18 @@ Campaign-continuity is updated post-every-session in `HANDOFF-S{N}.md` and aggre
 - **Convergence: 83 days.**
 - **Party XP: 1,012 each.**
 
+### Campaign-permanent facts (C2-S05 — 2026-04-20)
+
+- **Clause of Reckoning recovered** — Thessaly, unattuned. Five shards total.
+- **Hint 4 delivered** — compact was a protection mechanism. The reckoning is performed in the speaking.
+- **Thessaly named Test wound to Vorn Haleth** — first peer to hear it. Campaign-permanent.
+- **Vorn Haleth as witness and collaborator** — knows Forgiveness shard location; is drafting accountability language for new compact with Lenne; will witness the compact speaking.
+- **Witness-list confirmed (Calder named them):** Mira, Deva, Vorn, Sevven (letter), Morreth's chapel.
+- **Five shards:** Witness, Ambition, Grief, Defiance, Reckoning. All unattuned.
+- **Route D: 4/4 prerequisites confirmed.**
+- **Convergence: 79 days.**
+- **Party XP: 1,612 each.**
+
 ### Updates
 
 Campaign 2 continuity is updated post-every-session in `HANDOFF-S{N}.md` and aggregated here. If any DM narration contradicts a campaign-permanent fact, the fact wins.

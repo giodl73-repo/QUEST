@@ -63,9 +63,9 @@
     }
   },
   "session": {
-    "adventure": "0011-the-defiant-word",
-    "session": "S04",
-    "dice_seed": "S04-20260420",
+    "adventure": "0012-the-reckoning-stone",
+    "session": "S05",
+    "dice_seed": "S05-20260420",
     "scene_index": 5,
     "scenes_completed": [],
     "pending_checkpoint": "scene_5_beat_0",
@@ -74,7 +74,7 @@
   },
   "campaign": {
     "hints": {
-      "hint_3": "delivered_S04_Calder_named_plague_village_Dalimvar_protocol_second_inscription_warmed"
+      "hint_4": "delivered_S05_compact_intent_panel_protection_mechanism_not_governance_framework"
     },
     "campaign_permanent": []
   }

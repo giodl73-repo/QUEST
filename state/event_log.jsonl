@@ -1,9 +1,8 @@
-{"type": "social_roll", "pc": "thessaly", "skill": "persuasion", "dc": 12, "roll": 17, "outcome": "success", "scene": 0, "context": "Splinter cell stood down \u00e2\u20ac\u201d Mira's stand-down invoked, agents leave"}
-{"type": "feature_used", "pc": "orik", "feature": "inside_curve_check", "scene": 0, "result": "hatch_hinge_true_annual_maintenance"}
-{"type": "social_roll", "pc": "lenne", "skill": "insight", "dc": 0, "roll": 0, "outcome": "success_roleplay", "scene": 1, "context": "Identified Deva as Black Robe trained from how she handles texts \u00e2\u20ac\u201d school-reading as artifact-reading"}
-{"type": "social_roll", "pc": "thessaly", "skill": "persuasion", "dc": 0, "roll": 0, "outcome": "success_roleplay", "scene": 1, "context": "Formal White Robe request to Deva \u00e2\u20ac\u201d she agrees to stand as Black Robe"}
-{"type": "social_roll", "pc": "calder", "skill": "religion", "dc": 0, "roll": 0, "outcome": "accounting_route_d", "scene": 3, "context": "Named plague village \u00e2\u20ac\u201d 41 deaths, Tier 3 protocol, delayed response \u00e2\u20ac\u201d in presence of all three Orders"}
-{"type": "saving_throw", "pc": "calder", "save": "wisdom", "dc": 0, "roll": 0, "outcome": "hint_3_delivered_route_d", "effect": "second_inscription_warms_recognition_fires", "scene": 3, "source": "clause_of_defiance_route_d_activation"}
-{"type": "feature_used", "pc": "calder", "feature": "reading_sylaren_note", "scene": 4, "result": "received_absolution_for_delayed_response"}
-{"type": "feature_used", "pc": "lenne", "feature": "artifact_documentation", "scene": 4, "result": "filled_empty_notebook_page_plus_three"}
-{"type": "feature_used", "pc": "sera", "feature": "emergency_exit_assessment", "scene": 4, "result": "air_shaft_width_checked_silently"}
+{"type": "feature_used", "pc": "orik", "feature": "inside_curve_check", "scene": 0, "result": "building_reads_merchant_house_converted_staff_security_trained_not_armed"}
+{"type": "social_roll", "pc": "thessaly", "skill": "arcana", "dc": 0, "roll": 0, "outcome": "hint_4_auto", "scene": 1, "context": "Hint 4 delivered \u00e2\u20ac\u201d compact intent panel visible from doorway, auto-delivered"}
+{"type": "feature_used", "pc": "lenne", "feature": "research_methodology_recognition", "scene": 1, "result": "vorn_identified_as_methodological_peer"}
+{"type": "feature_used", "pc": "sera", "feature": "perimeter_assessment", "scene": 1, "result": "4_exits_2_observed_2_unobserved"}
+{"type": "social_roll", "pc": "thessaly", "skill": "persuasion", "dc": 0, "roll": 0, "outcome": "arc_completion_route_d", "scene": 3, "context": "Named Test wound to Vorn \u00e2\u20ac\u201d the spell, Mira's diminished ability, unexamined not contained"}
+{"type": "feature_used", "pc": "orik", "feature": "inside_curve_check", "scene": 3, "result": "doorframe_true_craft_witness_x4"}
+{"type": "feature_used", "pc": "lenne", "feature": "compact_language_design", "scene": 4, "result": "accountability_clause_drafting_begun_with_vorn"}
+{"type": "feature_used", "pc": "calder", "feature": "witness_list_accounting", "scene": 4, "result": "mira_deva_vorn_sevven_morreth_named"}
