@@ -10,7 +10,7 @@ tier: 2
 
 # The Compact Wardens
 
-Four characters tasked by a fragmented Conclave remnant to recover the seven shards of the Conclave Compact before a renegade faction reassembles them for control rather than restoration.
+Five characters — four original compact-wardens plus Lenne Stormwatch (joined C2-S02) — tasked by Archivist Tessamine and their own momentum to recover the seven shards of the Conclave Compact before the triple-moon convergence in 88 days.
 
 ## Members
 
@@ -20,21 +20,28 @@ Four characters tasked by a fragmented Conclave remnant to recover the seven sha
 | Orik Flintback | Fighter (Battle Master) | Mountain Dwarf | Left his hall; seven apprentices died in a fire | #0009 (Ambition Clause) |
 | Sera Ashfall | Ranger (Hunter) | Half-Elf | Settlement moved on without her; a note nailed to a tree | #0010 (Grief Clause) |
 | Calder of the Third Road | Cleric (Life Domain, Mishakal) | Human | Forty-one died in a plague village; seventeen survived | #0011 (Defiance Clause) |
+| **Lenne Stormwatch** (joined C2-S02) | Wizard (Red Robe, Abjuration) | Human | Volenn died eight months before the convergence he had been tracking for forty years | TBD |
 
-## Party dynamics
+## Party dynamics (updated post-S02)
 
-- **No Solamnic knight** — tests whether the decision-order system works without the Measure framework.
-- **Two knowledge-seekers** (Thessaly + Calder) — both track information carefully; both carry what they know.
-- **Two watchers** (Orik + Sera) — both read physical space; both are protecting against a specific past failure.
-- **No craft-priest** — the closest is Calder (ritual-based); tests whether craft-witness emerges from a different ritual register.
+- **Two wizards now** (Thessaly + Lenne): Divination vs. Abjuration; read-people vs. read-objects. They will disagree on methodology. They respect each other's competence.
+- **Orik and Lenne**: He named the hall; she gave him the shard. Neither has said anything about this since. This is a live dynamic.
+- **Sera as witness**: Three consecutive hold-space acts in two sessions. act-without-announcement confirmed as her mode of care.
+- **Calder as the one who counts endings**: He reads Tessamine's timeline; he read Volenn's note as a dying man's to-do. His grief makes him attuned to unfinished work.
 
-## Structural test for campaign 2
+## Post-S02 structural findings
 
-Does `sheet-deep-reader` fire without a Solamnic decision-order? Does `craft-witness` fire from a healer's ritual practice rather than a forge-priest's? Does `NPC-arc-completion` fire more reliably now that it's been designed prospectively (npc-architect skill) rather than discovered retrospectively?
+- `sheet-deep-reader` fires without a Solamnic decision-order: confirmed (8 C2 instances in 2 sessions).
+- `craft-witness` candidate from a non-craft-priest: Orik doorframe touch (1 instance; watch for repeat).
+- `NPC-arc-completion` fires more reliably with npc-architect design: confirmed (Henneth S01, Lenne S02 — both prospectively designed; both fired).
+- `act-without-announcement` confirmed universal: 4 cross-campaign instances; rubric v1.5 ratified.
 
-## Campaign-permanent facts (none yet — pre-S01)
+## Campaign-permanent facts (post-S02)
 
-Party at XP 0; L5 start (campaign 2 opens at higher tier than campaign 1 to test encounter-balancer at medium tier).
+- **XP:** 712 each. Party purse: 190 gp.
+- **Shards recovered:** 2 (Witness + Ambition). 5 remaining.
+- **Convergence countdown:** 88 days in-fiction (triple-moon; compact must be spoken whole during this window).
+- **Lenne's assets:** 8yr research data; Volenn's moon-calendar copy; knowledge of 3 additional fragment references in Volenn's archive.
 
 ## Files
 
@@ -42,4 +49,5 @@ Party at XP 0; L5 start (campaign 2 opens at higher tier than campaign 1 to test
 - `orik-flintback.md`
 - `sera-ashfall.md`
 - `calder-of-the-third-road.md`
-- `shared-log.md` (created at first session)
+- `lenne-stormwatch.md` (joined C2-S02)
+- `shared-log.md`

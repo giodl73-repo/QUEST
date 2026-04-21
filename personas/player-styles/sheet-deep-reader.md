@@ -62,16 +62,36 @@ When a DM designs an adventure for a party with Sheet-Deep Readers:
 - **Do not crowd out the sheet-moment.** If the scene is busy, the sheet-moment may miss. Let scenes breathe.
 - **Reward the sheet-read with consequence, not exposition.** When Kessa recognized the rose from Vethrenn's note, her private arc *shifted*. That is the reward. Not the DM saying *"and then you learn..."*
 
+## Confirmed sub-types (cross-campaign, 3+ instances)
+
+### Grief-paragraph-dialogue
+
+**Definition:** A PC's grief-paragraph content surfaces as spoken dialogue at a moment of high emotional weight — the specific sensory memory or named loss from the character sheet becomes the exact words the character speaks, without DM prompting.
+
+**What distinguishes it:** The words are not paraphrased from the grief-paragraph; they emerge from it organically, shaped by the scene's invitation. The character sheet contains the sentence; the scene provides the context that makes it necessary to say.
+
+**Confirmed instances (3 across 2 campaigns):**
+1. **Thera — Campaign 1 S06** (*"I counted too"* — her grief-paragraph counted the years after Adda died; Nenn said he had counted; she said she had too. The exact content of her grief-paragraph spoken in the exact moment it was needed.)
+2. **Thessaly — Campaign 2 S01** (*"I cast a spell at my Test that I was not supposed to cast. It cost someone something I can't give back."* — her grief-paragraph's wound named aloud when the Clause of Witness invited it.)
+3. **Orik — Campaign 2 S02** (*"The shard vibrates for me because I'm still trying to prove it was worth going."* — his grief-paragraph's hall, oil, fire, named as an explanation of the artifact's mechanism. The grief-paragraph content became the artifact's diagnosis.)
+
+**Pattern:** In all three instances, the grief-paragraph-dialogue fires because an artifact, object, or NPC creates a structural invitation — not a direct prompt. The invitation makes it safe or necessary to name what the PC has been carrying. The words come from the sheet; the scene provides the opening.
+
+**Design implication:** Adventures with grief-paragraph-dialogue potential need structural invitations, not prompts. An artifact that mirrors the grief (Clause of Witness / Thessaly), an NPC who shares the pattern (Lenne / Orik), a place that makes the grief relevant (Aelwen's workshop / Thera). The invitation must be designed; the dialogue cannot be prompted.
+
+---
+
 ## Sub-type watch (for future cluster-growth)
 
-Potential sub-types emerging from S01-S03 data; watching for cluster-promotion:
+Potential sub-types emerging from campaign data; watching for cluster-promotion:
 
 - **Local-origin readers** (Thera-pattern): PCs whose geographic origin produces setting-knowledge.
 - **Prior-hook readers** (Kessa-pattern): PCs whose backstory contains an undelivered promise the current adventure fulfills.
 - **Institutional readers** (Aelric-pattern): PCs whose order/faith/training produces dual-reads of intel + grief.
-- **Doctrinal-silence readers** *(NEW post-S03, 1 instance)*: PCs whose primary heuristic is over-ridden by their secondary heuristic under existential artifact risk, in a way the sheet's explicit structure justifies. Kessa S03 Scene 6 — she did not abandon "Understand it"; she *re-read her own heuristic-stack* and found "Don't violate the Test" higher-weighted against a Blank-Mirror outcome. Watch for second instance in S04+ before formal sub-type promotion.
+- **Archivist-closure** (Kessa C1-S07 pattern): PC places accumulated evidence rather than carrying it; the catalog is complete; the archive is the right home. 1 confirmed instance.
+- **Dying-man's-to-do** (Calder C2-S02 pattern): PC reads another person's unfinished plans through the lens of their own grief-experience with endings. 1 instance (Calder reading Volenn's note). Watch for repeat.
 
-These are not sub-types yet; they are categories to watch.
+These are categories to watch; not yet sub-types.
 
 ## Historical note
 
