@@ -963,3 +963,37 @@ Five instances across both sessions. Already addressed by the proposed v1.1 → 
 - `craft-witness`: +1 (Orik building-assessment) = **4 C2 instances; session-invariant.**
 - `act-without-announcement`: +1 (Sera perimeter) = **7 C2 instances; 8 cross-campaign.**
 - `bilateral-arc-completion`: 2 instances. Campaign structure confirmed.
+
+---
+
+## C2-S06 Innovations — *The Forgiveness Key* (2026-04-20)
+
+### I-C2-S06-01 — Compact opening sentence written in silence (act-without-announcement peak)
+
+**Dimension:** Character Agency / Atmospheric Landing
+**Scene:** 04 (Pellan's Garden)
+**What happened:** Thessaly wrote the opening sentence of the new compact in the margin of the reconstruction document. She has been composing it mentally for three sessions (S04: designing; S05: not writing; S06: writing). She did not show it to anyone. The most significant single act of compact preparation was performed silently, without announcement.
+**Why it matters:** act-without-announcement has fired consistently (Sera's perimeter scans; Calder's grief weight; Lenne's notebook). S06 produced its highest-stakes instance: Thessaly wrote the compact's opening words — the thing the campaign has been building toward — without making it a scene. This is the pattern at its fullest expression.
+**Status:** LOGGED. act-without-announcement: peak instance.
+
+### I-C2-S06-02 — craft-witness x5: session-invariant fully confirmed
+
+**Dimension:** Atmospheric Landing
+**What happened:** Orik checked the cottage doorframe inside-curve. Fifth consecutive session with a structural assessment. The pattern has not missed a session since he joined the compact-wardens.
+**Why it matters:** Session-invariant confirmed beyond doubt. craft-witness is not a periodic firing for Orik; it is his mode of entry into every new space. Every session of campaign 2 has included a craft-witness moment for Orik. This should be added to the craft-witness.md definition as the "session-invariant" clause.
+**Status:** LOGGED. craft-witness: session-invariant for Orik. Update craft-witness.md.
+
+### I-C2-S06-03 — Route D offer as campaign behavior (third consecutive)
+
+**Dimension:** Character Agency
+**What happened:** The party offered the splinter cell the same stand-down terms they gave the first agents at the White Quill entrance (S04) and the first terms they used at the Kharolis road (S02). Three encounters, three stand-down offers. The pattern is campaign behavior, not individual session choice.
+**Why it matters:** The party has developed a consistent operational posture — offer the stand-down first, fight second if necessary — that is traceable to their decision-orders (Thessaly: knowledge before action; Calder: what is the weight of this?; Orik: can I fix this without a fight?). This is sheet-deep-reader applied at the party level: the party's combined decision-orders produce consistent behavior across sessions.
+**Status:** LOGGED. Party-level sheet-deep-reader: operational posture as campaign pattern.
+
+---
+
+### Player-style count update (post-C2-S06)
+
+- `sheet-deep-reader`: +4 = **25 total C2 instances across 6 sessions.**
+- `craft-witness`: +1 = **5 C2 instances; session-invariant.** Fires every session without exception.
+- `act-without-announcement`: +2 = **9 C2 instances; 10 cross-campaign.**
