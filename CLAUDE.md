@@ -196,7 +196,19 @@ Campaign-continuity is updated post-every-session in `HANDOFF-S{N}.md` and aggre
 - **Orik** — named the hall C2-S02. Carries the Clause of Ambition (unattuned). craft-witness candidate (doorframe inside-curve check C2-S02). His grief is named; not yet resolved.
 - **Sera** — three consecutive hold-space acts in two sessions (act-without-announcement confirmed). Spotted Unbound Conclave courier C2-S01. Has not yet named the settlement.
 - **Calder** — reads endings. Has not said what he thinks about Tessamine's timeline or Volenn's note. Full resources both sessions.
-- **Lenne** — joined C2-S02. 8yr compact research; moon-calendar copy; Arcane Ward (22 HP); Projected Ward reaction. Relived Volenn's death when she held the Clause of Grief for >1 minute (C2-S03 — see below). Her grief: Volenn died 8 months before the convergence he spent 40 years tracking.
+- **Lenne** — joined C2-S02. Relived Volenn's death holding the Clause of Grief (S03). Didn't document the arc-completion scene. Documentation-suspension: first time she let something land uncategorized.
+- **Sera** — **Named the settlement (S03). Saw them safe.** Carries Clause of Grief (unattuned). act-without-announcement confirmed: 5 C2 instances.
+- **Calder** — Named the chapel promise at the doorway (S03): *"The chapel will be in the witness-list. That was a promise."* Campaign-permanent.
+
+### Campaign-permanent facts (C2-S03 — 2026-04-20)
+
+- **Clause of Grief recovered** — Route D. Bilateral arc-completion: Sera named the settlement; Morreth named Ven. Route D gift delivered (Sera saw settlement intact). Sera carries it (unattuned).
+- **Mira Coldsteel permanently stood down** — Unbound Conclave no longer a direct combat threat. Mira will witness the new compact. This is campaign-permanent.
+- **Chapel in witness-list** — Calder's promise at the doorway. Campaign-permanent commitment.
+- **Three shards: Witness (Thessaly) + Ambition (Orik) + Grief (Sera).** All unattuned.
+- **Route D prerequisites: 3/4.**
+- **Convergence: 83 days.**
+- **Party XP: 1,012 each.**
 
 ### Updates
 

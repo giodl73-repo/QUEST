@@ -815,3 +815,57 @@ Five instances across both sessions. Already addressed by the proposed v1.1 → 
 - `NPC-arc-completion`: +1 (Lenne S02) = **2 C2 instances** (Henneth S01 + Lenne S02). 1 more for cluster promotion.
 - `arc-completion-as-opening`: 1 instance. Watch.
 
+---
+
+## C2-S03 Innovations — *The Grief Inscription* (2026-04-20)
+
+### I-C2-S03-01 — Bilateral arc-completion (reciprocal naming chain)
+
+**Dimension:** Atmospheric Landing / Character Agency
+**Scene:** 04 (The Sanctuary)
+**What happened:** Sera named the settlement; Morreth named Ven immediately after. Neither naming could have happened without the other — Sera's naming was the condition for Morreth's, and Morreth's naming was the response that completed the exchange. The bilateral structure was designed; the execution exceeded the design in timing and emotional specificity.
+**Why it matters:** NPC-arc-completion has been one-directional: party creates conditions, NPC delivers. This is the first instance where an NPC arc-completion fires in direct response to a PC arc-completion, creating a reciprocal naming chain. New sub-type: **bilateral-arc-completion**. The NPC receives the PC's grief and returns their own.
+**Status:** LOGGED. NPC-arc-completion sub-type: bilateral-arc-completion.
+
+### I-C2-S03-02 — Lenne's empty notebook (archivist confronts undocumentable experience)
+
+**Dimension:** Character Agency / Atmospheric Landing
+**Scene:** 05 (Chapel Ruins, aftermath)
+**What happened:** After the arc-completion scene, Lenne opened her notebook and didn't write and put it away. She has been documenting constantly since joining the party. This is the first time she encountered something she could not categorize. The notebook open and then closed is more specific than "she was moved."
+**Why it matters:** sheet-deep-reader sub-type candidate: the archivist who puts the notebook away. The arc-completion landed on her as a non-documentable experience — her documentation practice, which is her primary mode of relating to the world, was suspended by the weight of what she witnessed. This is a new register for sheet-deep-reader: the moment when the sheet's primary heuristic cannot apply.
+**Status:** LOGGED. sheet-deep-reader sub-type candidate: documentation-suspension.
+
+### I-C2-S03-03 — Mira arc-completion as faction-pivot
+
+**Dimension:** Character Agency / Surprise
+**Scene:** 01 (Road Encounter)
+**What happened:** Mira Coldsteel's arc-completion fired in Scene 01 of the first session she appeared in. The Unbound Conclave's antagonist thread permanently closed before a single combat roll. Thessaly explained Route D specifically; Mira said *"That would actually fix it"* and stood her agents down permanently. She asked to witness the new compact. Thessaly accepted.
+**Why it matters:** arc-completion-as-faction-pivot — the NPC's arc-completion changes the campaign's structural antagonist landscape, not just one NPC's thread. The campaign must now find its tension elsewhere than the Unbound Conclave. This is a second form of arc-completion-as-opening (from Lenne S02): instead of opening a party-composition thread, it closes the campaign's primary antagonist structure and opens a collaborative witness thread.
+**Status:** LOGGED. arc-completion-as-faction-pivot (related to arc-completion-as-opening; distinct sub-type).
+
+### I-C2-S03-04 — craft-witness pattern confirmed for non-craft-priest (Orik, second instance)
+
+**Dimension:** Atmospheric Landing
+**Scene:** 04 (The Sanctuary)
+**What happened:** Orik checked the sanctuary doorframe inside-curve after the bilateral arc-completion. Second consecutive session (S02: Volenn's doorframe; S03: Morreth's doorframe). Both after significant emotional moments. His hall-guard structural assessment as grounding fires in the same register as Grom's forge-greeting.
+**Why it matters:** craft-witness was defined as requiring a designated craft-ritual. Two consecutive instances of Orik's secular professional practice (hall-guard structural assessment) producing atmospheric reception in the same register confirms the pattern. craft-witness is **ritual-practice-as-antenna**, not **religious-class-as-antenna**. Orik's practice is secular; Grom's was religious; the pattern is the same. **Cluster promotion: craft-witness confirmed universal.** Any PC with a specified habitual practice can develop craft-witness.
+**Status:** LOGGED. **craft-witness: confirmed universal pattern. Secular professional practice counts. No religious class required.**
+
+---
+
+### Dimension-trigger check (post-C2-S03)
+
+- **Atmospheric Landing:** I-C2-S03-01, I-C2-S03-02, I-C2-S03-03, I-C2-S03-04 — four new instances.
+- **NPC-arc-completion:** C2 total now 3 instances (Henneth S01 + Morreth S03 + Mira S03). **Cluster promotion threshold reached.** Promote to player-style.
+- **craft-witness universal:** Second non-craft-priest instance. Pattern confirmed universal. Update craft-witness.md definition.
+
+### Player-style count update (post-C2-S03)
+
+- `sheet-deep-reader`: +5 (Lenne reads Mira; Calder inscription ×3 silent; Sera names settlement; Calder names promise; Lenne empty notebook) = **13 total C2 instances across 3 sessions.**
+- `craft-witness`: +1 (Orik doorframe S03) = **2 C2 instances (confirmed universal).** Update definition: any habitual professional practice produces the pattern.
+- `act-without-announcement`: +2 (Sera perimeter scan S03; Lenne notebook S03) = **5 C2 instances; 6 cross-campaign.** Fully ratified; counting continues.
+- `NPC-arc-completion`: +2 (Morreth bilateral S03; Mira faction-pivot S03) = **4 C2 instances.** Cluster promotion threshold met. Promote.
+- `bilateral-arc-completion`: 1 instance. New sub-type of NPC-arc-completion.
+- `arc-completion-as-faction-pivot`: 1 instance. Second form of arc-completion-as-opening.
+- `documentation-suspension`: 1 instance (Lenne). sheet-deep-reader sub-type candidate.
+
