@@ -9,9 +9,13 @@ created: 2026-04-20
 
 **Location:** Inside the chapel's main space. **Time:** Day 3, afternoon.
 
-**Read-aloud:**
+**Read-aloud (if party negotiated with Mira — arrived clean):**
 
-> The interior is dim and clean. Pre-Cataclysm stone, the kind that was built to hold ceremony. The collapsed east section has been closed off with a rough wall of stacked fieldstone — Morreth's work, clearly; it follows no structural pattern except "this keeps the weather out." On the altar: three fresh offering bowls, a carved panel that might have held an icon but now holds only its frame, and at the center of the altar, a stone box, latched with a wooden toggle bar.
+> The chapel's interior is dim and clean. Pre-Cataclysm stone, the kind built for ceremony. The east section is closed off with fieldstone — keeps the weather out. On the altar: three fresh offering bowls, a carved panel frame holding only its absence, and at the center, a stone box latched with a wooden toggle bar — slightly colder than the air around it. You notice this before anyone speaks.
+
+**Read-aloud (if party fought Mira — arrived shaken):**
+
+> The chapel's interior is dim and cold — colder than the autumn air outside. Your breathing slows. The pre-Cataclysm stone holds silence like a cup. The altar is simple: offering bowls, an empty frame, and a stone box with a faint surface-cold you feel before you cross the threshold. Your hands are still shaking from the fight. Here, in this place, the shaking stops.
 
 **Features:**
 
@@ -22,6 +26,12 @@ created: 2026-04-20
 **Lenne and the shard (Symptom 2 — primary manifest):**
 
 Lenne will open the stone box and pick up the shard. This is her decision-order: she reads objects before she reads situations. She will hold it without asking. Nobody will stop her because nobody yet knows what the shard does.
+
+**P0 fallback — if Lenne doesn't pick it up immediately:**
+If Lenne asks questions first or hesitates, Morreth says: *"The only way to know what it does is to hold it. That's how I learned."* He does not stop her from trying. If still hesitant: *"It won't hurt you for sixty seconds. Hold it that long and you'll understand what I couldn't put down."*
+
+**P0 fallback — if no PC holds the shard in Scene 03:**
+Symptom 2 fires anyway in Scene 04, before the arc-completion. When Sera names the settlement, Morreth brings the shard from the sanctuary and says: *"Before you take this — you need to know what it is."* He holds it out to Sera directly. She holds it; she relives her worst loss (Wisdom DC 14, or the Route D version if the naming just happened). The demonstration is delayed but not skipped — the party must witness the cost before the gift is given.
 
 At 60 seconds: she relives the moment she arrived at Volenn's tower after traveling for a week, and realized from the silence — before anyone said a word, before she found the note — that he was gone. The specific quality of silence. The moment before knowing, when knowing was already irreversible.
 
