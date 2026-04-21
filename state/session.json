@@ -63,12 +63,12 @@
     }
   },
   "session": {
-    "adventure": "0013-the-forgiveness-key",
-    "session": "S06",
-    "dice_seed": "S06-20260420",
-    "scene_index": 4,
+    "adventure": "0014-the-new-covenant",
+    "session": "S07",
+    "dice_seed": "S07-20260420",
+    "scene_index": 3,
     "scenes_completed": [],
-    "pending_checkpoint": "scene_4_beat_0",
+    "pending_checkpoint": "scene_3_beat_0",
     "route": "D",
     "party_slug": "compact-wardens"
   },

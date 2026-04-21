@@ -232,6 +232,15 @@ Campaign-continuity is updated post-every-session in `HANDOFF-S{N}.md` and aggre
 - **Convergence: 79 days.**
 - **Party XP: 1,612 each.**
 
+### Campaign-permanent facts (C2-S07 — 2026-04-20) — CAMPAIGN COMPLETE
+
+- **THE CONCLAVE COMPACT HAS BEEN SPOKEN.** Route D. New compact with Sylaren amendment + Lenne accountability language + Thessaly opening sentence.
+- **Thessaly's opening sentence:** "We speak this not to bind the Orders to each other but to bind each Order to the people who live beneath the consequences of what the Orders do."
+- **The seventh space in the Istar vault filled.**
+- **Witnesses:** Mira, Deva, Vorn, coordinator, Sevven (letter), Morreth chapel (record).
+- **Campaign 2: COMPLETE.** Seven adventures, seven sessions, Route D every session, 100% manifest every session.
+- **Party XP: 2,312 each.**
+
 ### Campaign-permanent facts (C2-S06 — 2026-04-20)
 
 - **Clause of Forgiveness recovered** — Thessaly, unattuned. Six shards total.
