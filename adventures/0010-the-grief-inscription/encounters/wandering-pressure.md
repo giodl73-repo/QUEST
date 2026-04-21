@@ -13,6 +13,8 @@ The chapel has no hard time-pressure once the party is inside — Morreth is pat
 
 **Route C timer:** If Mira fled the road encounter: she regroups and sends the Quiet One ahead to observe (Route C marker: Sera's Perception DC 14 from the ruins high point sees a grey-robed figure on the road 30 minutes after the party enters the chapel). If the party is still in the chapel 90 minutes after arriving: Mira attempts the ruins path (Sera's passive 16 detects her; 2 rounds warning).
 
+**Exception — no double combat:** If the party fought Mira on the road (full combat, not social resolution), Route C does NOT fire this session. She reports to Osvin: "The party is too alert. We wait." Route C agents appear in adventure 0011 instead. Three combat encounters in a single session without a rest opportunity is punitive, not honest attrition. Route C fires only when the party arrived at the chapel through a non-combat road resolution (negotiation failed cleanly, or Mira never appeared).
+
 ## Chapel Cold Pulse (d6, every 30 minutes)
 
 | d6 | Event |

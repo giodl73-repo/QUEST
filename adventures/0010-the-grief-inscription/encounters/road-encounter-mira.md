@@ -20,7 +20,9 @@ route: all
 
 **Route D reveal:** If any PC explains that the party's intent is a new compact spoken by a mortal, witnessed by all three Orders including former Unbound, Mira goes quiet for 3-4 seconds. Then: *"That would actually fix it."* She tells Osvin and Quiet One: *"We're done here. Both of you, stand down."* Arc-completion fires. No combat. Proceed to chapel.
 
-**Social skill threshold:** Persuasion DC 13 (the party seems to understand the problem) or a clear description of Route D (no roll needed if the explanation is specific). If the party is evasive or hostile: combat.
+**Social skill threshold:** Persuasion DC 13 (the party seems to understand the problem) or a clear description of Route D (no roll needed if the explanation is specific).
+
+**Combat trigger — explicit:** If Persuasion DC 13 fails, OR if the party is evasive/hostile, Mira says: *"Then we do this the hard way."* She immediately casts Web on the party cluster (no further negotiation). Initiative rolls begin. There is no ambiguous middle state — either she stands the agents down or she casts the first spell. The DM should not leave the encounter floating between social and combat resolution.
 
 ## Combat (if social fails)
 
