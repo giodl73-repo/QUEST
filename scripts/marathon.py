@@ -15,6 +15,7 @@ if str(_REPO_ROOT) not in sys.path:
 from scripts.engine.state import StateManager, PartyState, SessionState, CampaignFacts
 from scripts.engine.loader import load_adventure, load_party, LoadError
 from scripts.engine.emitter import Emitter, ValidationError
+from scripts.engine.event_log import EventLogger
 
 
 def _state_dir() -> Path:
@@ -60,6 +61,15 @@ def cmd_status(args) -> int:
     if dice_log.exists():
         roll_count = sum(1 for line in dice_log.read_text(encoding="utf-8").splitlines() if line.strip())
     print(f"DICE LOG: {roll_count} rolls this session (seed: {session.dice_seed})")
+
+    event_logger = EventLogger(_state_dir() / "event_log.jsonl")
+    summary = event_logger.summary()
+    if summary:
+        print("EVENT LOG:")
+        for etype, count in sorted(summary.items()):
+            print(f"  {etype:<22} {count}")
+    else:
+        print("EVENT LOG: no events recorded yet")
     print(sep)
     return 0
 
@@ -100,7 +110,12 @@ def cmd_start(args) -> int:
         "scene_index": 0,
         "scenes_completed": [],
         "pending_checkpoint": None,
+        "party_slug": party_slug,
     }
+    # Clear event log for the new session
+    event_log_path = _state_dir() / "event_log.jsonl"
+    if event_log_path.exists():
+        event_log_path.unlink()
     campaign_dict = {"hints": {}, "campaign_permanent": []}
 
     sm = StateManager(state_dir=_state_dir())
@@ -222,6 +237,11 @@ def cmd_resume(args) -> int:
                     print(f"WARNING: invalid route {updates!r} — must be A, C, or D")
             elif key == "external_rolls":
                 pass  # logged by LLM narrative; no state change needed
+            elif key == "events":
+                if isinstance(updates, list):
+                    event_logger = EventLogger(_state_dir() / "event_log.jsonl")
+                    event_logger.log_many(updates)
+                    print(f"Events logged: {len(updates)}")
             elif key in party.slugs():
                 pc = party[key]
                 for field_name, val in updates.items():

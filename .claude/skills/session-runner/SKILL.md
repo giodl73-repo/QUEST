@@ -188,6 +188,41 @@ The DM:
 - Every resource change (HP, spells, etc.).
 - Every curse symptom landed (so the innovation skill can audit manifest compliance).
 - Every player-style surprise — a move the Heuristics didn't obviously predict but the PC sheet could justify. Tag these `<!-- SURPRISE -->` so `playtest-innovation` can find them later.
+- **Every major D&D mechanical event** via the `events` key in `state_updates`. Include events for every spell cast, class feature used, saving throw made, reaction taken, condition applied/cleared, near-death event, and social roll. The engine writes these to `event_log.jsonl` for cross-session analysis.
+
+### 2.4a Event logging (mandatory from C2-S03 forward)
+
+For every LLM checkpoint response, include an `events` array in `state_updates`:
+
+```json
+"state_updates": {
+  "events": [
+    {"type": "spell_cast", "pc": "thessaly", "spell": "Counterspell", "level": 3, "scene": 1, "context": "combat"},
+    {"type": "feature_used", "pc": "orik", "feature": "menacing_attack", "scene": 1, "result": "frightened_target"},
+    {"type": "saving_throw", "pc": "thessaly", "save": "dexterity", "dc": 13, "roll": 9, "outcome": "fail", "effect": "restrained", "scene": 0},
+    {"type": "reaction", "pc": "lenne", "reaction": "projected_ward", "trigger": "ally_hit", "scene": 2, "detail": "absorbed 8 damage for orik"},
+    {"type": "near_death", "pc": "sera", "scene": 3, "hp_before": 2, "cause": "fireball", "stabilized_by": "calder"}
+  ]
+}
+```
+
+**Valid event types and key fields:**
+
+| Type | Required fields | Optional |
+|---|---|---|
+| `spell_cast` | pc, spell, level, scene, context | targets, concentration |
+| `feature_used` | pc, feature, scene | result, resource_spent |
+| `attack` | pc, target, roll, total, hit, scene | damage, crit, fumble |
+| `saving_throw` | pc, save, dc, roll, outcome, scene | effect, source |
+| `reaction` | pc, reaction, trigger, scene | detail, target |
+| `condition_applied` | pc, condition, source, scene | duration |
+| `condition_cleared` | pc, condition, scene | |
+| `near_death` | pc, scene | hp_before, cause, stabilized_by |
+| `social_roll` | pc, skill, dc, roll, outcome, scene | target, context |
+| `advantage_event` | pc, roll_type, source, adv_or_dis, scene | |
+| `resource_recovery` | pc, resource, amount, scene | rest_type |
+
+Unknown types are silently dropped. Include what you know; omit what you don't.
 
 ## Stage 3 — LOG (finalize)
 
