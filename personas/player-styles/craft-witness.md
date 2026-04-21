@@ -68,15 +68,26 @@ When a DM designs an adventure for a party with a Craft-Witness:
 - **The Craft-Witness may be the party's *moral* centerpoint, not the *tactical* one.** In S02, Grom counter-argued the attunement. The sheet's craft-ritual ("mend first, keep party whole") produced ethics, not combat.
 - **Do not require the Craft-Witness to cast spells for their reception.** Their reception is *character*, not *class feature*.
 
-## Sub-type watch (for future cluster-growth)
+## Session-invariant property (confirmed Campaign 2)
 
-All four original instances are Grom. Future instances may produce sub-types:
+Campaign 2 proved what campaign 1 data suggested: **once the craft-witness pattern fires for a PC, it fires every session without exception.**
 
-- **Forge-priests** (Grom-pattern): craft-ritual is hearth-greeting; reception is spatial + historical.
-- **Herbalists / hedge-healers**: craft-ritual might be pulse-reading or root-sorting; reception might be biological + time-based.
-- **Scribes / illuminators**: craft-ritual is pen-blessing or ink-consecration; reception might be textual + attribution-based.
+Orik Flintback (hall-guard secular professional practice) fired in all 7 sessions of campaign 2 — S01 through S07, never missed. Grom Ironhand (forge-priest religious practice) fired in every campaign 1 session he appeared in.
 
-These are predictions. The workshop will know when S03+ produces non-Grom instances.
+**The design implication changes:** craft-witness is not a periodic pattern that fires when conditions align. It is a **session-invariant pattern**. Once established, it fires every session. Design at least one structural element per session that the craft-witness PC can read.
+
+**Secular professional practice confirmed:** Orik's hall-guard structural assessment is not religious. It is a professional habit. craft-witness fires from any named, habitual, purposeful attention-practice — religious, professional, or personal. The practice is the antenna; the type of practice is irrelevant.
+
+## Confirmed sub-types (post-Campaign 2)
+
+**Forge-priest (Grom-pattern):** Hearth-greeting as ritual; reception is spatial + historical. Religious practice.
+
+**Hall-guard (Orik-pattern):** Structural assessment of every threshold; reception is material + structural. Secular professional practice. Session-invariant confirmed across 7 sessions.
+
+**Future candidates:**
+- Herbalists / hedge-healers (pulse-reading; biological + time-based)
+- Scribes / illuminators (pen-blessing; textual + attribution-based)
+- Hunters / rangers (pre-dawn listening; ecological + directional)
 
 ## Historical note
 

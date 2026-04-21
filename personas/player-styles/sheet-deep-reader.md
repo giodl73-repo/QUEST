@@ -89,9 +89,52 @@ Potential sub-types emerging from campaign data; watching for cluster-promotion:
 - **Prior-hook readers** (Kessa-pattern): PCs whose backstory contains an undelivered promise the current adventure fulfills.
 - **Institutional readers** (Aelric-pattern): PCs whose order/faith/training produces dual-reads of intel + grief.
 - **Archivist-closure** (Kessa C1-S07 pattern): PC places accumulated evidence rather than carrying it; the catalog is complete; the archive is the right home. 1 confirmed instance.
-- **Dying-man's-to-do** (Calder C2-S02 pattern): PC reads another person's unfinished plans through the lens of their own grief-experience with endings. 1 instance (Calder reading Volenn's note). Watch for repeat.
+- **Dying-man's-to-do** (Calder C2-S02 pattern): PC reads another person's unfinished plans through the lens of their own grief-experience with endings. 2 instances (Calder reading Volenn's note C2-S02; Calder reading Dalimvar voting minutes C2-S04).
 
-These are categories to watch; not yet sub-types.
+## Confirmed sub-types (post-Campaign 2)
+
+### Commitment-accounting
+
+**Definition:** A PC who tracks the weight of promises across multiple sessions, naming commitments made by the party before anyone else does, and making sure they are not forgotten.
+
+**Confirmed instances (2):**
+1. **Calder C2-S05** — Named the witness-list unprompted on the roof garden: Mira, Deva, Vorn, Sevven, Morreth's chapel. Five names. In order. While others were processing the arc-completion. His decision-order ("what is the weight of this?") applied to the full campaign's promise structure.
+2. **Calder C2-S04** — Incorporated Sylaren's amendment as the Defiance clause's completion ("And as Sylaren wrote, twelve years after she swore it: what any mortal swore, any mortal may unsay. This was always true.") — recognizing that the amendment was not separate from the clause but its completion.
+
+**Pattern:** PC with "what is the weight of this?" as primary or secondary decision-heuristic will track promises, commitments, and agreements across sessions. They name the commitment before anyone else can forget it.
+
+**Design implication:** If a party includes a commitment-accounting PC, design multi-session promises explicitly — let the party make them and let the PC track them. The commitment-accounting PC makes promises real.
+
+---
+
+### Practitioner-by-material-relationship
+
+**Definition:** A PC who identifies other practitioners (wizards, scholars, researchers) not by class or Order but by how they physically handle their materials — books, instruments, objects. The PC has a perceptual mode that categorizes practitioners by school from non-verbal behavior.
+
+**Confirmed instances (3 consecutive sessions, C2-S03/S04/S05):**
+1. Lenne identified Mira Coldsteel as Red Robe trained from her posture and how she held herself near other practitioners (C2-S03).
+2. Lenne identified Deva as Black Robe trained from how she handled texts — "You handle them like someone taught to think defensively" (C2-S04).
+3. Lenne identified Vorn Haleth as a methodological peer from how she engaged with her research — the specific rigor of her annotation system (C2-S05).
+
+**Pattern:** Session-invariant once established (3 consecutive sessions for Lenne; never missed). The PC reads practitioners the same way they read objects — by their relationship to their material.
+
+**Design implication:** If a party includes this PC, populate adventures with practitioners they can read. Give each practitioner a distinct material-handling habit the PC can notice.
+
+---
+
+### Documentation-arc
+
+**Definition:** A PC whose primary mode of engagement is documentation encounters something they cannot document — and the arc across sessions is: suspension → vocabulary found → forward-looking design. The arc resolves when the PC's documentation practice transforms from recording-the-past to designing-the-future.
+
+**Confirmed instances (Lenne Stormwatch, C2-S03 through S07):**
+1. **C2-S03 (suspension):** Lenne experienced Morreth's bilateral arc-completion and could not categorize it. She opened her notebook and didn't write. First time her documentation practice was suspended.
+2. **C2-S04 (vocabulary found):** Sylaren's *Survey of Compact Artifact Responses* gave her the theoretical framework she was missing. She filled the empty page plus three more.
+3. **C2-S05 (forward-looking design):** She began drafting the accountability clause language for the new compact with Vorn — designing future documents, not recording past events.
+4. **C2-S07 (transformation complete):** Her accountability clause language was incorporated into the compact's Reckoning clause and spoken as part of the finale. She designed the compact that was spoken.
+
+**Design implication for dungeon-smith:** **Give the archivist something they cannot document.** An experience that exceeds their current vocabulary will produce the documentation-arc. The arc resolves itself across sessions as the PC finds vocabulary. This is the most reliable 3-session character arc available for PC sheets that include systematic documentation as a primary heuristic.
+
+These are confirmed sub-types; they are categories ready for active use.
 
 ## Historical note
 

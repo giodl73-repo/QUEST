@@ -118,6 +118,19 @@ If `docs/campaign/<slug>.md` exists, write `<slug>.v2.md` and prompt the user �
 - [ ] Hints have documented target adventures.
 - [ ] Changelog started.
 - [ ] Workshop-canon registered pending entities.
+- [ ] **PC-authored finale deliverable identified** (see below).
+
+## PC-authored finale deliverable (Campaign 2 addition)
+
+Campaign 2 produced the most effective finale element organically: Thessaly composed the opening sentence of the new compact across four sessions (mental design S04 → not writing S05 → written silently S06 → spoken S07). The compact's opening words were designed by the PC, not the module.
+
+When writing the spine, **identify one PC-authored deliverable for the finale** — a speech, a document, a sentence, a name — that the PC will compose or build toward across the campaign, not in a single session. This should be:
+- Connected to the PC's primary grief or decision-order
+- Not something the module pre-writes (the PC authors it)
+- Something that can be tracked across sessions in the handoff ("Thessaly is still composing the opening sentence")
+- Something that the session-runner notes when it is spoken/written/completed for the first time
+
+**How to set it up:** In the adventure brief for the penultimate adventure (or earlier), note: *"This session should give [PC] the vocabulary/conditions to author [the deliverable]."* Do not script the deliverable. Provide the structural invitation.
 
 ## Anti-patterns
 
@@ -126,3 +139,4 @@ If `docs/campaign/<slug>.md` exists, write `<slug>.v2.md` and prompt the user �
 - Seeds listed without target-adventures (orphan seeds).
 - Hints without recovery paths (rubric v1.2 requires them).
 - Spine that forgets which PCs have been spotlighted (uneven distribution).
+- Finale designed entirely by the module (no PC-authored element).
