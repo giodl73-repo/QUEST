@@ -1,5 +1,5 @@
 ---
-title: Marathon Playtest System — Blueprint
+title: QUEST Playtest System — Blueprint
 date: 2026-04-18
 status: living
 author: brainstorm session + chronicle-port analysis
@@ -9,9 +9,9 @@ related:
   - C:\src\chronicle (prior art — read `skills/` end-to-end for the engine)
 ---
 
-# Marathon Playtest System — Blueprint
+# QUEST Playtest System — Blueprint
 
-A living reference for how the Marathon workshop runs playtests of its adventures. This document captures the full design as of **2026-04-18** and is intended to be read cold by future-Claude or any future collaborator.
+A living reference for how the QUEST workshop runs playtests of its adventures. This document captures the full design as of **2026-04-18** and is intended to be read cold by future-Claude or any future collaborator.
 
 The core design principle — **the skills are the process** — is ported from the `C:\src\chronicle` LUCIA project, where 14 skills orchestrate an 11-stage pipeline that teaches itself through an innovation-feedback loop.
 
@@ -61,7 +61,7 @@ Key discipline: **no session ends without a `chronicle-handoff`.** Punchlist, me
 
 ### What we're porting
 
-| Chronicle artifact/pattern | Marathon playtest equivalent |
+| Chronicle artifact/pattern | QUEST playtest equivalent |
 |---|---|
 | 11-stage pipeline (chronicle-e2e) | 7-stage pipeline (session-runner + downstream) |
 | `scoring/RUBRIC.md` (versioned) | `personas/playtest-rubric.md` |
@@ -344,7 +344,7 @@ After every session, these steps are mandatory:
 
 **Option C adopted.** At meaningful-decision scenes, `session-runner` spawns a per-PC subagent via the `Agent` tool. See `skills/session-runner/SKILL.md` Section 2.3.
 
-**Campaign-mode reconciliation.** Marathon is a campaign with anthology-floor: accessibility for new readers; cross-adventure reward for campaign readers. See `CLAUDE.md#accessibility-policy` (updated).
+**Campaign-mode reconciliation.** QUEST is a campaign with anthology-floor: accessibility for new readers; cross-adventure reward for campaign readers. See `CLAUDE.md#accessibility-policy` (updated).
 
 **Aelric's attuned-memory state is campaign-permanent.** See `CLAUDE.md#campaign-continuity`.
 

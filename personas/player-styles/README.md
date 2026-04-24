@@ -60,7 +60,7 @@ How an adventure should behave when a PC / player exhibits this style. What the 
 | [`sheet-deep-reader`](sheet-deep-reader.md) | The Sheet-Deep Reader | 4 | S01 (3) + S02 (1) |
 | [`craft-witness`](craft-witness.md) | The Craft-Witness | 4 | S01 (2) + S02 (2) |
 
-Both promoted simultaneously post-S02 after cluster-trigger (3+ innovations across ≥ 2 sessions) fired. **First-ever promotions.** Chronicle's analog took ~15 chapters before first voice-registers; the marathon workshop surfaced clusters at session 2. Difference explainable by denser PC sheets + 5-persona weight-spread producing productive disagreement earlier.
+Both promoted simultaneously post-S02 after cluster-trigger (3+ innovations across ≥ 2 sessions) fired. **First-ever promotions.** Chronicle's analog took ~15 chapters before first voice-registers; the QUEST workshop surfaced clusters at session 2. Difference explainable by denser PC sheets + 5-persona weight-spread producing productive disagreement earlier.
 
 ## YAGNI Discipline
 

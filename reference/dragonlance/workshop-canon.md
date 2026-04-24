@@ -12,7 +12,7 @@ This file tracks every named location, character, item, and event the workshop h
 
 ## Policy
 
-The Marathon workshop operates as **Dragonlance-native**, not Dragonlance-adjacent. We invent where Dragonlance is silent (provincial hill-villages, minor knightly holdings, hedge-wizards whose names canon doesn't record). We **do not contradict canon** where canon speaks. When we invent a thing, it lands in this file, flagged as ours.
+The QUEST workshop operates as **Dragonlance-native**, not Dragonlance-adjacent. We invent where Dragonlance is silent (provincial hill-villages, minor knightly holdings, hedge-wizards whose names canon doesn't record). We **do not contradict canon** where canon speaks. When we invent a thing, it lands in this file, flagged as ours.
 
 For future publication, anything in this file would need one of:
 - License with Wizards of the Coast, OR
@@ -125,6 +125,43 @@ For future publication, anything in this file would need one of:
 | **The scouts' map** | Lorn's shop-entry sketch; Scene 5 prep payoff | 0003 |
 | **Kann's client-letter shreds** | Felor of Second House of Istar named; Lady Tiran seed for #0005 | 0003 |
 
+---
+
+## Campaign 4 — The Thorngate Watch (pending, 0022–0028)
+
+### C4 Invented Locations
+
+| Name | Region | Role | First appeared |
+|---|---|---|---|
+| **The Needle** | Kharolis foothills, one day south of Thorbardin territory | Mountain pass; too narrow to charge, too strategic to abandon; controls supply lines between three Solamnic territories | 0022 (spine) |
+| **Thorngate Keep** | The Needle, Kharolis foothills | 200-year-old garrison fortress; Warden Asholt's command for 22 years; has a locked lower level | 0022 (spine) |
+
+### C4 Invented Characters
+
+| Name | Role | Lineage / Order |
+|---|---|---|
+| **Warden Bren Asholt** | Commander, Thorngate Keep garrison | Knights of Solamnia; 22 years at The Needle; sheltered refugees; estranged from Saren Coldforge |
+| **Commander Saren Coldforge** | Military commander, the Reconstitution siege of Thorngate | Knights of Solamnia (Reconstitution faction); trained at Thorngate under Asholt; left 20 years ago; knows every weakness of the walls |
+| **Sergeant Tomek Irr** | Senior NCO, Thorngate garrison | Knights of Solamnia; pragmatist; trust earned by action without credit |
+| **Healer Maret Stave** | Keep healer, Thorngate garrison | Unaffiliated; rationing supplies silently; trust earned through resource conservation |
+| **Gate-Captain Hessa Var** | Gate commander, Thorngate garrison | Knights of Solamnia; made a private arrangement with a Reconstitution intelligence channel she believed harmless |
+| **Quartermaster Dene Flor** | Quartermaster, Thorngate garrison | Knights of Solamnia; has been feeding 47 refugees from the supply ledger for 3 years; Asholt does not know |
+| **Archer Luca Bent** | Youngest garrison member, Thorngate | Knights of Solamnia (novice); 19 years old; his older brother serves in the Reconstitution |
+
+### C4 Invented Factions
+
+| Name | Nature | Notes |
+|---|---|---|
+| **The Reconstitution** | Solamnic sub-order | Believes the Order of the Rose has been structurally compromised since the Cataclysm; does not consider itself an enemy of Solamnia but its own truer form; sieging Thorngate to force compliance with its authority |
+
+### C4 Invented Items
+
+| Name | Status | First appeared |
+|---|---|---|
+| **Watch-Tokens** | Trust objects; carved wooden discs (garrison unit identifiers); giving one to an outsider = full trust | 0022 (spine) |
+
+---
+
 ## Invented Events / Timeline Entries
 
 | Event | Year | Notes |
@@ -159,8 +196,127 @@ For future publication, anything in this file would need one of:
 
 - Krynn's pantheon, Ages, moons, Knights of Solamnia's three orders, Wizards of High Sorcery, the Cataclysm, Istar, Solamnia, Qualinesti, Silvanesti, Thorbardin, Neraka. We use canon where canon speaks.
 
+## Campaign 3 — The Halted Spire (PENDING — pre-play)
+
+All entries below are workshop-invented for C3. Status: pending (no session has played against them yet).
+
+### C3 Invented Locations
+
+| Name | Region | Role | First appeared |
+|---|---|---|---|
+| **Mireth-on-the-Hill** | Abanasinia | Post-War of the Lance hill town; the unfinished cathedral dominates its skyline | C3 spine |
+| **The Halted Spire (cathedral)** | Mireth-on-the-Hill | Unfinished Mishakal cathedral; 11 years under construction; gully dwarf congregation inside | C3 spine |
+
+### C3 Invented Characters (living / present)
+
+| Name | Role | Order / Affiliation |
+|---|---|---|
+| **Magistra Doran of Mireth** | Town's senior civil authority; party patron; wants Route A | Secular town governance |
+| **The Witnesses** (the-witnesses) | Maret Sorn (Monk), Calla Fosse (Bard), Renn Ashkeld (Warlock), Dren Holt (Fighter) | None / outsiders |
+
+### C3 Invented Characters (deceased / present in cathedral)
+
+| Name | Era | Role |
+|---|---|---|
+| **Sister Velantha** (surname TBD) | Died ~30 years before campaign | Healer; used unauthorized High Sorcery to cure a plague affecting both humans and gully dwarves; died performing the ritual; her memory is the congregation's foundation |
+| **Aldric Voss** | Died ~30 years before campaign; still present in Sacristy | Red Robe wizard; gave Velantha the prohibited ritual; sanctioned for humanoid use only; has been copying the congregation's oral history since his death |
+| The **Transept Elder** (name TBD — gully dwarf naming conventions) | Present; the congregation's senior member | The one gully dwarf who was lucid and present during the ritual; holds the full oral account |
+
+### C3 Invented Items
+
+| Name | Status | First appeared |
+|---|---|---|
+| Velantha's **field satchel** | Tier 1 relic; herbs inside stay fresh; slightly warm | C3 spine |
+| Velantha's **measuring cup** | Tier 1 relic; always holds the correct dose for the holder | C3 spine |
+| Velantha's **promise-cord** | Tier 1 relic; open knot tightens around a kept promise | C3 spine |
+| Velantha's **ritual focus** | Tier 1 relic; faintly warm; hums near High Sorcery workings; Orders-identifiable | C3 spine |
+| Velantha's **dispensation letter** | Tier 1 relic; cannot be destroyed; Aldric forged it | C3 spine |
+| Velantha's **healer's journal** | Tier 1 relic; last entry rewrites for a reader who has faced Velantha's choice | C3 spine |
+| The **keystone** | Pending artifact; Route D: Velantha's name carved before setting | C3 spine |
+
+### C3 Invented Events / Timeline Entries
+
+| Event | Year | Notes |
+|---|---|---|
+| Velantha performs the ritual; cures plague in human town and gully dwarf community; dies | ~30 years before campaign (PC -10 approx.) | Using Aldric's prohibited ritual; unauthorized for non-humanoid use |
+| Cathedral construction begins | ~11 years before campaign | Town commissions Mishakal cathedral on the miracle site |
+| Gully dwarf congregation occupies the unfinished cathedral | ~continuous since Velantha's death | Grew as more of her healed community died and returned |
+| Construction halts | ~3 months before campaign opens | Workers flee after encountering the congregation |
+
+## Campaign 5 — Thieves Guild (0029–0035)
+
+### C5 Invented Locations
+
+| Name | Region | Notes |
+|---|---|---|
+| **Havenmere** | Abanasinian coast | Port city; chandler district serves as Silken Ledger operating territory; workshop-invented |
+
+### C5 Invented Factions / Institutions
+
+| Name | Status | Notes |
+|---|---|---|
+| The **Silken Ledger** | Active; C5 spine | Information broker and thief guild in Havenmere's chandler district |
+
+### C5 Invented Characters
+
+| Name | Status at intro | Role |
+|---|---|---|
+| **Orren Pale** | Active; guild master | Silken Ledger guild master; selling member identities to Solamnic Watch |
+| **Tessaly Ink** | PC | Rogue/Mastermind; fence and intelligence operative; half-elf |
+| **Darro Velt** | PC | Rogue/Thief; lockbreaker; human |
+| **Mira Calloway** | PC | Bard/College of Whispers; face and grifter; human |
+| **Cael Ironback** | PC | Fighter/Battle Master; enforcer; dwarf |
+
+---
+
+## Campaign 6 — Border Watch (0036–0042)
+
+### C6 Invented Locations
+
+| Name | Region | Role | First appeared |
+|---|---|---|---|
+| **Irenvale Crossing** | Kharolis foothills border pass, 40 miles south of Thorngate Keep | Disputed border pass; 7th Expeditionary Patrol's assigned route; site of C6 patrol actions | C6 spine |
+
+### C6 Invented Characters
+
+| Name | Role | Lineage / Order |
+|---|---|---|
+| **Commander Varet Senn** (PC) | Commanding officer, 7th Expeditionary Patrol | Knights of Solamnia, Oath of the Crown; 9 years field journal |
+| **Medic Lenne Orr** (PC) | Unit medic, 7th Expeditionary Patrol | Cleric, Life Domain; half-elf; keeps medical log |
+| **Navigator Taris Cole** (PC) | Scout and route navigator, 7th Expeditionary Patrol | Ranger, Hunter; maintains hand-drawn patrol map |
+| **Veteran Dorn Ashfeld** (PC) | Unit veteran and enforcer, 7th Expeditionary Patrol | Fighter, Battle Master; dwarf; carries enlistment contract |
+| **Sergeant Arren Vole** | Senior NCO, 7th Expeditionary Patrol | Knights of Solamnia; 12 years of service; Varet's Unit Bond; the person she trusts to tell her when she's wrong |
+
+### C6 Invented Factions / Units
+
+| Name | Nature | Notes |
+|---|---|---|
+| **7th Expeditionary Patrol** | Solamnic military unit, Kharolis Border Detachment | 12-soldier unit; assigned to suppress border irregularities at Irenvale Crossing; C6 party unit |
+
+---
+
+## Campaign 7 — The Convergence (0043–0049)
+
+### C7 Invented Locations
+
+| Name | Region | Role | First appeared |
+|---|---|---|---|
+| **Stonehaven** | Abanasinia, south road, mining region | Mining settlement; Brek Ashfall's destination; site of the debt he's collecting | C7 spine / brek-ashfall.md |
+| **Millhaven** | Abanasinia, road-accessible | Library archive settlement; Sera Windholt's stated destination (cover) | C7 spine / sera-windholt.md |
+
+### C7 Invented Characters
+
+| Name | Role | Lineage / Background |
+|---|---|---|
+| **Brek Ashfall** (PC) | Stranger on the road; debt-collector traveling to Stonehaven | Half-orc, Barbarian (Berserker) L3; Outlander; no designed personal stakes |
+| **Sera Windholt** (PC) | Traveling scholar (cover); searching for a specific person | Human, Wizard (Abjuration) L3; Sage; documentary-witness candidate |
+| **Tam Overfield** (PC) | Wandering priest of Gilean on the wayshrine circuit | Human, Cleric (Trickery) L3; Acolyte; sent on this road specifically for unknown reasons |
+| **Vess Ironmark** (PC) | Courier making a delivery on a familiar road | Elf, Rogue (Scout) L3; Criminal; carries sealed package with problematic contents |
+
+---
+
 ## Update Protocol
 
 After each adventure design + session, this file is updated. New characters/locations/items added. Retired or contradicted entries marked (not deleted).
 
-**Next update due:** after S03 plays against #0003 (update Mirror disposition, Kann's fate, any PC attunement, Mira's relocation confirmed).
+**Next update due:** after adventure 0029 design (C5 first adventure; Havenmere geography, chandler district detail, Silken Ledger NPCs as introduced).

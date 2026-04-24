@@ -138,10 +138,10 @@ These are confirmed sub-types; they are categories ready for active use.
 
 ## Historical note
 
-This is the workshop's **first-ever promoted player-style**. Cluster trigger fired post-S02 at 4 instances across 2 sessions. Chronicle's analog (`guides/VOICE-SPECTRUM.md` voice registers) needed ~15 chapters for first registers; the marathon workshop surfaced clusters at session 2. The difference is likely:
+This is the workshop's **first-ever promoted player-style**. Cluster trigger fired post-S02 at 4 instances across 2 sessions. Chronicle's analog (`guides/VOICE-SPECTRUM.md` voice registers) needed ~15 chapters for first registers; the QUEST workshop surfaced clusters at session 2. The difference is likely:
 
-- Marathon's 5-persona-weights produce productive disagreement earlier (Chronicle's panel scored convergently at first).
-- Marathon's PC-sheets are denser (grief paragraphs; playstyle heuristics; 600+ words per sheet).
-- Marathon's per-scene per-PC reception tracking surfaces patterns the chronicle's chapter-scoring did not.
+- QUEST's 5-persona-weights produce productive disagreement earlier (Chronicle's panel scored convergently at first).
+- QUEST's PC-sheets are denser (grief paragraphs; playstyle heuristics; 600+ words per sheet).
+- QUEST's per-scene per-PC reception tracking surfaces patterns the chronicle's chapter-scoring did not.
 
 Fast-cluster does not necessarily mean looser-threshold. The 4 instances are substantively different moments; not 4 instances of the same mechanic.
