@@ -1,0 +1,141 @@
+%% sections/03-pattern.tex
+
+\section{The Arc-Completion Pattern}
+\label{sec:pattern}
+
+\subsection{Design Template}
+
+Each NPC designed with arc-completion potential receives an arc-completion section
+in their NPC file with four fields:
+
+\begin{description}
+  \item[Arc-completion text:] The exact line of dialogue, act, or gesture the NPC
+    delivers. Specific, brief, and not expandable by the DM without compromising the
+    moment. Example: \textit{``Veth: `I don't know if I am doing it right. I do it
+    anyway.' --- said once, then back to work.''}
+
+  \item[Firing condition:] The precise party behavior that triggers the arc-completion.
+    Not ``if the party earns Veth's trust'' but ``if the party asks Veth what he is
+    trying to understand.'' The condition is specific enough that the DM (or AI system)
+    knows with certainty when it has been met.
+
+  \item[DM discipline note:] Explicit instruction on what NOT to do. Typically: do not
+    extend the moment, do not have the NPC expand on the arc-completion line, do not
+    invite the party to respond in a way that disrupts the landing.
+
+  \item[Non-firing note (optional):] The NPC's behavior if the firing condition is NOT
+    met. Often: the NPC remains at their current emotional state; the arc-completion is
+    simply absent, not replaced by a lesser version.
+\end{description}
+
+Table~\ref{tab:examples} shows three representative arc-completion designs from the
+corpus.
+
+\begin{table*}[t]
+\caption{Three Representative NPC Arc-Completion Designs}
+\label{tab:examples}
+\begin{tabular}{@{}lp{4cm}p{4cm}p{3cm}@{}}
+\toprule
+NPC & Arc-Completion Text & Firing Condition & Campaign/Session \\
+\midrule
+Mig & She steps through, and does not look back. [No line. Act only.] & Party opens the inner door cooperatively, making no comment on Mig's hesitation. & C3-S1 \\
+Gorret & ``At least you say what you are.'' --- said once; then stepped aside. & A party member gives an honest answer to Gorret's direct question ``why do you need to go up?'' & C3-S2 \\
+Saren Coldforge & [Takes Asholt's token from his hand across the parley table. Stands. Says nothing.] & Asholt extends the token with his right hand, and Saren is present at the table when he does. & C4-S7 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\subsection{Character Logic vs.\ DM Scripting}
+
+The distinction between \textit{character logic} and \textit{DM scripting} is central
+to the pattern's value. DM scripting occurs when the DM decides independently that
+``now is the time'' for an NPC moment and delivers it regardless of party behavior.
+Character logic occurs when the NPC's arc-completion fires because the party's behavior
+met the pre-specified condition.
+
+In practice, the distinction is observable in the session log: character-logic firings
+are preceded by specific party actions that match the firing condition; DM-scripted
+firings are not. In the Marathon corpus, all 40+ logged instances were character-logic
+firings. This is partly a design artifact (the AI system does not fire arc-completions
+without checking firing conditions) but also reflects that the firing conditions were
+well-specified enough to be checkable.
+
+\subsection{The Small-Moment Principle}
+
+A consistent finding across the corpus is that arc-completions are smaller than
+expected. Not a speech, not a monologue, but one line, one act, one gesture. This is
+a design requirement, not a default: the arc-completion text is constrained to be
+minimal by the DM discipline note (``do not extend the moment'').
+
+Table~\ref{tab:small-moments} shows the word counts of the top-10 most impactful
+arc-completion lines in the corpus (measured by panel AL citation frequency).
+
+\begin{table}[t]
+\caption{Word Counts of Top-10 Most Panel-Cited Arc-Completion Moments}
+\label{tab:small-moments}
+\begin{tabular}{@{}llrl@{}}
+\toprule
+NPC & Words & Campaign & What makes it work \\
+\midrule
+Mig & 0 (act only) & C3-S1 & Physical threshold crossing; no words needed \\
+Veth & 14 & C3-S2 & Names the doubt and the practice together \\
+Gorret & 9 & C3-S2 & Acknowledges without approving \\
+Pella & 2 & C1-S2 & Campaign-long anticipation in 2 words \\
+Saren (token) & 0 (act only) & C4-S7 & 7 sessions of investment released in a gesture \\
+Asholt & 12 & C4-S7 & Names what was wrong and what was right in same sentence \\
+Bessa Tor & 18 & C5-S1 & Gives key without conditions; only explanation: ``You asked right'' \\
+Lenne (suspension) & 0 (act: didn't write) & C2-S3 & First documentation-suspension in C2 \\
+Mira S (naming) & 21 & C1-S3 & 30 years of refusal ended in writing a name \\
+Velantha (journal) & 25 & C3-S7 & Entire arc completion in one final journal entry \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The median word count for the top-10 arc-completions is 7 words. Two are wordless acts.
+None exceeds 25 words. The session-memory-worthy moments in the corpus are
+disproportionately the smallest.
+
+This is counterintuitive from a narrative design perspective: the conventional assumption
+is that important moments deserve more space. The arc-completion pattern inverts this:
+important moments deserve \textit{less} space, because the space has already been
+accumulated by the preceding sessions. The moment is the hinge, not the speech.
+
+\subsection{NPC Design Discipline Requirements}
+
+The pattern requires three DM discipline commitments that are frequently violated
+in practice:
+
+\paragraph{Do not deliver early.}
+The most common discipline failure is delivering the arc-completion before the firing
+condition is met. A DM who can see that ``the party is getting close'' to the condition
+may deliver a partial arc-completion, diluting the eventual full firing. The discipline
+note must state: ``Do not deliver any version of this line before the exact firing
+condition is met.''
+
+\paragraph{Do not extend.}
+The second most common discipline failure is adding NPC dialogue after the arc-completion
+to explain or contextualize it. The arc-completion text is the completion; the NPC
+does not explain it. The DM discipline note must state: ``After delivering the arc-completion
+text, the NPC is done. Do not continue speaking for the NPC.''
+
+\paragraph{Do not soften.}
+Some NPC arc-completions are uncomfortable: a morally grey character acknowledges
+something without becoming sympathetic; an antagonist's closing line is not a conversion.
+The discipline note must state: ``Do not soften the arc-completion to make the NPC
+more sympathetic. The line is what it is. Deliver it as written.''
+
+In the AI-simulated corpus, all three discipline commitments were enforced
+mechanically by the session runner, which reads the NPC file's arc-completion
+section and fires it only when the firing condition is confirmed. Human DMs must
+enforce these as volitional commitments.
+
+The small-moment principle reflects a theory of emotional payoff in narrative: the
+most emotionally resonant moments are often the most compressed. When the party has
+been working toward a moment across multiple scenes, the moment itself needs very
+little space --- the accumulated context does the work. Extending the moment dissipates
+this accumulated energy rather than releasing it.
+
+Empirically, the smallest arc-completions in the corpus scored highest on Atmospheric
+Landing. Mig's wordless threshold-crossing (C3-S1) and Saren's silent token-acceptance
+(C4-S7) were both noted in panel reviews as session-memory-worthy moments. Extended
+NPC responses in the same sessions were not noted.

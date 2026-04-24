@@ -1,0 +1,117 @@
+%% sections/03-mechanics.tex
+
+\section{The Two Resource Mechanics}
+\label{sec:mechanics}
+
+\subsection{Campaign 4: Supply Die + Between-Session HP Carry-Over}
+
+\paragraph{Design.}
+Campaign 4 (the Thorngate Watch siege scenario) implemented two interlocking resource
+mechanics:
+
+\begin{enumerate}
+  \item \textbf{Between-session HP carry-over:} At the end of each session, HP is recorded
+    and carried forward. At the start of the next session, each PC recovers 1 hit die of
+    HP (rolled or average), capped at their maximum. No full long rest is available until
+    the siege breaks (at campaign end). Spell slots recover normally (short rest = 1 warlock
+    slot; one short rest per session allowed; no long rest slots until finale).
+
+  \item \textbf{Supply Die:} The garrison's medical and supply resources are tracked as a
+    single die that begins at d12 and degrades one category (d12$\to$d10$\to$d8$\to$d6$\to$d4)
+    after each session in which a combat encounter occurs. At each die level, the garrison
+    can provide a corresponding level of healing to the party.
+\end{enumerate}
+
+The two mechanics interact: HP carry-over creates cumulative pressure on character HP
+decisions (when to use Mending Touch in session 3 affects how much HP is available in
+session 6); Supply Die exhaustion removes external healing as a safety net. By Session 6,
+the party is fighting at reduced HP with zero garrison healing support.
+
+\paragraph{Design intent.}
+The mechanics were designed to make every session's resource decisions visible across
+the full campaign: spell slots spent in Session 2 are slots not available in Session 7;
+HP taken in Session 3 is HP that must be recovered (partially) across multiple sessions.
+The design inverts the typical TRPG session structure, in which long rests reset resources
+between sessions.
+
+\paragraph{Emotional architecture.}
+The Supply Die represents the garrison's wounded --- the people who need healing to
+survive the siege. When the die is exhausted in Session 6, it is not just the party
+that has run out of resources; it is the garrison that has no more medical supplies.
+The resource depletion is felt as a narrative statement (``we are at our limit'') as
+well as a tactical statement (``no healing available'').
+
+\subsection{Campaign 6: Unit Cohesion Die}
+
+\paragraph{Design.}
+Campaign 6 (the Border Watch military unit) used a Unit Cohesion Die representing the
+number of soldiers available to the party's unit:
+
+\begin{itemize}
+  \item Begins at d12 (full unit of 12+ soldiers).
+  \item Degrades one category when unit members are killed or captured in combat.
+  \item Degrades one category when a PC defies direct orders without unit consensus.
+  \item Does not recover between sessions (unit members who are gone are gone).
+\end{itemize}
+
+When the die is rolled for morale checks or tactical coordination, the result is
+compared to the number of soldiers available. As the die degrades, the unit's capacity
+for coordinated action diminishes.
+
+\paragraph{Distinction from Supply Die.}
+The key distinction is what the resource represents. The Supply Die tracks materials
+(healing supplies); the Cohesion Die tracks people (unit members). Material depletion
+is felt as scarcity; people depletion is felt as loss. The party's relationship to
+the Cohesion Die is characterized by active preservation: the party in Campaign 6
+consistently made decisions that prioritized keeping unit members alive over tactical
+advantage. This preservation behavior is itself a form of character-driven agency.
+
+\paragraph{Emotional architecture.}
+Each Cohesion Die degradation represents named unit members. In Campaign 6, each
+degradation event was recorded with the name(s) of who was lost. By Session 7, the
+die at d8 represented a unit from which 4 members had been lost. The party could
+track their losses as a named list. This made the resource emotionally legible in a
+way the Supply Die is not: it is harder to care about healing supplies than about
+people you have worked with for six sessions.
+
+\subsection{Mechanic Comparison: Design Matrix}
+
+Table~\ref{tab:mechanic-comparison} compares the two resource mechanics on the design
+properties proposed in our amplification hypothesis.
+
+\begin{table}[t]
+\caption{Supply Die vs.\ Unit Cohesion Die: Design Property Comparison}
+\label{tab:mechanic-comparison}
+\begin{tabular}{@{}lll@{}}
+\toprule
+Property & Supply Die (C4) & Cohesion Die (C6) \\
+\midrule
+Resource represents & Materials (healing supplies) & People (unit members) \\
+Degradation trigger & Session with combat & Unit loss OR order-defiance \\
+Legibility & Die-size visible (d12→exhausted) & Die-size visible (d12→d8) \\
+Named loss & No (generic ``supplies'') & Yes (named unit members) \\
+Irreversibility & Full (supply not recoverable) & Full (members not recoverable) \\
+Preservation behavior observed & Minimal (use when needed) & Strong (active conservation) \\
+Emotional architecture strength & Moderate & High \\
+Combat pressure produced & High (HP deplete) & Moderate (unit attrition rate) \\
+Character Agency score S5-7 & 10/10/10 & 10/10/10 \\
+Panel CA quality notes & ``Character-inflected tactical'' & ``Character-primary'' \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Both mechanics are legible and irreversible. The critical distinction is in the
+``named loss'' and ``preservation behavior'' rows. The Cohesion Die tracks named
+individuals, which activates preservation behavior absent from the Supply Die campaign.
+This preservation behavior is itself character-driven agency: it is the party choosing
+to sacrifice tactical efficiency to protect specific named people.
+
+In Campaign 6 sessions 4--6, the Tactician panel lens noted on three separate occasions
+that the unit's defensive formation (forgoing offensive opportunities to hold unit
+members in protected positions) was sub-optimal from a damage-per-round standpoint but
+was explained in the session log as a character commitment rather than tactical
+calculation: ``Varet extended the left flank at the cost of a flanking bonus because
+the three soldiers holding that position included Carra, who had held the ridge all
+night. She did not explain this.'' This is act-without-announcement applied to resource
+management: the Cohesion Die made the party's commitment to their people visible as a
+resource decision, not just as a narrative gesture.

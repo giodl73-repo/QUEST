@@ -1,0 +1,73 @@
+%% glyph-npc-arc/main.tex
+%% Designing NPC Arc-Completion Conditions for Session-Invariant
+%% Emotional Payoffs in AI-Simulated TRPG
+%%
+%% Target venue: ACM CHI 2027
+%% Evidence base: Marathon D&D Workshop — 40+ arc-completion instances, 7 campaigns
+
+\documentclass[sigconf]{acmart}
+
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{xspace}
+\usepackage{microtype}
+\usepackage{array}
+
+\acmConference[CHI '27]{CHI Conference on Human Factors in Computing Systems}{May 2027}{Yokohama, Japan}
+\acmDOI{10.1145/XXXXXXX.XXXXXXX}
+\acmISBN{978-x-xxxx-xxxx-x/27/05}
+\copyrightyear{2027}
+\acmYear{2027}
+\setcopyright{acmlicensed}
+
+\begin{document}
+
+\title{Designing NPC Arc-Completion Conditions for\\
+       Session-Invariant Emotional Payoffs in AI-Simulated TRPG}
+
+\author{Gio Della-Libera}
+\affiliation{%
+  \institution{Independent Research}
+  \city{Seattle}
+  \state{WA}
+  \country{USA}
+}
+\email{giodl@microsoft.com}
+
+\begin{abstract}
+Emotional payoffs from non-player characters (NPCs) in tabletop role-playing
+games are typically improvised by the Dungeon Master and consequently unreliable:
+the same NPC produces memorable moments in some sessions and nothing in others,
+depending on timing, DM attention, and conversational flow. We describe and
+evaluate the \textit{NPC arc-completion} design pattern, in which each significant NPC is
+given an explicit arc-completion act --- a specific statement or gesture they are
+capable of making --- and a precise firing condition specifying the exact party
+behavior that triggers it. Across 49 sessions and 7 campaigns in the Marathon
+AI-simulated TRPG workshop, we document 52 arc-completion instances in which
+NPCs fired their designed moments by character logic alone, requiring no DM
+scripting. Session coverage is 90\% (44 of 49 sessions contained at least one
+arc-completion). The pattern holds across morally grey NPCs, professional-code
+archetypes, and no-designed-stakes campaigns, not only in grief-adjacent contexts
+where it was first observed. We provide a design template with five exemplar
+NPCs, a trigger-type taxonomy, and a failure analysis showing that NPCs without
+arc-completion conditions produce memorable moments in fewer than 10\% of
+sessions where they are the primary encounter.
+\end{abstract}
+
+\keywords{NPC design, arc-completion, character logic, narrative systems,
+          TRPG simulation, emotional payoffs, drama management, game design}
+
+\maketitle
+
+\input{sections/01-introduction}
+\input{sections/02-related-work}
+\input{sections/03-methodology}
+\input{sections/04-evaluation}
+\input{sections/05-discussion}
+\input{sections/06-conclusion}
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{references}
+
+\end{document}

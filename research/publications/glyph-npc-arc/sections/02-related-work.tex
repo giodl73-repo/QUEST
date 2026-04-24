@@ -1,0 +1,148 @@
+%% sections/02-related-work.tex
+
+\section{Related Work}
+\label{sec:related}
+
+\subsection{NPC Design in Games Research}
+
+NPC design in digital games has been extensively studied from computational
+and AI-behavior perspectives --- pathfinding, finite-state machines, behavior
+trees, and goal-oriented action planning~\cite{buckland2004programming,
+millington2009}. This line of work emphasizes procedural correctness: NPCs
+that navigate, fight, and react to environmental changes believably. The
+primary quality criterion is behavioral plausibility rather than narrative
+memorability.
+
+Narrative NPC design --- how to construct NPCs that produce memorable
+character moments --- has received substantially less systematic treatment
+in the research literature, though it is extensively covered in practitioner
+discourse~\cite{dungeons2014players, fullerton2008}. \citet{bartle1996hearts}
+identifies NPC interaction quality as a primary driver of player engagement in
+multi-user environments, and \citet{tychsen2006role} documents the centrality of
+NPC relationships to TRPG session satisfaction. Neither provides a design
+methodology for producing such interactions reliably.
+
+The closest prior work in digital games is \citet{mateas2003faade} on
+interactive drama: a system in which an AI director steers narrative events
+toward designed arcs through active runtime intervention. The Marathon arc-
+completion pattern inverts this approach. Where Facade employs an AI director
+that monitors player behavior and intervenes to shape narrative direction, the
+arc-completion pattern eliminates runtime direction entirely: the arc-completion
+condition is pre-specified, the condition check is passive, and the NPC fires
+automatically when the party meets the condition. The party becomes the director;
+the system becomes a condition-checker.
+
+\subsection{Narrative Systems and Drama Management}
+
+The drama management tradition~\cite{riedl2016} studies how AI systems can
+intervene in emergent play to guide narrative toward designed endpoints. Drama
+managers typically operate by modifying encounter parameters, adjusting NPC
+availability, or selecting from branching narrative paths at
+runtime~\cite{ryan2017narrative}. The limitation of this approach in TRPG is
+that runtime intervention is perceptible to players: a skilled player can detect
+when the system is tilting the board, and the perception of management undermines
+the sense that their choices have causal force.
+
+The canonical example of drama management in interactive narrative is
+\citeauthor{mateas2003faade}'s \textit{Façade}~\citeyear{mateas2003faade}, in
+which a drama manager intervenes in real-time to steer conversation toward
+designed dramatic beats. The drama manager is the arbiter of when emotional
+moments fire: it monitors the interaction state and selects the moment of
+intervention based on session-level narrative shape. This architecture optimizes
+for coherent narrative arc at the session level --- the system shapes the overall
+experience toward designed endpoints.
+
+The arc-completion pattern inverts this architecture in a specific respect. Rather
+than a management layer that monitors and intervenes, the arc-completion pattern
+pre-specifies the NPC's firing condition at design time: the NPC fires when the
+party's behavior meets the condition, not when the system judges the moment
+narratively opportune. The DM's role in arc-completion design is to recognize
+when the condition has been met, not to engineer the moment. The moment fires from
+the fiction, not from a management layer.
+
+This inversion produces a different optimization target. Drama management optimizes
+for session-level narrative shape: the system can respond to player behavior and
+steer toward designed endpoints even when players behave unexpectedly. Arc-completion
+design optimizes for NPC-level emotional authenticity: the NPC's arc fires on its
+own terms, under conditions the NPC's design specifies, without session-level
+management adjusting the moment's timing. Both are valid approaches; they compose
+differently with player agency.
+
+Arc-completion can be viewed as a constraint-based alternative to drama management:
+rather than a system that monitors and intervenes, it specifies conditions under
+which NPCs self-trigger. The tradeoff is predictability (arc-completion is
+designable) vs.\ adaptability (drama management responds to player behavior). Our
+corpus suggests predictable arc-completions fire more reliably across session types:
+the 90\% session-coverage rate across 7 campaign archetypes indicates that pre-specified
+arc-completion conditions are robust to session variation in a way that relies on
+design quality rather than runtime management capacity.
+
+The arc-completion pattern avoids the perceptibility problem of drama management by
+making the NPC's behavior structurally conditional on the party's actual actions, not
+on a director's assessment of narrative need. There is no tilting: if the party does
+not create the condition, the arc-completion does not fire. This aligns with
+\citet{crawford2013}'s argument that interactive narrative requires genuine causal
+responsiveness to player choice, not the appearance of it.
+
+\citeauthor{mateas2003faade}'s concept of \textit{joint closure} --- a moment where
+both player and NPC commit to a shared narrative direction --- is closely related
+to the arc-completion pattern's mechanism. The arc-completion produces joint
+closure by design: the NPC's pre-specified condition and the party's behavior
+converge on a single moment that neither party controlled independently. The
+convergence is structural, not managed.
+
+\subsection{Character Arcs in Interactive Fiction}
+
+Character arc design in interactive narrative has been studied primarily in
+the context of branching narratives~\cite{ryan2017narrative} and procedural
+story generation~\cite{riedl2016, fan2019}. Most work focuses on protagonist
+arcs (player character development) rather than NPC arcs. The framing in
+this literature is typically: what does the player's character go through?
+The arc-completion pattern addresses a different question: what is the NPC
+capable of, and what does the party need to do to see it?
+
+\citet{akoury2020} study story generation in collaborative human-AI contexts
+and identify the challenge of maintaining character consistency across long
+narrative spans. The arc-completion pattern addresses this challenge by
+externalizing character consistency to a design document: the NPC file
+specifies what the NPC is carrying and what they can say, and this specification
+constrains the NPC's behavior consistently across sessions.
+
+\citet{yuan2022wordcraft} document the use of LLMs for collaborative story
+writing and identify the tendency of LLM-generated characters to lose
+distinctive voice under revision pressure. The arc-completion condition
+functions as a voice anchor: the pre-written arc-completion text maintains
+the NPC's voice integrity even when the AI running the session would otherwise
+generalize or summarize.
+
+\subsection{Emotional Design and NPC Expressiveness}
+
+\citet{isbister2006better} identifies emotion-driven NPC behavior as a primary
+driver of player engagement with characters, and distinguishes surface-level
+emotional expression (the NPC looks sad) from structurally embedded emotional
+state (the NPC is carrying something specific that the party can help resolve).
+The arc-completion pattern operationalizes this distinction: the NPC file's
+emotional-position field captures what the NPC is carrying, while the arc-
+completion act captures the specific form that resolution takes.
+
+\citet{mekler2017framework} link NPC emotional expressiveness with player
+immersion and affect, and identify specificity and authenticity as the
+key qualities that produce player response. Both works are descriptive: they
+identify what makes NPC emotional moments work without providing a design
+methodology for producing them reliably. The arc-completion pattern provides
+that methodology.
+
+\subsection{The DM as Design Axis}
+
+The Dungeon Master's role in TRPG has been analyzed from game design, social,
+and improvisational perspectives~\cite{bowman2010functions,
+zagal2008collaborative}. A consistent finding is that experienced DMs produce
+better NPC moments than inexperienced ones because they can read player
+emotional state and time NPC beats accordingly~\cite{harmon2011story}. The
+arc-completion pattern provides a structural substitute for this timing
+capacity. The firing condition is a behavioral proxy for the emotional state
+the DM would have sensed: instead of reading the room, the system reads the
+condition. This makes the pattern particularly valuable in AI-simulated TRPG,
+where room-reading capacity is architecturally absent, but it also addresses
+a recognized gap in human DM practice --- the inconsistency of improvised NPC
+moment timing even in skilled DMs.

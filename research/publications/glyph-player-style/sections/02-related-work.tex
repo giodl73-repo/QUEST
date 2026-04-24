@@ -1,0 +1,87 @@
+%% sections/02-related-work.tex
+
+\section{Related Work}
+\label{sec:related}
+
+\subsection{Player Typologies}
+
+The dominant player typologies in game studies describe player motivations and
+personality profiles rather than design-enabled behavioral patterns. Bartle's
+four-type taxonomy~\cite{bartle1996hearts}, derived from observation of Multi-User
+Dungeon (MUD) players, classifies players as Achievers (accumulating points and status),
+Explorers (discovering hidden content), Socializers (interacting with other players),
+and Killers (imposing on others). The taxonomy has been widely replicated, refined,
+and contested; its chief limitation is that the categories describe player dispositions
+that pre-exist the game rather than behaviors the game design enables.
+
+Yee's empirical factor analysis of MMORPG motivations~\cite{yee2006motivations}
+produced a three-component, ten-sub-motivation structure (Achievement: advancement,
+mechanics, competition; Social: socializing, relationship, teamwork; Immersion:
+discovery, role-playing, customization, escapism). This framework is more granular
+and better supported empirically than Bartle's. Like Bartle's, however, it describes
+why players engage, not what specific design choices enable specific behaviors.
+
+BrainHex~\cite{nacke2011brainhex} introduced neuroscience-informed player types
+(Seeker, Survivor, Daredevil, Mastermind, Conqueror, Socializer, Achiever), grounding
+typology in neurobiological response patterns. The approach is methodologically
+distinct from motivation surveys but converges on a similar design implication:
+types describe audience segments, not design prescriptions.
+
+The closest antecedent to the player-style concept in the typology literature is
+Isbister's work on social game design~\cite{isbister2006better}, which identifies
+interaction patterns enabled by game structure rather than player disposition. The
+Marathon player styles extend this direction by providing a formal promotion pipeline
+and cross-campaign validation evidence.
+
+\subsection{Emergent Narrative and Emergent Behavior}
+
+Emergent behavior in games --- player behaviors not explicitly designed --- has been
+studied primarily at the level of game systems. Juul's~\cite{juul2005half} analysis
+of game rules and their emergent properties establishes the foundational framework:
+simple rules generate complex outcomes. Salen and Zimmerman~\cite{salen2004rules}
+define emergence as the complexity arising from rule interaction and identify it as
+central to meaningful play.
+
+The Marathon player styles are not system-emergent in the Juul/Salen-Zimmerman sense.
+They are design-enabled: specific character-sheet features produce specific behavioral
+tendencies, which are observable as patterns across sessions. The distinction matters
+because system-emergent behaviors are often difficult to predict or control by design,
+whereas design-enabled behaviors are, in principle, replicable through deliberate
+character-sheet choices.
+
+Ryan's~\cite{ryan2006narrative} analysis of narrative emergence in interactive systems
+identifies how stories arise from rule-governed agent interactions, a framework that
+applies productively to the session-level narrative dynamics in which the Marathon
+styles appear. The player styles can be understood as character-level narrative affordances:
+design features that make certain narrative events (naming a grief, completing an arc)
+available to the system.
+
+\subsection{AI Player Behavior in Games}
+
+Research on AI behavior in TRPGs and narrative games has grown alongside the field of
+interactive narrative. Cavazza and colleagues~\cite{cavazza2002character} demonstrated
+that AI characters in interactive drama can exhibit goal-directed narrative behavior.
+Mateas and Stern's~\cite{mateas2003architecture} Fa\c{c}ade system showed that AI agents
+playing within a drama manager could produce session-level narrative coherence.
+
+More recent work on large-language-model-based game agents~\cite{akoury2023rik} has
+shown that LLMs can generate contextually appropriate TRPG-style narration, though the
+question of whether LLM-based agents exhibit reproducible behavioral \textit{styles}
+tied to character design remains underexplored. The Marathon corpus addresses this
+question directly: by constraining AI play to explicit Playstyle Heuristics on character
+sheets, the corpus makes behavioral style a design input rather than an emergent
+property of model behavior.
+
+\subsection{Design Patterns in Games}
+
+Design patterns as a methodology for game design were introduced by Bjork and
+Holopainen~\cite{bjork2005patterns}, who catalogued 200+ game design patterns as
+reusable problem-solution pairs. The Marathon player styles are a species of design
+pattern, but at the character-sheet level rather than the game-system level: they
+describe recurring behavioral solutions enabled by recurring character-sheet design
+features.
+
+Dormans~\cite{dormans2012engineering} extended the design-pattern approach to game
+mechanics, and Treanor and colleagues~\cite{treanor2012game} applied it to game
+narratives. Neither addresses the TRPG character-sheet as a locus of behavioral
+pattern design. The present paper contributes this level of analysis.

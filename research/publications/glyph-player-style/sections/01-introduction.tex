@@ -1,0 +1,113 @@
+%% sections/01-introduction.tex
+
+\section{Introduction}
+\label{sec:introduction}
+
+Tabletop role-playing games (TRPGs) are a site of rich, nuanced player behavior, yet
+that behavior resists systematic description. At most tables, sessions are unrecorded.
+Player choices are attributed after the fact to player personality, mood, or the
+chemistry of a particular group, rather than to identifiable features of the character
+and campaign design. When a player does something surprising and resonant --- names a
+grief their character has been carrying, performs a small act of care that changes the
+scene's tone, or produces a speech at the finale that feels like an inevitable
+conclusion --- there is no formal mechanism for capturing what enabled it, let alone
+for replicating it in future designs.
+
+The absence of such a mechanism is a design problem, not merely an ethnographic one.
+TRPG character-sheet design has matured considerably in terms of mechanical specificity
+(stat blocks, action economies, spell lists) and narrative scaffolding (backstory
+prompts, bond/flaw fields, ideals). What it has not developed is a vocabulary for
+\textit{behavioral design affordances}: specific character-sheet features that reliably
+enable specific classes of behavior during play, independent of who is playing. Without
+such a vocabulary, designers cannot learn from surprising sessions or build on them.
+Every table starts from scratch.
+
+\subsection{The Contribution}
+
+This paper describes a pipeline --- developed and validated in the Marathon D\&D
+Workshop --- for converting session-level behavioral surprises into ratified design
+patterns. The pipeline is:
+
+\begin{enumerate}
+  \item \textbf{Innovation logging.} During and after each session, a session-gate
+    reviewer logs behavioral surprises: moments when a player character's action or
+    speech exceeds what the existing rubric anticipates. These are \textit{innovation
+    instances}.
+  \item \textbf{Threshold accumulation.} When 3 or more innovation instances cluster
+    thematically across 2 or more sessions, the cluster crosses the promotion threshold.
+    The threshold is conservative by design: it requires cross-session evidence (the
+    pattern is not session-specific) and cross-instance evidence (the pattern is not a
+    single-event anomaly).
+  \item \textbf{Player-style proposal.} A player-style entry is drafted. The entry
+    includes a definition in behavioral terms (not player-personality terms), observable
+    session-log indicators, design features that enable the style, and a cross-campaign
+    validation status.
+  \item \textbf{Ratification.} The style is ratified when a second review confirms that
+    the promotion-threshold instances are substantively distinct and that the definition
+    correctly names the observed pattern.
+  \item \textbf{Cross-campaign validation.} After ratification, the style is monitored
+    across subsequent campaigns to confirm it fires outside the archetype that produced
+    it.
+\end{enumerate}
+
+Applied across 49 sessions and 7 complete campaigns, the pipeline promoted 7 player
+styles and validated them against 12 research hypotheses (RV1--RV12). The hypotheses
+range from basic cross-campaign recurrence (RV1: sheet-deep-reader fires outside C1)
+to archetype-independence (RV9: styles fire without any designed personal stakes) to
+trigger-type shift (RV11: trigger type shifts from situational to relationship-driven
+across a campaign's arc).
+
+\subsection{Why AI Simulation Is a Useful Laboratory}
+
+Human TRPG sessions produce behavioral patterns that are difficult to observe
+systematically for several reasons. Play is real-time and typically unrecorded.
+Player choices blend design input (what the character sheet affords) with player
+personality (the individual at the table) and social dynamics (the chemistry of the
+group). Separating the contribution of character-sheet design from those other factors
+requires either controlled experiments that eliminate ecological validity or longitudinal
+naturalistic observation that is difficult to conduct at scale.
+
+In the Marathon corpus, AI agents play player characters strictly according to their
+character-sheet Playstyle Heuristics. There is no player personality to confound with
+sheet design. If a behavioral pattern fires repeatedly, it fires from the sheet. This
+does not mean that human players would not produce the same patterns --- we expect
+they would, and in greater variety. What it means is that the AI corpus isolates the
+design contribution: any pattern that fires in the AI corpus is demonstrably enabled
+by character-sheet design rather than by player personality.
+
+This is the key methodological advantage. It comes with corresponding limitations.
+AI-simulated play adheres to heuristics more consistently than human play, which
+introduces a regularity that human sessions would not always match. The AI cannot
+improvise beyond its heuristics in the way that a skilled human player can. And the
+corpus represents a single AI system, making generalization to other systems an open
+question. These limitations are discussed in Section~\ref{sec:discussion}.
+
+\subsection{The Player-Style vs.\ Player-Type Distinction}
+
+Player typologies in the literature describe \textit{who plays games and why}. Bartle's
+four types (Achiever, Explorer, Socializer, Killer) and Yee's motivation dimensions
+(Achievement, Social, Immersion and their sub-components) characterize players as
+people: their motivations, preferences, and psychological needs~\cite{bartle1996hearts,
+yee2006motivations}. These are valuable for understanding audience composition and
+long-term engagement, but they do not tell a designer what to put in a character sheet
+to enable a specific class of behavior.
+
+Player styles, as defined here, describe \textit{what a character sheet enables a PC
+to do in a session}. Sheet-deep-reader is not a player type (``the sort of person who
+reads their sheet carefully''); it is a behavioral design affordance (``a PC sheet
+with a detailed grief-paragraph and local-origin notes enables the PC to surface
+sheet-content as current-scene inputs without DM prompting''). The design implication
+is direct: a designer who wants sheet-deep-reader behavior writes a denser, more
+specific character sheet. A designer who wants Achiever behavior cannot design that
+in the same way.
+
+\subsection{Roadmap}
+
+Section~\ref{sec:related} reviews related work in player typologies, emergent narrative,
+AI player behavior, and design patterns in games. Section~\ref{sec:methodology} describes
+the promotion pipeline in full, including the seven promoted styles with definitions,
+instance counts, and design triggers. Section~\ref{sec:evaluation} presents the
+cross-campaign validation results for RV1--RV12, including per-campaign instance tables
+and trigger-type breakdown. Section~\ref{sec:discussion} addresses the significance
+of the findings and the limitations of the corpus. Section~\ref{sec:conclusion}
+concludes and identifies directions for future work.

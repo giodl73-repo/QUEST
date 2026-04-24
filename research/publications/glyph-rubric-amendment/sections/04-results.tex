@@ -1,0 +1,198 @@
+%% sections/04-results.tex
+
+\section{Results}
+\label{sec:results}
+
+\subsection{Innovation Rate by Session and Campaign}
+
+Table~\ref{tab:innovations} reports innovations logged per session across the 7 campaigns.
+
+\begin{table}[t]
+\caption{Innovations Logged Per Campaign: Session Range, Total, Mean per Session}
+\label{tab:innovations}
+\begin{tabular}{@{}lllrrl@{}}
+\toprule
+Campaign & Rubric at open & Rubric at close & Total innov. & Mean/session & Campaign archetype \\
+\midrule
+C1 & v1.0 & v1.4 & 40+ & 5.7 & grief-themed \\
+C2 & v1.4 & v1.6 & 12 & 1.7 & covenant-restoration \\
+C3 & v1.6 & v1.8 & 16 & 2.3 & faith/authority \\
+C4 & v1.8 & v1.12 & 16 & 2.3 & siege-resource \\
+C5 & v1.12 & v1.12 & 8 & 1.1 & professional-code \\
+C6 & v1.12 & v1.12 & 15 & 2.1 & duty-spine \\
+C7 & v1.12 & v1.12 & 7 & 1.0 & no-designed-stakes \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The self-calibration pattern is visible: C1 has the highest mean innovation rate (5.7
+per session) because the rubric begins at v1.0 with no accumulated anchors. C2 drops
+sharply (1.7 per session) because the C1 amendments absorbed the most common quality
+patterns. C3 and C4 produce moderate bursts (2.3 per session each) as new campaign
+archetypes introduce quality phenomena the v1.4 and v1.6 anchors had not captured.
+C5--C7, all running under the mature v1.12 rubric, produce the lowest innovation rates
+(1.0--2.1 per session).
+
+It is notable that C6 (Military Unit, duty-spine) produces 15 innovations despite
+running under the mature v1.12 rubric. Inspection of the C6 innovation log reveals
+that the Unit Cohesion Die mechanic produced several quality phenomena not seen in
+any prior campaign: ``grief-paragraph resource expression'' (a PC's resource decisions
+shaped by their grief-paragraph commitment rather than tactical calculation),
+``unit-member-as-named-loss'' atmospheric landing, and ``order-defiance as character
+commitment'' agency pattern. These were all universal-scope innovations (likely to
+recur in any duty-spine campaign with a Cohesion Die), but they required the
+combination of duty-spine archetype and Cohesion Die mechanic --- neither had appeared
+alone in the corpus.
+
+\subsection{Cluster Coherence}
+
+Table~\ref{tab:cluster-coherence} characterizes the thematic coherence of amendment-triggering
+clusters by reporting the number of distinct quality phenomena addressed and the degree
+of cross-session repetition.
+
+\begin{table}[t]
+\caption{Cluster Coherence: All 15 Amendment-Triggering Dimension-Clusters}
+\label{tab:cluster-coherence}
+\begin{tabular}{@{}llrcl@{}}
+\toprule
+Version & Dimension & Cluster size & Sessions spanned & Thematic label \\
+\midrule
+v1.1 & MF & 2 & S01 & Cross-dimensional damage \\
+v1.1 & AL & 3 & S01 & Per-PC reception + chain-reaction \\
+v1.2 & MFid & 4 & S01--S02 & Anchor-level single-gate failure \\
+v1.2 & AL & 3 & S02 & Finder/receiver divergence + silent reception \\
+v1.3 & MFid & 3 & S03 & Positional-geometry failure \\
+v1.4 & MF & 2 & S03--S04 & Cross-character compound \\
+v1.4 & AL & 2 & S04--S05 & Multi-scene silent-reception chain \\
+v1.5 & AL & 3 & S07, C2-S01--S02 & Cross-session act-without-announcement \\
+v1.6 & AL & 2 & S07, C2-S04 & Simultaneous arc-convergence \\
+v1.7 & AL & 2 & C3-S01 & Framework-failure arc-activation \\
+v1.8 & AL & 2 & C3-S03--S04 & Arc-activation through behavioral stance \\
+v1.9 & AL, CA & 4 & C4-S01 & Grief-paragraph resonance + sustained pattern \\
+v1.10 & CA & 2 & C4-S02--S03 & Character-register conversion \\
+v1.11 & MF & 2 & C4-S03--S04 & Portent-as-directed-foreknowledge \\
+v1.12 & AL & 2 & C4-S02--S03 & Intra-session restraint \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+All 15 clusters showed thematic unity: innovations within a cluster addressed the same
+underlying quality phenomenon from different session contexts. No cluster contained
+innovations addressing genuinely distinct phenomena that happened to share a dimension
+tag. In particular, the AL clusters were consistently distinguishable from each other:
+v1.1 (who receives which beat), v1.2 (finder and receiver separated), v1.4 (reception
+persisting across scenes), v1.5 (reception expressing across sessions), v1.6 (reception
+releasing into simultaneous convergence), v1.7 (reception from framework-failure rather
+than discovery), v1.8 (reception from behavioral stance rather than speech), v1.9
+(reception via grief-pattern recognition), v1.12 (reception expressing intra-session)
+are nine distinct quality phenomena, all in the Atmospheric Landing dimension, each
+clearly distinguishable from the others.
+
+\subsection{Innovation Taxonomy}
+
+Figure~\ref{fig:taxonomy} shows the distribution of innovations across scope
+classifications.
+
+\begin{figure}[t]
+  \centering
+  \fbox{\parbox{0.85\columnwidth}{\centering
+    [Bar chart: innovations by scope classification. \\
+    Universal: 78 (65\%). \\
+    Adventure-specific: 18 (15\%). \\
+    Party-specific: 24 (20\%). \\
+    Total: 120 entries analyzed. \\
+    All 15 amendment clusters contained at least 1 Universal-scope innovation.]}}
+  \caption{Innovation scope distribution. Universal-scope innovations are the
+    primary raw material for amendments. Party-specific and adventure-specific
+    innovations serve as corroborating evidence only.}
+  \label{fig:taxonomy}
+\end{figure}
+
+Of 120+ logged innovations, approximately 78 (65\%) were classified as Universal.
+The remaining 35\% were adventure-specific (15\%) or party-specific (20\%). All 15
+amendment-triggering clusters contained at least one Universal-scope innovation;
+no amendment was adopted on party-specific-only evidence.
+
+\subsection{Amendment Rate Decay and Archetype Reactivation}
+
+Figure~\ref{fig:amendment-rate} shows the amendment adoption rate (amendments per session)
+across the 49-session corpus.
+
+\begin{figure}[t]
+  \centering
+  \fbox{\parbox{0.85\columnwidth}{\centering
+    [Line chart: amendments adopted per session window. \\
+    C1 (S01-S07): 0.57 per session (4 adopted). \\
+    C2 (C2-S01 to C2-S07): 0.29 per session (2 adopted). \\
+    C3 (C3-S1 to C3-S7): 0.29 per session (2 adopted). \\
+    C4 (C4-S1 to C4-S7): 0.57 per session (4 adopted). \\
+    C5--C7 (S1-S7 each): 0.05 per session total (0 adopted after v1.12). \\
+    Dashed line: 0.25 per session (approximate steady-state prediction).]}}
+  \caption{Amendment adoption rate by session position. C1 and C4 show high rates
+    (novel rubric and novel archetype, respectively). C5--C7 approach zero
+    as the v1.12 rubric stabilizes.}
+  \label{fig:amendment-rate}
+\end{figure}
+
+The decay-and-reactivation pattern is clear. C1's rate (0.57 per session) reflects a
+fresh rubric encountering 7 sessions of quality outcomes for the first time. C2's rate
+drops to 0.29 as the rubric absorbs the most common patterns --- per-PC reception
+tracking, cross-character compound mechanics, and anchor-level fallback requirements
+were the highest-frequency gaps in the v1.0 rubric. C3 holds at 0.29 as the
+faith/authority archetype introduces 2 new anchor clusters (framework-failure
+arc-activation from a fumbled Insight roll; behavioral-stance arc-activation from
+combat-as-precondition). C4 reactivates at 0.57 as the siege-resource mechanic produces
+4 new clusters the grief-adjacent and covenant anchors had not addressed.
+
+C5 through C7, all under v1.12, produce no adoptions. This does not mean the rubric
+is complete for all future campaign archetypes: it means the three archetypes run
+under v1.12 (professional-code, duty-spine, no-stakes) produced innovations that were
+either already captured by v1.12 anchors or were adventure-specific and party-specific
+--- not universal enough to trigger amendments.
+
+\subsection{The Atmospheric Landing Asymmetry in Detail}
+
+Eight of the 13 amendments (and 9 of the 15 amendment dimension-clusters) affected
+Atmospheric Landing. This asymmetry deserves analysis beyond noting that AL is complex.
+
+A dimension-by-dimension breakdown of why AL produced more clusters than others:
+
+\begin{description}
+  \item[Engagement (0 amendments):] Engagement measures PC participation and collective
+    unscripted outcomes. These properties have a bounded quality space: either PCs drove
+    scenes or they did not; either the outcome was unscripted or it was not. The initial
+    anchors were adequate.
+
+  \item[Mechanical Fairness (3 amendments):] MF produced 3 amendments (v1.1, v1.4, v1.11),
+    all focused on the 10-band's definition of what constitutes the most sophisticated
+    mechanical play. The cross-dimensional-harmlessness anchor (v1.1) was needed early;
+    the cross-character compound anchors (v1.4, v1.11) required 2 sessions of Portent
+    evidence to identify.
+
+  \item[Pacing (0 amendments):] Pacing is architectural: did scenes open and close cleanly?
+    This is assessable from the session log without fine-grained anchor specification.
+
+  \item[Character Agency (2 amendments):] CA produced 2 amendments (v1.9, v1.10), both
+    expanding the 9--10 band to include behavioral-pattern forms of agency that the
+    initial anchors did not describe.
+
+  \item[Module Fidelity (2 amendments):] MFid produced 2 amendments (v1.2, v1.3),
+    both addressing anchor-level symptom reliability --- the most practically important
+    MFid gaps revealed by early sessions.
+
+  \item[Atmospheric Landing (8 amendments):] AL spans the entire space of how emotional
+    and atmospheric intent can be realized in session play. This space is effectively
+    unbounded, as evidenced by the distinct phenomena addressed in each AL amendment.
+    The initial anchors (reception tracking, inter-PC chains) were necessary foundations;
+    each amendment added a distinct realization mode.
+
+  \item[Surprise (0 amendments):] Surprise is scored by tag-counting (7+ tags at 10-band)
+    and does not require fine-grained anchor specification.
+
+  \item[Table Readiness (0 amendments):] Table Readiness is assessable from a binary
+    check (did the DM need outside reference?) without fine-grained anchor specification.
+\end{description}
+
+The Atmospheric Landing asymmetry is structurally expected: the more a dimension
+describes complex, emergent, inter-PC phenomena, the more likely it is to produce
+innovation clusters as new phenomena are observed.

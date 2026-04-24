@@ -1,0 +1,70 @@
+%% glyph-player-style/main.tex
+%% Emergent Player Styles in AI-Simulated TRPG:
+%% From Innovation Instances to Ratified Design Patterns
+%%
+%% Target venue: FDG 2027 (Foundations of Digital Games)
+%% Evidence base: Marathon D&D Workshop --- 7 player styles, 200+ instances, 7 campaigns
+
+\documentclass{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{xspace}
+\usepackage{microtype}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{natbib}
+\usepackage{authblk}
+\usepackage{titlesec}
+\usepackage{parskip}
+\usepackage{caption}
+\usepackage{array}
+\usepackage{tabularx}
+
+\title{\textbf{Emergent Player Styles in AI-Simulated TRPG:\\
+From Innovation Instances to Ratified Design Patterns}}
+
+\author[1]{Gio Della-Libera}
+\affil[1]{Independent Research, Seattle, WA \\ \texttt{giodl@microsoft.com}}
+
+\date{April 2026}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Describing player behavior in tabletop role-playing games (TRPGs) systematically is
+difficult: sessions are unrecorded, behavior is attributed to player personality rather
+than character-sheet design, and no formal mechanism exists for promoting session
+surprises into reusable design patterns. We describe a pipeline that addresses this
+gap, applied across 49 AI-simulated Dungeons \& Dragons 5e sessions spanning 7
+complete campaigns. The pipeline promotes behavioral surprises to ratified
+\textit{player styles} when 3 or more instances cluster thematically across 2 or more
+sessions. Seven styles were promoted: \textit{sheet-deep-reader} (\char`\~50 instances),
+\textit{craft-witness} (\char`\~45 instances), \textit{npc-arc-completion trigger}
+(\char`\~40 instances), \textit{act-without-announcement} (\char`\~25 instances),
+\textit{verbal-documentation-arc} (\char`\~15 instances), \textit{documentary-witness}
+(\char`\~12 instances), and \textit{act-without-announcement intra-session} (\char`\~8 instances).
+Cross-campaign validation against 12 research hypotheses (RV1--RV12) confirms that all
+7 styles fire across all 7 campaigns and are not party-archetype-specific. Four
+PC-authored finale deliverables across 4 campaigns demonstrate that player styles
+accumulate toward campaign-completing acts when character-sheet design enables it.
+\end{abstract}
+
+\tableofcontents
+\newpage
+
+\input{sections/01-introduction}
+\input{sections/02-related-work}
+\input{sections/03-methodology}
+\input{sections/04-evaluation}
+\input{sections/05-discussion}
+\input{sections/06-conclusion}
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\end{document}

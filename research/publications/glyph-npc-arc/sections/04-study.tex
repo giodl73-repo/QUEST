@@ -1,0 +1,50 @@
+%% sections/04-study.tex
+
+\section{Study Design}
+\label{sec:study}
+
+\subsection{Corpus}
+
+The corpus is the full Marathon D\&D Workshop: 49 sessions, 7 campaigns, 49 distinct
+adventure modules. NPC arc-completions were logged systematically in session logs
+from Campaign 3 onward (Campaigns 1--2 retroactively logged from session log text).
+
+\subsection{Coding Protocol}
+
+An arc-completion instance is logged when:
+
+\begin{enumerate}
+  \item An NPC delivers their designed arc-completion text (verbatim or close paraphrase).
+  \item The session log records a party action immediately preceding the arc-completion
+    that matches the firing condition.
+  \item The DM does not provide additional NPC dialogue to explain or extend the moment.
+\end{enumerate}
+
+Instances that met criterion 1 but not criterion 2 (DM-scripted moments) were logged
+separately as ``DM-initiated NPC moments'' and excluded from arc-completion counts.
+Instances that met criterion 2 but not criterion 3 (extended DM narration after the
+arc-completion) were logged as ``arc-completion with DM extension'' and counted as
+partial instances.
+
+In the full corpus, 40+ full instances and 7 partial instances were logged. No DM-initiated
+NPC moments were logged (the AI system enforces firing-condition checking).
+
+\subsection{NPC Classification}
+
+NPCs were classified on two axes for cross-archetype analysis:
+
+\begin{description}
+  \item[Moral valence:] Protagonist-adjacent (ally, mentor, victim); Antagonist-adjacent
+    (opponent, obstructor); Morally grey (professionally ambiguous, shifting allegiance).
+  \item[Institutional role:] Grief-adjacent (NPC's arc explicitly tied to loss or
+    named grief); Professional-code (NPC's arc tied to duty, craft, or institutional
+    obligation); Situationally-triggered (NPC's arc tied to a specific situational
+    condition not pre-figured in their backstory).
+\end{description}
+
+\subsection{Session Coverage Metric}
+
+Session coverage is defined as the proportion of sessions in which at least one
+full arc-completion fired. This metric captures the pattern's \textit{reliability}
+rather than its frequency: a pattern that fires once in 88\% of sessions is more
+practically useful than one that fires 5 times in 40\% of sessions.

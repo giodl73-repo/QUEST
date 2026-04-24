@@ -1,0 +1,75 @@
+%% glyph-campaign-spine/main.tex
+%% The 7-Session Campaign Spine: Evidence-Based Architecture for
+%% Emotionally Complete Narrative Arcs
+%%
+%% Target venue: ACM CHI 2027
+%% Evidence base: Marathon D&D Workshop — 7 complete campaigns, 49 sessions
+
+\documentclass[sigconf]{acmart}
+
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{xspace}
+\usepackage{microtype}
+\usepackage{array}
+
+\acmConference[CHI '27]{CHI Conference on Human Factors in Computing Systems}{May 2027}{Yokohama, Japan}
+\acmDOI{10.1145/XXXXXXX.XXXXXXX}
+\acmISBN{978-x-xxxx-xxxx-x/27/05}
+\copyrightyear{2027}
+\acmYear{2027}
+\setcopyright{acmlicensed}
+
+\begin{document}
+
+\title{The 7-Session Campaign Spine:\\
+       Evidence-Based Architecture for Emotionally Complete Narrative Arcs}
+
+\author{Gio Della-Libera}
+\affiliation{%
+  \institution{Independent Research}
+  \city{Seattle}
+  \state{WA}
+  \country{USA}
+}
+\email{giodl@microsoft.com}
+
+\begin{abstract}
+Emotional payoffs in tabletop role-playing game (TRPG) campaigns are structurally
+unreliable: most long-form campaigns fail to reach a designed conclusion, and those that
+do complete often do so through DM improvisation rather than designed architecture.
+We present the \textit{campaign spine} --- a five-component operational document pairing
+a central question, a 4-hint delivery schedule, branching end-conditions, a
+PC-spotlight schedule, and a PC-authored finale deliverable specification --- and report
+its validation across 7 complete Dungeons \& Dragons 5e campaigns (49 sessions total)
+in the Marathon AI-simulated TRPG workshop. All 7 campaigns completed within 7 sessions
+(100\% completion rate). Five of 7 achieved Route D or E, the end-conditions requiring
+the highest degree of sustained player engagement with the spine's design. All 28 hints
+across all 7 campaigns were delivered (100\%). All 7 PC-authored deliverables were
+produced and logged verbatim. Mean sessions-to-first-binding-PASS is 4.5 across all
+campaigns. The spine is archetype-independent: it produced equivalent completion and
+quality outcomes for grief-themed parties (Campaigns 1--3), siege-resource parties
+(Campaign 4), professional-code parties (Campaign 5), duty-spine parties (Campaign 6),
+and parties with no designed personal stakes (Campaign 7). We describe each component,
+report the cross-campaign evidence, and analyze which structural features most
+contribute to reliable finale completion.
+\end{abstract}
+
+\keywords{campaign design, narrative arc, hint schedule, route conditions, TRPG,
+          emotionally complete narrative, AI simulation, game design methodology,
+          interactive storytelling}
+
+\maketitle
+
+\input{sections/01-introduction}
+\input{sections/02-related-work}
+\input{sections/03-components}
+\input{sections/04-evaluation}
+\input{sections/05-discussion}
+\input{sections/06-conclusion}
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{references}
+
+\end{document}

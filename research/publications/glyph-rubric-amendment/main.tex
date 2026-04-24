@@ -1,0 +1,68 @@
+%% glyph-rubric-amendment/main.tex
+%% Innovation-Cluster-Driven Rubric Amendment:
+%% Evidence-Based Evolution of a Playtest Scoring System
+%%
+%% Target venue: NeurIPS 2027 Datasets and Benchmarks Track (or FDG 2027)
+%% Evidence base: Marathon D&D Workshop — innovations log, rubric v1.0–v1.12
+%%
+%% Compile: pdflatex main && bibtex main && pdflatex main && pdflatex main
+
+\documentclass{article}
+
+\usepackage{neurips_2027}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{xspace}
+\usepackage{microtype}
+\usepackage{amsmath}
+
+%%% ============================================================
+\begin{document}
+
+\title{Innovation-Cluster-Driven Rubric Amendment:\\
+       Evidence-Based Evolution of a Playtest Scoring System}
+
+\author{
+  Gio Della-Libera \\
+  Independent Research \\
+  Seattle, WA \\
+  \texttt{giodl@microsoft.com}
+}
+
+\maketitle
+
+%%% ─── Abstract ─────────────────────────────────────────────
+\begin{abstract}
+Scoring rubrics for creative tasks face a fundamental tension: they must be
+specific enough to be operationally useful, but creative practice continually
+produces outcomes that fall outside any finite set of anchors. We describe a
+mechanism for resolving this tension: \textit{innovation-cluster-driven rubric
+amendment}, in which session-level surprises are logged, clustered by dimension,
+and promoted to rubric amendments when 2 or more cluster in the same dimension.
+Applied across 49 AI-simulated Dungeons \& Dragons sessions in 7 complete
+campaigns, the mechanism produced 120+ logged innovation entries and 13 rubric
+versions over a period of 4 days. Amendments cluster thematically: Campaign 4
+(siege-resource archetype) produced 16 innovations that drove 4 amendments
+(v1.9--v1.12) addressing grief-paragraph situational resonance, sustained
+behavioral pattern as agency, character-register conversion, and
+Portent-as-directed-foreknowledge. The mechanism is self-calibrating:
+early sessions produce many innovations (12 in Session 1), later sessions fewer
+(2--4 per session), as the rubric absorbs common patterns, while novel archetypes
+(Campaigns 5--7, each with new professional-code, duty-spine, and no-stakes
+designs) produce new innovation bursts. We argue this pipeline --- log,
+cluster, threshold, amend, forward-only --- is a replicable methodology for any
+scoring system applied to creative evaluation in a production context.
+\end{abstract}
+
+\input{sections/01-introduction}
+\input{sections/02-related-work}
+\input{sections/03-methodology}
+\input{sections/04-evaluation}
+\input{sections/05-discussion}
+\input{sections/06-conclusion}
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\end{document}

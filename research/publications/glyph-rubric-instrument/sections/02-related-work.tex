@@ -1,0 +1,121 @@
+%% sections/02-related-work.tex
+
+\section{Related Work}
+\label{sec:related}
+
+\subsection{Playtest Methodology in Game Design}
+
+Playtesting is the primary quality-assurance mechanism in game development, yet it
+has received limited systematic treatment in the academic literature. Practitioner
+accounts dominate: Fullerton's \textit{Game Design Workshop}~\cite{fullerton2008}
+articulates playtesting as iterative discovery of design failures, with evaluators
+focused on moments when the game ``breaks'' rather than on assessing the degree to
+which designed qualities are present. This deficit-oriented model treats playtesting
+as a debugging process. Hunicke, LeBlanc, and Zubek's MDA framework~\cite{playtesting2019}
+provides a vocabulary for distinguishing mechanics, dynamics, and aesthetics in game
+analysis, but does not provide a scoring instrument.
+
+Zagal et al.~\cite{zagal2008collaborative} study collaborative games and identify
+dimensions of cooperative quality (shared decision-making, role complementarity, joint
+problem solving) that prefigure several of the Marathon rubric's concerns. Their
+analysis is category-level rather than scored, and addresses board games rather than
+improvisational narrative games. Deterding et al.~\cite{deterding2011game} characterize
+game design elements in terms of their contribution to motivational quality, which
+aligns with the Character Agency dimension but does not provide a measurement framework.
+
+The Marathon rubric differs from prior playtest instruments in three ways. First, it
+is both deficit-oriented (penalizing failures in Mechanical Fairness, Module Fidelity)
+and surplus-oriented (rewarding the presence of emergent positive outcomes in Surprise
+and Atmospheric Landing). Second, it produces a numerical score rather than a
+categorical judgment, enabling trajectory analysis across sessions. Third, it is
+explicitly designed to operate on session logs rather than participant reports,
+making it applicable to AI-simulated sessions where no human participants are present.
+
+\subsection{AI as Dungeon Master}
+
+Automated narrative systems have a long research history, from interactive drama
+frameworks~\cite{riedl2016} to procedural quest generation~\cite{dormans2010} to
+character-driven story engines~\cite{ammanabrolu2021}. The primary evaluation
+challenge across this literature is that quality metrics designed for static narrative
+(coherence, plausibility, narrative arc completeness) do not capture the improvisational
+and participatory qualities specific to role-playing contexts.
+
+Akoury et al.~\cite{akoury2020} introduce STORIUM, a dataset and evaluation platform
+for machine-in-the-loop story generation that shares the Marathon corpus's concern for
+structured narrative quality evaluation. STORIUM uses human ratings and card-based
+constraint systems; it does not address the fully-automated setting where no human
+participants are present. Fan, Lewis, and Dauphin~\cite{fan2019} study strategies for
+LLM story generation with a focus on narrative structure but evaluate through human
+raters reading story outputs, a method that does not scale to large session corpora.
+
+The AI Dungeon system~\cite{aidungeon2019} demonstrates that large language models
+can produce coherent narrative in TRPG-like contexts at scale, but its evaluation
+relies on player engagement signals (session continuation, sharing behavior) rather
+than structural session quality assessment. Mirowski et al.~\cite{mirowski2023}
+examine co-writing scripts and theatrical scenes with AI, identifying quality
+dimensions (character voice consistency, dramatic arc coherence, staging feasibility)
+that partially overlap with the Marathon rubric's Character Agency and Module Fidelity
+dimensions. Their evaluation uses theatrical practitioners as raters rather than an
+automated scoring instrument.
+
+\subsection{Quality Measurement in Creative and Narrative Systems}
+
+The broader literature on quality measurement for AI-generated text identifies three
+primary approaches: reference-based metrics, preference-based metrics, and
+property-based metrics~\cite{celikyilmaz2020}. Reference-based metrics (BLEU~\cite{papineni2002bleu},
+ROUGE~\cite{lin2004rouge}) measure similarity to a gold-standard corpus; they require
+a reference corpus and cannot evaluate properties that have no single correct expression.
+Preference-based metrics (pairwise comparison, rating scales) collect human judgments
+but do not scale to large corpora without crowdsourcing infrastructure~\cite{akoury2020}.
+
+Property-based metrics check that outputs satisfy specified properties, independently
+of any reference. Andrade~\cite{andrade2000} develops scoring rubrics in educational
+assessment contexts that are explicitly property-based: each rubric criterion defines
+a property that a successful work should exhibit, and the rubric score reflects the
+degree to which evidence of that property is present. This is the model the Marathon
+rubric follows.
+
+LLM-as-judge approaches~\cite{zheng2023judging} have gained prominence as a scalable
+alternative to human rater studies, using a language model to evaluate outputs from a
+language model. Liang et al.~\cite{liang2023} apply this approach to research paper
+review with encouraging results for factual dimensions. The Marathon rubric explicitly
+avoids this approach for its primary scoring, opting for rule-based evidence citation
+(a specific passage from the log must be cited for every non-zero sub-score) rather
+than model judgment. However, the five-lens panel review that runs alongside the rubric
+gate does use AI-as-expert simulation, following the approach described by Gero and
+Kan~\cite{gero2004} for design critique and extended by Mirowski et al.~\cite{mirowski2023}
+for creative work evaluation.
+
+Yuan et al.~\cite{yuan2022wordcraft} study collaborative story writing with LLMs using
+a tool that offers completions, continuations, and elaborations to human authors.
+Their evaluation focuses on the human author's experience (satisfaction, perceived
+quality, creative ownership), which is orthogonal to the Marathon rubric's focus on
+automated session log quality. Lee, Liang, and Yang~\cite{lee2022coauthor} similarly
+study human-AI co-writing and find that the dimensions humans care about (agency,
+expressiveness, surprise) are multi-dimensional and do not reduce to a single
+quality axis, a finding consistent with the Marathon rubric's 8-dimensional structure.
+
+\subsection{Expert Review Simulation}
+
+Simulated expert review --- using an AI system to adopt the perspective of a domain
+expert and evaluate creative or technical work --- has been studied in design
+critique~\cite{gero2004}, literary and dramatic evaluation~\cite{mirowski2023}, and
+research peer review~\cite{liang2023}. The common finding is that structured role
+assignment (giving the AI a specific expert identity and evaluation rubric) significantly
+improves the specificity and consistency of the produced evaluation compared to open-ended
+critique requests.
+
+The Marathon workshop uses two expert-simulation panels operating at different points
+in the session pipeline. A five-persona design review panel (Gygax, Jaquays, Schick,
+Moldvay, Patrick Stuart) evaluates compiled adventure modules before play, scoring on
+axes specific to each designer's documented aesthetic priorities. A five-lens
+player-experience panel (Tactician, Roleplayer, Lorekeeper, Improviser, Fresh Face)
+evaluates session logs after play from five distinct player perspectives. These panels
+are distinct from the rubric-based session gate and serve complementary rather than
+redundant functions: the gate scores evidence of outcomes in the session log; the panels
+evaluate whether those outcomes would satisfy specific types of players or design critics.
+
+Tychsen et al.~\cite{tychsen2006role} study how player type affects TRPG experience
+across platforms, identifying that the same session can succeed for one player type and
+fail for another. This finding motivates the Marathon rubric's approach of using multiple
+player-experience lenses in the panel rather than a single aggregate player judgment.

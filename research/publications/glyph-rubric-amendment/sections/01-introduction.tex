@@ -1,0 +1,66 @@
+%% sections/01-introduction.tex
+
+\section{Introduction}
+\label{sec:introduction}
+
+Evaluation rubrics for creative tasks face a well-known limitation: no finite set of
+scoring anchors can anticipate the full range of quality outcomes a creative system
+will produce. In annotation practice, this manifests as annotators encountering examples
+that fit no existing category; in rubric-based assessment, it manifests as evaluators
+awarding scores that feel wrong for reasons they cannot articulate within the rubric's
+vocabulary~\cite{andrade2000, boud2013assessment}. The standard response is periodic
+rubric revision, but this revision is typically informal, infrequent, and non-systematic.
+
+We describe a formalization of this process called \textit{innovation-cluster-driven
+rubric amendment}, derived from 4 days of operational use in the Marathon D\&D Workshop
+--- a research environment applying an 8-dimension playtest rubric across 49
+AI-simulated Dungeons \& Dragons 5e sessions in 7 complete campaigns. The mechanism
+has three stages:
+
+\begin{enumerate}
+  \item \textbf{Log}: When a session outcome exceeds the rubric's predictive power ---
+        when an evaluator can identify a quality achievement that no existing anchor
+        describes --- the outcome is logged as an \textit{innovation} with a dimension
+        tag (which dimension it is most relevant to), a scope classification
+        (party-specific, adventure-specific, or universal), and a textual description.
+
+  \item \textbf{Cluster}: Logged innovations are scanned against each other after each
+        session. When 2 or more innovations cluster in the same dimension, an amendment
+        proposal is drafted.
+
+  \item \textbf{Amend}: Proposals are reviewed for genuine novelty (not already captured
+        by an existing anchor). Adopted proposals increment the rubric version and mark
+        constituent innovations as adopted. The new anchor applies forward-only.
+\end{enumerate}
+
+The mechanism's operational history produced 120+ logged innovations, 13 rubric
+versions, and a characteristic self-calibration pattern: amendment rate is highest in
+early sessions and declines as the rubric matures, but novel campaign archetypes
+produce new amendment bursts, maintaining the mechanism's sensitivity.
+
+\subsection{Key Claims}
+
+This paper makes three empirical claims about the mechanism:
+
+\textbf{Claim 1 (self-calibration).} The innovation rate per session declines
+monotonically across the corpus as the rubric matures. Early campaigns produce
+amendment bursts; later campaigns under the same rubric version produce few
+innovations; novel archetypes re-trigger bursts.
+
+\textbf{Claim 2 (cluster coherence).} Amendment-triggering clusters are thematically
+coherent: innovations that co-cluster address the same underlying quality phenomenon
+from different session instances, and the resulting amendment text is analytically
+unified.
+
+\textbf{Claim 3 (forward-only validity).} Because amendments apply forward-only,
+score series are internally consistent within a version-window. Cross-version
+comparisons are valid when version is treated as a covariate. Retroactive adjustment
+is neither necessary nor desirable.
+
+\subsection{Scope}
+
+This paper describes the amendment mechanism as a standalone methodology. The rubric's
+8 dimensions are described in the companion paper~\cite{dellalibera2026glyph1}. The
+player-style emergence mechanism (a parallel pipeline triggered by 3+ innovations
+sharing a behavioral theme across 2+ sessions) is described in the companion
+paper~\cite{dellalibera2026glyph4}.

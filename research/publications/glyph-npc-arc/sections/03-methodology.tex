@@ -1,0 +1,248 @@
+%% sections/03-methodology.tex
+
+\section{Methodology}
+\label{sec:methodology}
+
+\subsection{The Arc-Completion Design Template}
+
+The arc-completion pattern is operationalized through a four-field design
+template that is completed for every significant NPC before any session
+begins. The template is embedded in the NPC's design document (in Marathon,
+the \texttt{npcs/<slug>.md} file produced by the \textit{npc-architect}
+pipeline skill) and is the primary source of evidence for all corpus analyses
+in Section~\ref{sec:evaluation}.
+
+\begin{description}
+  \item[\textbf{(1) Emotional position:}]
+    What the NPC is carrying --- their unresolved emotional state as of
+    the beginning of the adventure. Not their backstory in general but
+    the specific weight they are currently bearing. This field is phrased
+    in present tense, from the NPC's internal perspective, to distinguish
+    it from biographical summary. Example: \textit{``Tomek has been holding
+    a garrison together for eleven months without orders, without
+    reinforcement, and without permission to retreat. He is not proud of
+    this. He is tired.''}
+
+  \item[\textbf{(2) Arc-completion act:}]
+    The specific statement, act, or gesture the NPC delivers when the
+    firing condition is met. Specific, brief, and explicitly marked as
+    not expandable by the DM without compromising the moment. The
+    arc-completion text is the full text of the moment: not a summary of
+    what happens but the actual words spoken or the act performed,
+    described at the precision of a stage direction. Example:
+    \textit{``Tomek: `Eleven months.' He does not elaborate. He puts the
+    token on the ledge and steps back.''}
+
+  \item[\textbf{(3) Firing condition:}]
+    The exact party behavior that triggers the arc-completion. Stated as
+    a specific observable action, not an emotional state or DM judgment.
+    The condition is specific enough that the DM or AI system can determine
+    with certainty whether it has been met. The contrast is critical: ``if
+    the party earns Tomek's trust'' is not a firing condition; ``if a party
+    member acknowledges the length of Tomek's garrison assignment without
+    asking him to justify it'' is. Only observable actions or statements
+    qualify; inferred emotional states do not.
+
+  \item[\textbf{(4) DM discipline note:}]
+    Explicit instruction specifying what the DM must not do. This field is
+    negative by design: it specifies constraints rather than permissions.
+    Typical contents: do not deliver any version of this arc-completion
+    before the firing condition is met; after delivering the arc-completion
+    text, the NPC is done, do not continue speaking for them; do not soften
+    the arc-completion to make the NPC more sympathetic if they are morally
+    grey. A non-firing note may optionally specify the NPC's default
+    behavior if the firing condition is not met during the session (typically:
+    the NPC remains at their current emotional position; no lesser version
+    of the arc-completion fires as a consolation).
+\end{description}
+
+\subsection{Character Logic vs. DM Scripting}
+
+The distinction between \textit{character logic} and \textit{DM scripting}
+is the central analytical axis of this paper. It is a distinction about
+causal origin, not about content: the same NPC line delivered in the same
+scene may be a character-logic firing or a DM-scripted moment depending on
+whether the party's behavior preceded and produced it.
+
+\paragraph{Character-logic firing.}
+An arc-completion fires by character logic when: (a) the session log records
+a party action that maps to the pre-specified firing condition; and (b) the
+arc-completion act follows as the NPC's immediate response to that party
+action. The DM's role is recognition and delivery, not authorship: they
+recognize that the condition has been met and deliver the pre-written text.
+No judgment about the party's emotional state or narrative readiness is
+required.
+
+\paragraph{DM-scripted moment.}
+A DM-scripted moment occurs when the DM independently decides that an NPC
+should produce an emotional beat --- because the session needs it, because
+the DM senses the party is ready, because the encounter feels flat --- and
+delivers NPC dialogue or action without a prior party action meeting the
+designed firing condition. In AI-simulated TRPG, this category is structurally
+absent: the AI running the session reads the NPC file and fires the arc-completion
+only when the condition is met. In the Marathon corpus, zero DM-scripted moments
+were logged in sessions that used the npc-architect pipeline.
+
+\paragraph{Observable distinction.}
+The distinction is observable in the session log: character-logic firings are
+preceded by specific, documented party actions that match the firing condition;
+DM-scripted firings are not. This is the coding criterion used throughout
+Section~\ref{sec:evaluation}.
+
+\subsection{The Small-Moment Principle}
+
+A consistent finding across the corpus is that arc-completion moments are
+smaller than practitioners expect. Not a speech, not a monologue, but one
+line, one act, one gesture. The design template enforces this as a
+constraint through the DM discipline note (``after delivering the arc-
+completion text, the NPC is done''), but the corpus data suggests the
+constraint reflects something deeper about how emotional payoffs function
+in narrative.
+
+When a party has accumulated two to five sessions of investment in an NPC
+relationship, the moment of arc-completion is the release of that accumulated
+tension. A compressed arc-completion allows the tension to release
+completely: one line, one act, silence. An extended arc-completion
+redistributes the tension back into exposition, diluting the release.
+This is related to the literary principle that the most powerful moments
+in well-crafted narratives are often the most compressed, because the
+accumulated context does the work and the moment needs only to be the
+hinge~\cite{chekhov1886letter}.
+
+The five exemplar NPCs in Table~\ref{tab:exemplars} illustrate this principle.
+Across the five, the longest arc-completion text is Varet Senn's journal entry
+at 18 words. Three of the five are ten words or fewer.
+
+\subsection{Five Exemplar NPCs}
+
+Table~\ref{tab:exemplars} presents five representative NPC arc-completion
+designs from the corpus, selected to illustrate the range of trigger types,
+moral valences, and campaign archetypes.
+
+\begin{table*}[t]
+\caption{Five Exemplar NPC Arc-Completion Designs from the Marathon Corpus}
+\label{tab:exemplars}
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{@{}p{1.8cm}p{1.4cm}p{4.2cm}p{4.4cm}p{2.5cm}@{}}
+\toprule
+\textbf{NPC} & \textbf{Campaign} & \textbf{Firing Condition} & \textbf{Arc-Completion Act} & \textbf{Trigger Type} \\
+\midrule
+Tomek Irr
+  & C6 (Military Unit)
+  & A party member acknowledges the length of Tomek's garrison assignment
+    without asking him to justify it; no follow-up question.
+  & ``Eleven months.'' He puts the token on the ledge and steps back.
+    [No further speech.]
+  & Professional / duty \\
+\addlinespace
+Maret Stave
+  & C3 (Halted Spire)
+  & A healer in the party treats a patient in front of Maret using the
+    same three-breath preparation Maret uses; Maret observes.
+  & She steps forward and adjusts the patient's arm without speaking.
+    [Act only. She does not explain.]
+  & Professional / craft-witness \\
+\addlinespace
+Hessa Var
+  & C4 (Thorngate)
+  & The party returns Hessa's family ledger intact, without reading from it
+    aloud or referencing its contents.
+  & ``You did not read it. Thank you for not reading it.''
+    [10 words. Then she closes her door.]
+  & Grief-adjacent \\
+\addlinespace
+Aldras Bent
+  & C5 (Thieves Guild)
+  & The party presents the ledger-date from the Coldforge account to Aldras
+    without demanding an explanation; they show it and wait.
+  & ``The handler was Feln. I do not know what he did with it.''
+    [He names the handler unprompted. Does not confirm or deny anything else.]
+  & Professional / information-holder \\
+\addlinespace
+Varet Senn
+  & C2 (Conclave)
+  & Varet is present in the tribunal chamber when the party reads the
+    compact clause aloud; they do not ask Varet to speak.
+  & He opens his journal and writes one line. He does not show it to anyone.
+    Later: the journal entry reads ``They read it. It still means what it said.''
+  & Situationally-triggered \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\paragraph{Tomek Irr (Professional / Duty).}
+Tomek is a garrison NCO in Campaign 6 who has held his post for eleven months
+past his relief date without orders. His emotional position is exhaustion
+without complaint. His firing condition requires the party to acknowledge
+this fact \textit{without} asking for justification --- a passive recognition
+rather than an active question. The arc-completion is non-verbal except for
+two words: the number of months spoken aloud for the first time, followed
+by a physical act (the token on the ledge) that requires no DM elaboration.
+This is a paradigmatic professional-code arc: the NPC does not need the party
+to make things better; they need the party to see what was done.
+
+\paragraph{Maret Stave (Professional / Craft-Witness).}
+Maret is a healer in Campaign 3 whose arc is tied to whether the party
+demonstrates competence in her craft rather than asking about it. The firing
+condition is unusual: it requires the party to perform a specific ritual
+(the three-breath preparation) that Maret uses herself, observed by Maret.
+The arc-completion is wordless: an adjustment gesture that is the healer's
+equivalent of a nod. The absence of speech is specified explicitly in the
+DM discipline note. This instance illustrates the craft-witness arc type:
+NPCs whose completion requires being seen, not spoken to.
+
+\paragraph{Hessa Var (Grief-Adjacent).}
+Hessa's arc is tied to a family ledger the party has in custody. The firing
+condition specifies what the party must \textit{not} do (read from the ledger
+aloud, reference its contents) as much as what they must do (return it intact).
+This inverted-condition structure --- where the arc fires on restraint rather
+than action --- is documented in seven instances across the corpus. The
+arc-completion is ten words followed by a physical act (closing the door)
+that terminates the scene without DM narration.
+
+\paragraph{Aldras Bent (Professional / Information-Holder).}
+Aldras represents the information-holder variant: an NPC who possesses
+information the party needs but will only volunteer it under specific
+conditions of professional respect rather than interrogation. The party must
+show the ledger-date and wait: no demand, no follow-up, no ``who was the
+handler?'' The arc-completion names the handler unprompted, confirming the
+information the party needed without Aldras admitting involvement in anything.
+The DM discipline note specifies: ``Aldras does not confirm or deny anything
+beyond naming the handler. The party asked right; he answered right; the
+scene is done.'' This instance from Campaign 5 demonstrates that the arc-
+completion pattern holds for morally grey NPCs whose arc is not tied to
+grief or duty but to professional code.
+
+\paragraph{Varet Senn (Situationally-Triggered).}
+Varet's arc-completion is the most structurally complex in the exemplar set.
+The firing condition requires Varet to be present in a specific location
+(the tribunal chamber) when a specific event occurs (the party reads the
+compact clause aloud), combined with a negative constraint (the party does
+not ask Varet to speak). The arc-completion is deferred: Varet writes in
+his journal during the scene, and the payoff is only accessible to players
+who ask to see the journal later. The DM discipline note specifies that Varet's
+journal entry must not be offered voluntarily; it fires as a delayed discovery
+only if the party seeks it. This instance illustrates the information-access
+variant of the situationally-triggered type, in which the arc-completion act
+is a future-accessible record rather than an immediate statement.
+
+\subsection{Coding Protocol}
+
+The corpus analysis in Section~\ref{sec:evaluation} codes each arc-completion
+instance against three criteria:
+
+\begin{enumerate}
+  \item The NPC delivers their arc-completion act (verbatim or close
+    paraphrase within two words of the designed text).
+  \item The session log records a party action immediately preceding the
+    arc-completion that matches the pre-specified firing condition.
+  \item The DM does not provide additional NPC dialogue to explain or
+    extend the moment after the arc-completion act.
+\end{enumerate}
+
+Instances meeting all three criteria are classified as full arc-completion
+fires (character logic). Instances meeting criterion 1 but not criterion 2
+are classified as DM-scripted. Instances meeting criterion 2 but not
+criterion 3 are classified as partial (arc-completion with extension). In the
+full corpus, 52 full instances were logged, 7 partial instances, and zero
+DM-scripted instances.

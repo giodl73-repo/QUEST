@@ -1,0 +1,143 @@
+%% sections/01-introduction.tex
+
+\section{Introduction}
+\label{sec:introduction}
+
+Non-player characters (NPCs) in tabletop role-playing games (TRPGs) occupy
+a structurally unusual position in the narrative. They are authored before
+play, performed during play, and experienced by players as quasi-independent
+agents with their own desires and histories. The quality of NPC interactions
+is consistently cited by players as a primary driver of session
+memorability~\cite{bowman2010functions, tychsen2006role}: a NPC who says
+the right thing at the right moment can crystallize a session's emotional
+meaning in ways that encounter design and mechanics rarely achieve.
+
+Yet NPC design practice remains largely informal. Most NPC design advice
+focuses on motivation, backstory, speech patterns, and faction
+allegiance~\cite{dungeons2014players}. This advice produces plausible NPCs ---
+characters who feel like people rather than combat statistics --- but it does
+not reliably produce emotional payoffs. An NPC with a rich backstory may still
+produce nothing memorable in play if the DM does not recognize the moment to
+deploy their history, or if the party never creates the conversational opening
+that would allow it.
+
+The standard compensation for this gap is DM improvisation. Experienced DMs
+develop a feel for when a party has ``earned'' an NPC beat and deliver it:
+they sense when the scene is ready, judge the appropriate emotional register,
+and execute the moment. This skill is real and teachable, but it is also
+unreliable by design. It depends on the DM's attention state, their read of
+the room, and their willingness to take a narrative risk in the middle of a
+scene that may be going in a different direction. The same NPC, run by
+different DMs, or by the same DM on different nights, produces inconsistent
+results.
+
+\subsection{The Arc-Completion Pattern}
+
+This paper describes and evaluates a design pattern that addresses this
+unreliability systematically: \textit{NPC arc-completion}. The pattern
+has two components specified at design time, before any session begins:
+
+\begin{itemize}
+  \item \textbf{Arc-completion act:} The specific statement, act, or
+    gesture the NPC is capable of making that closes their emotional arc.
+    Not a range of possible responses but a specific one, written down
+    verbatim or in close paraphrase before play.
+
+  \item \textbf{Firing condition:} The exact party behavior, question,
+    or action that triggers the arc-completion. Specific enough that the
+    DM --- or an AI system --- knows with certainty when the condition
+    has been met, without judgment calls about emotional readiness.
+\end{itemize}
+
+When the party meets the firing condition, the NPC delivers their
+arc-completion by character logic: not because the DM decided it was
+time, but because the pre-specified condition was satisfied. The DM
+does not choose the moment; the party creates it.
+
+This is a meaningful structural distinction. When a party earns an NPC
+moment through their own actions --- when the DM's only job is to
+recognize that the designed condition was met and deliver what was already
+written --- the moment belongs to the session in a way that a DM-improvised
+beat does not. Players may not articulate this distinction, but its effects
+appear consistently in the evidence: sessions with character-logic arc-
+completions score higher on narrative quality measures than sessions of
+equal mechanical quality whose memorable NPC moments were DM-initiated.
+
+\subsection{Why This Matters for AI-Simulated TRPG}
+
+The arc-completion pattern emerged in a context that makes its benefits
+particularly visible: AI-simulated TRPG, in which a large language model
+(LLM) acts as Dungeon Master, runs all NPCs, and adjudicates all encounters
+based on a module document and session log. In this context, there is no
+``room reading'' capacity: the AI system has no access to player affect,
+body language, or the social dynamics that experienced human DMs use to
+time NPC moments. If the arc-completion condition is not specified in the
+NPC file, the AI has no reliable basis for recognizing when the party has
+earned the beat, and may either miss the moment entirely or produce a
+scripted NPC speech at an inappropriate time.
+
+The arc-completion pattern transforms this limitation into a design
+requirement. Pre-writing the arc-completion forces the adventure designer
+to articulate, before play, what the NPC is actually capable of saying and
+under exactly what conditions. This constraint produces three advantages
+over improvised NPC design: \textit{specificity} (the arc-completion text
+is precise, not a paraphrase of what might be said), \textit{consistency}
+(the same condition produces the same beat across multiple runs), and
+\textit{DM discipline} (the system cannot extend or soften the arc-completion
+because the arc-completion file specifies what happens next: nothing).
+
+The pattern is general-purpose: while it originated in an AI-simulated
+context where improvisation is architecturally unavailable, the same
+template applies to human-run TRPG. In fact, the discipline requirements
+of the pattern --- do not deliver early, do not extend, do not soften ---
+address common failure modes in human DM improvisation that experienced
+practitioners will recognize.
+
+\subsection{Contributions}
+
+This paper makes four primary contributions:
+
+\begin{enumerate}
+  \item \textbf{Design template:} A structured format for NPC arc-completion
+    design with four fields: arc-completion act, firing condition, DM
+    discipline note, and non-firing note. Illustrated with five exemplar
+    NPCs drawn from the corpus (Section~\ref{sec:methodology}).
+
+  \item \textbf{Trigger-type taxonomy:} A classification of firing condition
+    types (question-answered, act-witnessed, professional-recognition,
+    grief-adjacent, and situationally-triggered) with per-type firing
+    rate data (Section~\ref{sec:evaluation}).
+
+  \item \textbf{Corpus documentation:} 52 arc-completion instances across
+    49 sessions and 7 complete campaigns, with session coverage rates,
+    cross-archetype distribution, and simultaneous arc-convergence analysis
+    (Section~\ref{sec:evaluation}).
+
+  \item \textbf{Failure analysis:} Evidence that NPCs without arc-completion
+    conditions produce memorable moments in fewer than 10\% of sessions where
+    they are the primary NPC encounter, even in sessions that score 74 or
+    higher on overall quality metrics (Section~\ref{sec:evaluation}).
+\end{enumerate}
+
+The pattern's primary empirical claim is that NPCs designed with explicit
+arc-completion conditions fire their designed moments by character logic ---
+not DM scripting --- in at least 88\% of sessions across diverse campaign
+archetypes. This claim is directly testable against the session log corpus,
+and Section~\ref{sec:evaluation} reports the evidence with full instance
+counts, coverage breakdowns, and cross-archetype comparisons.
+
+A secondary claim is that the pattern is thematically unconstrained: while
+it was first documented in grief-adjacent campaigns, it holds equally for
+morally grey NPCs (guild fences, intelligence handlers, military antagonists),
+professional-code NPCs (garrison NCOs, commanding officers), and no-designed-
+stakes NPCs in campaigns without a central emotional spine. Cross-archetype
+validation is a core empirical contribution of this paper.
+
+\subsection{Paper Organization}
+
+Section~\ref{sec:related} situates the pattern in the literature on NPC design,
+drama management, and character arcs in interactive narrative. Section~\ref{sec:methodology}
+presents the design template, the five exemplar NPCs, and the distinction between
+character-logic and DM-scripted arc moments. Section~\ref{sec:evaluation} reports
+the full quantitative analysis. Section~\ref{sec:discussion} interprets the
+findings and addresses limitations. Section~\ref{sec:conclusion} concludes.

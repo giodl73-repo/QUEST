@@ -1,0 +1,133 @@
+%% sections/02-related-work.tex
+
+\section{Related Work}
+\label{sec:related}
+
+\subsection{Narrative Structure and Campaign Design}
+
+Classical narrative structure has been applied to game design through frameworks
+ranging from Freytag's pyramid~\cite{campbell1949hero} to three-act structure as
+adapted for interactive media~\cite{ryan2017narrative}. These frameworks provide
+a gross structural shape (introduction, escalation, climax) without specifying what
+design mechanisms ensure the escalation and climax are reached in multi-session play.
+The campaign spine's 4-hint delivery schedule is a more granular structural
+specification: it plants and delivers content at designed intervals, creating a
+cadenced convergence trajectory rather than leaving progression to improvisation.
+
+The closest structural antecedent in practitioner literature is the \textit{mystery
+plot structure}: clues planted early, delivered progressively, and combined at the
+finale to enable a solution~\cite{mystery2012}. The campaign spine adapts this to
+emotional and thematic content rather than informational content. The hints are not
+clues about ``who did it'' but pieces of insight about what the campaign's central
+question means and how it might be answered. This distinction is fundamental: a
+mystery's resolution is an intellectual event; the spine's finale is an
+emotional and volitional event.
+
+Published TRPG campaign design resources offer structural guidance that is
+largely advisory rather than validated. Adventure path design (as practiced in
+Pathfinder and similar products) specifies adventure sequences with designed
+connective tissue between modules but stops short of specifying explicit
+arc-completion conditions~\cite{paizo2021}. Apocalypse World's \textit{fronts}
+system~\cite{baker2010} provides a threat-escalation architecture that creates
+structural pressure toward confrontation, but not a designed completion state.
+Burning Wheel's beliefs/instincts/traits (BIT) architecture~\cite{crane2002}
+gives each character an explicit belief that the campaign should answer, but
+the campaign's arc is not structurally specified beyond the individual
+character level. The campaign spine formalizes what these systems gesture toward:
+an explicit, cross-character arc architecture with designed completion conditions.
+
+\subsection{Quest Design and Campaign-Level Structure}
+
+Quest design in digital games has been studied from the perspectives of goal
+structure~\cite{dormans2010}, player motivation~\cite{tychsen2006role}, and
+procedural generation~\cite{shaker2016procedural}. This body of work operates
+primarily at the single-quest level --- the equivalent of an adventure, not a
+campaign. The campaign spine addresses a level above quest design: it governs
+the multi-quest arc rather than individual quests. Adventure design within the
+campaign is quest-level work; the spine is campaign-level architecture.
+
+The gap between these levels has received some attention in digital game narrative
+research. \citet{riedl2016} describe AI planning approaches for narrative sequencing
+that generate quest chains with goal coherence. However, goal coherence
+(``each quest contributes to a goal'') differs from emotional arc completion
+(``the party's engagement with the campaign's central question produces a
+satisfying answer by the finale''). The spine's emphasis on earned completion ---
+where the party's specific actions during specific sessions determine which
+ending they reach --- is not addressed by goal-directed narrative planning.
+
+\citet{fan2019} examine strategies for structuring long-form narrative generation,
+finding that narrative coherence across extended sequences requires mechanisms
+for tracking and referencing established facts. The campaign spine's
+campaign-permanent fact system (events from played sessions that constrain all
+future sessions) directly implements this requirement at the design level.
+
+\subsection{Story Completion in Interactive Drama and AI Narrative Systems}
+
+\citet{mateas2003faade} address story completion in interactive drama through
+\textit{drama management}: an AI director monitors the dramatic curve and steers
+player behavior toward designed outcomes. The campaign spine takes a structurally
+different approach. Rather than steering behavior during play, it designs explicit
+conditions under which the campaign can end at any of several quality levels.
+Players who engage deeply with the spine's central question achieve Route D or E;
+players who engage less deeply achieve Routes A--C. The campaign always completes;
+the quality of completion varies with engagement level. This is completion with
+variance, not completion through direction.
+
+This is closer to \citet{ryan2017narrative}'s principle that narratives should be
+completable by any player, with the depth of completion varying with engagement
+level. The spine operationalizes this principle through its route structure: every
+campaign has a minimum-engagement completion path (Route A or C) that requires
+no special party behavior, and progressively harder paths (Routes D and E) that
+require sustained engagement with the spine's design intent.
+
+AI narrative generation research has produced systems capable of generating
+story events~\cite{ammanabrolu2021, fan2019}, but these systems do not address
+the campaign-level problem of sustained emotional arc across multiple sessions
+with persistent state and player-driven outcomes. The Marathon workshop addresses
+this problem in an AI-simulated context: an LLM serves as DM across all 7 sessions,
+with campaign-permanent facts logged to persistent files that constrain all
+future sessions. The spine is the design artifact that makes this possible at
+scale.
+
+\subsection{Trust, Token Systems, and Progress Mechanics}
+
+Token and reputation systems in digital games (Mass Effect's Paragon/Renegade
+scale, Dragon Age's companion approval ratings) provide mechanics for tracking
+player relationship with the narrative's ethical and emotional axes. These systems
+share the spine's trust-accumulation logic but differ in implementation: digital
+game reputation systems operate continuously (every action increments or decrements
+a counter), while the spine's token system is event-driven (specific named
+party actions earn specific tokens). The event-driven design is deliberate: it
+ensures that token-earning events are recognizable moments in the narrative
+rather than undifferentiated incremental accumulation.
+
+Tabletop precedents include Dungeon World's bond system~\cite{koebel2012} and
+Powered by the Apocalypse moves, which make specific player actions trigger
+specific consequences. The spine's token-earning conditions are closer to moves
+than to continuous reputation tracking: each token has an explicit condition,
+and meeting that condition is the meaningful act, not the token itself.
+
+The spine's route-threshold design (different routes available at different token
+counts) is related to branching narrative structures in digital games~\cite{ryan2017narrative},
+but differs in that routes are not pre-authored paths through different content.
+All routes use the same adventure content; what differs is which ending scene
+the party reaches and what the PC-authored deliverable contains. This is
+\textit{depth-of-engagement branching}, not content-path branching.
+
+\subsection{Convergent Finale Structure}
+
+The simultaneous delivery of all four hints in the finale session --- a structural
+pattern observed in all 7 Marathon campaigns --- has antecedents in classical
+dramatic theory. Aristotle's \textit{recognition and reversal} (\textit{anagnorisis}
+and \textit{peripeteia}) as simultaneous events describes the structural moment
+when understanding and consequence arrive together~\cite{aristotle1996}. The spine's
+simultaneous hint delivery is this structure operationalized: hints planted
+separately across the campaign converge at the finale moment, producing a
+recognition event for the party that enables the optimal ending.
+
+Screenwriting theory describes the equivalent as the ``obligatory scene'' ---
+the scene the audience has been waiting for since the premise was established ---
+and emphasizes that its emotional impact depends on all prior scenes having done
+their work~\cite{field2005}. The spine's hint schedule is the mechanism for
+ensuring the prior work is done: each hint is a piece of the finale that the
+party carries forward from its planting session.

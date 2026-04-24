@@ -1,0 +1,91 @@
+%% sections/04-study-design.tex
+
+\section{Study Design}
+\label{sec:study}
+
+\subsection{The Marathon Workshop Pipeline}
+
+The Marathon D\&D Workshop is a structured pipeline for designing and playtesting
+D\&D 5e adventures. The pipeline has seven stages:
+
+\begin{enumerate}
+  \item \textbf{PREP}: Adventure compiled to a module document; party character sheets
+        loaded; rubric version recorded in session frontmatter.
+  \item \textbf{PLAY}: AI system (Claude, Anthropic) runs the session as DM while
+        simultaneously playing all PCs per their Playstyle Heuristics.
+  \item \textbf{LOG}: Session log produced as a structured narrative document recording
+        all scenes, dice rolls (with seed for reproducibility), PC actions, and
+        narrative outcomes.
+  \item \textbf{GATE}: Session log scored against the locked rubric version using the
+        session-gate scoring protocol. Produces per-dimension scores and overall gate score.
+  \item \textbf{PANEL}: Five-lens player-experience panel reviews the session log from
+        five distinct player perspectives (Tactician, Roleplayer, Lorekeeper, Improviser,
+        Fresh Face), producing weighted aggregate panel scores.
+  \item \textbf{INNOVATE}: Session log and panel reviews scanned for innovations not
+        captured by existing rubric anchors. Logged entries may trigger amendment proposals.
+  \item \textbf{HANDOFF}: Canonical handoff document produced; TRACKER.md updated with
+        session metrics; campaign-permanent facts registered.
+\end{enumerate}
+
+All dice rolls use a seeded pseudorandom number generator for reproducibility.
+The seed is recorded in the session log header. This ensures that sessions can be
+re-run from the same seed to confirm outcomes.
+
+\subsection{The Seven Campaigns}
+
+The corpus consists of 49 sessions across 7 complete campaigns, each comprising
+7 adventures. Table~\ref{tab:campaigns} summarizes the campaigns.
+
+\begin{table*}[t]
+\caption{The Seven Marathon Campaigns: Party, Archetype, Central Question, Route, Mean Scores}
+\label{tab:campaigns}
+\begin{tabular}{@{}llllrrl@{}}
+\toprule
+Campaign & Party & Archetype & Central Question & Gate & Panel & Route \\
+\midrule
+C1 Moon-Silver Cycle & varduin-muster & grief-themed & What is an emotion worth trading? & 74.1 & 72.2 & D \\
+C2 Conclave Compact & compact-wardens & covenant-restoration & When a covenant breaks, who mends it? & 76.3 & 74.2 & D \\
+C3 Halted Spire & the-witnesses & faith/authority & Who decides who is worth saving? & 71.7 & 71.8 & D \\
+C4 Thorngate Watch & the-relief & siege/resource & How much of yourself do you spend? & 74.0 & 74.4 & E \\
+C5 Thieves Guild & the-guild & professional-code & When the guild becomes what you steal from? & 73.9 & 73.8 & B \\
+C6 Military Unit & the-unit & duty-spine & When orders become wrong, how do you know? & 74.6 & 74.5 & E \\
+C7 Party of Strangers & the-strangers & no-designed-stakes & What do people with nothing in common share? & 73.4 & 73.4 & E \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+Campaigns differ on several design axes. C1--C3 used grief-adjacent party archetypes
+with explicit loss-hooks on every PC character sheet. C4 introduced resource exhaustion
+(Supply Die + between-session HP carry-over; no full long rest for 7 sessions). C5
+used professional-code motivation with no grief hooks. C6 used a duty-spine with an
+institutional deliverable (a field journal presented verbatim at a tribunal). C7 used
+parties of strangers with no designed personal stakes, no grief paragraphs, no loyalty
+objects, and no professional codes.
+
+\subsection{Session Log Format}
+
+Each session log records: a PREP frontmatter block (adventure slug, party slug, rubric
+version, dice seed); a sequential scene log (scene number, scene summary, all dice
+rolls with natural values and modifiers, PC actions and narration); a SURPRISE log
+(moments tagged as exceeding design prediction); and a POST-PLAY note (observed
+innovations, amendment candidates, campaign-permanent fact registrations).
+
+Gate scoring reads the session log and populates a scorecard with per-dimension
+evidence cells (specific log citations) and scores. Advisory scores (sessions 1--3 per
+campaign) are not treated as binding for pass/fail determination.
+
+\subsection{Session-Gate Scoring Protocol}
+
+For each dimension, the reviewer reads the session log with that dimension as focus,
+finds supporting evidence (quoted passages or scene references), finds counter-evidence,
+assigns a score using the rubric's band descriptions, and writes an evidence cell.
+The scoring protocol explicitly prohibits generous or harsh adjustment: ``Do not score
+generously out of sympathy. Do not score harshly to seem rigorous. Score what is in
+the log.''
+
+Gate scores and panel scores are produced independently. Panel scores use the five-lens
+weighted aggregate (each lens scores 0--10 on its own priority axes; the aggregate is
+weighted by the lens's contribution to the campaign archetype's design). The gate/panel
+spread (difference between gate and panel scores) is monitored as a diagnostic: large
+spreads indicate a structural artifact (e.g., a session with zero combat dice produces a
+panel dip from the Tactician lens because the lens has fewer events to evaluate).

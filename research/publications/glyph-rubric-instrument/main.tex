@@ -1,0 +1,80 @@
+%% glyph-rubric-instrument/main.tex
+%% An 8-Dimension Playtest Rubric as a Research Instrument for
+%% AI-Simulated Narrative Game Sessions
+%%
+%% Target venue: ACM CHI 2027
+%% Evidence base: Marathon D&D Workshop (C:\src\marathon)
+%%   49 sessions · 7 complete campaigns · rubric v1.0–v1.12
+%%
+%% Compile: pdflatex main && bibtex main && pdflatex main && pdflatex main
+
+\documentclass[sigconf]{acmart}
+
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{xspace}
+\usepackage{microtype}
+
+%% ACM metadata
+\acmConference[CHI '27]{CHI Conference on Human Factors in Computing Systems}{May 2027}{Yokohama, Japan}
+\acmDOI{10.1145/XXXXXXX.XXXXXXX}
+\acmISBN{978-x-xxxx-xxxx-x/27/05}
+
+\copyrightyear{2027}
+\acmYear{2027}
+\setcopyright{acmlicensed}
+
+%%% ============================================================
+\begin{document}
+
+\title{An 8-Dimension Playtest Rubric as a Research Instrument\\
+       for AI-Simulated Narrative Game Sessions}
+
+\author{Gio Della-Libera}
+\affiliation{%
+  \institution{Independent Research}
+  \city{Seattle}
+  \state{WA}
+  \country{USA}
+}
+\email{giodl@microsoft.com}
+
+%%% ─── Abstract ─────────────────────────────────────────────
+\begin{abstract}
+Measuring the quality of AI-simulated tabletop role-playing game sessions is an
+unsolved problem: when no human players participate, there are no exit surveys, no
+post-session interviews, and no participant accounts of what was experienced. We
+present the Marathon Playtest Rubric, an 8-dimension instrument covering Engagement,
+Mechanical Fairness, Pacing, Character Agency, Module Fidelity, Atmospheric Landing,
+Surprise, and Table Readiness, each scored 0--10 for a maximum of 80 points per
+session. We validate the rubric across 49 AI-simulated Dungeons \& Dragons 5th
+Edition sessions spanning 7 complete campaigns with distinct party archetypes and
+central dramatic questions. Mean gate scores improved from 65/80 at campaign
+inception (rubric v1.0, sessions 1--2) to 77/80 at campaign maturity (v1.12,
+sessions 43--49), a 12-point improvement driven by 13 incremental amendments. The
+three most recent campaigns score within 1.4 points of the four earliest campaigns,
+demonstrating that quality measurements are consistent across campaign archetype and
+theme. The rubric's amendment pipeline --- innovations logged, clustered, and
+codified as new anchors --- is itself characterized as a learning mechanism applicable
+beyond TRPG research.
+\end{abstract}
+
+\keywords{playtest rubric, AI dungeon master, TRPG simulation, narrative games,
+          session quality measurement, amendment-driven evaluation}
+
+\maketitle
+
+%%% ─── Sections ─────────────────────────────────────────────
+\input{sections/01-introduction}
+\input{sections/02-related-work}
+\input{sections/03-methodology}
+\input{sections/04-evaluation}
+\input{sections/05-discussion}
+\input{sections/06-conclusion}
+
+%%% ─── Bibliography ─────────────────────────────────────────
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{references}
+
+\end{document}

@@ -1,0 +1,139 @@
+%% sections/01-introduction.tex
+
+\section{Introduction}
+\label{sec:introduction}
+
+Campaign design for tabletop role-playing games (TRPGs) is one of the least
+systematized domains of game design practice. Adventure design has received
+meaningful treatment in both practitioner literature and academic
+research~\cite{tychsen2006role, dormans2010}, and encounter design is reasonably
+well understood through the lens of challenge calibration and
+pacing~\cite{dungeons2014players}. But the \textit{campaign} --- the multi-session arc
+that structures a series of adventures into a coherent narrative whole --- lacks an
+equivalent body of validated design knowledge.
+
+The consequences are visible in practice. Practitioner surveys suggest that most
+long-form TRPG campaigns fail to reach a designed conclusion~\cite{perkins2017dungeon}.
+Sessions diverge from the arc's design intent; central questions go unanswered;
+NPCs designed for the finale are never reached; the campaign ends when players
+become bored rather than when the narrative is complete. These failures are typically
+attributed to scheduling difficulties, player attrition, or DM burnout. We propose
+a structural cause that has received less attention: campaigns without explicit
+completion architecture cannot self-terminate. When there is no designed state
+that constitutes ``complete'', the campaign continues until external forces stop
+it rather than until its narrative logic is exhausted.
+
+This paper presents the \textit{campaign spine} --- a five-component operational
+document for multi-session TRPG campaign design --- and reports its validation
+across 7 complete Dungeons \& Dragons 5e campaigns of 7 sessions each, run in the
+Marathon AI-simulated TRPG workshop. The spine's core claim is that reliable
+campaign completion requires explicit design of five components:
+(a)~a \textit{central question} answerable by party behavior;
+(b)~a \textit{4-hint delivery schedule} that builds the party's capacity to
+recognize and reach the optimal ending;
+(c)~\textit{branching end-conditions} with explicit route requirements;
+(d)~a \textit{PC-spotlight schedule} that distributes character arc moments
+across the campaign; and
+(e)~a \textit{PC-authored finale deliverable specification} that accumulates
+across sessions and is produced verbatim at the finale.
+
+\subsection{The Completion Problem in Long-Form TRPG}
+
+The problem of campaign arc completion is well-known to practitioners. A TRPG
+campaign that begins with a clear premise and engaged players still faces structural
+hazards across its arc: sessions that produce divergent narrative threads; players
+who invest in sub-goals the campaign spine cannot accommodate; DM attention that
+concentrates on session-level design at the expense of arc-level coherence;
+and endings that are improvised rather than designed, producing conclusions that
+feel abrupt, arbitrary, or unearned.
+
+Published campaign modules address this partly through adventure sequence (each
+adventure leads to the next) but rarely through explicit arc completion criteria.
+A published campaign specifying that ``the PCs must confront the villain in
+adventure 7'' does not guarantee that the confrontation produces emotional
+completeness: it specifies a plot endpoint, not an emotional arc endpoint.
+The distinction matters. A plot endpoint is satisfied when the villain is
+defeated. An emotional arc endpoint requires that the party's relationship
+to the campaign's central question has been answered by their own actions ---
+that they have earned the ending, not merely arrived at it.
+
+The AI-simulated TRPG context makes this structural requirement especially
+visible. Without human social dynamics, without DM affect-reading and
+real-time improvisation, without the conversational momentum that human
+players generate, an AI-simulated campaign has no mechanism for producing
+emotional completeness that is not built into the design. If the design does
+not specify when the campaign is complete and what that completion requires,
+no amount of AI capability can supply it. The campaign spine emerged precisely
+from this constraint: it is the minimum structural specification that allows
+an AI-simulated campaign to reach genuine emotional completion.
+
+\subsection{The Campaign Spine: A Structural Solution}
+
+The campaign spine addresses the completion problem through five design
+components that operate at different timescales within the campaign.
+The central question provides the arc's organizing principle across all
+7 sessions. The hint schedule creates a convergence trajectory: the party
+receives pieces of insight at designed intervals, each piece building toward
+the finale's optimal condition. The branching end-conditions ensure the
+campaign can terminate gracefully at any engagement level rather than
+requiring either the hardest route or nothing. The spotlight schedule
+distributes PC arc moments so that every character's story has a dedicated
+session rather than competing for space in the finale. The deliverable
+specification creates a thread of continuity from session to session:
+a document, speech, or act that the party accumulates material for across
+the campaign and produces in full at the end.
+
+These five components are not independent. They interact in specific ways
+that the design must account for, and their interactions are as important
+as the components themselves. Section~\ref{sec:components} details both
+the components and their designed interactions.
+
+\subsection{Evidence Summary}
+
+Across 7 complete campaigns (49 sessions total) in the Marathon workshop:
+
+\begin{itemize}
+  \item \textbf{7/7 campaigns completed} within 7 sessions (100\% completion rate).
+  \item \textbf{5/7 campaigns achieved Route D or E}, the end-conditions
+    requiring the highest sustained party engagement with the spine's design.
+  \item \textbf{28/28 hints delivered} across all campaigns (100\% hint
+    delivery rate). Three campaigns used documented recovery paths; no hint was
+    permanently undelivered.
+  \item \textbf{7/7 PC-authored deliverables produced} verbatim in finale sessions.
+  \item \textbf{Mean sessions-to-first-binding-PASS: 4.5} across all campaigns
+    (range: 4--6).
+  \item \textbf{Archetype independence confirmed}: equivalent outcomes across grief,
+    covenant, faith/authority, siege-resource, professional-code, duty-spine, and
+    no-designed-stakes campaign types.
+\end{itemize}
+
+\subsection{Contributions}
+
+This paper makes four primary contributions:
+
+\begin{enumerate}
+  \item \textbf{The spine specification:} Five components with implementation
+    guidance, illustrated with examples from the corpus.
+
+  \item \textbf{Cross-campaign validation:} Outcome data for 7 complete
+    campaigns across diverse archetypes, with full route, hint-delivery,
+    and deliverable evidence.
+
+  \item \textbf{Component interaction analysis:} Evidence on which components
+    most contribute to finale reliability and how components depend on one another.
+
+  \item \textbf{Archetype independence:} Evidence that the spine's structural
+    features generalize across fundamentally different motivational architectures,
+    including parties with no designed personal stakes.
+\end{enumerate}
+
+\subsection{Paper Organization}
+
+Section~\ref{sec:related} situates the campaign spine in the literature on
+narrative structure, quest design, and interactive drama. Section~\ref{sec:components}
+presents the five components, their design rationale, and their interactions.
+Section~\ref{sec:evaluation} reports the cross-campaign quantitative evidence,
+including campaign outcome table, hint delivery mapping, route distribution,
+and sessions-to-first-binding-PASS analysis. Section~\ref{sec:discussion}
+interprets the findings, addresses limitations, and describes future work.
+Section~\ref{sec:conclusion} concludes.

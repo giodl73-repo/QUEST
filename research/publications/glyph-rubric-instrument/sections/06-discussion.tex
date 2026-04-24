@@ -1,0 +1,98 @@
+%% sections/06-discussion.tex
+
+\section{Discussion}
+\label{sec:discussion}
+
+\subsection{What the Rubric Measures}
+
+The Marathon rubric measures the degree to which an AI-simulated TRPG session produces
+outcomes that a human DM and human players would recognize as high-quality session
+experiences. This is a proxy measure: the AI system is not providing the DM experience
+or the player experience directly, but the rubric checks that the session log contains
+evidence of the kinds of outcomes that human sessions would need to produce to score
+well on an equivalent post-session survey.
+
+The rubric is not equivalent to a human-evaluated quality assessment. It is a
+\textit{structured proxy} that enables systematic comparison across sessions without
+human evaluators. The most important limitation of this proxy is that session logs can
+be well-formed (scoring high on Table Readiness and Module Fidelity) without being
+genuinely experienced by players. We address this limitation in part through the
+five-lens panel review, which operates from player perspectives, but the panel also
+reads session logs rather than playing sessions.
+
+\subsection{What the Rubric Does Not Measure}
+
+The rubric does not measure:
+
+\begin{itemize}
+  \item \textbf{Player affect:} Whether simulated players experienced genuine emotional
+        engagement, as opposed to expressing behaviors that score high on Atmospheric
+        Landing anchors.
+  \item \textbf{Narrative originality:} The rubric does not reward novelty of setting or
+        story; a campaign that revisits familiar tropes scores equally to a novel one if
+        the session outcomes meet the anchor criteria.
+  \item \textbf{Inter-rater reliability:} The corpus was scored by a single rater (the AI
+        reviewer operating from the rubric protocol). No inter-rater reliability data exists.
+        We discuss this as a primary limitation below.
+  \item \textbf{Accessibility to new players:} The Marathon accessibility policy (first-use
+        glossing of setting-specific terms; campaign-or-anthology reconciliation) is not
+        directly scored by the rubric.
+\end{itemize}
+
+\subsection{Limitations}
+
+\paragraph{Single Instrument.}
+All 49 sessions were scored by the same instrument under the same protocol. We do not
+have cross-instrument validity data: there is no evidence that high scores on the Marathon
+rubric correlate with high scores on an alternative instrument designed for the same corpus.
+
+\paragraph{No Inter-Rater Reliability.}
+The scoring protocol was executed by an AI system following the rubric's evidence-citation
+requirements. Human inter-rater reliability scores were not collected. Future work should
+have two or more human scorers independently score a subset of sessions to establish
+reliability coefficients.
+
+\paragraph{Single Setting.}
+All 49 sessions are set in the Dragonlance campaign setting for D\&D 5e. Rubric
+dimensions may not transfer without modification to other TRPG systems with fundamentally
+different mechanical structures (e.g., Powered by the Apocalypse games with no DC-based
+checks, or storytelling games with no combat mechanics).
+
+\paragraph{Confounded Improvement Sources.}
+The 12-point improvement from C1 (65/80 mean) to later campaigns reflects two
+confounded sources: (a) genuine quality improvement in adventure design and party
+construction as the workshop matured, and (b) rubric amendment enabling higher scores
+for qualities that existed earlier but could not be captured. We cannot cleanly separate
+these contributions with the current data.
+
+\subsection{Implications for TRPG Research}
+
+Despite these limitations, the Marathon rubric demonstrates that structured,
+evidence-based, multi-dimensional scoring of AI-simulated TRPG sessions is feasible
+at scale (49 sessions, 7 campaigns) and produces stable, consistent results across
+diverse campaign archetypes. The amendment-driven evolution mechanism is itself an
+empirical finding: across 49 sessions, the rubric required 13 amendments to adequately
+capture the quality space of a maturing AI-simulated TRPG corpus.
+
+For researchers interested in using AI systems to simulate TRPG sessions at scale ---
+for adventure design validation, player-type modeling, or narrative generation evaluation
+--- we recommend the Marathon rubric as a starting point, with the expectation that
+approximately 4--6 additional amendments will emerge from any corpus beyond our 49-session
+baseline as new campaign archetypes reveal quality dimensions the existing anchors
+cannot capture.
+
+The finding that campaign archetype does not predict quality level (C5 grief-free
+professional campaign scores within 0.7 points of C6 duty-spine campaign on the same
+rubric version) suggests that the rubric's dimensions capture properties of session
+execution rather than properties of campaign theme. This is the behavior we want from
+a measurement instrument: sensitivity to execution quality, insensitivity to thematic
+variation.
+
+\subsection{Future Work}
+
+Immediate priorities include establishing inter-rater reliability by having human TRPG
+experts score a 10-session subset; adapting the rubric for Powered by the Apocalypse
+and other non-D\&D systems; and extending the corpus beyond 7 campaigns to determine
+whether the amendment-driven evolution process converges (the rate of new amendments
+per session has been declining: 5 in C1, 4 in C2--C3, 3 in C4--C5, 2 in C6--C7) or
+whether novel archetypes continue to produce amendment clusters indefinitely.

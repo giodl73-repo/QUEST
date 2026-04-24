@@ -1,0 +1,66 @@
+%% sections/06-conclusion.tex
+
+\section{Conclusion}
+\label{sec:conclusion}
+
+We have presented the Marathon Playtest Rubric, an 8-dimension scoring instrument for
+AI-simulated tabletop role-playing game sessions, and reported its application across
+49 sessions spanning 7 complete campaigns with distinct party archetypes and dramatic
+questions. The rubric's four core design commitments --- evidence-basis (every score
+requires specific log citations), dimension independence (each dimension measures a
+distinct quality), forward-only amendment (prior session scores are never retroactively
+adjusted), and conservative thresholds (the 56/80 binding threshold is set below the
+mature session mean) --- together produce a measurement instrument that is both stable
+enough for longitudinal comparison and adaptive enough to learn from novel session
+outcomes.
+
+The central empirical findings are: a 12-point improvement in mean gate scores from
+early corpus sessions (65/80) to mature sessions (77/80), driven by a combination of
+genuine design improvement and 13 rubric amendments; cross-campaign consistency within
+0.7 points across campaigns with fundamentally different party archetypes; and a
+100\% binding-session PASS rate at the 56/80 threshold. The amendment rate declined
+from 5 amendments in Campaign 1 to zero amendments in Campaigns 6 and 7, suggesting
+convergence toward a stable quality description for the current corpus.
+
+The rubric's amendment mechanism is itself a contribution independent of the specific
+anchors it has produced. Any property-based scoring instrument applied to a creative
+output corpus will encounter outcomes that exceed its predictive scope; the systematic
+pipeline for logging those outcomes, clustering them by dimension, and codifying them
+as new anchors provides a principled method for closing that gap without introducing
+retrospective bias. This mechanism is applicable beyond TRPG research, to any domain
+where AI-generated creative outputs require systematic quality evaluation at scale.
+
+\subsection{Future Work}
+
+Three priorities follow directly from the limitations identified in
+Section~\ref{sec:discussion}.
+
+First, inter-rater reliability must be established. A 10-session subset of the corpus
+should be independently scored by two or more human TRPG practitioners following the
+rubric's evidence-citation protocol, and Cohen's $\kappa$ or Krippendorff's $\alpha$
+computed per dimension. This will establish whether the rubric's band descriptions are
+precise enough to enable consistent scoring between raters and will identify dimensions
+that require anchor clarification.
+
+Second, multi-system validation is needed to test whether the rubric's anchors are
+calibrated to patterns specific to a single AI system or generalize across AI DM
+implementations. Running a subset of the Marathon adventures with a different LLM-based
+DM and scoring the resulting sessions with the current rubric will reveal any
+system-specific bias in the anchor language.
+
+Third, extension to non-D\&D systems would expand the rubric's applicability
+significantly. Adapting the instrument for Powered by the Apocalypse games, which use
+a fundamentally different mechanical resolution structure, would require systematic
+revision of the Mechanical Fairness and Table Readiness dimensions and would test
+whether the rubric's core structure (8-dimensional, property-based, amendment-driven)
+transfers to game systems with different design assumptions about player choice, risk,
+and narrative authority.
+
+A longer-term goal is a human DM comparison: running the same compiled adventure with
+both an AI DM and a human DM, scoring both sessions with the same rubric, and analyzing
+where the two sessions diverge on individual dimensions. Such a study would not
+adjudicate whether AI DMs are ``better'' or ``worse'' --- the dimensions measure session
+execution quality, not the subjective experience of the participants --- but it would
+map the specific quality dimensions where AI-simulated and human-run sessions differ
+systematically, which is a prerequisite for improving AI DM systems toward human-level
+session quality.

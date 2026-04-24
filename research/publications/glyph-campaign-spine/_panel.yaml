@@ -1,0 +1,55 @@
+slug: glyph-campaign-spine
+title: "The 7-Session Campaign Spine: Evidence-Based Architecture for Emotionally Complete Narrative Arcs"
+stage: ready
+p1_items_addressed:
+  - circularity_emotional_completeness: "Operationalized completion through three rubric-external indicators (deliverable produced binary / hints delivered binary / Route D or E binary). Added subsection 3.6 in 03-components.tex, new External Completion Indicators column in Table 1 of 04-evaluation.tex with supporting paragraph, and future-work paragraph in 05-discussion.tex acknowledging independent measure gap."
+mean_score: 2.8
+round2_mean_score: 3.2
+recommendation: "Accept with minor revisions"
+reviewers:
+  - name: Janet Murray
+    affiliation: Georgia Tech Digital Media
+    score: 3
+    verdict: accept
+  - name: Mark Riedl
+    affiliation: Georgia Tech Entertainment Intelligence Lab
+    score: 3
+    verdict: accept
+  - name: Ian Bogost
+    affiliation: "Georgia Tech / Washington University in St. Louis"
+    score: 2
+    verdict: weak_accept
+  - name: Michael Bernstein
+    affiliation: Stanford HCI Group
+    score: 2
+    verdict: weak_accept
+  - name: Jason Morningstar
+    affiliation: Bully Pulpit Games
+    score: 4
+    verdict: strong_accept
+track: C
+venue: "CHI 2027"
+writing_completed: true
+authors:
+  - Della-Libera, Gio
+keywords:
+  - campaign design
+  - narrative arc
+  - hint structure
+  - route conditions
+  - TRPG
+  - emotionally complete narrative
+  - archetype independence
+  - AI simulation
+evidence_base: C:\src\marathon
+campaigns: 7
+sessions_total: 49
+completion_rate: "7/7 (100%)"
+route_D_or_E: "5/7"
+hint_delivery_rate: "28/28 (100%)"
+sessions_to_first_pass_mean: 4.5
+notes: >
+  The campaign spine document: central question + 4-hint schedule + branching end-conditions.
+  All 7 campaigns complete. 5/7 achieved Route D or E (hardest conditions). 100% hint
+  delivery. 100% PC-authored deliverable production. Mean S-to-first-pass 4.5. Archetype
+  independent across grief, professional-code, duty-spine, no-stakes.

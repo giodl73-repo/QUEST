@@ -1,0 +1,159 @@
+%% sections/03-rubric.tex
+
+\section{The Marathon Playtest Rubric}
+\label{sec:rubric}
+
+\subsection{Design Principles}
+
+The rubric was designed around four principles. First, \textit{evidence-basis}: every
+score requires specific textual evidence from the session log; general impressions are
+explicitly excluded. Second, \textit{dimension independence}: each dimension scores a
+distinct quality; a session that excels in one dimension should not automatically score
+higher in another. Third, \textit{forward-only amendment}: once a version is ratified,
+it applies to all future sessions; prior session scores are never retroactively adjusted.
+Fourth, \textit{conservative thresholds}: the binding pass threshold (56/80, 70\%)
+is set below the mean of a mature session, ensuring that sessions regularly pass without
+the threshold inflating scores.
+
+\subsection{The Eight Dimensions}
+
+\begin{table}[t]
+\caption{The 8-Dimension Rubric: Question, Bands, and Key Anchor Versions}
+\label{tab:dimensions}
+\begin{tabular}{@{}llll@{}}
+\toprule
+Dim. & Core Question & 10-band Requirement & Key Amendments \\
+\midrule
+Eng. & Did each PC contribute? & All PCs + unscripted outcome & --- \\
+MF & Did dice land honestly? & Dice compound narratively & v1.1, v1.4, v1.11 \\
+Pac. & Did scenes earn their length? & Session arc visible & --- \\
+CA  & Did PCs make choices that mattered? & Choices required \& shaped outcome & v1.9, v1.10 \\
+MFid & Did the adventure deliver? & All symptoms + hidden payoffs & v1.2, v1.3 \\
+AL  & Did emotional moments hit? & Outliving image + inter-PC chain & v1.1–v1.9, v1.12 \\
+Sur & Did anything emergent happen? & 7+ surprises, 1 amendment-worthy & --- \\
+TR  & Could DM run cold? & All lookups inline & --- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Table~\ref{tab:dimensions} summarizes the eight dimensions. We describe the most
+analytically significant dimensions in detail below.
+
+\paragraph{Mechanical Fairness (MF).}
+MF was the dimension most frequently amended (versions v1.1, v1.4, v1.11). The core
+question --- did dice land honestly and outcomes feel earned? --- is necessary but
+insufficient. Version v1.1 added a \textit{cross-dimensional-harmlessness anchor}: a
+session mechanic that systematically damages outcomes in other dimensions (e.g., an
+exhaustion mechanic that inflicts disadvantage on atmospheric-gate rolls) caps
+Mechanical Fairness at 6 regardless of dice honesty. This anchor emerged from Session 1,
+in which the adventure's Cold Pulse mechanic (outcome 3: DC 10 Constitution save or 1
+level of exhaustion, with disadvantage on ability checks) caused two atmospheric payoffs
+to fail --- not because the dice were mishandled, but because the mechanic itself was
+cross-dimensionally damaging.
+
+Version v1.4 added a \textit{cross-character mechanical compound} requirement for the
+10-band: at least one instance where a PC's class or spell mechanic is applied to another
+PC's roll, framed in-voice as a character action. Examples from the corpus include
+Kessa (Divination Wizard) using Portent to replace Grom's Religion roll while narrating
+``Vethrenn, let it be through me.'' This constitutes a mechanical compound (spell
+mechanic applied cross-character) framed as in-character action (Kessa invokes her
+mentor) rather than metagame resource management.
+
+Version v1.11 extended this to \textit{Portent-as-directed-foreknowledge}: the Portent
+die voiced to a named ally before the roll fires, framing the Divination Wizard's class
+fantasy (the wizard sees what others cannot and gives that seeing to someone specific).
+Silent substitution does not qualify; the direction to a named PC is required.
+
+\paragraph{Atmospheric Landing (AL).}
+AL received the most amendments of any dimension (v1.1, v1.2, v1.4, v1.5, v1.6, v1.7,
+v1.8, v1.9, v1.12). The core insight from version v1.1 was that atmospheric moments
+have both a \textit{finder} (the PC who rolls or notices the beat) and a
+\textit{receiver} (the PC the beat emotionally lands on), and these may be different
+PCs. Session 2 produced a canonical instance: Kessa rolled Investigation 22 and found
+Mensa's unsent bread-scrap; Grom's silence after the reading was the session's emotional
+impact. The per-PC two-column tracking (v1.2) formalizes this finding/receiving
+distinction.
+
+Progressive amendments to AL built a set of \textit{paths to the 10-band}: any one of
+(a) a specific sensory/emotional image that will outlive the session in players' memory
+with at least one inter-PC chain (v1.1), (b) a multi-scene silent-reception chain
+where a PC holds an un-articulated understanding across 3+ scenes and acts on it (v1.4),
+(c) an act-without-announcement where a PC acts differently as a result of a prior naming
+event without declaration (v1.5), or (d) simultaneous arc-convergence where a single
+naming act triggers multiple outstanding arc-completions (v1.6). By v1.12, there were
+six distinct paths to the 10-band on Atmospheric Landing.
+
+\paragraph{Character Agency (CA).}
+CA received two amendments (v1.9, v1.10) that addressed a key gap: the rubric's
+initial 10-band required that session outcomes depend on specific PC choices the module
+anticipated but did not require. This is a valid description of individual-decision
+agency, but Campaign 4 produced a different form: \textit{sustained behavioral pattern}
+--- a sequence of non-actions across multiple scenes that collectively constitutes the
+``choice.'' The Thorngate Watch party earned garrison trust not through any single
+identifiable decision but through four sessions of consistent non-credit-seeking
+behavior. No one scene was the choice; the maintenance of the pattern was.
+
+Version v1.10 added a third path: \textit{character-register conversion}, where a PC
+converts a mechanical situation into a character-authored outcome traceable to their
+character sheet heuristics rather than tactical calculation. In Campaign 4 Session 3,
+the PC Davan ended a combat encounter mid-round by naming the NPC's coercion aloud
+(``We know about your mother'') --- a resolution that came from her honor-accounting
+heuristic rather than from damage calculation.
+
+\subsection{Amendment History}
+
+Table~\ref{tab:amendments} summarizes all 13 rubric versions.
+
+\begin{table*}[t]
+\caption{Rubric Amendment History (v1.0–v1.12): Dimension, Change, Source Innovations}
+\label{tab:amendments}
+\begin{tabular}{@{}lllp{5.5cm}@{}}
+\toprule
+Version & Date & Dimension & Change Summary \\
+\midrule
+v1.0 & 2026-04-18 & --- & Initial 8-dimension rubric, 0--10 bands \\
+v1.1 & 2026-04-18 & MF, AL & MF: cross-dimensional-harmlessness anchor. AL: per-PC reception + inter-PC chain \\
+v1.2 & 2026-04-19 & MFid, AL & MFid: anchor-level passive-Perception fallback + recovery-path. AL: finder/receiver two-column + silent reception \\
+v1.3 & 2026-04-19 & MFid & Positional-redundancy: anchor symptoms need 2 of 3 fallback paths \\
+v1.4 & 2026-04-19 & MF, AL & MF: cross-character compound at 10-band. AL: multi-scene silent-reception chain at 9+ \\
+v1.5 & 2026-04-20 & AL & Act-without-announcement at 9+ band: cross-session behavioral consequence \\
+v1.6 & 2026-04-21 & AL & Simultaneous arc-convergence as 10-band path (three paths now) \\
+v1.7 & 2026-04-21 & AL & Framework-failure arc-activation at 7+ band \\
+v1.8 & 2026-04-21 & AL & Arc-activation through behavioral stance at 7+ band \\
+v1.9 & 2026-04-22 & AL, CA & AL: grief-paragraph situational resonance at 7+. CA: sustained behavioral pattern at 9+ \\
+v1.10 & 2026-04-22 & CA & Character-register-conversion as third path to CA 10-band \\
+v1.11 & 2026-04-22 & MF & Portent-as-directed-foreknowledge as valid cross-character compound path \\
+v1.12 & 2026-04-22 & AL & Intra-session restraint anchor at 9+: same-session variant of act-without-announcement \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\subsection{Amendment Mechanism}
+
+Amendments are triggered when two or more innovation log entries cluster in the same
+dimension. An innovation log entry is created when the session-gate reviewer identifies
+a quality outcome that existing rubric anchors cannot score --- not a failure of the
+anchors, but a surplus they cannot capture. The amendment pipeline is:
+
+\begin{enumerate}
+  \item Session gate reviewer identifies a surprising outcome.
+  \item Outcome is logged to the innovations log with dimension tag and scope classification.
+  \item When 2+ logged entries cluster in the same dimension, an amendment proposal is drafted.
+  \item Proposal is reviewed: if the described pattern is genuinely novel (not already captured
+        by an existing anchor), the proposal is adopted, the rubric version is incremented, and
+        constituent innovations are marked as adopted.
+  \item The new anchor applies to all sessions scored after the amendment date.
+\end{enumerate}
+
+The forward-only constraint ensures that session scores are comparable within the
+version-window under which they were scored. Cross-version comparison is explicit
+(we report gate scores with the applicable rubric version) rather than conflated.
+
+\subsection{Threshold Design}
+
+The binding pass threshold is 56/80 (70\%). Sessions 1--3 are advisory only (the
+rubric is not yet calibrated to the adventure format); sessions 4 onward are binding.
+The 70\% threshold was set to be achievable by a well-designed session without requiring
+near-perfect scores: a session scoring 7/10 on all eight dimensions (56 points) passes
+exactly. The empirical mean of passing sessions in the corpus is 74.8/80, indicating
+the threshold is not inflationary.

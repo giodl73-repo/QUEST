@@ -1,0 +1,288 @@
+%% sections/03-methodology.tex
+
+\section{Methodology}
+\label{sec:methodology}
+
+\subsection{The Marathon Workshop Pipeline}
+
+The Marathon D\&D Workshop is a structured pipeline for designing and playtesting D\&D
+5e adventures set in the Dragonlance campaign setting. Every session follows an
+identical seven-stage sequence that produces a reproducible, fully logged session
+artifact from a compiled adventure module and a character-sheet-specified party. The
+stages are:
+
+\begin{enumerate}
+  \item \textbf{PREP.} The adventure is compiled to a module document that inlines all
+  room descriptions, encounter stat blocks, treasure manifests, and critical rule text.
+  The party's character sheets are loaded. The applicable rubric version is recorded in
+  the session frontmatter. Dice seeds are initialized.
+
+  \item \textbf{PLAY.} An AI system (Claude, Anthropic) runs the session as DM while
+  simultaneously playing all player characters according to their Playstyle Heuristics ---
+  per-PC behavioral specifications that govern when each character speaks, acts
+  tactically, pursues personal goals, and defers to other party members. All dice rolls
+  use a seeded pseudorandom number generator for reproducibility.
+
+  \item \textbf{LOG.} The session log is produced as a structured narrative document
+  recording all scenes, dice rolls with natural values and applied modifiers, PC actions
+  and narration, and tagged SURPRISE moments where outcomes exceeded design prediction.
+
+  \item \textbf{GATE.} The session log is scored against the locked rubric version
+  using the session-gate protocol described in Section~\ref{sec:scoring-protocol},
+  producing a per-dimension scorecard and an overall gate score out of 80.
+
+  \item \textbf{PANEL.} Five player-experience lenses (Tactician, Roleplayer,
+  Lorekeeper, Improviser, Fresh Face) each review the session log from their distinct
+  perspective and produce a weighted aggregate panel score. Gate and panel scoring
+  are performed independently.
+
+  \item \textbf{INNOVATE.} The session log and panel reviews are scanned for outcomes
+  that existing rubric anchors cannot adequately score. Qualifying outcomes are logged
+  as innovations with a dimension tag. When two or more logged innovations cluster in
+  the same dimension, an amendment proposal is drafted per the protocol in
+  Section~\ref{sec:amendment-pipeline}.
+
+  \item \textbf{HANDOFF.} A canonical handoff document is produced that records all
+  campaign-permanent facts established in the session, updates the TRACKER with session
+  metrics, and registers any new seeds or retrieved seeds in the campaign seed log.
+  No session is considered complete without a handoff.
+\end{enumerate}
+
+\subsection{The 8-Dimension Rubric}
+\label{sec:rubric-dimensions}
+
+The rubric scores each session on eight dimensions, each scored 0--10 using four band
+levels: 0--3 (significant failure), 4--6 (adequate but limited), 7--9 (strong
+evidence of presence), and 10 (full anchor requirements met). The maximum session score
+is 80. Dimensions are designed to be independent: a session's score on one dimension
+should not mechanically constrain its score on another, except where explicit
+cross-dimensional anchors have been ratified (see MF below).
+
+\paragraph{Engagement (Eng).}
+\textit{Did each player character contribute meaningfully to the session's outcomes?}
+A score of 0--3 indicates that one or more PCs were passive observers for most of the
+session, with no scene they initiated or driven by their character-specific motivation.
+A score of 4--6 indicates that all PCs were present and acted but that their
+contributions were primarily reactive rather than character-motivated. A score of 7--9
+requires that every PC drove at least one scene and that each PC's contribution is
+traceable to something specific on their character sheet. A score of 10 requires the
+additional condition that the PCs' combined contributions produced an outcome that the
+adventure's module did not pre-script --- a genuinely emergent collective result.
+
+\paragraph{Mechanical Fairness (MF).}
+\textit{Did dice rolls produce outcomes that felt honestly earned, and did mechanics
+serve the fiction?}
+The 0--3 band covers sessions where dice results were narratively arbitrary (high roll
+produces low-value outcome, or vice versa) or where a mechanic functioned in a way
+that undermined player choice. The 4--6 band covers sessions where dice and outcomes
+were consistent but mechanics were applied narrowly, without narrative integration.
+The 7--9 band requires that every significant dice result is integrated into the
+narrative without retconning and that at least one mechanic is used in a way that
+extends a character's established fictional positioning (e.g., an Athletics roll that
+both succeeds mechanically and advances a character's established physical competence
+in-fiction). The 10-band requires, in addition to the 7--9 criteria, a
+\textit{cross-character mechanical compound}: at least one instance where one PC's
+class ability or spell is applied to another PC's roll, framed as an in-character
+action rather than metagame resource management. This anchor was added at v1.4 after
+Session 6 of Campaign 1 produced the first instance of this phenomenon (a Divination
+Wizard invoking her Portent die on behalf of a named ally while speaking in her
+mentor's voice).
+
+A separate MF anchor, ratified at v1.1, caps MF at 6 when any mechanic in the session
+systematically damages outcomes in other dimensions. This \textit{cross-dimensional-harmlessness}
+requirement reflects the finding from Session 1 that a Constitution-save exhaustion
+mechanic caused two atmospheric payoffs to fail through mechanical side-effect rather
+than narrative logic, producing false Atmospheric Landing failures that were not
+captured by any initial anchor.
+
+\paragraph{Pacing (Pac).}
+\textit{Did scenes earn their length, and did the session's arc feel appropriately
+shaped?}
+The 0--3 band covers sessions where one or more scenes ran significantly past or short
+of their narrative content --- a combat encounter that extended for three rounds after
+the decisive action was resolved, or a revelation scene cut so short that its
+emotional content had no time to register. The 4--6 band covers sessions with adequate
+pacing in most scenes but one notable structural mismatch. The 7--9 band requires that
+every scene's length is proportional to its narrative weight, including transition
+scenes and downtime scenes. The 10-band adds the requirement that the session's
+overall arc is visible in the session log: a reader with no prior knowledge of the
+campaign should be able to identify a beginning, a middle, and an end to the session
+as a self-contained narrative unit.
+
+\paragraph{Character Agency (CA).}
+\textit{Did player characters make choices that the module required them to make, and
+did those choices shape the outcome?}
+The 0--3 band covers sessions where outcomes were determined by module logic regardless
+of what PCs chose. The 4--6 band covers sessions where PCs chose from a menu of
+options but the options were all equivalent in narrative consequence. The 7--9 band
+requires that at least one session outcome depended specifically on a PC choice that
+the module anticipated but did not require --- the module offered the choice; the PC
+took it; and taking it led to a materially different outcome than not taking it would
+have produced. The 10-band was amended twice (v1.9, v1.10) to add two additional
+qualifying paths: a \textit{sustained behavioral pattern} (a sequence of non-actions
+across multiple scenes that collectively constitutes the choice, with each individual
+non-action ambiguous but the pattern deliberate) and a \textit{character-register
+conversion} (a PC converts a mechanical situation into a character-authored outcome
+traceable to their character sheet heuristics rather than tactical calculation, such as
+ending a combat encounter by naming an NPC's coercion rather than dealing damage).
+
+\paragraph{Module Fidelity (MFid).}
+\textit{Did the adventure deliver the outcomes and payoffs it was designed to deliver?}
+The 0--3 band covers sessions where one or more designed payoffs failed entirely ---
+the artifact was not found, the NPC arc did not fire, the climactic scene was skipped.
+The 4--6 band covers sessions where designed payoffs occurred but in reduced form.
+The 7--9 band requires that all designed anchor symptoms were present in the session.
+The 10-band adds the requirement that at least one hidden payoff --- an outcome the
+module designed but did not make explicit in the anchor list --- was also delivered.
+Amendment v1.2 added a \textit{passive-Perception fallback}: if a primary anchor symptom
+fails because no PC rolled high enough to trigger it, a passive-Perception delivery of
+the same information (via environmental description rather than active investigation)
+counts as a valid anchor-symptom delivery. Amendment v1.3 added a
+\textit{positional-redundancy} requirement: at the 7--9 band and above, anchor symptoms
+must have two of three fallback delivery paths available in the session log, ensuring
+that module design provides sufficient redundancy rather than placing all delivery
+weight on a single roll.
+
+\paragraph{Atmospheric Landing (AL).}
+\textit{Did designed emotional and sensory moments land as affecting?}
+Atmospheric Landing received the most amendments of any dimension (v1.1, v1.2, v1.4,
+v1.5, v1.6, v1.7, v1.8, v1.9, v1.12) because novel positive outcomes most frequently
+exceeded its initial anchors. The 0--3 band covers sessions where designed atmospheric
+moments are present in the log but are not integrated into PC responses --- the
+description is there but no PC acknowledgment, silence, or behavioral change follows.
+The 4--6 band covers sessions where at least one atmospheric moment is acknowledged
+by a PC but the acknowledgment is brief and does not persist into subsequent scenes.
+The 7--9 band requires one moment that shows evidence of genuine impact: either a
+specific sensory or emotional image that is subsequently referenced (verbally or
+behaviorally) by at least one PC, or a moment of sustained silence or non-response
+that the session log itself flags as significant.
+
+The 10-band evolved through successive amendments to encompass six distinct qualifying
+paths, any one of which suffices: (a) a specific image that will outlive the session,
+acknowledged by at least one PC through an inter-PC chain (v1.1); (b) a multi-scene
+silent-reception chain where a PC holds an unarticulated understanding across three or
+more scenes and acts on it without naming it (v1.4); (c) an act-without-announcement
+where a PC acts differently as a direct consequence of a prior naming event, without
+declaring the connection (v1.5); (d) simultaneous arc-convergence where a single naming
+act triggers multiple outstanding arc-completions in distinct PCs (v1.6); (e) a
+framework-failure arc-activation where a supporting NPC's expected role collapses and a
+PC steps into the resulting gap without prompting (v1.7); and (f) an intra-session
+restraint anchor where a PC demonstrates the same act-without-announcement behavior
+within the same session (rather than cross-session), signaling a behavioral change
+still in the moment of formation (v1.12).
+
+\paragraph{Surprise (Sur).}
+\textit{Did anything genuinely emergent happen that the adventure design could not have
+predicted?}
+The Surprise dimension explicitly rewards outcomes that were not designed. The 0--3
+band covers sessions with no logged surprise moments --- every outcome was fully
+predictable from the module and the character sheets. The 4--6 band covers sessions
+with one or two minor surprises (unexpected dice results, minor improvised NPC
+responses). The 7--9 band requires at least one substantive emergent outcome that
+changed the adventure's trajectory or produced a narrative development the module
+did not anticipate. The 10-band requires that this outcome is not only substantive
+but amendment-worthy: it represents a quality that existing rubric anchors cannot
+capture, or it demonstrates that a party archetype produces session dynamics not
+previously seen in the corpus.
+
+\paragraph{Table Readiness (TR).}
+\textit{Could a DM pick up this session's compiled module and run it without external
+references?}
+This dimension evaluates the module and session infrastructure rather than the session
+narrative. The 0--3 band covers sessions where key rule text was absent from the
+compiled module (requiring lookup during play), NPCs lacked stat blocks, or encounter
+balance was unvalidated. The 4--6 band covers sessions where critical references were
+inline but supplementary rules required lookup. The 7--9 band requires that all rule
+text necessary to run every encounter, trap, and hazard in the session is inlined in
+the module document, NPCs have complete stat blocks, and encounter balance has been
+validated against party tier and size. The 10-band adds the requirement that the
+module's DM cheatsheet includes the three most likely player-decision branches and
+their adjudication, enabling the DM to handle the session's principal choice points
+without improvisation under pressure.
+
+\subsection{The Amendment Pipeline}
+\label{sec:amendment-pipeline}
+
+The rubric's amendment mechanism is the instrument through which empirical use refines
+the quality space it can measure. The pipeline has five steps:
+
+\begin{enumerate}
+  \item \textbf{Innovation identification.} At the INNOVATE stage of the session
+  pipeline, the session log and panel reviews are read with the question: did any
+  session outcome exceed the predictive power of the current rubric anchors? An outcome
+  that is clearly captured (positive or negative) by existing anchor language does not
+  qualify. An outcome that required the reviewer to reason outside the rubric's anchor
+  set qualifies as an innovation candidate.
+
+  \item \textbf{Innovation logging.} Qualifying outcomes are logged to the innovations
+  register with a dimension tag (identifying which rubric dimension is most relevant),
+  a scope classification (anchor-gap: the dimension's existing anchors cannot capture
+  the outcome; or new-dimension-candidate: the outcome suggests a quality orthogonal to
+  all eight existing dimensions), and a verbatim log citation.
+
+  \item \textbf{Clustering and proposal.} When two or more logged innovations carry the
+  same dimension tag, an amendment proposal is drafted. The proposal describes the
+  pattern in generalized terms (not specific to the source session), specifies the band
+  to which the new anchor applies, and justifies why the pattern represents a genuinely
+  new form of the dimension's quality rather than a restatement of existing anchors.
+
+  \item \textbf{Ratification.} The proposal is reviewed against three criteria: the
+  pattern is genuinely novel (not already captured by existing anchor language through
+  reasonable interpretation); the pattern is reproducible (it could in principle appear
+  in future sessions with different parties and adventures); and the proposed anchor
+  language is precise enough to enable consistent scoring. If all three criteria are
+  met, the proposal is adopted, the rubric version is incremented, and the constituent
+  innovations are marked as adopted in the register.
+
+  \item \textbf{Forward-only application.} The new anchor applies to all sessions
+  scored after the amendment date. Sessions scored under prior versions are not
+  retroactively rescored. Cross-version comparisons are made explicit by reporting the
+  rubric version alongside gate scores.
+\end{enumerate}
+
+This forward-only constraint preserves the integrity of the historical score series:
+each session score reflects the quality space that was operationally defined at the
+time it was played. Retrospective revision would conflate the rubric's learning with
+genuine quality change, making it impossible to distinguish a 12-point improvement
+in session quality from a 12-point expansion of the rubric's scoring ceiling.
+
+\subsection{Session-Gate Scoring Protocol}
+\label{sec:scoring-protocol}
+
+For each dimension, the session-gate reviewer reads the session log with that
+dimension as sole focus. The reviewer identifies supporting evidence (specific quoted
+passages from the log) and counter-evidence (absences, failures, or degraded outcomes),
+assigns a score using the band descriptions, and writes an evidence cell that documents
+the specific log citations on which the score rests. The scoring protocol explicitly
+prohibits generous or harsh adjustment: ``Do not score generously out of sympathy. Do
+not score harshly to seem rigorous. Score what is in the log.''
+
+The binding pass threshold is 56/80 (70\%), set conservatively to be achievable by a
+well-designed session scoring 7/10 on all eight dimensions without requiring
+near-perfect performance. Sessions 1--3 of each campaign are scored as advisory only,
+because adventures during this window are still under active revision and the session
+may be the first time the module has been run. Advisory scores contribute to the
+innovation log but do not determine pass/fail. Sessions 4 onward are binding.
+
+\subsection{The Seven Campaigns}
+
+The corpus consists of seven complete campaigns, each comprising seven adventures and
+seven sessions, for a total of 49 sessions. Campaigns were designed with distinct
+party archetypes and central dramatic questions to test whether the rubric's scores
+depend on thematic content or reflect session execution quality independent of theme.
+
+Campaign 1 (Moon-Silver Cycle) used a grief-themed party with explicit loss-hooks on
+every character sheet, centered on a campaign question of what an emotion is worth
+trading away. Campaign 2 (Conclave Compact) used a covenant-restoration party
+structure with a convergence deadline generating mechanical time pressure. Campaign 3
+(Halted Spire) used a faith-and-authority theme with a party defined by a crisis of
+institutional legitimacy. Campaign 4 (Thorngate Watch) introduced resource exhaustion
+mechanics (Supply Die, no long rests for seven sessions) with a siege-and-resource
+management archetype. Campaign 5 (Thieves Guild) used a professional-code motivation
+with no grief hooks and no designed personal stakes, testing whether the rubric's
+Atmospheric Landing dimension depends on grief-adjacent party design. Campaign 6
+(Military Unit) used a duty-spine with an institutional deliverable. Campaign 7 (Party
+of Strangers) used a party with no designed personal stakes, no grief paragraphs, no
+loyalty objects, and no professional codes --- the most stripped-down archetype in the
+corpus, designed to test whether the rubric can score sessions when parties have no
+designed emotional infrastructure.

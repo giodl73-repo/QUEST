@@ -1,0 +1,296 @@
+%% sections/03-methodology.tex
+
+\section{Methodology: The Amendment Pipeline}
+\label{sec:methodology}
+
+Innovation-cluster-driven rubric amendment is a three-stage process that operates
+continuously throughout a corpus of evaluated sessions. It requires no separate
+review cycle: the pipeline runs as part of the evaluation process itself. This
+section describes each stage in full operational detail, including the
+decision criteria, data formats, and constraints that make the mechanism
+replicable.
+
+\subsection{Stage 1: Innovation Logging}
+
+An innovation log entry is created immediately after the session-gate scoring
+stage when the gate reviewer identifies an outcome that satisfies three criteria:
+
+\begin{itemize}
+  \item the outcome is clearly a quality achievement, not an evaluative failure
+        or an artifact of the session's particular content;
+  \item the outcome is not described by any existing rubric anchor at the
+        applicable version (i.e., a scorer consulting only the rubric would have
+        no specific guidance for this pattern);
+  \item the outcome could plausibly recur in future sessions under some
+        recognizable condition (not purely an idiosyncrasy of a single session).
+\end{itemize}
+
+Each entry has five fields:
+
+\begin{description}
+  \item[Technique:] A short noun-phrase naming the observed pattern
+    (e.g., ``Cross-character mechanical compound,'' ``Sustained behavioral
+    pattern as choice,'' ``Portent-as-directed-foreknowledge'').
+
+  \item[Dimension:] The primary rubric dimension the innovation is most
+    relevant to. Cross-dimension relevance is noted as secondary but does not
+    affect the clustering trigger.
+
+  \item[Evidence:] A direct quotation from the session log with scene
+    reference, plus a brief analytical note explaining why the existing anchors
+    did not capture this outcome.
+
+  \item[Scope:] One of three values --- \textit{party-specific} (likely to
+    recur only with this party's composition or grief-paragraph configuration),
+    \textit{adventure-specific} (likely to recur with this adventure design
+    pattern), or \textit{universal} (likely to recur with any party or
+    adventure that produces the relevant conditions).
+
+  \item[Status:] One of: \texttt{logged} $\to$ \texttt{proposed} $\to$
+    \texttt{adopted (vX.Y)} or \texttt{reviewed-not-adopted}.
+\end{description}
+
+The log is append-only. No entry is deleted or modified after creation; status
+updates are the only permitted modification. This preserves the full history of
+what the rubric did not capture and when.
+
+\subsection{Stage 2: Clustering and Threshold Check}
+
+After each session, the full set of entries with status \texttt{logged} is
+scanned for dimension clusters. The trigger condition is:
+
+\[
+  \bigl|\{e \in \mathcal{L} : e.\mathrm{dim} = d
+          \;\wedge\; e.\mathrm{status} = \texttt{logged}\}\bigr| \;\geq\; 2
+\]
+
+for any dimension $d$, where $\mathcal{L}$ is the current log. When the
+threshold fires, an amendment proposal is drafted immediately.
+
+Clustering does not require entries to be semantically identical: it requires
+that they tag the same dimension from different session instances. In practice,
+dimension co-tags are a reliable proxy for thematic coherence. Each dimension
+names a conceptually bounded scoring target (e.g., Atmospheric Landing scores
+how emotional and atmospheric intent is realized in play); entries that share a
+dimension tag consistently address the same underlying quality phenomenon from
+different session contexts.
+
+The 2-entry threshold is intentionally conservative. It rules out single-instance
+patterns --- which may be session-specific artifacts --- while permitting rapid
+response to genuinely recurring phenomena. In the Marathon corpus, all 15
+amendment-triggering clusters met the 2-entry threshold; no cluster required
+a higher threshold to achieve thematic coherence (though two clusters of 3 and
+one cluster of 4 occurred and reinforced the resulting amendments).
+
+\paragraph{Formal threshold definition.}
+Let $\mathcal{I}_d$ be the set of logged innovations with primary dimension tag $d$
+and status \texttt{logged}. An amendment proposal for dimension $d$ is triggered when
+$|\mathcal{I}_d| \geq 2$ AND the two constituent innovations share a thematic cluster
+--- that is, they address the same underlying quality phenomenon from different session
+instances, even if they describe the phenomenon in distinct surface forms. Dimension
+co-tagging is the primary clustering criterion; the thematic-cluster requirement rules
+out pairs of entries that share a dimension tag but describe unrelated phenomena within
+that dimension's scope.
+
+\paragraph{False-positive rate in the corpus.}
+Of the 13 ratified amendments in the Marathon corpus, zero were later reversed. No
+amendment that passed the 2-instance-plus-thematic-cluster criterion was subsequently
+found to describe a spurious or non-recurring pattern. The threshold, in combination
+with the thematic-clustering requirement, produced no false positives across the full
+corpus.
+
+\paragraph{Alternative threshold considered.}
+A 3-instance threshold was considered during the rubric's development. Under a
+3-instance rule, amendment v1.1 (constituent innovations I-S01-04 and I-S01-07;
+exactly 2 instances) and amendment v1.9 (constituent innovations I-C4-S1-01 and
+I-C4-S1-02; exactly 2 innovations in the AL cluster) would both have been delayed
+pending a third observation. Both proved valid: v1.1's cross-dimensional harmlessness
+anchor and v1.9's grief-paragraph situational resonance anchor each produced no
+subsequent reversals and were evidenced in later sessions without amendment. The
+2-instance threshold is aggressive relative to the 3-instance alternative, but the
+corpus provides no evidence that the additional speed produced erroneous amendments.
+A calibration study comparing 2-instance vs.\ 3-instance thresholds across held-out
+sessions would formalize this parameter; we treat it as a design choice pending
+validation.
+
+\subsection{Stage 3: Amendment Adoption}
+
+An amendment proposal documents: (a) the constituent innovation entries,
+(b) the dimension being amended, (c) the proposed anchor text, and (d) a
+rationale explaining why the existing anchors did not cover the observed pattern.
+Proposals are reviewed against two criteria:
+
+\begin{enumerate}
+  \item The described pattern is \textit{genuinely novel}: it is not captured
+        by any existing anchor even under a charitable reading.
+  \item The proposed anchor text is \textit{sufficiently specific}: a future
+        evaluator consulting only the rubric would assign consistent scores on
+        sessions where the pattern appears.
+\end{enumerate}
+
+Proposals that pass both criteria are adopted: the rubric version is incremented,
+constituent innovations are marked \texttt{adopted (vX.Y)}, and the new anchor
+is added to the rubric document. The version increment follows a minor-version
+convention: v1.X increments to v1.(X+1). No major-version bumps occurred in the
+Marathon corpus because all amendments were additive (new anchors added) rather
+than corrective (existing anchors modified).
+
+In the Marathon corpus, all 15 proposals were adopted. No proposals were marked
+reviewed-not-adopted. This likely reflects the conservative drafting standard:
+proposals were only drafted when the cluster was unambiguous and the textual
+evidence was strong. It is reasonable to expect that a more liberal logging
+standard would produce some reviewed-not-adopted outcomes.
+
+\subsection{The Forward-Only Constraint}
+
+All amendments apply forward-only: sessions scored before an amendment cannot
+be re-scored under the new anchor. This creates version-windows in which all
+scores are comparable: sessions scored under v1.3 are directly comparable to
+each other, and cross-version comparisons require version as an explicit covariate.
+
+The forward-only constraint serves two functions. First, it prevents retroactive
+inflation: if amendments could be applied retroactively, every improvement in
+rubric expressiveness would immediately improve all prior scores, conflating
+measurement improvement with quality improvement. Second, it preserves the
+operational record: the innovation log accurately reflects what the rubric
+\textit{did not capture} at the time of each session, which is the primary
+empirical record of the mechanism.
+
+\subsection{Complete Amendment History}
+
+Table~\ref{tab:full-history} provides the complete amendment history across all
+13 rubric versions, including the constituent innovations and the dimension
+affected at each step.
+
+\begin{table*}[t]
+\caption{Complete Rubric Amendment History: v1.0 Through v1.12}
+\label{tab:full-history}
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{@{}p{0.9cm}p{1.2cm}p{3.0cm}p{3.2cm}p{5.0cm}@{}}
+\toprule
+Version & Dim. & Constituent Innovations & Session(s) & Amendment Description \\
+\midrule
+v1.0 & --- & --- & Pre-S01 & Initial rubric. Eight dimensions:
+  Engagement (EG), Mechanical Fairness (MF), Pacing (PA), Character Agency (CA),
+  Module Fidelity (MFid), Atmospheric Landing (AL), Surprise (SU),
+  Table Readiness (TR). \\
+\addlinespace[2pt]
+v1.1 & MF & I-S01-04, I-S01-07 & S01 & Cross-dimensional harmlessness anchor.
+  A mechanical interaction that achieves high MF in its primary dimension may
+  not depress scores in an unrelated dimension; cross-dimensional neutrality is
+  the baseline. \\
+\addlinespace[2pt]
+v1.1 & AL & I-S01-02, I-S01-10, I-S01-12 & S01 & Per-PC reception tracking
+  (two-column finder/receiver structure); inter-PC chain-reaction scores at the
+  10-band when an atmospheric beat received by one PC visibly propagates to a
+  second PC. \\
+\addlinespace[2pt]
+v1.2 & MFid & I-S01-05, I-S01-06, I-S01-08, I-S01-11 & S01--S02 & Anchor-level
+  single-gate failure. Module Fidelity can score 8 at anchor level while failing
+  to deliver a single designed symptom; the 10-band requires all designed anchors
+  present and legible, not merely present. \\
+\addlinespace[2pt]
+v1.2 & AL & I-S02-01, I-S02-03 & S02 & Finder/receiver divergence: a PC who
+  discovers an atmospheric element may not be the PC who receives it emotionally;
+  both roles are tracked. Silent reception (no verbal acknowledgment) now
+  explicitly scores at the 9-band when the log provides behavioral evidence. \\
+\addlinespace[2pt]
+v1.3 & MFid & I-S03-01, I-S03-02, I-S03-04 & S03 & Positional-geometry failure.
+  A combat encounter that fails to instantiate a designed terrain-challenge is
+  a Module Fidelity miss even if tactical gameplay was otherwise high quality.
+  Anchor-level symptoms must include spatial/positional elements when the module
+  specifies them. \\
+\addlinespace[2pt]
+v1.4 & MF & I-S03-03, I-S04-01 & S03--S04 & Cross-character mechanical compound.
+  A cross-PC mechanical interaction that enhances a second PC's roll (e.g.,
+  Bless cast to support a Religion check) scores at the 10-band if voiced in
+  character. Portent-as-benediction is the canonical exemplar. \\
+\addlinespace[2pt]
+v1.4 & AL & I-S04-02, I-S05-01 & S04--S05 & Multi-scene silent-reception chain.
+  Reception that persists across two or more scenes without verbal acknowledgment,
+  evidenced by behavioral callbacks (a carried object referenced, an earlier
+  statement echoed), scores at the 10-band for the chain, not only the originating
+  scene. \\
+\addlinespace[2pt]
+v1.5 & AL & I-S07-01, I-C2-S01-01, I-C2-S02-03 & S07, C2-S01--S02 &
+  Cross-session act-without-announcement. A PC behavioral pattern that expresses
+  a received atmospheric element across sessions --- rather than within a single
+  session --- scores as a campaign-level AL achievement at the 10-band. The
+  session log must cite the originating session. \\
+\addlinespace[2pt]
+v1.6 & AL & I-S07-02, I-C2-S04-01 & S07, C2-S04 & Simultaneous arc-convergence.
+  When two or more PCs reach an emotional arc-completion point at the same scene,
+  the convergence itself scores as an AL event independent of each individual
+  arc-completion; the evaluator notes the convergence explicitly. \\
+\addlinespace[2pt]
+v1.7 & AL & I-C3-S01-01, I-C3-S01-02 & C3-S01 & Framework-failure arc-activation.
+  A PC whose arc-completion is triggered by the failure of an in-world authority
+  figure or institutional structure (rather than by discovery or narrative gift)
+  scores at the 10-band for activation mode; the framework failure is the
+  atmospheric delivery mechanism. \\
+\addlinespace[2pt]
+v1.8 & AL & I-C3-S03-01, I-C3-S04-01 & C3-S03--S04 & Arc-activation through
+  behavioral stance. A PC who occupies a particular behavioral stance (restraint,
+  witness, deliberate inaction) across a scene or encounter and whose arc advances
+  through that stance --- rather than through explicit speech or narrative gift ---
+  scores at the 10-band for the activation. \\
+\addlinespace[2pt]
+v1.9 & AL, CA & I-C4-S1-01, I-C4-S1-02, I-C4-S1-03, I-C4-S1-04 & C4-S01 &
+  Dual amendment. (AL) Grief-paragraph situational resonance: when a PC's
+  grief-paragraph commitment directly shapes their resource decisions in a session
+  with a sustained-pressure mechanic, the resonance scores as AL achievement at
+  the 9-band. (CA) Sustained behavioral pattern as choice: a PC maintaining a
+  consistent behavioral pattern across 3+ scenes --- rather than making a single
+  visible choice --- now qualifies as a CA achievement at the 9-band. \\
+\addlinespace[2pt]
+v1.10 & CA & I-C4-S2-01, I-C4-S3-01 & C4-S02--S03 & Character-register
+  conversion. A PC who translates between two character registers within a single
+  scene (e.g., moving from tactical-practical to grief-honest speech without
+  narrative prompt) scores at the 10-band for CA; the conversion must be
+  unprompted and evidenced by direct quotation. \\
+\addlinespace[2pt]
+v1.11 & MF & I-C4-S3-02, I-C4-S4-01 & C4-S03--S04 & Portent-as-directed-fore\-knowledge.
+  A Portent die held and deployed to a named ally rather than retained for personal
+  use --- with explicit in-voice framing of the delegation --- scores at the 10-band
+  for MF. The delegation must be voiced; silent deployment does not qualify. \\
+\addlinespace[2pt]
+v1.12 & AL & I-C4-S2-02, I-C4-S3-03 & C4-S02--S03 & Intra-session restraint as
+  reception. A PC who receives an atmospheric element and deliberately defers its
+  expression to a later scene within the same session --- placing an object aside,
+  declining to speak, returning to a threshold --- scores at the 9-band for the
+  deferred expression rather than the originating beat. \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+The table reveals several structural features of the amendment history.
+First, v1.1 was a compound amendment: it incremented the version once but
+addressed two distinct dimension clusters (MF and AL) simultaneously. In
+subsequent amendments, each version increment addressed one cluster, with
+the exception of v1.9 (a dual amendment addressing an AL cluster and a
+CA cluster that fired simultaneously from the same session). Second, the
+gap between v1.8 and v1.9 --- both running through C3's 7 sessions --- shows
+the rubric's stability once it has absorbed a campaign archetype. Third,
+v1.12 has been stable across all of C5, C6, and C7, which together span
+21 sessions (7 per campaign).
+
+\subsection{Operationalizing the Pipeline in a New Evaluation Context}
+
+To implement the mechanism in a different creative evaluation context, a
+practitioner requires:
+
+\begin{enumerate}
+  \item A \textbf{session log format} that records specific outcomes with
+        sufficient textual granularity to support evidence citation. Vague
+        summaries are insufficient; the innovation log requires direct quotation
+        or paraphrase with scene reference.
+  \item A \textbf{rubric with named dimensions} and explicit anchor descriptions
+        at the score bands being used. The clustering trigger operates on
+        dimension tags; without named dimensions, clustering cannot occur.
+  \item A \textbf{forward-only versioning convention}, enforced consistently
+        from the first session. Retroactive scoring creates version-window
+        ambiguity that undermines the mechanism's primary statistical property.
+\end{enumerate}
+
+The innovation log schema is available in the Marathon workshop repository
+alongside the rubric format and amendment proposal template.

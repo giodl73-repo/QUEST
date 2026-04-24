@@ -1,0 +1,156 @@
+%% sections/05-discussion.tex
+
+\section{Discussion}
+\label{sec:discussion}
+
+\subsection{Why Character Logic Produces Better Payoffs Than DM Scripting}
+
+The 90\% session coverage rate and 100\% memorable-NPC-moment rate for
+sessions with arc-completions together support a claim that goes beyond
+coverage: the \textit{origin} of an NPC moment --- whether it was earned
+by the party or scripted by the DM --- is a meaningful quality axis, not
+merely a design preference.
+
+There is a structural account of why this is so. When a party earns an NPC
+moment through specific, observable action --- when the party's behavior is
+the direct cause of the NPC's arc-completion --- the moment belongs to the
+session in a way that DM-scripted moments cannot. Players may not articulate
+this distinction, but its effects are visible in panel review language: arc-
+completion moments are described as ``the session''s best moment,'' as things
+that ``the party did,'' as moments that ``had been building.'' Improvised NPC
+beats --- even effective ones --- are described as ``what the DM gave us.''
+The arc-completion pattern changes the causal attribution of emotional payoffs
+from DM-to-players to players-to-session.
+
+This reframes the pattern's primary design implication. The intervention is
+not ``tell DMs to time NPC moments better'' or ``tell DMs to be more
+emotionally attentive.'' It is ``tell adventure designers to specify, before
+play, what each NPC is capable of saying and exactly what the party must do
+to see it.'' The constraint forces articulation that improvisation avoids: the
+designer must answer the question of what the NPC can offer and under what
+conditions, which is a harder design question than ``what would this NPC say
+if the party were friendly with them.''
+
+\subsection{The Information-Holder NPC Variant}
+
+The five exemplar NPCs in Section~\ref{sec:methodology} include one
+information-holder type (Aldras Bent), and the Campaign 5 discussion in
+Section~\ref{sec:evaluation} extends this with Bessa Tor and Pell Dorvast.
+The information-holder variant warrants specific attention because it is
+the type most likely to be confused with interrogation design.
+
+In conventional adventure design, NPCs who hold information are designed as
+interrogation targets: the party must find leverage, make skill checks, or
+build rapport to extract the information. The firing condition in these
+designs is typically a threshold (persuasion DC 16, or three successful
+interaction beats) rather than a specific observable action. This design
+structure makes the NPC's information contingent on party capability, which
+is mechanically tractable but narratively flat.
+
+The information-holder arc-completion inverts this. The firing condition is
+not a threshold but a behavioral signature: the party must demonstrate a
+specific form of professional respect that the NPC's arc was designed to
+detect. Aldras Bent does not name his handler because the party passed a
+persuasion check; he names him because the party showed him the ledger-date
+and waited, which is the specific gesture of professional acknowledgment his
+arc-completion condition required. The information is the arc-completion act,
+not the reward for passing a check.
+
+This distinction has practical implications for adventure design: information-
+holder NPCs should be designed with arc-completion conditions, not interrogation
+thresholds, when the goal is narrative memorability rather than information
+delivery efficiency. An NPC who voluntarily offers information under conditions
+of professional respect produces a more memorable moment than an NPC who
+surrenders information under persuasion pressure, even when the information
+transferred is identical.
+
+\subsection{The Bilateral Arc-Completion}
+
+Four sessions in the corpus featured bilateral arc-completions: scenes in which
+both an NPC and a PC fired arc-completion moments simultaneously, each creating
+the condition for the other. These instances (Sera+Morreth in C2-S03,
+Thessaly+Vorn in C2-S05, Asholt+Saren in C4-S07, and one instance in C1-S07)
+produced the four highest single-scene Atmospheric Landing scores in the corpus.
+
+Bilateral arc-completions require a specific design condition: both the NPC's
+arc-completion and the PC's arc-completion must share a trigger domain --- a
+subject matter or action space where each party's conditions can be met by the
+same gesture. In Sera+Morreth, the shared domain was naming: Sera named the
+settlement she had been protecting; Morreth named Ven, the person he had lost
+protecting it. The party action (Sera's naming) met both the PC's own arc-
+completion condition and Morreth's NPC condition simultaneously.
+
+Bilateral arc-completions cannot be forced through design alone; they require
+both design (shared trigger domain) and emergence (the party's behavior must
+actually converge on the shared space). The four instances in the corpus were
+all noted as unplanned in the sense that no session was designed with a
+bilateral arc-completion as a target; they emerged from the intersection of
+NPC and PC arc designs. This suggests a design principle: ensure NPC and PC
+arc designs share trigger domains where possible, then allow bilateral
+convergence to emerge from party behavior. Do not pre-script the bilateral.
+
+\subsection{Arc-Completion and Drama Management as Complementary Approaches}
+
+The arc-completion pattern is most usefully understood as complementary to drama
+management rather than competing with it. Drama management, as exemplified by
+\citet{mateas2003faade}, operates at the session level: it monitors emergent play
+and steers narrative toward designed endpoints through real-time intervention.
+Arc-completion operates at the NPC level: it specifies, before play, the conditions
+under which a character will say or do something emotionally significant. These
+are different levels of the design stack, and they are compatible.
+
+A system combining pre-specified arc-completion conditions with a lightweight drama
+manager for pacing could achieve both reliability and adaptability. The arc-completion
+layer would guarantee that NPC emotional moments fire on authentic terms (condition
+met, character logic fires); the drama management layer would handle session-level
+concerns such as encounter sequencing, pacing adjustment, and response to unexpected
+player choices that do not engage any NPC's arc-completion conditions. In the Marathon
+corpus, the session-runner functions as a minimal drama manager for these pacing
+concerns, while the NPC file system provides the arc-completion layer. The two
+functions do not interfere; they operate on different parts of the session's design
+space. This separation suggests a practical design principle: let drama management
+handle session shape; let arc-completion design handle NPC authenticity. Do not ask
+drama management to time emotional moments, and do not ask arc-completion to recover
+from session-level pacing failures.
+
+\subsection{Limits and Threats to Validity}
+
+\paragraph{Single AI system.}
+The corpus is generated by a single AI system (Marathon's session-runner)
+running all DM functions. This system enforces firing-condition checking
+mechanically: the AI cannot script an arc-completion without checking the
+condition. The zero DM-scripted moment count in the corpus is therefore partly
+a system property, not purely a design property. In human-run TRPG, the
+pattern requires DM discipline to hold. We cannot report data on whether human
+DMs maintain this discipline; future work should apply the pattern in human-run
+sessions and measure compliance with DM discipline notes.
+
+\paragraph{No player studies.}
+All quality assessments in the corpus are produced by AI-simulated panel
+reviewers using a calibrated rubric, not by human players. The claim that
+character-logic arc-completions produce better player experiences than DM-
+scripted moments is an inference from panel scoring patterns, not a direct
+measurement of player affect. Future work should instrument the pattern in
+human-played sessions with player-experience measures (post-session recall
+interviews, affect ratings, or session-satisfaction surveys).
+
+\paragraph{Thematic range.}
+Despite seven campaign archetypes, the corpus does not include campaigns with
+antagonist-only parties, sandbox exploration structures, or player-driven
+emergent narrative (e.g., Powered by the Apocalypse format). The arc-completion
+pattern's core mechanism (specify the condition and the text before play; let
+character logic fire it) should transfer, but the specific design template may
+require adaptation for systems where NPC behavior is defined by player-facing
+moves rather than DM-administered arc files.
+
+\paragraph{Correlation vs. causation.}
+The strong correlation ($r = 0.89$) between arc-completion presence and
+session-memorable NPC moments is not proof of causation. Sessions with well-
+designed arc-completions are also sessions with stronger overall NPC design,
+more sustained party investment in NPC relationships, and more carefully
+structured encounter sequencing. The arc-completion may be a proxy for overall
+design quality rather than an independent driver of memorable moments. The
+failure analysis provides partial evidence against this interpretation (sessions
+with high overall scores but no arc-completions still fail to produce memorable
+NPC moments at high rates), but a controlled comparison with matched-quality
+session designs would be required to establish causation cleanly.

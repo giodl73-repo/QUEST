@@ -1,0 +1,71 @@
+%% glyph-resource-exhaustion/main.tex
+%% Resource Exhaustion as Narrative Amplifier:
+%% Mechanical Attrition in Long-Form Tabletop RPG
+%%
+%% Target venue: FDG 2027
+%% Evidence base: Marathon D&D Workshop — C4 (Supply Die), C6 (Unit Cohesion Die)
+%%   vs. C1-C3 (grief/covenant/faith baselines), C5 (professional), C7 (no-stakes)
+
+\documentclass{article}
+
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{xspace}
+\usepackage{microtype}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage[margin=1in]{geometry}
+
+%%% ============================================================
+\begin{document}
+
+\title{Resource Exhaustion as Narrative Amplifier:\\
+       Mechanical Attrition in Long-Form Tabletop RPG}
+
+\author{
+  Gio Della-Libera \\
+  Independent Research \\
+  Seattle, WA \\
+  \texttt{giodl@microsoft.com}
+}
+
+\date{April 2026}
+
+\maketitle
+
+\begin{abstract}
+We compare two resource exhaustion mechanics against five campaigns with no degrading-resource
+mechanics, using Character Agency (CA) scores from the Marathon D\&D Workshop as the primary
+outcome. Campaign 4's Supply Die (d12 degrading to exhausted over 7 sessions, tracking garrison
+healing supplies) produced a \textbf{+0.6 CA-point advantage} over light-pressure baselines at
+sessions 1--6, reaching the rubric's CA 10 ceiling by session 3 --- three sessions earlier than
+comparable no-resource campaigns. Campaign 6's Unit Cohesion Die (d12 degrading to d8 as named
+unit members were lost) matched the Supply Die's gate score trajectory while producing an
+additional \textbf{+3.0 panel-session advantage} in sessions 5--7: three consecutive sessions
+rated \textit{character-primary} by the five-lens panel, versus \textit{character-inflected
+tactical} for the Supply Die across those same sessions. Both resource mechanics produced
+monotone-rising CA trajectories (7$\to$8$\to$10$\to$10$\to$10$\to$10$\to$10 and
+7$\to$8$\to$9$\to$10$\to$10$\to$10$\to$10 respectively), while all five non-resource
+campaigns showed stable or late-rising trajectories reaching CA 10 only at or near the finale.
+We argue that resource exhaustion amplifies character-driven decision-making --- rather than
+suppressing it --- when two conditions hold: the resource is \textit{legible} (depletion is
+directly observable) and \textit{emotionally architectured} (the resource represents something
+the party has reason to care about beyond tactical survival). The Unit Cohesion Die's stronger
+advantage is explained by its tracking of named people rather than materials: the party
+preserved the Cohesion resource because they cared about the people it represented, not
+because preservation was tactically optimal. Limits of the analysis (two campaigns, single
+system, AI-simulated play, archetype confound) are discussed.
+\end{abstract}
+
+\input{sections/01-introduction}
+\input{sections/02-related-work}
+\input{sections/03-mechanics}
+\input{sections/04-evaluation}
+\input{sections/05-discussion}
+\input{sections/06-conclusion}
+
+\bibliographystyle{plain}
+\bibliography{references}
+
+\end{document}

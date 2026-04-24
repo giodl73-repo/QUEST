@@ -1,0 +1,131 @@
+%% sections/01-introduction.tex
+
+\section{Introduction}
+\label{sec:introduction}
+
+Tabletop role-playing games (TRPGs) are collaborative narrative systems in which a
+Dungeon Master (DM) designs and adjudicates a fictional world while players embody
+characters who interact with that world~\cite{dungeons2014players}. The quality of a
+TRPG session is a compound phenomenon: it depends simultaneously on mechanical
+fairness (did the dice produce outcomes that felt earned?), narrative momentum (did
+scenes move at the right pace?), character engagement (did each player-character
+contribute meaningfully?), emotional landing (did designed payoffs register as
+genuinely affecting?), and design fidelity (did the adventure deliver what it
+promised?). Human participants navigate all of these dimensions implicitly during
+play, and their retrospective judgments --- whether a session was ``good'' --- are
+shaped by all of them at once~\cite{bowman2010functions}.
+
+Measuring this compound quality systematically has long been recognized as difficult.
+Most professional game development relies on qualitative exit surveys, post-session
+interviews, and practitioner heuristics rather than structured, multi-dimensional
+scoring instruments~\cite{playtesting2019, fullerton2008}. Academic treatments of
+playtest methodology focus primarily on deficit detection --- the process of
+identifying where the game breaks --- rather than on measuring the degree to which a
+session succeeded across a defined quality space~\cite{zagal2008collaborative}.
+
+The rise of large language model (LLM) systems capable of functioning as autonomous
+DMs introduces a new version of this measurement problem that is both more tractable
+and more urgent. When an AI system simultaneously plays the DM and all player
+characters, the session is fully logged, dice rolls are reproducible, and every
+narrative decision is documented. But human participants are absent: there are no
+exit surveys to administer, no participant accounts to aggregate, and no experiential
+reports to rely on. The only record of session quality is the session log itself ---
+the structured narrative produced by the AI pipeline. Evaluating that log requires a
+scoring instrument that can operate systematically on textual evidence alone.
+
+This is the problem the Marathon Playtest Rubric was built to solve. The rubric is an
+8-dimension scoring instrument, each dimension scored 0--10 via evidence-anchored
+band descriptions, applied at the close of every session to produce a gate score out
+of 80. It was developed and validated within the Marathon D\&D Workshop, a structured
+research environment for designing and playtesting Dungeons \& Dragons 5e adventures
+set in the Dragonlance campaign setting. All sessions were run by an AI system
+(Claude, Anthropic) functioning as DM, with all player characters also simulated by
+that system from detailed character-sheet specifications. The result is a corpus of
+49 fully logged, fully reproducible AI-simulated sessions across 7 complete campaigns.
+
+\subsection{The Measurement Problem for AI-Run TRPG}
+
+Existing quality frameworks for TRPGs assume human participants and rely on
+self-report~\cite{bowman2010functions, schut2013}. Player-type models such as
+Bartle's taxonomy~\cite{bartle1996hearts} characterize player preferences but do not
+provide session-level scoring. Immersion and affect frameworks~\cite{mekler2017framework,
+calleja2011} require subjective reports of experiential states that simulated
+player-characters cannot provide. Narrative coherence metrics from AI story generation
+research~\cite{fan2019, ammanabrolu2021, riedl2016} evaluate whether generated text is
+well-formed and plausible, but a session can be narratively coherent and still fail as
+a TRPG experience: if player-characters never make meaningful choices, if designed
+emotional payoffs do not land, or if dice mechanics and story systematically undermine
+each other, the session has failed by TRPG standards regardless of how well-formed
+the prose is.
+
+Text evaluation metrics from natural language processing --- BLEU~\cite{papineni2002bleu},
+ROUGE~\cite{lin2004rouge}, BERTScore~\cite{zhang2019bertscore} --- measure similarity
+to a reference rather than the presence of specific quality properties. LLM-as-judge
+approaches~\cite{zheng2023judging} are promising but introduce the circularity of
+evaluating an AI system using the same class of system that produced the output.
+Property-based evaluation --- checking that outputs contain evidence of specified
+outcomes --- avoids this circularity and does not require a gold-standard
+corpus~\cite{celikyilmaz2020}. The Marathon rubric adopts this approach: every score
+requires specific textual evidence from the session log; general impressions are
+explicitly prohibited by the scoring protocol.
+
+\subsection{Why Session-Level Scoring Matters for TRPG Research}
+
+Session-level scoring enables analyses that aggregate per-session observations do not.
+By scoring each of 49 sessions on the same 8-dimensional instrument, we can track
+quality trajectories across campaigns, compare opening sessions to closing sessions,
+and compare campaigns with fundamentally different party archetypes on the same scale.
+When the rubric is also an adaptive instrument --- amended when empirical use reveals
+gaps --- the amendment history is itself a finding: it maps the quality space of
+AI-simulated TRPG more precisely than any \textit{a priori} specification could.
+
+Beyond TRPG specifically, the Marathon rubric offers a template for any research
+context in which AI-generated creative outputs need systematic evaluation at scale
+without participant feedback. The combination of property-based anchors, dimensional
+independence, and forward-only amendment is applicable to AI-generated fiction,
+AI-facilitated collaborative design, and AI-simulated social scenarios more broadly.
+
+\subsection{Contributions}
+
+This paper makes four contributions to the study of AI-simulated narrative game sessions:
+
+\begin{enumerate}
+  \item \textbf{The 8-dimension rubric specification.} We describe the complete rubric
+  with per-dimension anchor language, band boundaries (0--3, 4--6, 7--9, 10), and
+  scoring protocol, including cross-dimensional interaction anchors that emerged from
+  empirical use. The rubric is described at sufficient detail to be adopted or adapted
+  by other researchers.
+
+  \item \textbf{A 49-session, 7-campaign validation corpus.} We report gate scores
+  across all 49 sessions of the Marathon corpus, including per-dimension means, binding
+  PASS rates, and the gate/panel spread metric that diagnoses structural artifacts in
+  individual sessions. This is, to our knowledge, the largest published corpus of
+  scored AI-simulated TRPG sessions.
+
+  \item \textbf{An amendment-driven evolution trace.} We document all 13 rubric versions
+  from v1.0 to v1.12, identifying the specific empirical events (session innovations)
+  that triggered each amendment. This trace demonstrates how a property-based scoring
+  rubric self-calibrates toward a maturing creative corpus.
+
+  \item \textbf{Cross-campaign consistency evidence.} We show that gate scores are
+  consistent across campaigns with fundamentally different archetypes (grief-themed,
+  professional-code, duty-spine, party-of-strangers), confirming that the rubric
+  measures session execution quality rather than thematic content.
+
+  \item \textbf{Construct validity analysis.} We discuss construct validity through
+  panel agreement analysis and scope remaining validity gaps requiring human
+  inter-rater studies.
+\end{enumerate}
+
+\subsection{Paper Organization}
+
+Section~\ref{sec:related} surveys related work in playtest methodology, AI as dungeon
+master, quality measurement in creative and narrative systems, and expert review
+simulation. Section~\ref{sec:methodology} describes the Marathon workshop pipeline in
+full, the 8-dimension rubric with all anchor language, the amendment mechanism, and the
+seven campaigns. Section~\ref{sec:evaluation} presents the empirical results: gate
+score trajectories, per-dimension trends, version-controlled opening scores, cross-campaign
+comparisons, and binding-threshold PASS rates. Section~\ref{sec:discussion} analyzes
+what the 12-point improvement measures, discusses cross-campaign consistency, and
+enumerates limitations and implications. Section~\ref{sec:conclusion} summarizes
+contributions and identifies priorities for future work.

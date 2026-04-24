@@ -1,0 +1,91 @@
+%% sections/03-pipeline.tex
+
+\section{The Amendment Pipeline}
+\label{sec:pipeline}
+
+\subsection{Stage 1: Innovation Logging}
+
+An innovation log entry is created immediately after the session-gate scoring stage
+when the gate reviewer identifies an outcome that:
+
+\begin{itemize}
+  \item is clearly a quality achievement (not a failure);
+  \item is not described by any existing rubric anchor;
+  \item could plausibly recur in future sessions (not purely session-specific).
+\end{itemize}
+
+Each entry has five fields:
+
+\begin{description}
+  \item[Technique:] A short title naming the pattern (e.g., ``Cross-character
+    mechanical compound,'' ``Sustained behavioral pattern as choice'').
+  \item[Dimension:] The dimension the innovation is most relevant to (one primary;
+    cross-dimensions noted as secondary).
+  \item[What happened:] A direct quotation from the session log with scene reference,
+    plus a brief description of why this exceeded the rubric's prediction.
+  \item[Scope:] Party-specific (likely to recur with this party only), adventure-specific
+    (likely to recur with this adventure design pattern), or universal (likely to recur
+    with any party or adventure).
+  \item[Status:] logged $\to$ proposed $\to$ adopted (vX.Y) or reviewed-not-adopted.
+\end{description}
+
+The entries are append-only: no prior entry is deleted or modified after creation.
+Status updates are the only modifications permitted.
+
+\subsection{Stage 2: Clustering}
+
+After each session, the full log of all entries with status ``logged'' is scanned for
+dimension clusters. The threshold is:
+
+\[
+  \text{Trigger} = |\{e \in \text{log} : e.\text{dimension} = d \land e.\text{status} = \text{logged}\}| \geq 2
+\]
+
+for any dimension $d$. When the threshold fires, an amendment proposal is drafted.
+
+Clustering does not require entries to be semantically identical; it requires that
+they address the same dimension from different instances. In practice, clusters are
+thematically coherent: entries that co-cluster address the same underlying quality
+phenomenon, observed from different session contexts. Table~\ref{tab:cluster-examples}
+shows the constituent innovations for three representative amendments.
+
+\begin{table*}[t]
+\caption{Representative Amendment Clusters: Constituent Innovations and Resulting Anchor}
+\label{tab:cluster-examples}
+\begin{tabular}{@{}llp{5cm}p{5cm}@{}}
+\toprule
+Amendment & Sessions & Constituent Innovations (abbreviated) & Resulting Anchor Text \\
+\midrule
+v1.1 AL & S01 & I-S01-02 (Grom receives atmos flag Kessa found); I-S01-10 (Grom sees fresco, Aelric fumbled); I-S01-12 (grief-chains without mechanics) & Per-PC two-column finder/receiver tracking; inter-PC chain-reaction at 10-band \\
+v1.4 MF & S03–S04 & I-S03-03 (Portent replaces Religion, framed in-voice); I-S04-01 (same pattern, second instance) & Cross-character mechanical compound at 10-band; Portent-as-benediction as exemplar \\
+v1.9 CA & C4-S1 & I-C4-S1-02 (Tomek token earned through non-credit-seeking pattern); I-C4-S1-04 (four PCs independently withhold Luca disclosure) & Sustained behavioral pattern at 9+; independent-motivation convergence as second path \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\subsection{Stage 3: Amendment Adoption}
+
+An amendment proposal is reviewed against two criteria: (a) the described pattern is
+not already captured by an existing anchor, and (b) the proposed anchor text is
+specific enough to produce consistent scores on future sessions where the pattern appears.
+
+Proposals that pass review are adopted: the rubric version is incremented, constituent
+innovations are marked adopted (vX.Y), and the new anchor is added to the rubric
+document. Proposals that fail review are marked reviewed-not-adopted with a brief
+reason. In the Marathon corpus, all proposals were adopted; no proposals were
+rejected. This may reflect the conservative review standard --- proposals were only
+drafted when the pattern was clearly novel and had strong textual evidence.
+
+\subsection{Forward-Only Constraint}
+
+The forward-only constraint means that sessions scored before an amendment cannot be
+re-scored under the new anchor. This creates version-windows: sessions S01--S02
+were scored under v1.0; sessions S03 under v1.1--v1.2; etc. Cross-version comparison
+is valid when the applicable version is treated as an explicit covariate, and invalid
+when it is ignored.
+
+The forward-only constraint serves a practical function beyond statistical cleanliness:
+it prevents retroactive inflation. If amendments could be applied retroactively, every
+improvement in rubric expressiveness would immediately improve all prior scores,
+obscuring whether actual session quality changed or just the measurement changed.
+Forward-only application separates measurement improvement from quality improvement.

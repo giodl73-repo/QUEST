@@ -1,0 +1,59 @@
+slug: glyph-resource-exhaustion
+title: "Resource Exhaustion as Narrative Amplifier: Mechanical Attrition in Long-Form Tabletop RPG"
+stage: ready
+p1_items_addressed:
+  - archetype_confound: "Added subsection 5.2 'Archetype Confound and Causal Inference' in 05-discussion.tex: names the confound explicitly, presents C5/C7/C4 evidence against pure archetype confound, acknowledges the unresolved limit, and gives practitioner upper/lower bound recommendation. Added C5 row to peak-pressure table in 04-evaluation.tex with stable-trajectory annotation, and paragraph in the no-resource baselines section calling out C5's significance to the confound analysis."
+mean_score: 2.6
+round2_mean_score: 3.0
+recommendation: "Accept with minor revisions (FDG 2027)"
+reviewers:
+  - name: Ian Bogost
+    affiliation: "Georgia Tech / Washington University in St. Louis"
+    score: 3
+    verdict: accept
+  - name: Jesper Juul
+    affiliation: "Royal Danish Academy / NYU"
+    score: 2
+    verdict: weak_accept
+  - name: Miguel Sicart
+    affiliation: IT University of Copenhagen
+    score: 3
+    verdict: accept
+  - name: Jason Morningstar
+    affiliation: Bully Pulpit Games
+    score: 3
+    verdict: accept
+  - name: Evan Torner
+    affiliation: University of Cincinnati
+    score: 2
+    verdict: weak_accept
+track: C
+venue: "FDG 2027"
+venue_target: FDG 2027
+writing_completed: true
+authors:
+  - Della-Libera, Gio
+keywords:
+  - resource mechanics
+  - narrative amplification
+  - character agency
+  - mechanical attrition
+  - TRPG design
+  - Unit Cohesion Die
+  - Supply Die
+evidence_base: C:\src\marathon
+campaigns_with_resource: 2
+campaigns_baseline: 5
+ca_c4_advantage: "+0.6 CA-points over light baselines S1-S6"
+ca_c6_advantage: "+3.0 panel-session advantage S5-S7 (character-primary vs. character-inflected-tactical)"
+ca_c4_trajectory: "7->8->10->10->10->10->10"
+ca_c6_trajectory: "7->8->9->10->10->10->10"
+notes: >
+  Compares Supply Die (C4) and Unit Cohesion Die (C6) against three grief-adjacent
+  baselines (C1-C3) and two no-resource campaigns (C5, C7). Both resource mechanics
+  produced monotone Character Agency score increases under depletion. Supply Die
+  advantage: +0.6 CA points over light baselines. Cohesion Die advantage: +3.0
+  panel-session advantage in S5-S7 (three consecutive character-primary verdicts).
+  Argues resource exhaustion amplifies, not suppresses, character decision-making
+  when resource is legible and emotionally architectured. Sections: Introduction,
+  Related Work, The Two Mechanics, Evaluation, Discussion, Conclusion.

@@ -1,0 +1,69 @@
+slug: glyph-player-style
+title: "Emergent Player Styles in AI-Simulated TRPG: From Innovation Instances to Ratified Design Patterns"
+stage: ready
+p1_items_addressed:
+  - promotion-threshold-unjustified: added §3.2 Threshold Calibration with retrospective 2/2 and 4/2 comparisons, false-positive analysis, and conservative-choice conclusion
+mean_score: 3.0
+round2_mean_score: 3.2
+recommendation: "Accept"
+reviewers:
+  - name: Ian Bogost
+    affiliation: "Georgia Tech / Washington University in St. Louis"
+    score: 3
+    verdict: accept
+  - name: Jesper Juul
+    affiliation: "Royal Danish Academy / NYU"
+    score: 2
+    verdict: weak_accept
+  - name: Jason Morningstar
+    affiliation: Bully Pulpit Games
+    score: 4
+    verdict: strong_accept
+  - name: Evan Torner
+    affiliation: University of Cincinnati
+    score: 3
+    verdict: accept
+  - name: Miguel Sicart
+    affiliation: IT University of Copenhagen
+    score: 3
+    verdict: accept
+track: B
+venue: "FDG 2027"
+authors:
+  - Della-Libera, Gio
+keywords:
+  - player typology
+  - emergent behavior
+  - narrative game design
+  - player styles
+  - TRPG simulation
+  - design patterns
+evidence_base: C:\src\marathon
+player_styles: 7
+total_instances: 200+
+campaigns: 7
+research_hypotheses: 12
+hypothesis_groups:
+  - group: C5-professional
+    hypotheses: RV1-RV4
+    trigger_type: professional
+  - group: C6-duty
+    hypotheses: RV5-RV8
+    trigger_type: duty
+  - group: C7-situational
+    hypotheses: RV9-RV12
+    trigger_type: situational
+sections:
+  - 01-introduction
+  - 02-related-work
+  - 03-methodology
+  - 04-evaluation
+  - 05-discussion
+  - 06-conclusion
+notes: >
+  7 player styles promoted from innovation clusters. Promotion threshold 3+ instances
+  across >= 2 sessions. Instance counts: sheet-deep-reader (~50), craft-witness (~45),
+  npc-arc-completion (~40), act-without-announcement (~25), verbal-documentation-arc (~15),
+  documentary-witness (~12), intra-session act-without-announcement (~8). All 7 fire
+  cross-campaign including C5 (no grief hooks), C6 (duty), C7 (no personal stakes).
+  RV1-RV12: 11 confirmed, 1 partial, 0 disconfirmed. PC-authored finale deliverables: 4.

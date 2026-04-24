@@ -1,0 +1,170 @@
+%% sections/05-discussion.tex
+
+\section{Discussion}
+\label{sec:discussion}
+
+\subsection{What the 12-Point Improvement Measures}
+
+The improvement in mean gate scores from 65/80 in the earliest corpus sessions to
+77/80 in the latest reflects two distinct and partially confounded mechanisms. The
+first is genuine quality improvement in adventure design and party construction: the
+workshop accumulated design knowledge across 49 sessions, and later adventures are
+better engineered for the qualities the rubric measures. This is the expected result
+of any iterative design system with quality feedback. The second mechanism is rubric
+learning: 13 amendments across the corpus progressively expanded the rubric's ability
+to recognize quality that existed earlier but could not be scored, particularly in the
+Atmospheric Landing and Character Agency dimensions.
+
+These mechanisms cannot be cleanly separated with the current data, but the version-controlled
+opening-session analysis (Table~\ref{tab:version-control}) constrains the rubric-learning
+hypothesis. If amendments were purely inflating scores for the same underlying quality,
+later campaign opening sessions would score higher than earlier ones under the same
+rubric version. Instead, C3's opening session scored lower than C1's opening session
+even under a later rubric version, confirming that the rubric's evolution is not
+uniformly permissive. The amendments introduce new qualifying paths for high-band
+scores rather than relaxing existing criteria, and the evidence citation requirement
+means that a new path only scores if the session log actually contains evidence of the
+described pattern.
+
+\subsection{Cross-Campaign Consistency}
+
+The finding that C5--C7 mean gate scores lie within 0.7 points of the C1--C4 mean is
+the paper's strongest evidence for the rubric's archetype independence. These campaigns
+differ systematically on every axis of party design: C1--C3 used grief-adjacent parties
+with explicit loss-hooks; C5 used a professional-code party with no grief infrastructure;
+C6 used a duty-spine party with an institutional deliverable; C7 used a party of
+strangers with no designed personal stakes at all. If the rubric's dimensions were
+primarily measuring features of grief-adjacent emotional content rather than session
+execution quality, C5--C7 would score systematically lower, because they have fewer of
+the atmospheric and character moments that the rubric's early anchors were calibrated
+against. They do not.
+
+The per-dimension breakdown provides additional granularity. Atmospheric Landing, the
+dimension most associated with grief-adjacent emotional design, shows mean scores of
+9.4 in binding sessions across all seven campaigns, including C5--C7. The six-path
+10-band structure ensures that a session does not require grief-adjacent party design
+to achieve high AL scores: the act-without-announcement path, the restraint-in-moment
+path, and the arc-convergence path are all achievable in professional-code and
+strangers-party contexts, as the corpus demonstrates.
+
+\subsection{Limitations}
+
+\paragraph{No Inter-Rater Reliability.}
+Every session in the corpus was scored by a single rater (an AI system following the
+rubric's evidence-citation protocol). No inter-rater reliability coefficients
+(Cohen's $\kappa$~\cite{cohen1960coefficient}, Krippendorff's $\alpha$~\cite{krippendorff2011computing},
+or intraclass correlation~\cite{shrout1979intraclass}) have been established. The
+evidence-citation requirement provides a partial safeguard against rater drift (the
+score is only as valid as the cited evidence), but it does not guarantee that two
+human raters reading the same session log would assign the same band on every
+dimension. Establishing inter-rater reliability is the most pressing methodological
+priority for future validation.
+
+\paragraph{Single AI System.}
+All 49 sessions were run by Claude (Anthropic) as both DM and player-character
+simulator. It is possible that the rubric's anchors are calibrated to patterns
+specific to this system's generation style --- that another LLM-based DM would produce
+sessions with systematically different characteristics that the current anchors
+would not capture or would under-score. Multi-system validation (running the same
+adventures with different AI DM systems and scoring with the same rubric) is necessary
+to test this.
+
+\paragraph{Single Campaign Setting.}
+All 49 sessions are set in the Dragonlance campaign setting for D\&D 5e, a system
+with DC-based skill checks, hit-point combat, and spell-slot resource management. The
+rubric's Mechanical Fairness and Table Readiness dimensions are explicitly designed
+around these mechanics. Adapting the rubric to Powered by the Apocalypse games (move-based
+resolution, no hit points, no DM-facing encounter balance), storytelling games (no dice,
+no resource management), or other TRPG systems would require systematic review of every
+dimension's band descriptions and anchor language.
+
+\paragraph{Single Setting for Atmospheric Landing.}
+Dragonlance's emotional register (grief, honor, institutional loyalty, loss of memory,
+craft-witness) influenced the specific anchor language in Atmospheric Landing,
+particularly the paths involving grief-paragraphs and reliquary-attuning. Sessions
+in a different setting might produce atmospheric moments that the current six-path
+10-band structure does not recognize, requiring additional amendments.
+
+\subsection{Inter-Rater Reliability and Construct Validity}
+
+The corpus has a significant methodological limitation that every reviewer identified:
+all 49 sessions were scored by a single rater, and no inter-rater reliability
+coefficients have been established for the rubric as a whole. We address this
+limitation directly, describe what the existing evaluation structure does and does
+not provide as a proxy, and scope the residual gap.
+
+\paragraph{Proposed validation study.}
+The concrete next step is a two-independent-evaluator design: two human raters score
+the same 15 session logs drawn from across the corpus (sampling at least two sessions
+per campaign, at least two from early rubric versions and two from late). Each rater
+scores all 8 dimensions independently using the rubric documentation without
+coordination. Cohen's $\kappa$~\cite{cohen1960coefficient} is computed per dimension
+rather than globally, since the rubric's dimensions differ in band-boundary
+specificity and anchor density. The target is $\kappa > 0.6$ per dimension ---
+substantial agreement~\cite{landis1977measurement} --- before the rubric is used in a
+comparative study with a different AI system or human DMs. Dimensions that fall below
+the target would require anchor revision or rater-calibration sessions before
+generalization.
+
+\paragraph{Panel agreement as a proxy.}
+The corpus's 5-lens panel system --- in which each session is reviewed from five
+distinct player perspectives with independent dimension-level scores --- provides
+a structural proxy for inter-rater agreement, though it is not equivalent. The five
+panel reviewers (Tactician, Roleplayer, Lorekeeper, Improviser, Fresh Face) score
+the same session log using dimension-level criteria specific to their lens, producing
+five independent weighted scores per session. The spread between the highest-weighted
+and lowest-weighted panel scores --- the Tactician and Roleplayer lens scores in most
+sessions --- ranged from 0.9 to 1.6 points across the full C1--C4 corpus. This spread
+is narrow enough to suggest construct consistency: all five lenses are scoring
+something recognizably related to session quality, not five independent and unrelated
+constructs.
+
+The panel mean also consistently tracks the gate score: across all 49 sessions,
+$r > 0.9$ between the gate score and the panel mean (Pearson correlation, computed
+per-session on the shared 0--80 scale). This is evidence of convergent validity for
+the rubric's dimensions --- the property-based gate scoring and the lens-weighted
+panel scoring converge on the same ranking of session quality even though their
+scoring mechanisms are structurally different.
+
+\paragraph{What the proxy does not provide.}
+The panel agreement proxy does not answer the inter-rater question because all five
+panel reviewers are AI instantiations running the same underlying system. It is
+possible that the convergence reflects shared generation biases rather than the
+validity of the rubric's anchors. Human evaluators may diverge systematically on
+dimensions where the anchor language admits multiple interpretations --- particularly
+the 7--9 band of Atmospheric Landing, which requires judgment about whether behavioral
+evidence constitutes ``silent reception.'' The proposed two-evaluator study would
+surface these divergences directly.
+
+\paragraph{Scope of the limitation.}
+We report rubric validity in the context of a single AI-simulation system;
+generalization to human DMs or other game systems requires additional validation.
+The corpus findings --- the score trajectory, the cross-campaign consistency, the
+amendment rate decay --- should be interpreted as describing the rubric's behavior
+in this system, not as system-independent measurements of session quality.
+
+\subsection{Implications for TRPG Research Tools}
+
+The Marathon rubric demonstrates that structured, evidence-based, multi-dimensional
+scoring of AI-simulated TRPG sessions is feasible at scale and produces stable results
+across diverse campaign archetypes. For researchers considering the rubric as a
+starting instrument, we offer several practical observations.
+
+The amendment rate provides a useful calibration signal: the corpus produced 13
+amendments in 49 sessions, with most amendments concentrated in the Atmospheric Landing
+dimension. A new corpus in a different setting or system should expect a similar
+amendment cluster in whichever dimension is most sensitive to the new context's
+emotional or mechanical idiom. Researchers should plan for approximately 4--6 amendments
+in the first 10--15 sessions of a new corpus before the rubric stabilizes.
+
+The forward-only amendment constraint is operationally important. Without it, the
+temptation to retroactively rescore sessions to confirm that the rubric's evolution is
+``coherent'' would conflate learning with measurement. Accepting that early sessions
+are scored under a less refined instrument is necessary to preserve the integrity of
+the score series as a longitudinal record.
+
+The gate/panel spread metric proved valuable as a diagnostic for structural artifacts.
+When gate and panel scores diverge by more than two points, the source is almost always
+a structural mismatch between what the rubric's property-based anchors can capture and
+what a particular player-lens can evaluate. The spread is not evidence of a rubric
+failure; it is evidence of a difference in what the two instruments are measuring.

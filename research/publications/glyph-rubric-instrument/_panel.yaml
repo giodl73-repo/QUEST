@@ -1,0 +1,52 @@
+slug: glyph-rubric-instrument
+title: "An 8-Dimension Playtest Rubric as a Research Instrument for AI-Simulated Narrative Game Sessions"
+stage: ready
+mean_score: 2.8
+round2_mean_score: 3.0
+recommendation: "Accept with minor revisions"
+reviewers:
+  - name: Ian Bogost
+    affiliation: "Georgia Tech / Washington University in St. Louis"
+    score: 3
+    verdict: accept
+  - name: Michael Bernstein
+    affiliation: Stanford HCI Group
+    score: 2
+    verdict: weak_accept
+  - name: Janet Murray
+    affiliation: Georgia Tech Digital Media
+    score: 3
+    verdict: accept
+  - name: Jason Morningstar
+    affiliation: Bully Pulpit Games
+    score: 3
+    verdict: accept
+  - name: Evan Torner
+    affiliation: University of Cincinnati
+    score: 3
+    verdict: accept
+track: A
+venue: "CHI 2027"
+writing_completed: true
+content_mode: full
+authors:
+  - Della-Libera, Gio
+keywords:
+  - playtest rubric
+  - AI dungeon master
+  - TRPG simulation
+  - narrative games
+  - session quality measurement
+  - amendment-driven evolution
+evidence_base: C:\src\marathon
+sessions: 49
+campaigns: 7
+rubric_versions: 13
+p1_items:
+  - item: inter-rater-reliability
+    addressed: true
+notes: >
+  Primary empirical paper for the GLYPH series. Describes the 8-dimension rubric,
+  its 13-version amendment history, and cross-campaign validation across 49 sessions.
+  Gate score trajectory 65->77 (v1.0->v1.12). Cross-campaign consistency C5-C7 within
+  1.4 points of C1-C4 mean. Evidence of campaign-archetype independence.

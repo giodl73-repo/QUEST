@@ -1,0 +1,337 @@
+%% sections/03-methodology.tex
+
+\section{Methodology}
+\label{sec:methodology}
+
+\subsection{The Promotion Pipeline}
+
+A player style is a named behavioral design pattern: a recurring class of PC behavior
+that is (a) enabled by specific character-sheet features, (b) identifiable from
+session-log evidence, (c) replicable across campaigns with different party archetypes,
+and (d) actionable as a design prescription.
+
+The pipeline that promotes innovation instances to ratified player styles operates as
+follows.
+
+\paragraph{Stage 1: Innovation logging.}
+A session-gate reviewer reads each completed session log and flags \textit{innovation
+instances}: moments when a PC's action or speech exceeds what the current playtest
+rubric anticipates. An instance is logged with (a) the session and scene reference,
+(b) a description of the behavior, (c) the character-sheet feature that appears to
+have enabled it, and (d) a proposed thematic cluster label (e.g., ``sheet-deep-reader
+candidate'', ``craft-reception candidate'').
+
+\paragraph{Stage 2: Threshold accumulation.}
+A cluster crosses the promotion threshold when it contains 3 or more instances spanning
+2 or more distinct sessions. The threshold is intentionally more demanding than the
+rubric amendment threshold (which requires only 2 instances in a dimension), because
+player styles are claimed to be design-enabled rather than session-specific. The
+instances must also be \textit{substantively distinct}: three instances of the same
+mechanic in different scenes do not qualify; three instances showing the pattern from
+different contexts do.
+
+\paragraph{Stage 3: Player-style proposal.}
+When the threshold is crossed, a player-style entry is drafted. The entry format is:
+\begin{description}
+  \item[Definition.] What the behavior is, in PC-design terms (not player-personality
+    terms). The definition must be specific enough to generate design prescriptions.
+  \item[Triggers/Signals.] Observable session-log indicators that the style is active:
+    specific types of PC action, speech patterns, or narrative moves.
+  \item[Design triggers.] Character-sheet features that enable the style; features
+    that undermine it.
+  \item[Cross-applicability.] Design features in adventures or campaign spines that
+    amplify instances.
+  \item[Confirmed sub-types.] Named variants that have accumulated 3 or more cross-campaign
+    instances of their own.
+  \item[Cross-campaign validation status.] Which campaigns have produced instances;
+    which campaign archetypes the style has been confirmed in.
+\end{description}
+
+\paragraph{Stage 4: Ratification.}
+A second review confirms that the promotion-threshold instances are substantively
+distinct and that the definition correctly describes the observed pattern. Ratification
+does not require additional instances; it requires that the existing instances are
+correctly categorized.
+
+\paragraph{Stage 5: Cross-campaign monitoring.}
+After ratification, the style is tracked across subsequent campaigns. The relevant
+questions are: (a) Does the pattern recur? (b) Does it fire in campaigns with different
+motivational structures (grief-themed, duty-based, professional, relational)? (c) Do
+consistent sub-variations accumulate to warrant sub-type naming?
+
+A style that has been ratified but has produced no cross-campaign instances is noted
+as archetype-specific until evidence accumulates. No style in the corpus reached the
+end of the 7-campaign observation window in this state.
+
+\subsection{Threshold Calibration}
+
+The promotion threshold (3 instances across $\geq$2 sessions) is a design choice
+that requires empirical justification. We calibrated it retrospectively against the
+full 7-campaign corpus by simulating alternative thresholds.
+
+\paragraph{Threshold 2/2 (2 instances, $\geq$2 sessions).}
+Under a 2/2 threshold, all 7 promoted styles would have been promoted, but promoted
+earlier: mean promotion point would have advanced by 1.8 sessions. However, 3
+candidate patterns that did not generalize would also have been promoted under this
+threshold. Each of these patterns appeared in 2 sessions but did not recur in
+subsequent campaigns, and none produced enough cross-campaign instances to satisfy
+the retrospective validity criterion used for the 7 ratified styles. These 3 patterns
+represent false positives that the 3/2 threshold correctly excluded.
+
+\paragraph{Threshold 4/2 (4 instances, $\geq$2 sessions).}
+Under a 4/2 threshold, the two highest-instance styles --- sheet-deep-reader
+($\sim$50 instances) and craft-witness ($\sim$45 instances) --- would still have
+been promoted. However, documentary-witness (7 instances) and act-without-announcement
+intra-session (8 instances) would not yet have been promoted at the point in the
+corpus where the 7-campaign observation window closes. Both styles proved
+session-invariant in the campaigns where they appeared; a 4/2 threshold would have
+delayed their ratification without producing more reliable promotions.
+
+\paragraph{Conclusion.}
+The 3/2 threshold represents a conservative empirical choice: it produced 0 false
+promotions (no promoted style was later demoted) and promoted all patterns that proved
+session-invariant. We recommend treating it as a starting point for new campaigns,
+with recalibration if false promotion rates exceed 10\%. The threshold is not
+theoretically derived; it is a pragmatic calibration point supported by retrospective
+analysis of this corpus. Campaigns with substantially different session cadences,
+party archetypes, or session lengths may warrant lower thresholds (if session count
+is compressed) or higher thresholds (if session heterogeneity is high and false
+promotions are costly).
+
+\subsection{The Seven Promoted Styles}
+
+Table~\ref{tab:styles-overview} provides a summary of all 7 styles.
+
+\begin{table*}[t]
+\centering
+\caption{The 7 Promoted Player Styles: Definition, Instance Count, Promotion Point,
+         and Confirmed Campaign Range}
+\label{tab:styles-overview}
+\begin{tabular}{@{}lp{5cm}rp{2.5cm}@{}}
+\toprule
+Style & Core definition & Instances & Confirmed in \\
+\midrule
+sheet-deep-reader
+  & PC reads sheet as live agency source; surfaces backstory without DM prompting
+  & $\sim$50 & C1--C7 (all) \\
+craft-witness
+  & Named daily practice is an atmospheric antenna; the ritual is the reception
+  & $\sim$45 & C1--C5 \\
+npc-arc-completion trigger
+  & Party behavior meets NPC firing condition; arc fires by character logic, not
+    DM direction
+  & $\sim$40 & C1--C7 (all) \\
+act-without-announcement (cross-session)
+  & Post-naming behavioral change without declaration; the act is the completion
+  & $\sim$25 & C1--C4 \\
+verbal-documentation-arc
+  & Oral-practice PC meets vocabulary limit; 3-stage arc to naming-the-thing
+  & $\sim$15 & C2--C3 \\
+documentary-witness
+  & Documentation-as-reception; limit-entry is arc completion
+  & $\sim$12 & C4, C7 \\
+act-without-announcement (intra-session, v1.12)
+  & Same-session naming event and behavioral consequence both present
+  & $\sim$8 & C2--C4 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\subsubsection{Sheet-Deep Reader ($\sim$50 instances)}
+
+\textit{Definition.} A PC reads their own character sheet as a live source of agency
+throughout play, surfacing grief-paragraphs, prior-adventure hooks, named relationships,
+and institutional training as current-scene decision inputs without being prompted by
+the DM.
+
+The style has three confirmed sub-types:
+
+\textit{Grief-paragraph-dialogue} ($\sim$18 instances): the specific sensory memory or
+named loss from the PC's grief paragraph surfaces as spoken dialogue at a moment of
+high emotional weight. The character sheet content becomes the character's exact words.
+In Campaign 2, Thessaly said: ``I cast a spell at my Test that I was not supposed to
+cast. It cost someone something I can't give back.'' This is verbatim grief-paragraph
+content, spoken without DM prompting.
+
+\textit{Commitment-accounting} ($\sim$16 instances): a PC tracks promises made across
+sessions and names them unprompted before anyone can forget. In Campaign 2 Session 5,
+Calder named the witness-list without being asked: Mira, Deva, Vorn, Sevven, Morreth's
+chapel. Five names, in order, none of which the DM had referenced.
+
+\textit{Practitioner-by-material-relationship} ($\sim$16 instances): a PC identifies
+other practitioners by how they handle their materials rather than by class or title.
+In Campaign 2, Lenne identified three caster-school affiliations from posture,
+text-handling, and annotation habits across three consecutive sessions.
+
+\textit{Design trigger.} PC sheets with detailed grief-paragraphs, named losses,
+local-origin notes, institutional training, and prior-adventure hooks. Generic
+backstory fields (``bond: my village'', ``flaw: stubborn'') undermine the style.
+
+\subsubsection{Craft-Witness ($\sim$45 instances)}
+
+\textit{Definition.} A PC with a named daily craft-ritual or attention-practice
+receives atmospheric flags other PCs miss. The craft practice functions as a
+reception antenna: not because the PC has a higher Wisdom modifier, but because the
+practice gives them a specific, named mode of attention.
+
+This style is \textit{session-invariant} once established for a given PC. Grom Ironhand
+(Campaign 1) produced craft-witness instances in every session he appeared in across
+all 7 Campaign 1 sessions (16 instances total). Orik Flintback (Campaign 2) produced
+craft-witness instances in all 7 Campaign 2 sessions (14 instances total). Neither PC
+missed a session.
+
+The style fires from secular professional practice (Orik's hall-guard structural
+assessment: ``door is set wrong, frame doesn't carry the load this passage suggests'')
+as well as religious practice (Grom's forge-priest hearth-greeting: ``greet hearths:
+thou'rt seen''). Practice type is irrelevant; the specificity of the named practice
+is what enables the style.
+
+\textit{Design trigger.} PC sheets that specify a named daily ritual with a specific
+physical gesture or observation habit. Generic entries (``meditates each morning'') do
+not produce instances. Specific entries (``greets every forge and hearth aloud'' or
+``assesses structural load-paths when entering any built space'') do.
+
+\subsubsection{NPC-Arc-Completion Trigger ($\sim$40 instances)}
+
+\textit{Definition.} Party behavior meets the firing condition specified in an NPC's
+arc-completion design; the NPC fires the arc by character logic rather than DM
+direction. This style is unusual in that the enabling design work is on the NPC side,
+not the PC side: it requires NPCs designed with explicit arc-completion text and
+specific firing conditions.
+
+This is the only style in which the PC's behavioral contribution is diffuse: the PCs
+do not exhibit a distinctive act; they provide the conditions in which the NPC's arc
+fires. The style was identified when reviewers noticed that NPC arc-completions were
+consistently triggered by specific party behaviors (patience, a named act of witness,
+a question asked without advocacy) rather than by DM narration.
+
+\textit{Design trigger.} NPCs with written arc-completion text specifying what the NPC
+will say or do and under what conditions they will say or do it. Without this design
+work on the NPC side, the trigger-side pattern cannot fire.
+
+\subsubsection{Act-Without-Announcement, Cross-Session ($\sim$25 instances)}
+
+\textit{Definition.} A PC acts differently in a later session as a direct result of a
+prior naming event, without declaration. The naming event is session N (a grief named,
+a longing named, a commitment named); the behavioral change is session N+1 or later.
+The behavior is the completion; the PC does not explain the change.
+
+Canonical instance: Thera Voss (Campaign 1) named her longing for Adda in Session 6
+(``I counted too''). In Session 7, on the road home from Vaenshold, she cut bread
+long-ways --- the first time since Adda died when she was eight. She was aware of
+doing it. She did not explain. The act follows the naming; the naming is not
+repeated.
+
+Sera Ashfall (Campaign 2) produced 11 consecutive instances across all 7 Campaign 2
+sessions, making this the session-invariant instance of the cross-session form: once
+a PC's act-without-announcement pattern is established, it fires every session.
+
+\textit{Design trigger.} A prior-session naming event encoded in the PC sheet (either
+as grief-paragraph content or as a between-session note); a subsequent scene in which
+the named thing is available to act from.
+
+\subsubsection{Verbal Documentation-Arc ($\sim$15 instances)}
+
+\textit{Definition.} A PC whose primary documentation mode is oral encounters content
+that exceeds their current vocabulary. The arc runs: Stage 1 (cannot-categorize:
+the oral system breaks down); Stage 2 (gap-identified: the PC names what their
+framework cannot hold); Stage 3 (names-the-thing: oral transmission completes,
+transforming the content in the speaking).
+
+Source: Calla Fosse (Campaign 3). Stage 1: Insight fumble (total 6, DC 12; framework
+broken, Calla says the account ``comes out sideways''). Stage 2: Religion 14 (identifies
+the correct sequence; the framework is reshaped). Stage 3: at the Keystone, Roleplaying
+23 (campaign high). Calla did not recite what she had been holding; she spoke
+Velantha's true account into existence. The panel review noted that the account changed
+in the speaking.
+
+Documentary sub-type (Lenne, Campaign 2): written variant. Stage 1: documentation
+suspended (cannot file the observation). Stage 2: vocabulary found (the accountability
+clause draft). Stage 3: Lenne's clause language spoken verbatim at the compact speaking.
+
+\textit{Design trigger.} PC sheet with oral documentation listed as the primary
+practice heuristic; a scene designed to exceed the PC's current vocabulary.
+
+\subsubsection{Documentary-Witness ($\sim$12 instances)}
+
+\textit{Definition.} A PC whose primary atmospheric reception mode is external
+documentation accumulates a cross-session record. The arc completes when the PC
+produces a limit-entry: an observation that cannot be filed into any existing category,
+signaling that the documentation itself has become inadequate.
+
+Source: Caelith Vor (Campaign 4). Six sessions of grey-blue map annotations, each
+adding a convergence point. Session 7: after a failed Insight roll, Caelith wrote
+``unable to categorize'' for the first time. That notation is the arc's completion:
+the six-session silent-reception chain was the reception; the limit-entry was its
+conclusion.
+
+\textit{Design trigger.} Written documentation practice listed as the primary heuristic;
+a cross-session information thread with a limit-entry structurally available.
+
+\subsubsection{Act-Without-Announcement, Intra-Session (v1.12, $\sim$8 instances)}
+
+\textit{Definition.} The naming event and its behavioral consequence both occur in the
+same session. The intra-session form was ratified as a confirmed sub-type in rubric
+amendment v1.12 after three instances across two campaigns showed the same structure
+as the cross-session form but compressed into a single session.
+
+Canonical instance: Sava (Campaign 4) received a token in Scene 2 and placed it
+beside her suture kit in Scene 5 without showing the party. The token placement was
+not commented on; no character narrated it. It followed the naming-moment (the token
+receiving) by three scenes.
+
+\textit{Design trigger.} A naming-moment earlier in the session and a scene later in
+the same session where the named thing is available to act from. The PC sheet need not
+specify this explicitly; the pattern emerges when the session structure provides both.
+
+\subsection{PC-Authored Finale Deliverables}
+
+Across 4 campaigns, a PC-authored deliverable --- a speech, written document, forgery,
+or deliberate act --- was constructed across multiple sessions and deployed at the
+campaign finale. Table~\ref{tab:deliverables} summarizes these deliverables.
+
+\begin{table*}[t]
+\centering
+\caption{PC-Authored Finale Deliverables: Campaign, PC, Type, Build Sessions, Key Sheet Feature}
+\label{tab:deliverables}
+\begin{tabular}{@{}llllrp{3.5cm}@{}}
+\toprule
+Campaign & PC & Type & Build sessions & Words & Key sheet feature \\
+\midrule
+C1 Moon-Silver & Grom Ironhand & Spoken confession & S03--S07 (5 sessions) & $\sim$280
+  & Reorx-craft heuristic + Duren grief paragraph \\
+C2 Conclave Compact & Thessaly Nightmantle & Compact opening sentence & C2-S01--C2-S07 (7 sessions) & $\sim$45
+  & Named Test wound; decision-order heuristic \\
+C4 Thorngate Watch & Davan Fostermark & Accounting speech & C4-S04--C4-S07 (4 sessions) & $\sim$480
+  & Honor-accounting heuristic; Orel grief paragraph \\
+C5 Thieves Guild & Mira Calloway & False dossier (MARTEN-7) & C5-S01--C5-S07 (7 sessions) & $\sim$120
+  & Framework-accumulation heuristic; professional code \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+All four deliverables share a construction pattern: each begins as a structural
+invitation in the PC sheet (a grief paragraph, a professional code, a decision-order
+heuristic) and accumulates substance across sessions as campaign events provide
+material. The deliverable is not scripted by the designer; it is grown by the system
+playing the PC in response to campaign events. The ending feels like an inevitable
+conclusion because the PC's sheet and the campaign's events accumulated toward it
+together across multiple sessions.
+
+Grom's Silver-Ingot Confession named two shames at the forge: Aelwen's (things made
+to hold grief; the withheld tool) and his own (``I was slow and I was proud and I
+called it patience''). Neither was scripted; both were shaped by session events acting
+on the PC sheet's Reorx-forge-craft identity across five sessions.
+
+Thessaly's compact opening sentence (``We speak this not to bind the Orders to each
+other but to bind each Order to the people who live beneath the consequences of what
+the Orders do'') was written in the reconstruction-document margin during Campaign 2
+Session 6 and spoken aloud at the Session 7 finale. It compressed seven sessions of
+wound-naming, witness-gathering, and compact-clause recovery into a single sentence.
+
+Mira Calloway's false dossier (MARTEN-7) accumulated across 7 sessions as her
+framework-accumulation heuristic gathered six components. At the finale, she deployed
+the completed dossier to neutralize the campaign's antagonist through professional
+action rather than confrontation: ``Pale described party as low-yield fencing network,
+no intelligence activity, RI value: none, recommend inactive.'' This is a Route B
+outcome consistent with the sheet's professional-code identity.

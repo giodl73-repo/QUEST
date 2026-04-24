@@ -1,0 +1,50 @@
+%% sections/02-related-work.tex
+
+\section{Related Work}
+\label{sec:related}
+
+\subsection{Rubric Evolution in Educational Assessment}
+
+The educational assessment literature has long recognized that rubrics require
+revision when their anchor descriptions fail to capture the range of student work
+encountered in practice~\cite{andrade2000, nitko2001}. Revision processes range from
+informal annual updates to structured validity studies comparing rubric scores with
+expert judgments~\cite{boud2013assessment}. The Marathon mechanism formalizes a
+bottom-up version of this process: instead of expert judgment as the revision trigger,
+it uses systematic logging of evaluator surprises at score time.
+
+\subsection{Active Learning and Annotation}
+
+Active learning addresses the analogous problem in machine learning annotation: new
+data points may fall outside the current label set~\cite{settles2009active}. When
+annotators encounter out-of-vocabulary examples, they either force-map to the nearest
+existing category (introducing noise) or flag the example for label expansion. The
+Marathon mechanism is a structured version of the flag-and-expand path: innovations
+are flagged systematically; expansion happens when flagging density exceeds a threshold.
+
+This is related to but distinct from \textit{ontology evolution}~\cite{noy2001ontology},
+in which a knowledge representation is extended as new concepts are encountered in
+domain practice. Rubric amendment is domain-constrained (the rubric scores a specific
+type of artifact --- AI-simulated TRPG sessions --- rather than a general domain) and
+operationally motivated (amendments are driven by evaluator surprises, not domain
+coverage requirements).
+
+\subsection{Iterative Refinement in Evaluation Systems}
+
+Several evaluation systems for generative AI use iterative refinement mechanisms.
+\citet{zheng2023judging} describe MT-Bench as a living benchmark updated when
+new model capabilities escape existing question categories. \citet{liang2022holistic}
+describe HELM's dimension set as subject to expansion as the field evolves.
+Both systems use expert review to drive expansion rather than systematic logging of
+evaluator surprises. The Marathon mechanism is more automated: the innovation log
+is part of the evaluation pipeline, not a separate review cycle.
+
+\subsection{Scoring System Drift}
+
+A concern with iterative rubric revision is \textit{scoring drift}: scores from
+different rubric versions may not be comparable~\cite{angoff1971scales}. The
+forward-only constraint in the Marathon mechanism directly addresses this: scores
+from v1.3 sessions are comparable to each other, and cross-version comparisons
+are explicit rather than conflated. This is analogous to semantic versioning in
+software development~\cite{semver}, where backward-incompatible changes increment
+the major version and users know not to compare across major versions.
