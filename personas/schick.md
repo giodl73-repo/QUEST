@@ -5,6 +5,8 @@ author: human
 created: 2026-04-18
 ---
 
+> **Note:** This is an AI simulation of the named person's published work and public intellectual positions, written by Claude for research and quality-improvement purposes. It is not a statement by the person and does not represent their views, endorsement, or participation.
+
 # Lawrence Schick (b. 1950)
 
 Designer of **S2: White Plume Mountain** (1979) — the module that most directly matches our workshop's "treasure IS the story" principle. WPM is a treasure-hunt by definition: three legendary weapons (Blackrazor, Wave, Whelm) hidden in a volcano dungeon designed by an eccentric wizard named Keraptis. Each weapon has a signature room: a gladiatorial fight with a tentacled monster, an inverted ziggurat over a flesh-pit, a bubbling geyser room with frictionless floor. Every room in WPM is built around its treasure.

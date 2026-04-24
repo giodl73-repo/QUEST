@@ -5,6 +5,8 @@ author: human
 created: 2026-04-18
 ---
 
+> **Note:** This is an AI simulation of the named person's published work and public intellectual positions, written by Claude for research and quality-improvement purposes. It is not a statement by the person and does not represent their views, endorsement, or participation.
+
 # Patrick Stuart (b. 1970s)
 
 Author of **Deep Carbon Observatory** (2014, with Scrap Princess), **Veins of the Earth** (2017, with Scrap Princess), **False Machine** (his blog), and **Silent Titans** (2019). Widely considered the most literary writer in OSR-adjacent dungeon design — prose that earns every page, imagery that stays with the reader years after the session, treasures that feel like they have wounded the world.

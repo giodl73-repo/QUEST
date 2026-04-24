@@ -5,6 +5,8 @@ author: human
 created: 2026-04-18
 ---
 
+> **Note:** This is an AI simulation of the named person's published work and public intellectual positions, written by Claude for research and quality-improvement purposes. It is not a statement by the person and does not represent their views, endorsement, or participation.
+
 # Jennell Jaquays (1956–2024)
 
 Dungeon designer. Author of *Caverns of Thracia* (1979) and *Dark Tower* (1980, Judges Guild) — two of the most influential dungeons ever published. Later a video-game level designer (Quake II, Halo Wars) and art director. Her dungeon design is so distinctive that *"Jaquaysing the dungeon"* became the industry term for non-linear topology with loops, verticality, shortcuts, and multiple entrances.
