@@ -1,60 +1,40 @@
 {
   "party": {
-    "calder-of-the-third-road": {
-      "hp": 48,
-      "hp_max": 48,
+    "calla-fosse": {
+      "hp": 22,
+      "hp_max": 22,
       "spell_slots": {
-        "L1": 4,
-        "L2": 3,
-        "L3": 2
+        "1": 4,
+        "2": 2
       },
       "attunements": [],
       "lay_on_hands": 0,
       "concentration": null,
       "conditions": []
     },
-    "lenne-stormwatch": {
-      "hp": 44,
-      "hp_max": 44,
-      "spell_slots": {
-        "L1": 4,
-        "L2": 3,
-        "L3": 3,
-        "L4": 1
-      },
-      "attunements": [],
-      "lay_on_hands": 0,
-      "concentration": null,
-      "conditions": []
-    },
-    "orik-flintback": {
-      "hp": 52,
-      "hp_max": 52,
+    "dren-holt": {
+      "hp": 31,
+      "hp_max": 31,
       "spell_slots": {},
       "attunements": [],
       "lay_on_hands": 0,
       "concentration": null,
       "conditions": []
     },
-    "sera-ashfall": {
-      "hp": 44,
-      "hp_max": 44,
-      "spell_slots": {
-        "L1": 4,
-        "L2": 2
-      },
+    "maret-sorn": {
+      "hp": 24,
+      "hp_max": 24,
+      "spell_slots": {},
       "attunements": [],
       "lay_on_hands": 0,
       "concentration": null,
       "conditions": []
     },
-    "thessaly-nightmantle": {
-      "hp": 32,
-      "hp_max": 32,
+    "renn-ashkeld": {
+      "hp": 22,
+      "hp_max": 22,
       "spell_slots": {
-        "L1": 4,
-        "L2": 3,
-        "L3": 2
+        "2": 2
       },
       "attunements": [],
       "lay_on_hands": 0,
@@ -63,14 +43,14 @@
     }
   },
   "session": {
-    "adventure": "0014-the-new-covenant",
-    "session": "S07",
-    "dice_seed": "S07-20260420",
-    "scene_index": 3,
+    "adventure": "0021-the-keystone",
+    "session": "S7",
+    "dice_seed": "S7-20260421",
+    "scene_index": 0,
     "scenes_completed": [],
-    "pending_checkpoint": "scene_3_beat_0",
-    "route": "D",
-    "party_slug": "compact-wardens"
+    "pending_checkpoint": null,
+    "route": null,
+    "party_slug": "the-witnesses"
   },
   "campaign": {
     "hints": {},

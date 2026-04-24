@@ -42,7 +42,7 @@ Not a full Krynn timeline. A reference for the events our adventures cite. Grown
 | Chaos War / Summer of Chaos | 383 AC | Gods depart after Chaos's defeat |
 | War of Souls | ~ 422 AC | Mina, Takhisis's return, gods' re-return |
 
-## Dating convention used in marathon adventures
+## Dating convention used in QUEST adventures
 
 - Dates in adventure files use **PC/AC convention** (PC = Pre-Cataclysm; AC = After Cataclysm).
 - **PC 100** = 100 years before the Cataclysm.

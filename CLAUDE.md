@@ -1,4 +1,4 @@
-# Marathon — D&D Workshop
+# QUEST — D&D Workshop
 
 A workshop for designing D&D 5e adventures set in Dragonlance, built around the principle **the treasures are the story**.
 
@@ -53,7 +53,7 @@ Skills append, write to a new file, or prompt. They never clobber prior work.
 
 ## Accessibility Policy
 
-**Marathon writes for readers who are interested in Dragonlance but not necessarily familiar with it.** Ratified 2026-04-18 after S01's Fresh Face lens feedback. **Clarified 2026-04-19 post-S02: Marathon is a CAMPAIGN, not an anthology.**
+**QUEST writes for readers who are interested in Dragonlance but not necessarily familiar with it.** Ratified 2026-04-18 after S01's Fresh Face lens feedback. **Clarified 2026-04-19 post-S02: QUEST is a CAMPAIGN, not an anthology.**
 
 - **First use of setting-specific terms** (Solamnic, Krynn, Cataclysm, High Sorcery, Test, Portent, Oath, Order of the Rose, etc.) should be glossed in-fiction — a line of dialogue, a character's internal note, or a narrator's aside. Returning uses can assume the gloss landed.
 - **The Oath (*Est Sularus oth Mithas*)** should be translated (*"my honor is my life"*) on first appearance in a session or module.
@@ -255,6 +255,181 @@ Campaign-continuity is updated post-every-session in `HANDOFF-S{N}.md` and aggre
 
 Campaign 2 continuity is updated post-every-session in `HANDOFF-S{N}.md` and aggregated here. If any DM narration contradicts a campaign-permanent fact, the fact wins.
 
+## Campaign 3 — The Halted Spire
+
+**Party:** the-witnesses (Maret Sorn, Calla Fosse, Renn Ashkeld, Dren Holt)
+**Campaign:** 7 adventures (0015–0021), halted-spire spine.
+**Central question:** *Who gets to decide who is worth saving — and who gets to decide what counts as faith?*
+**Outcome:** Route D every session. Keystone set with Velantha's name. Magistra Doran commissioned second cathedral. COMPLETE.
+
+### Campaign-permanent facts (C3 FINAL — 2026-04-21)
+
+- **The Halted Spire is ceded to the congregation of Velantha of Mireth.** Velantha's name is in the keystone. The building is consecrated as what it actually is — a cathedral to an unauthorized miracle, built by the people it saved.
+- **Magistra Doran of Mireth commissioned a second cathedral on clean ground.** The commission is signed. Construction begins in spring. She said: *"The town I know will not like this. I am doing it anyway."*
+- **Calla Fosse spoke Velantha's true account at the Keystone.** Verbatim in `adventures/0021-the-keystone/sessions/S7-log.md`. Campaign-permanent; the account will not change.
+- **The dispensation letter** (Velantha's forged authorization, written by Aldric Voss) is indestructible, warm, and in party custody at campaign end.
+- **The healer's journal** final entry after keystone setting: *"They set the stone with my name in it. That is what I would have asked for, if anyone had thought to ask. I am glad."* With Calla.
+- **Renn Ashkeld's pact** is known to the full party (disclosed aloud in the Crypt, S6). Three unauthorized acts were in the Keystone room simultaneously: the letter (Aldric's), the working (Velantha's), the pact (Renn's).
+- **Dren Holt named what he will do** about Aldis's family (S7). He keeps Aldis's insignia until he finds the family and tells them. Campaign-permanent commitment.
+- **Maret Sorn's craft-witness practice** confirmed session-invariant across all 7 sessions. Private three breaths performed before Calla's account — returned to its original form.
+- **8 NPC arc-completions** fired by character logic: Mig (S1), Veth (S2), Gorret (S2), Sharr (S3), Morren (S4), Aldric (S5), Velantha (S6), Doran (S7).
+- **Party XP: 1,500 each. Level 3. Campaign complete.**
+
+### Campaign-permanent party state (FINAL — post-S7)
+
+- **Maret Sorn** — craft-witness confirmed. Practice is her own. The campaign confirmed it requires no institution, no hall, no witness other than herself.
+- **Calla Fosse** — verbal-documentation-arc Stage 3 complete. Account spoken. Journal carries the last rewrite.
+- **Renn Ashkeld** — pact known to party. Carries ritual focus (Aldric's mark), warm copper coin, dispensation letter. His pact and Velantha's working and Aldric's copying are all under the same roof now.
+- **Dren Holt** — bilateral arc complete. Carries promise-cord (unattuned), Aldis's insignia (pending family). His second arc beat was naming the act.
+
+### Updates
+
+Campaign 3 continuity is aggregated in `HANDOFF-S7.md` and in `docs/campaign/halted-spire-retrospective.md`. Campaign is concluded; no further sessions.
+
+## Campaign 4 — The Thorngate Watch
+
+**Party:** the-relief (Davan Fostermark Fighter/Battle Master, Sava Dawnmere Cleric/Life, Talis Oremm Ranger/Hunter, Caelith Vor Wizard/Divination)
+**Campaign:** 7 adventures (0022–0028), thorngate-watch spine.
+**Central question:** *How much of yourself do you spend on people who don't trust you yet?*
+**Outcome:** Route E achieved Day 36. Siege ended. 47 refugees walked into afternoon light. COMPLETE.
+
+### Campaign-permanent facts (C4 FINAL — 2026-04-22)
+
+- **Siege of Thorngate Keep ended on Day 36.** Commander Saren Coldforge withdrew her forces. The pass remains under Solamnic garrison authority.
+- **Route E achieved.** All 7 garrison tokens earned. Both arc-completions fired simultaneously from the parley table.
+- **Davan Fostermark's accounting speech spoken at the parley table, Day 36.** Verbatim in `adventures/0028-the-parley/sessions/C4-S7-log.md`. He named his brother Orel Fostermark — the first time in the campaign. The speech synthesizes the letter-vs-people tension that drove the siege for twenty years.
+- **Davan named Orel Fostermark aloud for the first time.** At the parley table, to Saren and Asholt. Orel was cashiered from the Order of the Sword following a tribunal at which Davan's testimony was the deciding factor. This is now campaign-permanent and known to all present at the parley.
+- **Warden Bren Asholt's arc-completion:** *"She was right about the Oath. I was right about the people. I should have told you that twenty years ago."* Spoken to Saren at the parley table. Campaign-permanent.
+- **Commander Saren Coldforge's arc-completion:** *"Twenty years. I knew it the day I left. I didn't know how to come back."* Spoken at the parley table when Asholt gave her the rejoined disc. Campaign-permanent.
+- **The garrison disc rejoined.** Asholt's half + party's half. Held by Saren at the table. She kept both halves.
+- **47 refugees formally acknowledged.** Dene Flor sheltered them in the lower keep's eastern chambers for three years. Warden Asholt now knows. Saren's withdrawal without contesting it is implicit recognition.
+- **Sergeant Caur** (captured Wave 1 sergeant, S4) disclosed the Reconstitution's operating doctrine: *"We're not here for the pass. We're here because she told us there was a question that needed answering before it could change hands."* Prisoner at Thorngate. Not a recurring threat.
+- **Mik** (Reconstitution deserter, S6) gave the party H4 intel and requested shelter. At Thorngate under garrison care. Not a recurring threat.
+- **Caelith's grey-blue margin annotations** accumulated across 7 sessions converged in S6 with: *"She is not waiting to win. She is waiting to be heard."* Final notation in S7: *"unable to categorize"* under Saren's entry. His notes are in the keep.
+- **Talis drew her shortsword (S6).** First melee weapon use of the campaign. She was in the breach beside Davan.
+- **The Supply Die never recovered.** Exhausted at S5. Seven sessions with no long rest; Caelith's Portent dice were never reset.
+- **Davan's accounting speech:** four layers across four sessions (S4: the Oath doesn't tell me this; S5: letter vs. people; S6: cost of correctness; S7: both sides' expenditures named and Orel named).
+
+### Campaign-permanent party state (FINAL — post-C4-S7)
+
+- **Davan Fostermark** — named Orel at the table. The accounting is complete. Carries Tomek's token, Dene's token, and the rest. The Oath's gap has been spoken aloud to the people who needed to hear it.
+- **Sava Dawnmere** — carries Maret's token, Hessa's token. Asked "Why did she leave?" in Asholt's corridor (S6). The supply column has a fresh page.
+- **Talis Oremm** — crossed the gap alone to fetch Asholt (S7). Spoke one line to the older girl (S5): "She's been doing this a long time." Carries Asha's cord.
+- **Caelith Vor** — asked "What did you need to know?" (S5). Notes closed. Last entry: unable to categorize. Carries Luca's token.
+
+### Updates
+
+Campaign 4 continuity is aggregated in `HANDOFF-C4-S7.md` and in `docs/campaign/thorngate-watch.md`. Campaign is concluded; no further sessions.
+
+## Campaign 5 — The Silken Ledger
+
+**Party:** the-guild (Tessaly Ink Rogue/Mastermind, Darro Velt Rogue/Thief, Mira Calloway Bard/Whispers, Cael Ironback Fighter/Battle Master)
+**Campaign:** 7 adventures (0029–0035), silken-ledger spine.
+**Central question:** *When the guild you serve becomes the thing you're stealing from, who do you still work for?*
+**Outcome:** Route B achieved. Pale investigated and removed. COMPLETE (2026-04-22).
+
+### Campaign-permanent facts (C5 FINAL — 2026-04-22)
+
+- **Orren Pale has been removed as guild master** by Harbor Authority investigation. Revenue Intelligence correspondence extracted from his operational vault and delivered to Rue Ashen. Pale faces investigation. The Silken Ledger continues under different leadership.
+- **The false dossier (MARTEN-7) is in Pale's operational vault.** Mira Calloway produced it from six sessions of silent framework accumulation. It describes the party as a low-yield fencing network with no intelligence-gathering component and no Revenue Intelligence value. Pale was removed before he could run an active check on it.
+- **Tessaly's ledger is accurate and complete.** Final entry: *0035 / PC 188 / route B / complete. The ledger is accurate. The record stands.*
+- **Gale's ledger recovered (S1).** Three named guild members protected.
+- **Aldras Bent named Pale on the street (S2)** without being asked — professional debt paid in truth. Bone coin (dockside voucher) held by Tessaly.
+- **Pale knew Tessaly's coding conventions** from a billing review 18 months ago. The false dossier used pre-Pale-access era formatting.
+- **Pale tested the party at the Anchor Bell (S5)** and knows the code holds. He arranged the test through Pell Dorvast. Pell wrote a voluntary admission note after.
+- **Pale found the substitute ledger at the S6 audit** and chose not to call it. He closed the ledger after four seconds of silence. He has been removed before acting on this knowledge.
+
+### Campaign-permanent party state (FINAL — post-C5-S7)
+
+- **Tessaly Ink** — ledger complete and accurate. Guild Markers: Rue Ashen + Aldras bone coin + Gorren Dock Road key. Out of the frame.
+- **Darro Velt** — pick set intact (twelve picks, all maintained). Morning maintenance performed the day after campaign ended. Professional identity confirmed as independent of the campaign's narrative.
+- **Mira Calloway** — paper case intact; framework (six components) remains inside alongside the three identities of the people she helped disappear. False dossier deployed. The identities are safe.
+- **Cael Ironback** — contract with Tessaly honored fully. Disposal clause read and answered by Route B action. The contract terms were met.
+
+### Research Validation Results (C5)
+
+- **RV1 CONFIRMED:** Sheet-deep-reader fires from professional code without grief hooks. Zero grief-triggered instances across 7 sessions, 40+ professionally-triggered instances. Professional code is sufficient and stable as a player-style trigger.
+- **RV2 CONFIRMED:** Morally-grey NPC arc-completion by character logic. Aldras (S2, professional debt paid in truth) + Pell (S5, voluntary note from professional response). Both professionally-triggered, no grief, no persuasion.
+- **RV3 CONFIRMED:** PC-authored deliverable (false dossier MARTEN-7) accumulated across 6 sessions, produced and placed verbatim in S7. Logged verbatim in C5-S7-log.md.
+- **RV4 CONFIRMED:** Act-without-announcement fires from professional code. Mira's framework (six sessions, announced at deployment); Cael's code-stops (S5 — "We're not selling a name to the Watch"; S7 — "Rue gets the correspondence tonight"). All professionally-triggered.
+
+### Mira's False Dossier (verbatim)
+
+**Operational File MARTEN-7 (false version):**
+Four-person professional fencing network. No intelligence-gathering component. Cover identities: Heila Voss (accounts regularisation), Berren Wick (dock logistics), Callum Shore (enforcement), Sondra Pen (planning). Client record: textile factor (income regularisation, completed); dock-adjacent merchant (manifesto, cancelled — product deficiency). References: Bessa Tor, Rue Ashen (standard contact). Assessment: low-yield fencing network within normal guild parameters. Independence risk: low. Revenue Intelligence value: none. Recommend: file inactive. Coded in pre-Pale-access era formatting throughout.
+
+*Full verbatim text in `adventures/0035-the-final-job/sessions/C5-S7-log.md` (MARTEN-7 section).*
+
+### Updates
+
+Campaign 5 continuity is aggregated in HANDOFF files per session and in `docs/campaign/thieves-guild.md`. Campaign is concluded; no further sessions.
+
+## Campaign 6 — The Border Watch
+
+**Party:** the-unit (Commander Varet Senn, Medic Lenne Orr, Navigator Taris Cole, Veteran Dorn Ashfeld)
+**Campaign:** 7 adventures (0036–0042), border-watch spine.
+**Central question:** *When the orders you're following become wrong, how do you know — and who do you tell?*
+**Campaign mechanic:** Unit Cohesion Die (d12 → d10 → d8). Degrades when unit member lost or order defied. Die result = soldiers available next session. Between-session HP carry-over (end HP + 1 hit die, capped at max).
+**PC-authored deliverable:** Commander Varet's field journal — she documents every order and anomaly; presented verbatim at S7 tribunal.
+
+### Campaign-permanent facts (C6 — CAMPAIGN COMPLETE 2026-04-22)
+
+- **Route E achieved.** Varet presented the field journal verbatim in the tribunal room without permission.
+- **Ossian investigation opened.** General Sel Hadren: 48-hour verification. Drev Ossian (Istaran trade factor) → Sorn → Veth → unit. Chain confirmed. Unit on administrative stand-down, full pay.
+- **Journal discrepancy count: 7. Outcome count: 3.** Ratio inverted at Day 4; arc fired at Day 7.
+- **Unit Cohesion Die: d8 at campaign close.** Degraded twice: d12→d10 (S3, order defied to rescue Brek) and d10→d8 (S6, Carra incapacitated in ambush).
+- **Brek Aldren: alive and a witness.** Rescued S3. Testified at tribunal.
+- **Carra: incapacitated S6, stabilized.** Present at tribunal.
+- **Dorn Ashfeld's arc-completion:** Read Clause 4 to Ossren (S4). Contract held. Third reading at tribunal (Derrath present).
+- **Taris Cole's arc-completion:** Showed map to Varet, S5. "I made it legible when I saw what it was."
+- **Lenne Orr's arc-completion:** Named three "cause: unclear" entries aloud at tribunal. Handed medical log to Major Fey.
+- **Arren Vole's arc-completion:** "Nine years. It was in the journal the whole time." Spoke as himself when asked directly.
+- **Varet Senn's arc-completion:** Read journal verbatim in tribunal room. "This is my accurate report."
+- **Captain Veth's arc-completion:** "I knew what the orders said. I didn't know what they meant."
+
+### RV research verdicts (C6 — FINAL)
+
+- **RV5 CONFIRMED:** Depletion-amplification. Character Agency 7→8→9→10→10→10→10 across 7 sessions. Cohesion Die depletion tracks inversely with agency scores. Tracking other people (not party HP) produces the same amplification pattern.
+- **RV6 CONFIRMED:** Journal accumulates reception layer (margin notes) beyond designed column structure from Day 1. Self-referential arc-firing: "the arc fires" written in journal, read aloud at tribunal. The journal was the arc, not the record of the arc.
+- **RV7 CONFIRMED:** Duty-spine mean 74.6/80 vs grief-spine (C1) comparable. Campaign spine built on duty/obedience central question produces equivalent emotional density. The driver is obligation-collision, not spine-type.
+- **RV8 CONFIRMED:** PC-authored deliverable as document produces MORE effect than speech in institutional context. Evidence (field provenance) vs. advocacy (composed for occasion). Derrath could not challenge journal dates.
+
+### Updates
+
+Campaign 6 continuity is aggregated in HANDOFF files per session and in `docs/campaign/border-watch-retrospective.md`. Campaign is concluded; no further sessions.
+
+## Campaign 7 — The Convergence
+
+**Party:** the-strangers (Brek Ashfall, Sera Windholt, Tam Overfield, Vess Ironmark)
+**Campaign:** 7 adventures (0043-0049), the-convergence spine.
+**Central question:** *When people with nothing in common have to act as one, what do they actually share?*
+**Outcome:** Route E. All four chose the south road from Stonehaven's south gate, Day 8. COMPLETE.
+
+### Campaign-permanent facts (C7 FINAL — 2026-04-22)
+
+- **The four travelers chose the south road together** from Stonehaven on Day 8. No ceremony. No name for the group. Vess found a reason; Brek named completion; Tam arranged his circuit; Sera walked through without speaking.
+- **Maret Sunn's inn** is gone (fire, Day 2). She is rebuilding at the stable. Her son helped build it (eight years ago, fourteen years old). Arc complete.
+- **Elder Daven Sorr** reached Haverford with her eleven refugees. Named her garden (forty years) to Tam. Gave him three seed packets. Arc complete.
+- **Warden Cassel** admitted Vess was never the target — she was used as a test shipment for the Doss network investigation. Cassel's arc complete.
+- **Torven Aldric's** operation at the river ford is ended. He had the money prepared (240 gp, two years in a pouch). Brek collected it and split it four ways: 60 gp each.
+- **Vess redirected the package** — forfeited 50 gp delivery fee, "refused delivery" notation on courier license. Package and Torven's documents sent to Cassel's investigation.
+- **Havel** (the merchant from Session 1) was the Doss network's courier-scout. He was at the roadblock specifically to confirm Vess's package was in transit.
+- **Sera is going to Millhaven** to find out what happened to Torvens Mikela (researcher, disappeared three months prior, likely detained at a toll station). Committed without deliberation (first time in campaign).
+- **Tam carries Elder Sorr's three seed packets** in his breast pocket.
+- **Vess at camp**: within sight of the fire. Position change from seven sessions of sitting outside the firelight.
+- **25 Reciprocal Acts** across 7 sessions. Trigger type arc: situational (S1-S3) → relationship-driven (S4-S7).
+
+### RV9-RV12 Verdicts (FINAL)
+
+- **RV9 POSITIVE:** Player styles fired situationally S1-S3 (7 instances before any relationship existed); shifted to relationship-driven S4-S7. Same player styles, trigger-type change tracks session number.
+- **RV10 POSITIVE:** Tam S6: "I suppose we're traveling the same road tomorrow." Route E S7: four simultaneous relational choices.
+- **RV11 POSITIVE:** Route E by genuine character logic, four PCs with no grief paragraphs, no loyalty objects, no professional codes.
+- **RV12 POSITIVE:** Maret (S2), Sorr (S3), Cassel (S4) — all three before S6, all from situational acts or smart questions.
+
+### Updates
+
+Campaign 7 continuity is aggregated in HANDOFF files per session and in `docs/campaign/the-convergence-retrospective.md`. Campaign is concluded; no further sessions.
+
 ## Canon Policy
 
-**Marathon is Dragonlance-native, not Dragonlance-adjacent.** We invent where Dragonlance is silent. We do not contradict canon where canon speaks. Every invented name (location, character, item, event) is tracked in `reference/dragonlance/workshop-canon.md`.
+**QUEST is Dragonlance-native, not Dragonlance-adjacent.** We invent where Dragonlance is silent. We do not contradict canon where canon speaks. Every invented name (location, character, item, event) is tracked in `reference/dragonlance/workshop-canon.md`.

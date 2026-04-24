@@ -1029,6 +1029,182 @@ Five instances across both sessions. Already addressed by the proposed v1.1 → 
 
 ---
 
+## C3-S1 — 2026-04-21 — the-witnesses — 0015-the-gatehouse-watch
+
+### I-C3-S1-01 — Fumble-as-arc-activation
+
+**Dimension:** Atmospheric Landing (cross: Character Agency, Surprise)
+**What happened:** *"She cannot categorize them at all. She can describe them. She can recognize what they are not. But what they are — what tradition this represents — she has no frame for it. She holds the observation."* (Scene 2.1) Calla's Insight check fumbled (1 on die, total 6 vs DC 12). Her documentation-arc did not fail to fire — it fired precisely because her categorical vocabulary broke on contact with the congregation's shrine arrangements. The fumble IS the arc beat. The arc activated from a failed check, not from a discovery.
+**Why the rubric did not anticipate it:** Every existing arc-activation pattern in the log (sheet-deep-reader, craft-witness, documentation-arc candidate) assumes a discovery, observation, or successful perception triggers the arc. I-C3-S1-01 establishes a variant: the arc fires when the observer's framework fails on contact. The content is not unusual enough to exceed the framework — the framework simply does not apply, and the gap between the two is the emotional landing.
+**Scope:** Universal (any PC with an archivist, documentation, or categorization-oriented practice).
+**Status:** adopted (v1.7)
+
+---
+
+### I-C3-S1-02 — Designed trigger-point ≠ actual firing-point for character arcs
+
+**Dimension:** Atmospheric Landing (cross: Character Agency)
+**What happened:** The module's GM Notes designed Dren Holt's crack to activate "when Dren understands Mig is holding a healer's bag — that she came here because a healer came for her people" (Scene 2.1). The understanding landed at Scene 2.1 (the DM noted "this is the seed"). The crack fired at Scene 6 — when Dren watched the healer's bag reach its destination. Seeding and firing separated by four scenes. *"He does not say anything. The pause before the word 'healer' is there, held, and released without speaking."* (Scene 6)
+**Why the rubric did not anticipate it:** v1.4 captures multi-scene silent-reception chains (3+ scenes held). This is partially covered. The novel element is the module-design implication: the *designed* trigger point (understanding the cause) differed from the *actual* firing point (witnessing the consequence). Character arcs require both cause and consequence; the arc fires at the consequence, not the cause. Designing a trigger that names only the cause — as this module did — will produce delayed firing.
+**Scope:** Universal. Module-design implication: design arc trigger points at the *consequence*, not the *cause*, or expect delayed firing.
+**Status:** adopted (v1.7)
+
+---
+
+### I-C3-S1-03 — Craft-witness fires through unnamed NPC witness
+
+**Dimension:** Atmospheric Landing (cross: Engagement)
+**What happened:** *"Maret stands at the south parapet... She performs three breaths... one of the congregation members who entered R5 behind the party — a gully dwarf woman, older than Mig — sits down facing the shrine and begins a repetitive motion with a smooth stone: turning it in her hands with a specific rhythm."* (Scene 5) Craft-witness fired through an unnamed congregation member, not through the session's named NPC contact (Mig). The structural parallel was PC practice ↔ unnamed NPC practice in the same room.
+**Why the rubric did not anticipate it:** Craft-witness in C1 fired through the physical environment (Orik's hall-guard practice). C2 confirmed craft-witness fires through named NPCs. C3-S1 establishes that craft-witness fires through unnamed NPCs as well — the witness does not need to be named or individually designed. The session module did not script this unnamed member's stone-turning; it emerged from the congregation's group behavior logic (they have their own rites). Craft-witness is broader than we knew.
+**Scope:** Universal. Craft-witness requires only structural parallel between PC practice and observed practice; the witness may be unnamed.
+**Status:** LOGGED. **Craft-witness: unnamed NPC instance. Update craft-witness.md.**
+
+---
+
+### I-C3-S1-04 — Class feature as social encounter architecture bypass
+
+**Dimension:** Character Agency (cross: Mechanical Fairness)
+**What happened:** *"He uses Awakened Mind to reach Mig. He says, in the space between her ears: 'We were sent to assess the building. We are not here to drive you out. We want to understand what you are protecting.'"* (Scene 3) Renn's Warlock class feature (Awakened Mind) bypassed the social encounter's entire designed architecture — no Persuasion check, no Insight roll, no shared language requirement. The social encounter resolved from a class feature, not a skill check or social roll.
+**Why the rubric did not anticipate it:** Character Agency anchors assume skill-check-based resolution for social encounters. Mechanical Fairness anchors cover cross-character mechanical compounds (v1.4 — one PC's feature applied to another PC's roll). This is distinct: a PC's passive class feature replacing the encounter's resolution architecture entirely, without any roll. No roll means no dice variable; the success or failure of the communication was adjudicated narratively, not mechanically.
+**Scope:** Universal. Any PC with telepathic class features (Warlock Awakened Mind, Telepathic Feat, Mind Flayer lineage) can produce this bypass in social encounters with language barriers.
+**Status:** LOGGED. **Module-design implication: future social encounters should note in GM Notes whether telepathy bypasses the language barrier and, if so, what the consequence is.**
+
+---
+
+### C3-S1 Threshold Check
+
+**Pathway A — Dimension trigger (2+ logged in same dimension):**
+
+New logged entries this session:
+- Atmospheric Landing: I-C3-S1-01 (fumble-as-arc-activation), I-C3-S1-02 (designed/actual trigger separation), I-C3-S1-03 (craft-witness/unnamed NPC) = **3 entries**
+- Character Agency: I-C3-S1-04 (Awakened Mind bypass) = **1 entry**
+
+Atmospheric Landing now has 3 new `logged` entries this session. Combined with existing `logged` Atmospheric Landing entries from prior sessions (see I-C2-S07-03, I-C2-S05 series, etc.), the threshold is met.
+
+**AMENDMENT PROPOSAL — v1.6 → v1.7**
+**Dimension:** Atmospheric Landing
+**Constituent innovations:** I-C3-S1-01 (fumble-as-arc-activation), I-C3-S1-02 (designed/actual trigger separation)
+**Theme:** Arc-activation mechanisms that differ from designed trigger points — either because the arc fires from framework failure (01) or because the actual firing point is the consequence rather than the cause (02).
+**Proposed change (7+ band addition):**
+> **v1.7 framework-failure arc-activation anchor:** A score of 7+ additionally recognizes arc-activation triggered by a *failed check* — where a PC's categorical or observational framework breaks on contact with the content, and the gap between framework and content IS the emotional landing. The check failure is not a setback; it is the arc beat. Arc-activation need not follow a discovery; it may follow a failure. Rationale: C3-S1 Calla's documentation-suspension activated from Insight fumble (total 6), not from a discovery.
+
+**Prompt to user:** *"3 Atmospheric Landing innovations logged in C3-S1. Amendment proposal: v1.6 → v1.7, adding framework-failure arc-activation to the 7+ band. Adopt?"*
+
+**Pathway B — Cluster trigger (3+ across ≥ 2 sessions):**
+
+Checking I-C3-S1-03 (craft-witness/unnamed NPC) against existing craft-witness entries: The craft-witness pattern already has a ratified player-style file (`personas/player-styles/craft-witness.md` or equivalent). This entry is an expansion of an existing ratified style, not a new style proposal. **Action: Update craft-witness.md to note unnamed-NPC instances are valid** — no new style proposal needed.
+
+No new player-style proposals this session (single-session cluster; needs ≥ 2 sessions).
+
+---
+
+### Campaign 3 running tallies (post-S1)
+
+- `sheet-deep-reader`: 6 instances (S1) — fires in S1 with new party as predicted.
+- `craft-witness`: 1 instance (S1, unnamed NPC) — research question answered: fires session-invariantly without physical object or hall.
+- `verbal-documentation-arc` (provisional): 2 activations (S1) — needs S2 data before cluster evaluation.
+- `NPC-arc-completion`: 1 instance (S1 — Mig). Running total: 1/3 for style-promotion threshold.
+- `bilateral-arc-completion`: 0 instances (designed for 0017). On track.
+
+---
+
+## C3-S2 — 2026-04-21 — the-witnesses — 0016-the-nave-congregation
+
+### I-C3-S2-01 — Cross-session craft-witness chain
+
+**Dimension:** Atmospheric Landing (cross: Engagement)
+**What happened:** Maret's craft-witness was seeded in C3-S1 Scene 5 (unnamed congregation member's stone-turning resonating with her breath-work). She held the understanding silently through the night between sessions. It activated in C3-S2 Scene 2.2's closing silence — two minutes of collective silence after the morning rite ended — when she performed her three breaths in the space the rite had just occupied. *"After the silence ends, she performs her three breaths in the same space."* (Scene 2.2)
+**Why the rubric did not anticipate it:** v1.4's multi-scene silent-reception chain was documented for intra-session chains (3+ scenes within a session). This is a cross-session chain: seeded S1 → held through the night → fired S2. The cross-session variant is longer and more complete than any intra-session instance documented. Craft-witness can run across a session boundary while remaining silent.
+**Scope:** Universal. Craft-witness is not session-bounded; the resonance can develop across a session break.
+**Status:** promoted-to-style (verbal-documentation-arc, craft-witness update)
+
+---
+
+### I-C3-S2-02 — Heuristic-inversion as arc-activation
+
+**Dimension:** Character Agency (cross: Surprise)
+**What happened:** Calla's second heuristic is *"preserve access to information — no actions that close off dialogue."* In Scene 2.4, she gave the correct rite sequence to the imperfect practitioners who asked *"Is that right?"*. She gave information away rather than holding it. *"The verse comes third. The sharing comes second."* The heuristic inverted: preserving access to correct knowledge required transmitting it to those who lacked it.
+**Why the rubric did not anticipate it:** Character agency anchors cover heuristic-driven decisions. The novel form is a heuristic producing its inverse as its most faithful fulfillment. The PC's core drive (preserve access to information) created an obligation to share it — the preservation happened through transmission, not retention. The arc fired from fulfilling the heuristic correctly, not from violating it.
+**Scope:** Universal (any PC with an information-preservation drive facing an information-deficit in another party).
+**Status:** promoted-to-style (verbal-documentation-arc)
+
+---
+
+### I-C3-S2-03 — Arc-completion unlocks information beyond designed scope
+
+**Dimension:** Atmospheric Landing (cross: Module Fidelity)
+**What happened:** Veth's arc-completion fired (*"I don't know if I am doing it right. I do it anyway."*). Then, without prompting, Veth added: *"The elder in the Transept was there the night she performed the ritual. I know what was passed down. He knows what actually happened. They are not the same."* This information was in his Information Readiness Condition but NOT in his Arc-Completion section. The arc-completion unlocked the readiness condition as a side effect.
+**Why the rubric did not anticipate it:** Module Fidelity and Atmospheric Landing both assume arc-completion fires exactly what was designed. This session showed that an NPC who has just said something vulnerable spontaneously provides additional information — the emotional opening of the arc creates space for information transfer that was technically separate in the design. The arc-completion and the information readiness condition are not always independent.
+**Scope:** Universal. When arc-completion fires for an information-holder NPC, their information readiness condition should be checked immediately — the arc may have satisfied it.
+**Status:** promoted-to-style (npc-arc-completion). npc-architect update: explicitly link arc-completion to information readiness conditions in NPC files.
+
+---
+
+### I-C3-S2-04 — Verbal documentation-arc evolution: framework-failure → gap-identification
+
+**Dimension:** Atmospheric Landing (cross: Character Agency)
+**What happened:** In C3-S1, Calla's verbal documentation-arc fired from framework failure (Insight fumble — she could not categorize the shrine arrangements at all). In C3-S2, the same arc evolved: she recognized the imperfect rite's wrong sequence at exactly DC 13 — she succeeded at identifying a *failure* rather than naming a *thing*. *"The verse comes third. The sharing comes second."* She knows the correct form well enough to identify its absence. The arc shifted from "cannot categorize" to "can identify the gap between correct and imperfect."
+**Why the rubric did not anticipate it:** v1.7's framework-failure arc-activation covers the first stage (arc fires from failure). This innovation documents the arc's second stage: the PC develops vocabulary for the gap, not the thing itself. Documentation-arc arcs through stages — the progression from "no vocabulary" to "vocabulary for the absence" is the arc's development, and it is not captured by the 7+ band anchor.
+**Scope:** Universal for archivist-type PCs. Documentation-arcs have developmental stages: (1) cannot categorize → (2) can identify the gap → (3) can name the thing. The arc is complete at stage 3.
+**Status:** promoted-to-style (verbal-documentation-arc)
+
+---
+
+### C3-S2 Threshold Check
+
+**Pathway A — Dimension trigger:**
+
+New logged entries this session:
+- Atmospheric Landing: I-C3-S2-01 (cross-session craft-witness chain), I-C3-S2-03 (arc-completion unlocks readiness conditions) = **2 entries**
+- Character Agency: I-C3-S2-02 (heuristic inversion) = **1 entry**
+
+Existing logged Atmospheric Landing entries: I-C3-S1-03 (craft-witness/unnamed NPC). Combined with I-C3-S2-01: 2 Atmospheric Landing entries share the same theme (craft-witness variants). These are expansions of the craft-witness player-style, not new rubric anchors. **Action: update craft-witness.md; no new amendment needed.**
+
+**Pathway B — Cluster trigger:**
+
+**CLUSTER 1 — NPC-arc-completion:** Mig (C3-S1) + Veth (C3-S2) + Gorret (C3-S2) = **3 instances across 2 sessions.**
+
+```
+PLAYER-STYLE PROPOSAL — npc-arc-completion
+Constituent innovations:
+  - Mig's arc-completion (C3-S1): stepped through the inner door without looking back — condition: party opened the door cooperatively
+  - Veth's arc-completion (C3-S2): "I don't know if I am doing it right. I do it anyway." — condition: party asked what he was trying to understand
+  - Gorret's arc-completion (C3-S2): "At least you say what you are." — condition: Dren gave an honest answer to his question
+Definition: An NPC delivers their arc-completion moment by character logic (the conditions in their npc-architect file are met) rather than DM scripting. The NPC's arc closes because the party's behavior triggered the designed condition, not because the DM decided it was time.
+Triggers: Any session where an NPC with a designed arc-completion condition has that condition met by party action.
+Cross-applicability: Universal. Any adventure with npc-architect-designed NPCs can produce this style.
+```
+
+**Prompt to user:** *"NPC-arc-completion cluster: 3 instances across 2 sessions (Mig C3-S1, Veth C3-S2, Gorret C3-S2). Propose player-style entry 'npc-arc-completion'?"*
+
+**CLUSTER 2 — verbal-documentation-arc:** 5 activations across 2 sessions (2 in C3-S1 + 3 in C3-S2).
+
+```
+PLAYER-STYLE PROPOSAL — verbal-documentation-arc
+Constituent innovations:
+  - I-C3-S1-01 (fumble-as-arc-activation): arc fires from framework failure
+  - I-C3-S1-adopted (v1.7 constituent): arc fires at consequence, not cause
+  - I-C3-S2-04 (gap-identification): arc evolves through stages
+  - [2 additional activations in C3-S2 Scene 2.3, Scene 2.7]
+Definition: A PC whose documentation practice is verbal (recitation, oral history, memory) encounters content that exceeds, breaks, or reveals gaps in their current vocabulary. The arc progresses through stages: (1) cannot categorize → (2) identifies the gap → (3) names the thing. Each stage is an arc beat. The arc completes when the PC speaks the thing aloud to someone who can receive it.
+Triggers: Any session where the PC's oral-documentation practice encounters something it cannot hold.
+Cross-applicability: Applicable to any PC with oral-history, chronicle, or memory-preservation as a primary practice. Distinct from sheet-deep-reader (general PC depth) and documentation-arc (which was originally written-documentation specific).
+```
+
+**Prompt to user:** *"verbal-documentation-arc cluster: 5 activations across 2 sessions. Propose player-style entry 'verbal-documentation-arc'?"*
+
+---
+
+### Campaign 3 running tallies (post-S2)
+
+- `sheet-deep-reader`: 13 instances (S1: 6 + S2: 7) across 2 sessions.
+- `craft-witness`: 2 instances (S1: 1 + S2: 1), session-invariant confirmed across 2 sessions.
+- `verbal-documentation-arc`: **RATIFIED 2026-04-21.** 5 activations across 2 sessions. See `personas/player-styles/verbal-documentation-arc.md`.
+- `npc-arc-completion`: **RATIFIED 2026-04-21.** 3 instances (Mig + Veth + Gorret) across 2 sessions. See `personas/player-styles/npc-arc-completion.md`.
+- `bilateral-arc-completion`: 0 instances (designed for 0017). On track.
+
+---
+
 ### Campaign 2 final tallies
 
 - `sheet-deep-reader`: +4 (S07) = **29 total C2 instances across 7 sessions.**
@@ -1039,3 +1215,804 @@ Five instances across both sessions. Already addressed by the proposed v1.1 → 
 
 **Campaign 2 innovation total: 22 (3+4+4+4+4+3+4 across S01-S07).**
 **Cross-campaign innovation total: 80+ (22 C2 + 58+ C1).**
+
+---
+
+## C3-S3 — 2026-04-21 — the-witnesses — 0017-the-bell-tower
+
+### I-C3-S3-01 — Combat as precondition for arc reception
+
+**Dimension:** Atmospheric Landing (cross: Character Agency, Surprise)
+**What happened:** The bilateral arc was designed to fire through social engagement with Sharr's resentment. Calla fumbled Insight (5 vs 11); hesitation registered as refusal; combat began. The bilateral fired AFTER combat — when Sharr, at 3 HP, repeated his statement slower: *"She healed us. And then she left us to it."* The party had to survive the resentment as a physical fact before they could receive it as an emotional one. (Scene 3.3)
+**Why the rubric did not anticipate it:** I-C3-S1-02 (v1.7) documents arcs firing at the consequence rather than the cause. This is a specific variant: the combat IS the consequence. The resentment required physical embodiment before it could be named. The arc's conditions were met by surviving the fight, not by avoiding it.
+**Scope:** Universal. For any arc-completion designed around receiving a named grievance, a failed social read triggering combat may be the necessary precondition — not an obstacle.
+**Status:** LOGGED.
+
+---
+
+### I-C3-S3-02 — Bilateral-arc-completion first-half confirmed
+
+**Dimension:** Character Agency
+**What happened:** The campaign spine designed the bilateral to fire in adventure 0017 (Session 3 of 7). It fired in Session 3. Research question answered: bilateral-arc-completion is achievable in the campaign's first half. Both PCs' conditions were met simultaneously: *"My sergeant's name was Aldis."* / *"My sister's name was Mira. I was also late."* (Scene 3.3)
+**Why the rubric did not anticipate it:** The C3 research question was whether bilateral fires in the first half (vs. C2's second-half instances in S03/S05). Confirmed.
+**Scope:** Universal. Bilateral-arc-completion is not session-number-dependent; it fires when the PC sheet conditions are met and the adventure creates the trigger.
+**Status:** promoted-to-style (bilateral-arc-completion — first-half confirmed).
+
+---
+
+### C3-S3 Threshold Check
+
+No new amendments proposed this session. I-C3-S3-01 reinforces v1.7 rather than extending it. I-C3-S3-02 confirms existing bilateral-arc-completion style.
+
+---
+
+### Campaign 3 running tallies (post-S3)
+
+- `sheet-deep-reader`: 18 instances (S1: 6 + S2: 7 + S3: 5) across 3 sessions.
+- `craft-witness`: 2 instances (S1, S2), session-invariant confirmed.
+- `verbal-documentation-arc`: 6 activations (S1: 2, S2: 3, S3: 1) across 3 sessions.
+- `npc-arc-completion`: 4 instances (Mig S1, Veth S2, Gorret S2, Sharr S3) across 3 sessions.
+- `bilateral-arc-completion`: 1 instance (S3). First-half confirmed.
+
+**C3 S3 innovations logged: 2. C3 total: 10 (4+4+2).**
+
+---
+
+## C3-S4 — 2026-04-21 — the-witnesses — 0018-the-transept-witness
+
+### I-C3-S4-01 — Silence-as-arc-receipt
+
+**Dimension:** Atmospheric Landing (cross: Character Agency)
+**What happened:** Calla Fosse, whose verbal-documentation-arc player-style is defined by what she holds without speaking, received Morren's full 7-stage account without asking a single question. Morren's arc-completion fired. He said: *"She did not call it a miracle. She called it the right thing to do."* He looked at Calla. Calla held the account. She is in Stage 3's anteroom. The verbal-documentation-arc's completion will be speaking; its preparation was silence. (Scene 4.4)
+**Why the rubric did not anticipate it:** Act-without-announcement (v1.5) covers behavioral consequences of prior namings — a PC acting differently in a later scene as a result of a naming. Silence-as-arc-receipt is distinct: the PC's primary mode of engagement (listening) IS the major act. The arc did not require speaking or action; it required presence and restraint. The PC's heuristic 1 (listen before speaking) reached its maximum expression and produced the arc's key condition. Not captured by any existing anchor.
+**Scope:** Universal (any PC whose primary heuristic is listening or observation, receiving content that was designed for a listener).
+**Status:** adopted (v1.8)
+
+---
+
+### I-C3-S4-02 — Object-resonance as independent parallel discovery
+
+**Dimension:** Character Agency (cross: Surprise)
+**What happened:** Renn connected his pact to Velantha's working through objects and sensation — the ritual focus's hum (once, for him specifically) and the Sacristy's old-ink smell (Perception 20, before Morren mentioned Aldric) — rather than through Morren's narrative account. He said: *"Someone has been writing in there. For a long time."* This was before Morren finished. He arrived at the same conclusion as the account through an independent path. (Scene 4.5)
+**Why the rubric did not anticipate it:** Character Agency anchors cover heuristic-driven decisions and PC arc-completions. This is a new pattern: a PC reaching a narrative conclusion through sensory and object evidence before the narrative delivers it, and that independent arrival creating a different relationship to the information than reception-through-account would have. Renn's parallel (his pact / Velantha's working) is now personal knowledge, not received knowledge.
+**Scope:** Universal (any PC with sensory class features or high Perception who engages with evidence before the session's primary information source delivers the same conclusion).
+**Status:** LOGGED.
+
+---
+
+### C3-S4 Threshold Check
+
+**Pathway A:** I-C3-S4-01 (Atmospheric Landing) + I-C3-S3-01 (Atmospheric Landing, logged) = 2 entries. **Triggers amendment proposal.**
+
+Constituent innovations: I-C3-S3-01 (combat-as-precondition for arc reception) and I-C3-S4-01 (silence-as-arc-receipt). Theme: **arc-reception timing and modality** — arcs fire at specific physical and behavioral conditions rather than at the narrative trigger point designed by the module.
+
+**AMENDMENT PROPOSAL — v1.7 → v1.8**
+**Dimension:** Atmospheric Landing
+**Constituent innovations:** I-C3-S3-01 (combat-as-precondition), I-C3-S4-01 (silence-as-receipt)
+**Theme:** The conditions under which an arc fires — and what behavior produces the firing — may be physical, behavioral, or experiential rather than purely narrative.
+**Proposed change (7+ band addition):**
+> **v1.8 arc-activation modality anchor:** A score of 7+ additionally recognizes arc-activation through physical or behavioral modality — where the PC's state of engagement (surviving a combat, maintaining silence, being present without asking) is the firing condition rather than a narrative exchange or discovery. The arc fires because the PC was in the right relationship to the moment, not because they performed the right action. Rationale: C3-S3 (combat as precondition for bilateral); C3-S4 (silence as maximum listening, triggering NPC arc-completion). Both require the PC to be in a specific stance rather than to speak or act.
+
+**Prompt to user:** *"2 Atmospheric Landing innovations this session cluster with I-C3-S3-01. Propose amendment v1.7 → v1.8: arc-activation modality anchor (7+ band). Adopt?"*
+
+**Pathway B:** No new style proposals. I-C3-S4-02 is a single instance; needs 2+ sessions for cluster.
+
+---
+
+### Campaign 3 running tallies (post-S4)
+
+- `sheet-deep-reader`: 22 instances across 4 sessions.
+- `craft-witness`: 2 instances (session-invariant confirmed).
+- `verbal-documentation-arc`: 8 activations across 4 sessions.
+- `npc-arc-completion`: 5 instances across 4 sessions.
+- `bilateral-arc-completion`: 1 instance.
+
+**C3 S4 innovations logged: 2. C3 total: 12 (4+4+2+2).**
+
+---
+
+## C3-S5 — 2026-04-21 — the-witnesses — 0019-the-sacristy
+
+### I-C3-S5-01 — Relic recognition through behavioral act (not identity)
+
+**Dimension:** Atmospheric Landing (cross: Module Fidelity)
+**What happened:** The dispensation letter's warmth failed for Maret in R4 (fumble, total 6 vs DC 12) and succeeded for Maret in R3 after she answered Aldric's question honestly — after she performed the act of stating her unauthorized practice. The relic recognized her not because of who she was but because of what she did: she told the truth about practicing without permission. *"She picked up the letter again. It was warm in her hands now."* (Scene 5.3)
+**Why the rubric missed it:** Previous relic recognition in C3 was based on static properties (healer, practitioner, unauthorized worker). This session showed recognition as a dynamic consequence: not-recognized → performed the act → recognized. The relic's warmth was the arc's reaction moment, but it arrived contingent on behavioral change rather than identity disclosure.
+**Scope:** Universal (any relic designed to recognize a category of person can instead recognize the moment of performing the category-defining act).
+**Status:** LOGGED.
+
+---
+
+### C3-S5 Threshold Check
+
+No new amendments. I-C3-S5-01 extends v1.8 (arc-activation modality) rather than triggering a new amendment. One instance; needs cluster.
+
+---
+
+### Campaign 3 running tallies (post-S5)
+
+- : 26 instances (S1-S5).
+- : 3 instances (S1, S2, S5 — Maret's third spotlight confirmed).
+- : 9 activations (S1-S5).
+- : 6 instances (Mig/Veth/Gorret/Sharr/Morren/Aldric).
+- : 1 instance (S3).
+
+**C3 S5 innovations logged: 1. C3 total: 13 (4+4+2+2+1).**
+
+
+---
+
+## C3-S6 — 2026-04-21 — the-witnesses — 0020-the-crypt
+
+### I-C3-S6-01 — Peer recognition as disclosure catalyst
+
+**Dimension:** Character Agency (cross: Atmospheric Landing)
+**What happened:** Renn Ashkeld had been withholding his pact from the party for six sessions. In the Crypt, he said "She used something that wasn't prayer. I know what that costs." Velantha recognized what he was describing and asked: "What was yours?" He answered — to the full party, in three sentences. The disclosure was not a confession he chose to make; it was a response to being recognized by someone who had done the same category of thing and survived it long enough to ask. (Scene 6.2)
+**Why the rubric missed it:** Act-without-announcement (v1.5) covers behavioral consequences of prior namings. Arc-activation modality (v1.8) covers behavioral stance as firing condition. Neither captures peer recognition as disclosure catalyst — where the PC's withholding ends not because they choose to speak but because they are correctly identified by someone who understands the category of act. The recognition creates the conditions; disclosure is the response to being seen.
+**Scope:** Universal (any PC withholding information about an unauthorized act; encountering someone who has done the same act and recognizes the category produces disclosure as natural response).
+**Status:** LOGGED.
+
+---
+
+### C3-S6 Threshold Check
+
+I-C3-S6-01 is 1 new entry. I-C3-S4-02 (object-resonance as parallel discovery) was previously logged for Renn. These two entries both document Renn's pact parallel arc — one through objects (S4), one through peer recognition (S6). Two entries in Character Agency from the same PC arc across 3 sessions.
+
+Cluster check: 2 Character Agency entries from the same thematic arc (Renn's pact as unauthorized-act parallel). Not yet 3 for a style promotion. Watch for 0021 (the finale may produce a third instance as the pact context becomes public knowledge).
+
+---
+
+### Campaign 3 running tallies (post-S6)
+
+- sheet-deep-reader: 30 instances across 6 sessions.
+- craft-witness: 4 instances (S1, S2, S5, S6) — session-invariant confirmed across entire campaign.
+- verbal-documentation-arc: 10 activations; Stage 3 entered.
+- npc-arc-completion: 7 instances across 6 sessions.
+- bilateral-arc-completion: 1 instance (S3).
+
+**C3 S6 innovations logged: 1. C3 total: 14 (4+4+2+2+1+1).**
+
+
+---
+
+## C3-S7 — 2026-04-21 — the-witnesses — 0021-the-keystone (FINALE)
+
+### I-C3-S7-01 — Simultaneous NPC-arc-completion delivery through PC-authored account
+
+**Dimension:** Atmospheric Landing (cross: Module Fidelity)
+**What happened:** Calla Fosse's spoken account at the Keystone delivered two NPC arc-completion lines simultaneously through her synthesis: Morren's arc-completion line ("She did not call it a miracle. She called it the right thing to do." — S4) and Aldric's arc-completion line ("She never asked for a cathedral. She asked for medicine." — S5). Both lines appeared in the account because Calla had received both arcs and incorporated them into her synthesis. The account did not quote the NPCs; it synthesized their truths. The NPC arc-completions were delivered retroactively through the campaign's final PC speech.
+**Why the rubric missed it:** Simultaneous arc-convergence (v1.6) covers multiple NPCs whose arcs fire simultaneously in one moment. This is a variant: previously-delivered NPC arc-completions were carried forward in the PC's synthesis and re-delivered through her voice. The completions had already fired; the account included them as evidence. The PC's speech became the transmission channel for the campaign's completed arc-completions.
+**Scope:** Universal for campaigns with a PC-authored finale deliverable — the deliverable will naturally synthesize the NPC arc-completions that preceded it.
+**Status:** LOGGED.
+
+---
+
+### I-C3-S7-02 — Mechanical failure as final affirmation
+
+**Dimension:** Mechanical Fairness (cross: Character Agency, Surprise)
+**What happened:** Calla's Persuasion check (total 7) failed to convince Doran of Route D. Calla's spoken account (RP 23) succeeded. The dice correctly said: the mechanical tool (Persuasion) was not sufficient for this task; the non-mechanical work (seven sessions of accumulation, synthesis, delivery) was. The game mechanics failed and the campaign succeeded simultaneously. The failure was not a setback; it was a confirmation that the campaign's actual resolution pathway was the correct one.
+**Why the rubric missed it:** Mechanical Fairness measures whether dice were honest and DCs were calibrated. This innovation is about what happens when the dice are honest AND insufficient: the mechanical check fails correctly (Persuasion 7 genuinely cannot move a 30-year political decision), and the non-mechanical achievement succeeds correctly (a seven-session arc of accumulation genuinely can). The rubric doesn't capture the session where failing the mechanical check IS the narrative confirmation.
+**Scope:** Universal for campaigns with PC-authored deliverables — the deliverable may succeed where mechanics fail.
+**Status:** LOGGED.
+
+---
+
+### C3-S7 Threshold Check
+
+I-C3-S7-01 and I-C3-S7-02 are logged. No amendment proposals needed — both reinforce existing anchors (v1.6 simultaneous convergence; v1.8 arc-activation modality) rather than extending them. The campaign is complete; amendments would apply to Campaign 4.
+
+---
+
+### Campaign 3 FINAL TALLIES
+
+- sheet-deep-reader: ~34 instances across 7 sessions. Session-invariant. Fires in S1 with any party and never stops.
+- craft-witness: 7 instances across 7 sessions. Session-invariant. Never missed. Confirmed for non-physical practice without hall-guard.
+- verbal-documentation-arc: 11 activations across 7 sessions. Stage 3 COMPLETE (S7 — account spoken at Keystone). Three-stage arc confirmed: (1) cannot categorize, (2) identifies the gap, (3) names the thing.
+- npc-arc-completion: 8 instances across 7 sessions. Session-invariant (at least one per session; some sessions multiple). Pipeline discipline confirmed: every designed NPC arc fired by character logic.
+- bilateral-arc-completion: 2 beats (S3 naming + S7 second beat). Both completed. First-half confirmed.
+
+**C3 TOTAL INNOVATIONS: 16 (4+4+2+2+1+1+2).**
+**C3 CAMPAIGN COMPLETE.**
+
+---
+
+## C4-S1 — 2026-04-22 — the-relief — 0022-the-arrival-at-the-needle
+
+### I-C4-S1-01 — Grief-mapped resource conservation *(adopted v1.9)*
+
+**Dimension:** Atmospheric landing (cross: Character agency)
+**What happened:** Scene 1.7 — *"She is satisfied with this in the particular way of a person who has been correct in a way that most people won't notice."* Sava used 0 spell slots in a Hard combat encounter. The log frames her conservation not as tactical discipline but as grief-rooted: Elara died while Sava was delayed; spending resources before they were needed would echo that failure pattern. The resource decision is mechanically identical to optimal play — but the motivation is the PC's grief-paragraph, not the tactical situation.
+**Why the rubric did not anticipate it:** The rubric does not distinguish resource decisions made from tactical calculation vs. grief-pattern commitment. Both look identical in the dice log (0 slots spent). The difference is in *why* — and the why is character-sheet-deep, not situational. v1.8 covers behavioral-stance arc-activation (firing through state of engagement); this is the mechanical-resource variant: the PC's relationship to their own stats expresses grief.
+**Scope:** Universal for campaigns where resource management is both tactical and character-grounded.
+**Status:** logged
+
+---
+
+### I-C4-S1-02 — Independent-motivation convergence toward collective restraint *(adopted v1.9)*
+
+**Dimension:** Character agency (cross: Surprise)
+**What happened:** Scene 1.8 — *"No one reports Luca's statement to Asholt or Tomek."* Four PCs, four different motivation pathways (Davan: orders don't require reporting this; Sava: not a triage situation; Talis: this belongs to Luca; Caelith: filing doesn't require routing to command), arrive at the same non-action without coordination. The collective restraint is not a joint decision; it is four independent decisions that agree.
+**Why the rubric did not anticipate it:** Character agency scores "PCs made choices that mattered" and "decisions came from character." This innovation adds a group-level variant: four individually-grounded non-actions converging to one collective outcome. The rubric has act-without-announcement (v1.5) for cross-session cross-character behavioral consequence; this is intra-session, parallel-motivation, within-group convergence toward restraint. The non-action IS the meaningful choice.
+**Scope:** Universal for parties where each PC's heuristics independently produce the same response to a disclosure or situation.
+**Status:** logged
+
+---
+
+### I-C4-S1-03 — Grief-analogue NPC recognition *(adopted v1.9)*
+
+**Dimension:** Atmospheric landing
+**What happened:** Scene 1.2 — *"Sava sees Maret Stave before she is introduced. A healer's station, organized to clinical standard."* Sava immediately recognizes Maret's situation (healer rationing supplies alone, not telling command) as matching her own grief (Elara — a healer who died while Sava was delayed, at a waystation Sava arrived at too late). No dice. No announcement. No reference to Elara. Sava addressed Maret as a peer and received the disclosure that Maret hadn't given anyone else. The recognition fired the scene.
+**Why the rubric did not anticipate it:** The finder-vs-receiver anchor (v1.2) tracks who finds and who receives a beat. This innovation is different: the PC's own grief-paragraph is the recognition mechanism — she finds the NPC situation *because* she has the exact grief-shape to read it. The PC is simultaneously the finder (she spots the clinical suppression) and the receiver (the scene reverberates against Elara). The session log does not announce this; it is present in scene construction only.
+**Scope:** Universal for campaigns where NPC situations mirror PC grief paragraphs — which, by design, they should.
+**Status:** logged
+
+---
+
+### I-C4-S1-04 — Behavioral-stance trust-earning across multiple scenes *(adopted v1.9)*
+
+**Dimension:** Character agency (cross: Module fidelity)
+**What happened:** Scenes 1.4 → 1.5 → 1.6 → 1.7 — the token condition (earned at dawn, Scene 1.8) required a sustained pattern across four scenes: *took position without orders* → *held the wall* → *did not report afterward*. No single scene earned the token; the trust accumulated through the pattern. The party's heuristics independently produced this pattern without coordination or awareness of the token condition.
+**Why the rubric did not anticipate it:** Character agency anchors score individual meaningful decisions. This innovation is about *sustained behavioral pattern* — trust earned not by one choice but by a sequence of non-choices maintained consistently. The v1.8 arc-activation-modality anchor (behavioral stance as arc condition) covers atmospheric landing specifically; this is the same mechanism applied to trust accumulation as the adventure's primary agency outcome. The "choice" is the absence of credit-seeking, maintained across four scenes.
+**Scope:** Universal for adventures where trust is earned through pattern rather than event — which the Watch-Token system requires for all seven sessions.
+**Status:** logged
+
+---
+
+### C4-S1 Threshold Check
+
+**Pathway A (dimension trigger):**
+
+Two dimension pairs hit the 2+ threshold from C4-S1 alone:
+
+1. **Atmospheric landing:** I-C4-S1-01 + I-C4-S1-03 — both involve grief-paragraph situational resonance. Distinct from existing v1.2-v1.8 anchors (which cover finder/receiver, silent-reception chains, act-without-announcement, and behavioral-stance arc-activation). What's new: the PC's grief-paragraph firing as *recognition mechanism* (I-C4-S1-03) or *resource-decision motivator* (I-C4-S1-01) rather than as named statement or act.
+
+2. **Character agency:** I-C4-S1-02 + I-C4-S1-04 — both involve meaningful inaction. What's new: a *pattern of non-action* (I-C4-S1-04) and *convergence of independent non-actions* (I-C4-S1-02) as the campaign's primary agency mode. The rubric scores individual decisions; these innovations are about the meaningful absence of a decision.
+
+AMENDMENT PROPOSAL — v1.8 → v1.9 (two-dimension update):
+
+**Atmospheric landing amendment:**
+> **v1.9 grief-paragraph situational resonance anchor (new):** A score of 7+ additionally recognizes **grief-paragraph situational recognition** — a PC finding or reading an NPC situation correctly *because* their own grief-paragraph contains the exact pattern to recognize it. The recognition fires without announcement, dice, or reference to the grief source; it is present in scene construction only. When the PC's grief IS the recognition mechanism rather than the content of a speech or action, this counts as a silent atmospheric reception distinct from the discovery mechanic. Rationale: C4-S1 (Sava recognizing Maret's suppressed-healer-not-telling-command situation through Elara's death; also Sava's resource conservation motivated by grief rather than tactics). Both instances: grief-paragraph informing session behavior at a pre-narrative level.
+
+**Character agency amendment:**
+> **v1.9 sustained behavioral pattern anchor (new):** A score of 9+ additionally recognizes **sustained behavioral pattern as meaningful choice** — a sequence of non-actions or consistent behavioral stances across multiple scenes that produces a trust or agency outcome. This is distinct from a single meaningful decision: the "choice" is the maintenance of a pattern (not claiming credit, not reporting, not pressing) that produces a result no single scene could deliver. Score of 10 requires at least one such pattern per session. Rationale: C4-S1 (Tomek's token earned by four-scene sustained non-credit-seeking pattern); also C4-S1 (collective restraint on Luca's disclosure — four independent heuristics converging to the same non-action).
+
+**Pathway B (player-style):**
+C4-S1 is Session 1 of Campaign 4. No player-style proposals from a single session. Watch:
+- Grief-analogue NPC recognition (I-C4-S1-01 + I-C4-S1-03): if this pattern appears in C4-S2+ with a different PC, propose a new style: `grief-mirror-reader`.
+- Independent convergence toward restraint (I-C4-S1-02 + I-C4-S1-04): if this appears in C4-S2+, strengthen the act-without-announcement style definition or propose a collective variant.
+
+**C4-S1 innovations logged: 4. All four adopted (v1.9). Rubric updated. Player-style proposals: 0 (need S2+).**
+
+---
+
+## C4-S2 — 2026-04-22 — the-relief — 0023-the-supply-run
+
+### I-C4-S2-01 — Intra-session act-without-announcement *(adopted v1.12)*
+
+**Dimension:** Atmospheric Landing (cross: Character agency)
+**What happened:** Scene 2.7 — *"She puts the token in her belt pouch, beside her suture kit. No announcement."* Sava receives Maret's token — a named moment of garrison trust — and stores it beside her tools without showing it to the party, explaining it, or marking it as significant. The token is placed where things she uses daily go.
+**Why the rubric did not anticipate it:** v1.5 act-without-announcement is defined as cross-session behavioral consequence without announcement — a prior session's naming event producing change in the next session. This is the same mechanism within a single session: a named-arc event (the token receipt) processed and expressed through action in the same scene. The v1.5 anchor requires cross-session temporal distance; this does not have it but produces the same quality of restraint and behavioral grounding.
+**Scope:** Universal; particularly likely when a PC has a private-relationship dynamic (healer-to-healer, craftsperson-to-craftsperson) that the rest of the party is not party to.
+**Status:** logged
+
+---
+
+### I-C4-S2-02 — Failure-as-tactical-reframe *(adopted v1.10)*
+
+**Dimension:** Character agency (cross: Engagement, Surprise)
+**What happened:** Scene 2.3 — Talis fails three consecutive Athletics checks (total 5, 10, 10 vs DC 12) attempting to climb to the upper ledge. Her response: *"I'll stay on the ground and cover the south approach."* She converts the mechanical failure into a deliberate tactical position at the choke point's north entrance and in the subsequent combat fires from exactly that position — with the effective result that she covered the escape route better than the ledge would have.
+**Why the rubric did not anticipate it:** Character agency scores choices that matter; this choice was precipitated by mechanical failure, not initiative. The innovation is in the framing: a trained PC who cannot accomplish an athletics task reframes the failure as a tactical decision and finds a superior position. This is distinct from v1.7 framework-failure arc-activation (in which a failed CHECK is the arc beat itself) — here, the failed check produces a *repositioning*, not an arc beat. The agency is in converting a mechanical inadequacy into a character-competent outcome.
+**Scope:** Universal for parties where a PC's class competency includes tactical assessment. Rangers, Rogues, Fighters with combat positioning will produce this pattern when a terrain obstacle blocks their preferred approach.
+**Status:** logged
+
+---
+
+### C4-S2 Threshold Check
+
+**Pathway A (dimension triggers):**
+- Atmospheric Landing: I-C4-S2-01 (intra-session act-without-announcement). Combined with prior Atmospheric Landing logged entries from C4-S1 (I-C4-S1-01, I-C4-S1-03 — both adopted v1.9): no new amendment needed. The v1.9 anchor already covers grief-paragraph resonance; I-C4-S2-01 is a variant of v1.5 (act-without-announcement), not a new dimension.
+- Character Agency: I-C4-S2-02. Single entry in this dimension from C4-S2. Not a 2+ trigger.
+- No amendment proposals from C4-S2.
+
+**Pathway B (player-style emergence):**
+NPC-arc-completion cluster: C4 now has **2 instances across 2 sessions** (Tomek S1, Maret S2). The third instance threshold (3+ across ≥2 sessions) is NOT yet met from C4 alone. However, the npc-arc-completion style was already ratified in C3. C4 provides additional confirmation.
+
+No new player-style proposals from C4-S2 alone. Watch for:
+- I-C4-S2-01 (intra-session act-without-announcement) + any future intra-session instance from a different PC → could seed a `within-session-restraint` player-style variant
+
+**C4-S2 innovations logged: 2. No new amendment proposals. No new style proposals.**
+
+---
+
+## C4-S3 — 2026-04-22 — the-relief — 0024-the-saboteur
+
+### I-C4-S3-01 — Combat-end through naming rather than damage *(adopted v1.10)*
+
+**Dimension:** Character Agency (cross: Atmospheric Landing)
+**What happened:** Scene 3.3 — Davan says *"We found the letter. We know about Varduin. We know about your mother. We know you didn't want to do this."* Wil stops moving. Combat ends. Two rounds, 0 party damage, Wil alive at 12/18 HP. Wil's dual stop-condition (escape fails AND coercion named) fired simultaneously. Davan chose the statement over continued damage when Wil was at 12/18 HP and grappled.
+**Why the rubric did not anticipate it:** Character Agency 10-band anchors on "the choice was correct per character sheet, not per optimal play." This is that — but it is also a new TYPE: a combat-resolution mechanic replaced by a speech act. The naming IS the mechanical resolution. Not act-without-announcement (cross-session behavioral consequence without speech). Not sustained behavioral pattern (multi-scene inaction). This is active combat-end through naming: one specific sentence, at the correct moment, from the correct PC. Different from C2-S03's Mira faction-pivot (Route D offer as combat-adjacent), which was pre-combat. This is mid-combat, Round 2, with a live enemy at 12 HP.
+**Scope:** Universal — but the Tactician's question applies: does it require dominant tactical position (Wil was grappled, backup in the room)? If yes, it is conditional; if it fires from non-dominant positions, it is a new universal type.
+**Status:** logged
+
+---
+
+### I-C4-S3-02 — Portent voiced before firing *(adopted v1.11)*
+
+**Dimension:** Mechanical Fairness (cross: Surprise)
+**What happened:** Scene 3.3 — Caelith holds his action and says *"I see this coming"* before the Portent fires. He is holding the die. He announces the preparation before the deployment. When Wil's escape would succeed (natural 15+3=18), Portent [7] replaces it (total 10 < DC 14). The mechanic had been carried for three sessions; this is the first time it has a voice in the fiction.
+**Why the rubric did not anticipate it:** Mechanical Fairness at 9+ requires mechanics that compound narratively. The v1.4 cross-character compound (Portent on another PC's roll, framed in-voice as gift) was ratified from Portent-as-benediction (Kessa to Grom). This is different: the same mechanic is announced in-voice BEFORE deployment against an enemy roll, giving it fiction-layer framing for the first time. The announcement makes the Portent visible as a character-specific act rather than a mechanical substitution. Makes the mechanic accessible; gives three sessions of carry-forward a narrative payoff. Possible rubric anchor for future cross-character Portent (v1.4 compound path): if Caelith in-voices a Portent gift to another PC in S4, the compound fires.
+**Scope:** Universal for Divination Wizards. Requires a player willing to frame the mechanic in fiction before the roll, not after.
+**Status:** logged
+
+---
+
+### C4-S3 Threshold Check
+
+**Pathway A (dimension trigger — 2+ logged, non-adopted, in same dimension):**
+
+Scanning across C4-S1 through C4-S3, logged entries only (adopted entries excluded):
+
+| Dimension | Logged innovations | Trigger? |
+|---|---|---|
+| Character Agency | I-C4-S2-02 (failure-as-tactical-reframe) + I-C4-S3-01 (combat-end-through-naming) | **YES (2)** |
+| Atmospheric Landing | I-C4-S2-01 (intra-session act-without-announcement) + I-C4-S3-01 (combat-end-through-naming, cross-tagged) | **YES (2)** |
+| Mechanical Fairness | I-C4-S3-02 (Portent voiced before firing) | no (1 only) |
+| Surprise | I-C4-S3-02 (Portent voiced, cross-tagged) | no (1 only) |
+
+**Character Agency trigger fires.** Two logged innovations share a theme: converting a mechanical situation (failed check; tactical dominance) into a character-driven behavioral choice that produces a superior outcome. I-C4-S2-02 (failure-as-tactical-reframe: failed Athletics → deliberate repositioning) and I-C4-S3-01 (combat-end-through-naming: dominant position + character-correct speech → stops combat) are both instances where the PC's character register produces an outcome the module did not design and the dice did not require.
+
+**Atmospheric Landing trigger fires.** Two logged innovations share a theme: named moments processed in the same scene through restraint rather than announcement. I-C4-S2-01 (Sava receives Maret token and stores it without showing the party — intra-session act-without-announcement) and I-C4-S3-01 (Davan names the coercion: a speech act that IS the resolution, unannounced to the party as a strategic choice).
+
+**AMENDMENT PROPOSAL — v1.9 → v1.10 candidate**
+
+**Dimension:** Character Agency
+**Constituent innovations:** I-C4-S2-02 (failure-as-tactical-reframe), I-C4-S3-01 (combat-end-through-naming)
+**Theme:** The PC's character register produces an outcome no module design and no dice outcome required. In I-C4-S2-02, the failed check is reframed into a superior position. In I-C4-S3-01, the dominant position is resolved through a speech act rather than through damage. Both innovations: the PC acts from their character sheet's register in a way that converts a mechanical situation into a character-authored outcome.
+
+**Proposed rubric anchor addition (at the 10 band of Character Agency):**
+> A score of 10 additionally recognizes **character-register conversion** — a PC converting a mechanical situation (failed check, tactical dominance, NPC vulnerability) into a character-authored outcome that the dice did not require and the module did not design. The PC's specific register (Fighter's honor-accounting; Ranger's tactical reframe; Wizard's institutional analysis) IS the resolution mechanism. The conversion must be traceable to the PC's character sheet, not to tactical calculation.
+
+**Prompt:** *"Character Agency has 2 logged innovations in C4 (failure-as-tactical-reframe, combat-end-through-naming). Amendment proposal v1.9 → v1.10: character-register conversion anchor at the 10 band. Adopt?"*
+
+**Pathway B (player-style emergence):**
+
+npc-arc-completion cluster: C4 now has **3 instances across 3 sessions** (Tomek S1, Maret S2, Hessa S3). **Cluster threshold met.** The ratified style fires universally. No new promotion needed — the style is already ratified. C4 provides continued confirmation evidence.
+
+Watch continuing:
+- I-C4-S3-02 (Portent voiced before firing): if Caelith voices a Portent for another PC in S4 (cross-character compound path), this pairs with the v1.4 Portent-as-benediction cluster (I-S03-03, I-S04-01) for potential compound promotion.
+- I-C4-S2-02 + I-C4-S3-01 (character-register-conversion): amendment proposal above. If adopted, both entries move to adopted status.
+
+**C4-S3 innovations logged: 2. Amendment proposal pending: v1.9 → v1.10 (Character Agency 10-band character-register-conversion anchor). NPC-arc-completion cluster confirmed universal across C4.**
+
+---
+
+### I-C4-S4-01 — Cross-character Portent voiced as foreknowledge to named PC
+
+**Dimension:** Mechanical Fairness (cross: Atmospheric Landing)
+**What happened:** C4-S4 Scene 02, Round 2 — Caelith says *"Davan. I see what he does next."* directly to Davan before deploying Portent [6] to replace the enemy sergeant's Dex save. This is the second instance of Portent-voiced-before-firing (first: I-C4-S3-02), but with a key distinction: it is voiced TO a specific named PC, not to the room. The Portent becomes cross-character not just mechanically (replacing an enemy roll that benefits the party) but fictionally (Caelith is sharing his foreknowledge with Davan, not announcing it publicly). The mechanic functions as a gift of sight rather than a mechanical substitution.
+**Why the rubric did not anticipate it:** I-C4-S3-02 captured "voiced before firing." This captures the additional layer of *directed foreknowledge* — the Portent as something Caelith gives to a specific person, not broadcasts. The Divination Wizard's class fantasy is that they see what others cannot; directing that foreknowledge to a named ally is the fiction-layer completion of the mechanic. Two instances in consecutive sessions, different but related. Amendment proposal threshold met.
+**Scope:** Universal for Divination Wizards in party-combat contexts. Requires a player willing to direct the foreknowledge to a specific ally rather than announce it to the table.
+**Status:** adopted (v1.11)
+
+---
+
+### I-C4-S4-02 — Grief-paragraph cover-retreat tactical decision
+
+**Dimension:** Atmospheric Landing (cross: Character Agency)
+**What happened:** C4-S4 Scene 02, Round 3 — Talis absorbs Soldier E's hit (7 damage) deliberately to access a better attack line — getting inside his guard for a close-range shortbow shot. Her Colossus Slayer fires because she is now inside his reach and he has already been damaged. The decision is her cover-retreat signature move applied to offense: she positions last, covers retreat, and accepts damage to protect her attack angle. The grief-paragraph parallel: Asha died because Talis was twenty-six feet ahead when the ambush hit. Talis now positions herself to absorb what she cannot prevent, rather than be ahead of it.
+**Why the rubric did not anticipate it:** v1.9 grief-paragraph resource expression (spending/conserving HP motivated by grief-pattern commitment) captures this conceptually, but the previous instance (Sava conserving spell slots for Elara) was about restraint. This is about *spending* HP as grief-pattern expression — taking the hit because the grief-pattern says you stand in front of what's coming, not behind it. The distinction: resource expression can be conservative (hold back) or sacrificial (absorb forward). Sacrificial grief-pattern resource expression is a distinct form.
+**Scope:** Applies to any PC whose grief-paragraph involves standing between something and a threat. Requires a player who lets tactical decisions be shaped by grief-pattern rather than optimal play.
+**Status:** logged
+
+---
+
+### C4-S4 Threshold Check
+
+**Pathway A (dimension trigger):**
+
+| Dimension | Logged innovations (non-adopted) | Trigger? |
+|---|---|---|
+| Mechanical Fairness | I-C4-S4-01 (directed Portent foreknowledge) — paired with I-C4-S3-02 (Portent voiced before firing) | **YES (2)** |
+| Atmospheric Landing | I-C4-S4-02 (grief-paragraph absorb-forward) | 1 only |
+| Character Agency | I-C4-S2-02 + I-C4-S3-01 → adopted as v1.10 | adopted |
+
+**Mechanical Fairness trigger fires.** Amendment proposal: v1.10 → v1.11. Constituent: I-C4-S3-02 + I-C4-S4-01. Theme: Portent voiced to a named PC before firing, functioning as directed foreknowledge rather than mechanical substitution. Proposed anchor: Mechanical Fairness 10-band expansion — Portent deployed as directed foreknowledge to a named PC (voiced before firing, addressed to that PC) counts as cross-character compound meeting the v1.4 standard.
+
+**Pathway B (player-style emergence):**
+NPC-arc-completion cluster: C4 now has 4 instances (Tomek S1, Maret S2, Hessa S3, Dene S4). Confirmed universal. No new promotion needed.
+
+**C4-S4 innovations logged: 2. Amendment proposal pending: v1.10 → v1.11 (Mechanical Fairness — Portent-as-directed-foreknowledge). NPC-arc-completion cluster: 4 confirmed instances in C4.**
+
+---
+
+### I-C4-S5-01 — Act-without-announcement completing S4 silent-reception beat
+
+**Dimension:** Atmospheric Landing
+**What happened:** C4-S5, post-combat return — Talis passes through the courtyard and says one sentence to the older girl from S4: *"She's been doing this a long time."* In S4, Talis had silently recognized the older-girl-with-child configuration as an exact mirror of her grief-paragraph (being responsible for something smaller than you, being the last thing between a threat and someone who cannot protect themselves). She did not speak in S4. She speaks in S5 — not an announcement, not an explanation, one factual sentence. The S4 silent reception (Asha's cord, the configuration) drives a S5 verbal act without announcement, declaration, or scene structure.
+**Why the rubric did not anticipate it:** v1.5 act-without-announcement captures cross-session behavioral consequence. This instance adds a refinement: the cross-session consequence is a *verbal* act (a single sentence) rather than a behavioral stance (Thera cutting bread, Sera's hold-space). The verbal act is as minimal as a behavioral stance — it does not announce itself — but it IS a statement. This is a new modality of act-without-announcement: the single-sentence recognition.
+**Scope:** Universal for PCs with grief-paragraphs that contain pattern-recognition components. Requires a player willing to let the recognition speak once, minimally, without elaboration.
+**Status:** logged
+
+---
+
+### I-C4-S5-02 — Wizard-register as resolution mechanism (non-combat)
+
+**Dimension:** Character Agency (cross: Atmospheric Landing)
+**What happened:** C4-S5, Scene 05 — Caelith says "What did you need to know?" to Luca. This is the Divination Wizard's character register applied as the resolution mechanism of a social situation — not a spell, not an Insight check, not a tactical assessment. The knowledge-gap identification heuristic (the Wizard's core operating mode: what information gap is driving this behavior?) is the question that fires Luca's token. The question could not have come from a Fighter, a Ranger, or a Cleric; it is specifically and only the Wizard's register.
+**Why the rubric did not anticipate it:** v1.10 character-register-conversion captures this conceptually (ratified from Davan's S3 combat-end and Talis's S2 terrain-reframe). But both prior instances were in combat or tactical contexts. This is the first instance in a pure conversation — the character's analytical register applied to an emotional/social situation to produce the arc-completion condition. The pattern confirms that character-register-conversion is not restricted to mechanical situations; it applies to any situation where the PC's specific register IS the resolution mechanism.
+**Scope:** Universal for analytical/institutional PCs (Wizards, Loremasters, institutional investigators) in conversation-heavy sessions.
+**Status:** logged
+
+---
+
+### C4-S5 Threshold Check
+
+**Pathway A:** No new dimension trigger fires. Both I-C4-S5-01 and I-C4-S5-02 are single instances in their respective dimensions (already-adopted). No amendment proposal pending.
+
+**Pathway B (player-style emergence):**
+- Act-without-announcement cluster: I-S07-02 (Thera's bread), I-C2-S01-02 (Sera hold-space), I-C4-S5-01 (Talis one-line to older girl) — three cross-campaign instances of act-without-announcement now confirmed universal. v1.5 anchor validated across three campaigns.
+- Wizard-register-as-resolution: I-C4-S5-02 is a second instance of non-combat character-register-conversion (first: I-C4-S3-01 combat context; now I-C4-S5-02 conversation context). The pattern is generalizing from combat to all contexts. No player-style proposal yet — but watch for a third instance.
+
+**C4-S5 innovations logged: 2. No new amendment proposals. Campaign trajectory: 70→72→73→74→75. All five advisory. S6 binding.**
+
+---
+
+### I-C4-S6-01 — Ranger adapts to melee after fumbled range shot
+
+**Dimension:** Character Agency (cross: Atmospheric Landing)
+**What happened:** C4-S6, assault Round 3 — Talis fumbles her shortbow shot (total 6) and, rather than retreating or finding cover (optimal Ranger behavior), she draws her shortsword and gets into the breach beside Davan. This is the first time in the campaign she has drawn a melee weapon. The grief-paragraph parallel: she has been positioning herself between things and threats (cover-retreat signature move) for six sessions; when her optimal-range capability fails, she doesn't retreat from the threat — she moves closer.
+**Why the rubric did not anticipate it:** v1.10 character-register-conversion captures this type of mechanic-to-character conversion. But this instance adds a new modality: the failed roll drives the PC *toward* the threat rather than *away* from it. The fumble IS the trigger for the register-conversion; the Ranger's cover-retreat heuristic (stand between the party and the threat) overrides the tactical-optimal response (fall back to range). The dice failure became a character revelation.
+**Scope:** Universal for PCs with grief-paragraphs structured around standing between threats and people they protect.
+**Status:** logged
+
+---
+
+### I-C4-S6-02 — Six-session silent-reception arc convergence in a margin note
+
+**Dimension:** Atmospheric Landing
+**What happened:** C4-S6, Scene 02 — Caelith reads his own grey-blue-ink annotations accumulated across all six sessions and writes one sentence in the margin: *"She is not waiting to win. She is waiting to be heard."* This closes an annotation thread that began in C4-S1 (noted as a grey-blue annotation seed in that session's handoff). The silent-reception chain spans six sessions: Caelith observed, documented, cross-referenced, and the accumulated reception converged in one sentence in the quiet before the assault. No dice. No conversation partner. The annotation speaks to itself.
+**Why the rubric did not anticipate it:** v1.4 multi-scene silent-reception chain (PC holds un-articulated understanding across 3+ scenes) is the correct category, but the documented instances (Grom's S04 silent Reorx-judgment, Thera's bread, Sera's hold-space) all had 3-session spans. This is a six-session span — the longest in any campaign. The innovation is not a new type but an extended instance that validates the upper bound of the mechanic. It also demonstrates that the silent-reception chain can operate entirely through text (annotation, not internal monologue) — a new modality for the mechanic.
+**Scope:** Universal for analytical/documentation-oriented PCs over multi-session campaigns.
+**Status:** logged
+
+---
+
+### C4-S6 Threshold Check
+
+**Pathway A:** I-C4-S6-01 and I-C4-S6-02 are single instances in dimensions that already have anchors. No new amendment trigger.
+
+**Pathway B:** Silent-reception chain instances across campaigns: I-S04-02 (Grom), I-C4-S5-01 (Talis one-line), I-C4-S6-02 (Caelith margin note) — three instances across three campaigns. **Player-style cluster threshold met.** Propose player-style: `documentary-witness` — a PC whose receipt of atmospheric content is expressed primarily through external documentation (writing, annotation, cataloging) rather than internal monologue or action-change. The documentation IS the reception; it accumulates across sessions until a single line of text names the pattern.
+
+**C4-S6 innovations logged: 2. Player-style proposal: documentary-witness (pending). PASS threshold hit: 76/80. Campaign trajectory: 70→72→73→74→75→76.**
+
+---
+
+### I-C4-S7-01 — Analytical-observer failure as limit-documentation
+
+**Dimension:** Atmospheric Landing (cross: Surprise)
+**What happened:** C4-S7, Scene 03 — Caelith rolls Insight on Saren and fails (total 4). Rather than treating the failure as a non-event, he writes "unable to categorize" in his notebook. This is the first entry in six sessions of documentation that he could not file. The framework-failure (v1.7) fires in reverse: not because the PC lacks vocabulary for an NPC, but because the analytical observer correctly identifies the limit of their own framework and documents the limit rather than papering over it.
+**Why the rubric did not anticipate it:** v1.7 framework-failure arc-activation describes a PC whose framework breaks and the break IS the emotional landing. This instance adds a new modality: the PC whose framework is analytical-documentation encounters a limit and files the limit as data. The failure is archived, not denied. The documentation-practice (Caelith's grey-blue annotations) has its final entry as a failed entry. This is the completion of the documentary-witness pattern proposed for player-style promotion.
+**Status:** logged. Constitutes the third cross-campaign instance of the documentary-witness pattern (I-C4-S1 first grey-blue annotation; I-C4-S6-02 six-session convergence; I-C4-S7-01 failure-as-limit-documentation). **Player-style promotion threshold met: propose `documentary-witness`.**
+
+---
+
+### I-C4-S7-02 — Grief-paragraph deployed as deliberate resource at the table
+
+**Dimension:** Character Agency (cross: Atmospheric Landing)
+**What happened:** C4-S7, Scene 04 — Davan names Orel at the parley table. The grief-paragraph has been present in his character sheet since the campaign began. It has not been accidentally triggered by a parallel situation (the usual grief-paragraph activation pattern). It has not been surfaced in a quiet conversation. It has been deliberately deployed at the moment of maximum utility: the table where both sides need to understand that the person speaking is not outside the letter-vs-people tension, but inside it. He uses his grief as a resource — something he owns and can spend.
+**Why the rubric did not anticipate it:** v1.9 grief-paragraph situational recognition (PC reads NPC situation through own grief-pattern) and grief-paragraph resource expression (mechanical decision motivated by grief-pattern) both capture unconscious grief-activation. This is the first instance of *deliberate* grief-deployment — the PC choosing when to spend their grief rather than having it triggered. The distinction: unconscious activation is something that happens to the PC; deliberate deployment is something the PC does. The grief-paragraph becomes a speech-act resource rather than a passive pattern-recognition tool.
+**Status:** logged. This is a potential new category: grief-paragraph-as-deployable-resource (distinct from grief-paragraph situational recognition and grief-paragraph resource expression, both of which are pattern-activation rather than deliberate deployment).
+
+---
+
+### C4-S7 Threshold Check
+
+**Pathway A:** I-C4-S7-02 is a new sub-type of grief-paragraph expression. No dimension trigger (the constituent innovations are v1.9-adjacent, not v1.9-conflicts). No new amendment proposal.
+
+**Pathway B (player-style promotion):**
+Documentary-witness cluster: I-C4-S1 (first grey-blue annotation), I-C4-S6-02 (six-session convergence), I-C4-S7-01 (failure-as-limit-documentation) — three instances across seven sessions of one campaign. **Promotion threshold met.** Propose `personas/player-styles/documentary-witness.md`: a PC whose atmospheric reception is expressed through documentation that accumulates across sessions, whose practice converges in a moment of naming the pattern, whose final entry is the thing they could not file.
+
+**CAMPAIGN COMPLETE. Final trajectory: 70→72→73→74→75→76→78. 16 innovations logged. Route E. 7 arc-completions. Documentary-witness player-style proposed.**
+
+---
+
+## Campaign 5 — The Silken Ledger (2026-04-22)
+
+### I-C5-S1-01 — C5-S1 — the-guild — 0029-the-first-contract
+
+**Technique:** Pre-session parallel maintenance as party-dynamic-establishment
+**Dimension:** Atmospheric Landing (cross: Engagement)
+**What happened:** Darro named his picks (Tension wrench. Hook. Short hook. Diamond.) while Tessaly opened her ledger to a clean entry header — simultaneously, neither addressing the other. Party dynamic established in three minutes before the brief began.
+**Why the rubric did not anticipate it:** No anchor captures party-establishment value of parallel loyalty-object rituals firing simultaneously pre-briefing from automatic professional behavior.
+**Status:** logged. Threshold: 1/2 for new player-style (party-formation-through-parallel-maintenance).
+
+---
+
+### I-C5-S1-02 — C5-S1 — the-guild — 0029-the-first-contract
+
+**Technique:** Scope-refusal as professional code execution
+**Dimension:** Character Agency
+**What happened:** Cael refused Bessa's drawer mention ("not the job") without consultation. The code eliminated the option before it became a temptation. The absence of outcome IS the outcome.
+**Why the rubric did not anticipate it:** v1.10 captures conversion of mechanical situations. This is narrower: the code actively prevents the conversion from occurring. Refusal IS the character-authored outcome.
+**Status:** logged. Threshold: 1/2 for code-refusal-as-conversion anchor.
+
+---
+
+### I-C5-S2-01 — C5-S2 — the-guild — 0030-the-informant
+
+**Technique:** Insight-as-preparation enabling Words of Terror resolution
+**Dimension:** Character Agency (cross: Mechanical Fairness)
+**What happened:** Mira rolled Insight 21 on the officer, read floor-contact aversion from boots on cot frame, then deployed Words of Terror naming "rats." The naming was a derived conclusion from prior observation — Whispers-as-understanding, matching her professional code distinction (understanding vs manipulation).
+**Why the rubric did not anticipate it:** No anchor captures the Insight-read-then-class-feature-named chain where feature content is derived from Insight result. Sheet-deep-reader through two-step mechanical chain.
+**Status:** logged. Threshold: 1/2 for sheet-deep-reader-through-class-feature-chain.
+
+---
+
+### I-C5-S3-01 — C5-S3 — the-guild — 0031-the-double-entry
+
+**Technique:** PC-authored deliverable accumulation as cross-session act-without-announcement
+**Dimension:** Atmospheric Landing (cross: Module Fidelity)
+**What happened:** Mira added to the false dossier framework in S3-S6 without disclosure. Six sessions. Announced in S7: "I have it." The accumulation was the act; the deployment was the announcement.
+**Why the rubric did not anticipate it:** v1.5 captures cross-session consequence from a prior naming event. No prior naming event here. The PC accumulated toward a deliverable; the delivery was the announcement. Distinct sub-type.
+**Status:** logged. Threshold: 1/2 for deliverable-accumulation-as-act-without-announcement.
+
+---
+
+### I-C5-S4-01 — C5-S4 — the-guild — 0032-the-burned-house
+
+**Technique:** Cascading professional consequence from sheet-deep-reader evidence
+**Dimension:** Character Agency
+**What happened:** Tessaly's ledger investigation found that Pale knows her coding conventions. This was immediately translated into a forgery constraint (must diverge from historical register) without deliberation. Evidence produced constraint; constraint applied. Two character-register-conversions without deliberation between them.
+**Why the rubric did not anticipate it:** v1.10 captures single conversion. This is cascading: a character-register conversion produces a second one as its immediate consequence. Chain is two conversions, no deliberation between.
+**Status:** logged. Threshold: 1/2 for cascading-character-register-conversion anchor.
+
+---
+
+### I-C5-S5-01 — C5-S5 — the-guild — 0033-the-wrong-buyer
+
+**Technique:** Simultaneous v1.5 and v1.12 from single act
+**Dimension:** Atmospheric Landing
+**What happened:** Cael's "We're not selling a name to the Watch" qualified simultaneously as v1.5 (cross-session: 15-year career pattern, no announcement) and v1.12 (intra-session: code statement received and expressed in the same scene). Both anchors fired from the same moment.
+**Why the rubric did not anticipate it:** v1.5 and v1.12 described as temporally distinct. First confirmed instance of both firing simultaneously. The anchors are not mutually exclusive.
+**Status:** logged. Threshold: 1/2 for compound-anchor (simultaneous multi-anchor atmospheric moment from single act).
+
+---
+
+### I-C5-S6-01 — C5-S6 — the-guild — 0034-the-ledger-audit
+
+**Technique:** Self-forgery as professional cover (retroactive documentation in own hand)
+**Dimension:** Character Agency (cross: Atmospheric Landing)
+**What happened:** Tessaly forged a contemporaneous margin note in her own ledger — retroactive record of water-damage that had not happened — to cover the substitute's inconsistencies. Used her own documentary authority to create plausible deniability. Forging her own history while holding a code that says records are accurate.
+**Why the rubric did not anticipate it:** v1.9 captures mechanical decisions motivated by grief-pattern. This is the professional-code equivalent: documentation decision that violates the spirit of the professional code while obeying its formal requirements. The tension visible in the beat before she wrote the date.
+**Status:** logged. Distinct from forging another person's documents. PC forging own record while holding accuracy code.
+
+---
+
+### I-C5-S7-01 — C5-S7 — the-guild — 0035-the-final-job
+
+**Technique:** Campaign-closing maintenance ritual (professional identity persists past final job)
+**Dimension:** Atmospheric Landing
+**What happened:** Darro performed his pick maintenance the morning after the campaign ended. Same order, same naming, same three minutes. No designed audience. The ritual persisted past narrative resolution — professional identity not contingent on the campaign continuing.
+**Why the rubric did not anticipate it:** v1.5 captures cross-session behavioral consequence. This is temporal extension: behavior extends past campaign resolution. Professional-code equivalent of Thera cutting bread long-ways on the road home (C1-S7). Second confirmed instance in workshop history; both post-campaign-resolution, both private.
+**Status:** logged. Threshold check: campaign-closing ritual 2/2 — promotion candidate for act-without-announcement sub-type.
+
+---
+
+### I-C5-S7-02 — C5-S7 — the-guild — 0035-the-final-job
+
+**Technique:** Simultaneous four-PC loyalty-object closing acts
+**Dimension:** Atmospheric Landing (cross: Engagement)
+**What happened:** Campaign's final scene: Tessaly's ledger entry + satchel close; Cael's contract-touch adjusting terms; Mira's paper case (framework remains inside); Darro's pick count. Four simultaneous professional closures from four different instruments without coordination.
+**Why the rubric did not anticipate it:** v1.6 captures simultaneous arc-convergence triggered by a naming act. This is the professional-code equivalent: conclusion trigger (campaign ending) rather than naming act. First instance of v1.6 form applied to professional instruments rather than emotional arcs.
+**Status:** logged. v1.6 extended to professional-code convergence.
+
+---
+
+### C5 Campaign Threshold Check
+
+**Pathway A:** I-C5-S1-02 + I-C5-S4-01 cluster in Character Agency (code-refusal + cascading-professional-consequence). 2+ in dimension. Propose v1.13 anchor: **professional-code cascade** — when a sheet-deep-reader decision immediately produces a second professional consequence without deliberation, the chain constitutes a character-register-conversion. Rationale: Cael drawer refusal (S1) and Tessaly convention-constraint discovery (S4).
+
+**Pathway B:** No new player-style promotions. Sheet-deep-reader, craft-witness, act-without-announcement all validated as professionally-triggered (no-grief). RV1-RV4 confirmed.
+
+**CAMPAIGN COMPLETE. Final trajectory: 70→72→73→74→75→76→77. 8 innovations logged. Route B. All 4 RV validations confirmed. Zero grief-triggered instances in 7 sessions.**
+
+---
+
+## Campaign 6 (C6) — Military Unit (Border Watch) — 2026-04-22
+
+### I-C6-S1-01 — C6-S1 — the-unit — 0036-first-patrol
+**Technique:** Journal-margin-as-reception (pre-column accumulation)
+**Dimension:** Atmospheric Landing (cross: Character Agency)
+**What happened:** Varet accumulated observations in the journal margin on Day 1 — correlations the column structure could not classify. The margin was designed for weather notes. It became the reception layer. Two layers in the same document: column (defended) and margin (accumulating).
+**Status:** logged.
+
+---
+
+### I-C6-S1-02 — C6-S1 — the-unit — 0036-first-patrol
+**Technique:** FUMBLE-as-micro-event (environmental consequence without DM intervention)
+**Dimension:** Mechanical Fairness
+**What happened:** Taris FUMBLE (d20=1) caused arrow to clip mule-post; mule shied; smugglers flinched but did not act. Dice-produced environmental ripple with downstream NPC behavior change. No DM design needed.
+**Status:** logged.
+
+---
+
+### I-C6-S2-01 — C6-S2 — the-unit — 0037-the-cache
+**Technique:** Ledger-via-position (craft-witness as spatial requirement, not roll)
+**Dimension:** Module Fidelity (cross: Character Agency)
+**What happened:** Hidden ledger required passive Perception 15. In S1 no PC was in-position. In S2 Taris entered the cache (player choice); passive fired. v1.3 fallback-b triggered by exploration as craft-witness.
+**Status:** logged.
+
+---
+
+### I-C6-S2-02 — C6-S2 — the-unit — 0037-the-cache
+**Technique:** Treatment-before-ask as NPC social key (professional discipline as persuasion bypass)
+**Dimension:** Character Agency
+**What happened:** Lenne treated Serrak before asking what happened. Professional practice order was the social key. No Persuasion roll required. Second instance of professional-practice-as-persuasion-bypass.
+**Status:** logged.
+
+---
+
+### I-C6-S3-01 — C6-S3 — the-unit — 0038-the-missing-scout
+**Technique:** v1.9 independent-motivation convergence without emotional content
+**Dimension:** Character Agency
+**What happened:** Four PCs independently arrived at order-defiance from four professional registers: route-bond (Taris), formation-obligation (Dorn), medical-consequence (Lenne), journal-authority (Varet). No coordination. No emotional content. First confirmed v1.9 form with zero emotional content.
+**Status:** logged.
+
+---
+
+### I-C6-S3-02 — C6-S3 — the-unit — 0038-the-missing-scout
+**Technique:** FUMBLE-as-rescue-pressure (dice as scene-designer for required tension)
+**Dimension:** Mechanical Fairness (cross: Pacing)
+**What happened:** Taris FUMBLE init (d20=1) put him last; Guard2 reached Brek. Created the rescue-race scenario requiring Dorn Brace. Threshold met: 2/2 FUMBLE-as-scene-designer.
+**Status:** logged. Threshold 2/2 with I-C6-S1-02 — propose FUMBLE-as-collaborative-authorship anchor.
+
+---
+
+### I-C6-S4-01 — C6-S4 — the-unit — 0039-the-wrong-order
+**Technique:** Documentary compound (two-PC documentary mechanic)
+**Dimension:** Mechanical Fairness (cross: Character Agency)
+**What happened:** Dorn named the legal basis (Clause 4 read aloud), Varet filed formal objection. Neither functions without the other. First confirmed documentary equivalent of v1.4 cross-character compound.
+**Status:** logged.
+
+---
+
+### I-C6-S4-02 — C6-S4 — the-unit — 0039-the-wrong-order
+**Technique:** Failed-social-as-character-register-redirect
+**Dimension:** Character Agency (cross: Mechanical Fairness)
+**What happened:** Varet Persuasion FAIL (7 vs DC15) stopped wrong register (managing-up). She pivoted to formal objection (documentary action). Dice denied wrong tool; character found right one. Second instance of failed-roll-as-better-outcome.
+**Status:** logged.
+
+---
+
+### I-C6-S5-01 — C6-S5 — the-unit — 0040-the-names
+**Technique:** Self-referential documentary-witness (journal fires its own arc-condition)
+**Dimension:** Atmospheric Landing (cross: Character Agency)
+**What happened:** Varet wrote "the arc fires" — applying her professional rule to herself. The journal contained the rule and applied the rule. The document became the mechanism of its own arc. First documented self-referential documentary arc-firing in workshop history.
+**Status:** logged.
+
+---
+
+### I-C6-S5-02 — C6-S5 — the-unit — 0040-the-names
+**Technique:** Recognition-triggered atmospheric beat
+**Dimension:** Atmospheric Landing
+**What happened:** "I have caught up" in journal margin acknowledging Arren was right. Not duty-triggered, not grief-triggered — recognition-triggered. First documented recognition-triggered emotion category in workshop history.
+**Status:** logged. New emotion category candidate.
+
+---
+
+### I-C6-S6-01 — C6-S6 — the-unit — 0041-the-last-patrol
+**Technique:** SpW-as-independent-compound (undesigned two-PC convergence)
+**Dimension:** Mechanical Fairness (cross: Engagement)
+**What happened:** Lenne Spiritual Weapon (independent attack) killed the Veteran while Dorn occupied it 4 rounds. Neither designed the convergence. Distinct from v1.4: undesigned convergence vs. intentional deployment.
+**Status:** logged.
+
+---
+
+### I-C6-S6-02 — C6-S6 — the-unit — 0041-the-last-patrol
+**Technique:** Consecutive-misses-as-character-expression
+**Dimension:** Character Agency (cross: Atmospheric Landing)
+**What happened:** Dorn missed Veteran 4 consecutive times (16 vs AC17 each). No tactic change. Professional obligation = presence, not success. Character showed more in 4 misses than 4 hits. Second instance of consecutive-failure-as-character-expression.
+**Status:** logged.
+
+---
+
+### I-C6-S7-01 — C6-S7 — the-unit — 0042-the-reckoning
+**Technique:** Journal-as-arc-mechanism (document IS the arc, not the record of the arc)
+**Dimension:** Character Agency (cross: Atmospheric Landing, Module Fidelity)
+**What happened:** The field journal was not a record of Varet's arc. It WAS the arc. Reading it delivered evidence and character simultaneously. The journal constituted the character. Strongest form of documentary-witness in workshop history. Distinct from C5 PC-authored deliverable (which was produced BY the arc; this IS the arc).
+**Status:** logged.
+
+---
+
+### I-C6-S7-02 — C6-S7 — the-unit — 0042-the-reckoning
+**Technique:** Standing-in-the-doorway (spatial-silent NPC arc-completion)
+**Dimension:** Atmospheric Landing
+**What happened:** Arren Vole walked into tribunal room, stood at door, said nothing, drew nothing. Derrath sat down. No roll. Twelve years as the argument expressed as a physical position. First documented spatial-silent NPC arc-completion.
+**Status:** logged.
+
+---
+
+### I-C6-S7-03 — C6-S7 — the-unit — 0042-the-reckoning
+**Technique:** Campaign-closing professional maintenance (all four PCs simultaneously)
+**Dimension:** Atmospheric Landing
+**What happened:** Taris folded map (will update tomorrow). Lenne wrote "cause now explained," closed log. Dorn read Clause 4 in bunk voice. Varet wrote final margin note, closed journal. Four PCs closing practices, not emotional arcs. Second campaign with this pattern.
+**Status:** logged. Threshold 2/2 with I-C5-S7-01 — promote to act-without-announcement sub-type: maintenance-persists.
+
+---
+
+**C6 Campaign Threshold Checks:**
+- FUMBLE-as-scene-designer (I-C6-S1-02 + I-C6-S3-02): 2+ instances — propose Mechanical Fairness anchor: FUMBLE-as-collaborative-authorship.
+- maintenance-persists (I-C5-S7-01 + I-C6-S7-03): 2 campaigns — promote to act-without-announcement sub-type.
+- recognition-triggered (I-C6-S5-02): 1 instance — watch C7.
+- RV5 confirmed: depletion-amplification. RV6 confirmed: journal-as-arc. RV7 confirmed: duty-spine density. RV8 confirmed: document MORE effective than speech in institutional context.
+
+**CAMPAIGN COMPLETE. Final trajectory: 70→72→74→75→76→77→78. 15 innovations logged. Route E. All RV5-RV8 confirmed. Zero grief-triggered instances across 7 sessions.**
+
+---
+
+## C7 — 2026-04-22 — the-strangers — 0043-0049
+
+### I-C7-S1-01 — C7-S1 — the-strangers — 0043-the-roadblock
+**Technique:** Passive-terrain-warning (warning stripped to operational minimum)
+**Dimension:** Atmospheric Landing (cross: Character Agency)
+**What happened:** Vess warns Brek about the fall line with two words ("Don't stand where you're standing") after spotting it silently in survey. She does not explain; she names the action required. The warning exists but is stripped to the operational minimum such that it functions more like a position-change than a disclosure.
+**Why the rubric did not anticipate it:** This is a boundary case for act-without-announcement: the announcement exists but contains no emotional content, no reason, no relationship signal. It is purely functional. The rubric counts full silence as act-without-announcement; this is the minimum-speech form of the same phenomenon.
+**Scope:** Universal.
+**Status:** logged.
+
+### I-C7-S1-02 — C7-S1 — the-strangers — 0043-the-roadblock
+**Technique:** Documentation-blank-as-social-signal
+**Dimension:** Atmospheric Landing
+**What happened:** Sera writes "travelers encountered" with physical descriptions — not names — including a blank for Brek's destination. The blank is information: she noticed she did not have the name. She did not ask for it. The absence in the documentation is itself a finding.
+**Why the rubric did not anticipate it:** The documentary-witness player style (proposed C4) documents presences. This instance documents an absence. The blank is the social-distance measure: what she could not write reveals what she did not ask for.
+**Scope:** Universal (any documentary-witness PC can produce this).
+**Status:** logged.
+
+### I-C7-S3-01 — C7-S3 — the-strangers — 0045-the-refugees
+**Technique:** Session-relationship-triggered arc-completion
+**Dimension:** Atmospheric Landing (cross: Character Agency)
+**What happened:** Elder Sorr arc-completion fired because Tam spent 30 minutes walking beside her without asking tactical questions. The attentiveness formed within the session (not from backstory). The arc fired from it. Proposed new trigger type: "session-relationship-triggered" — distinct from situational (no external event triggers it) and designed-relationship (no backstory connection).
+**Why the rubric did not anticipate it:** Existing trigger types are situational (external event) and relationship-driven (accumulated across sessions). This is a third type: a relationship formed in a single session through behavioral stance, sufficient to trigger arc-completion.
+**Scope:** Universal.
+**Status:** logged. Threshold candidate: if confirmed 2+ instances, propose new trigger-type documentation standard.
+
+### I-C7-S4-01 — C7-S4 — the-strangers — 0046-the-demand
+**Technique:** Trigger-type transition (situational → relationship-driven, tracked by session number)
+**Dimension:** Character Agency
+**What happened:** Player-style trigger types shift cleanly from "situational" (S1-S3) to "relationship-driven" (S4-S7). The same player styles fire throughout. What changes is the trigger. The transition tracks session number and relationship development.
+**Why the rubric did not anticipate it:** The rubric documents individual instances as situational or relationship-driven. It does not document the campaign-arc of trigger-type change — the fact that the same player styles will shift trigger types as sessions accumulate. This is a campaign-level finding that session-level scoring cannot capture.
+**Scope:** Universal (any campaign where PCs have no designed backstory connections).
+**Status:** logged. Cross-campaign: this confirms the hypothesis that situational familiarity becomes relational investment over time.
+
+### I-C7-S5-01 — C7-S5 — the-strangers — 0047-the-false-trail
+**Technique:** Wrong-fork-following (relationship-driven route deviation)
+**Dimension:** Character Agency (cross: Surprise)
+**What happened:** All three non-spotlight PCs followed Brek down the wrong fork without being asked. Vess diverted from her professional delivery route. Sera diverted from her research destination. Tam followed because he had been watching Brek since Greyford. No external event prompted any of them. The prompt was six sessions of accumulated operational familiarity.
+**Why the rubric did not anticipate it:** Character agency at 10-band requires sustained behavioral pattern or character-register conversion. This is a distinct form: collective relational deviation from individual rational routes. Three PCs each had a reason NOT to follow; each followed anyway; the reasons for following were all different. This is independent-motivation convergence at the relationship-investment level.
+**Scope:** Universal.
+**Status:** logged.
+
+### I-C7-S6-01 — C7-S6 — the-strangers — 0048-the-cost
+**Technique:** Prepared-pouch accountability (private acknowledgment revealed through material preparation)
+**Dimension:** Atmospheric Landing
+**What happened:** Torven had 240 gp prepared in a pouch — set aside two years prior when he understood what he had done. The "prepared pouch" detail compressed two years of private acknowledgment into an object. The arc-completion was not the speech; it was the existence of the prepared object.
+**Why the rubric did not anticipate it:** NPC arc-completion is documented as a moment of speech or action. This is a form of arc-completion where the preparatory act (setting aside the money) is the completion; the speech at the ford is just the delivery. The completion happened two years before the session.
+**Scope:** Universal. Applicable to any NPC who has had time to prepare for a moment they knew was coming.
+**Status:** logged.
+
+### I-C7-S7-01 — C7-S7 — the-strangers — 0049-the-road-again
+**Technique:** Silence-as-route-E-choice (PC makes Route E choice through non-speech)
+**Dimension:** Character Agency (cross: Atmospheric Landing)
+**What happened:** Sera made her Route E choice at the gate by saying nothing and walking through. Six sessions of delayed commitment produced a PC whose commitment requires no words. Walking was the choice. The silence was not absence of choice; it was the specific form her choice took.
+**Why the rubric did not anticipate it:** Route E is a "choice that must be made." The rubric assumes choices are made through speech or declared action. Sera's non-speech route choice is the most radical form of character-register conversion in the campaign: her heuristic (delay commitment until data is sufficient) has been modified such that the commitment, when finally made, requires no articulation.
+**Scope:** Universal. Any PC who has been delaying commitment through a campaign can resolve through non-speech when the data is finally sufficient.
+**Status:** logged.
+
+---
+
+**C7 Campaign Threshold Checks:**
+- Session-relationship-triggered (I-C7-S3-01): 1 instance in C7. Cross-campaign: Sorr (C7-S3) and Cassel (C7-S4) both. 2 instances in same campaign — propose documentation standard for session-relationship-triggered trigger type.
+- Trigger-type transition (I-C7-S4-01): 1 campaign with clean transition. Requires 2+ campaigns for rubric-amendment proposal. Watch C8.
+- RV9 confirmed: player styles emerge without personal stakes. RV10 confirmed: bilateral without designed relationship. RV11 confirmed: Route E without grief/duty anchor. RV12 confirmed: NPC arcs from situational acts.
+
+**CAMPAIGN COMPLETE. Final trajectory: 69→71→72→74→75→76→77. 7 C7 innovations logged. Route E. All RV9-RV12 confirmed. Zero grief-triggered instances across 7 sessions — all situational or relationship-driven.**

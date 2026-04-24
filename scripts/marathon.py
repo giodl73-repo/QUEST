@@ -289,6 +289,16 @@ def cmd_set_route(args) -> int:
     return 0
 
 
+def cmd_bind(args) -> int:
+    from scripts.module_binder import bind
+    try:
+        bind(args.adventure, force=args.force)
+        return 0
+    except FileNotFoundError as e:
+        print(f"ERROR: {e}", file=sys.stderr)
+        return 1
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(prog="marathon.py", description="Marathon D&D session engine")
     sub = parser.add_subparsers(dest="command")
@@ -304,6 +314,11 @@ def main() -> int:
     p_route = sub.add_parser("set-route", help="Record session outcome route (A, C, or D)")
     p_route.add_argument("route", choices=["A", "C", "D", "a", "c", "d"])
 
+    p_bind = sub.add_parser("bind", help="Compile adventure directory into module.md")
+    p_bind.add_argument("--adventure", required=True, metavar="SLUG",
+                        help="Adventure slug, e.g. 0015-the-gatehouse-watch")
+    p_bind.add_argument("--force", action="store_true", help="Overwrite existing module.md")
+
     args = parser.parse_args()
     if args.command is None:
         parser.print_usage(sys.stderr)
@@ -314,6 +329,7 @@ def main() -> int:
         "resume": cmd_resume,
         "status": cmd_status,
         "set-route": cmd_set_route,
+        "bind": cmd_bind,
     }
     return dispatch[args.command](args)
 

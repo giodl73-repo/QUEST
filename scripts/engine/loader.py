@@ -87,7 +87,7 @@ def _parse_npc_arc_completions(text: str) -> dict[str, dict]:
         npc_name = name_line.lower()
 
         arc_m = re.search(
-            r"## Arc-Completion\s*\n\*\*The moment:\*\*\s*(.+?)(?=\*\*What it produces|\Z)",
+            r"#{2,4} Arc-Completion\s*\n\*\*The moment:\*\*\s*(.+?)(?=\*\*What it produces|\Z)",
             block, re.DOTALL,
         )
         cond_m = re.search(r"\*\*The condition:\*\*\s*(.+?)(?=\n\n|\n##|\Z)", block, re.DOTALL)
