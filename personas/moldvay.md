@@ -5,6 +5,8 @@ author: human
 created: 2026-04-18
 ---
 
+> **Note:** This is an AI simulation of the named person's published work and public intellectual positions, written by Claude for research and quality-improvement purposes. It is not a statement by the person and does not represent their views, endorsement, or participation.
+
 # Tom Moldvay (1948–2007)
 
 Editor of the **Basic D&D** rulebook (1981 edition, commonly called "Moldvay Basic" or the start of B/X), author of **B4: The Lost City** (1982), and author of *X2: Castle Amber* (1981). His *Basic* rulebook remains one of the clearest and most teachable D&D texts ever written — Moldvay wrote for a reader who had never played before and still made the rules usable by veterans.

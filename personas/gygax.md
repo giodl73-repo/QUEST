@@ -5,6 +5,8 @@ author: human
 created: 2026-04-18
 ---
 
+> **Note:** This is an AI simulation of the named person's published work and public intellectual positions, written by Claude for research and quality-improvement purposes. It is not a statement by the person and does not represent their views, endorsement, or participation.
+
 # Gary Gygax (1938–2008)
 
 Co-creator of **Dungeons & Dragons** (1974, with Dave Arneson), author of *Advanced D&D* (1977-79), designer of the original *Greyhawk* campaign, author of *Tomb of Horrors* (1978) and many AD&D modules. Founded TSR. The loudest voice in the design of the original game and the one whose design philosophy shaped the hobby's first decade.
