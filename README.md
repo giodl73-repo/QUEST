@@ -210,12 +210,12 @@ The workshop is a loop. Feed it a session; it feeds you a better rubric.
 
 Six papers document findings from the workshop's seven campaigns. LaTeX sources in [`research/publications/`](research/publications/); build all PDFs with `make -C research`.
 
-- [The 7-Session Campaign Spine: Evidence-Based Architecture for Emotionally Complete Narrative Arcs](research/publications/glyph-campaign-spine/)
-- [Designing NPC Arc-Completion Conditions](research/publications/glyph-npc-arc/)
-- [Emergent Player Styles in AI-Simulated TRPG](research/publications/glyph-player-style/)
-- [Resource Exhaustion as Narrative Amplifier](research/publications/glyph-resource-exhaustion/)
-- [Innovation-Cluster-Driven Rubric Amendment](research/publications/glyph-rubric-amendment/)
-- [An 8-Dimension Playtest Rubric as a Research Instrument](research/publications/glyph-rubric-instrument/)
+- [The 7-Session Campaign Spine: Evidence-Based Architecture for Emotionally Complete Narrative Arcs](research/publications/glyph-campaign-spine/main.pdf)
+- [Designing NPC Arc-Completion Conditions](research/publications/glyph-npc-arc/main.pdf)
+- [Emergent Player Styles in AI-Simulated TRPG](research/publications/glyph-player-style/main.pdf)
+- [Resource Exhaustion as Narrative Amplifier](research/publications/glyph-resource-exhaustion/main.pdf)
+- [Innovation-Cluster-Driven Rubric Amendment](research/publications/glyph-rubric-amendment/main.pdf)
+- [An 8-Dimension Playtest Rubric as a Research Instrument](research/publications/glyph-rubric-instrument/main.pdf)
 
 ---
 
