@@ -128,7 +128,7 @@ Seeds NOT planted (not yet scheduled to fire):
 
 ## Commit
 
-No git repository initialized at `C:/src/marathon`. Handoff file written; no commit run.
+No git repository initialized at `marathon`. Handoff file written; no commit run.
 Files changed this session:
 - `adventures/0015-the-gatehouse-watch/sessions/` — S1-prep, S1-log, S1-gate, S1-panel/, HANDOFF-S1
 - `personas/parties/the-witnesses/shared-log.md` — S1 entry appended

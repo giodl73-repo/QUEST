@@ -7,7 +7,7 @@ author: brainstorm session with user
 
 # D&D Workshop — Design
 
-A workshop in `C:\src\marathon` for designing D&D adventures, modules, treasures, and world-lore. Core creative principle: **the treasures are the story**. Each adventure is seeded by an artifact whose history carries the narrative weight; curses and consequences make loot a real decision.
+A workshop in `marathon` for designing D&D adventures, modules, treasures, and world-lore. Core creative principle: **the treasures are the story**. Each adventure is seeded by an artifact whose history carries the narrative weight; curses and consequences make loot a real decision.
 
 ## Anchored Decisions
 

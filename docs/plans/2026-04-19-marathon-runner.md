@@ -193,7 +193,7 @@ heuristics:
 - [ ] **Step 7: Verify pytest finds nothing yet**
 
 ```bash
-cd C:/src/marathon
+cd marathon
 pip install -r requirements-dev.txt
 pytest
 ```

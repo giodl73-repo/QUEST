@@ -74,4 +74,4 @@ Must try to land these; cross-check at LOG.
 - Expected pace: 8 scenes; ~4 real-hours play; ~2 days in-fiction travel + ~3 hours dungeon + return travel compressed.
 - Pipeline: PREP → PLAY → LOG → GATE → PANEL → INNOVATE → HANDOFF (all 7 stages).
 
-**Seed commit:** S02-20260419. Dice script: `C:/src/marathon/scripts/dice.sh`.
+**Seed commit:** S02-20260419. Dice script: `marathon/scripts/dice.sh`.

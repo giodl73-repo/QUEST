@@ -6,14 +6,14 @@ author: brainstorm session + chronicle-port analysis
 supersedes: none
 related:
   - docs/specs/2026-04-18-dnd-workshop-design.md
-  - C:\src\chronicle (prior art — read `skills/` end-to-end for the engine)
+  - chronicle (prior art — read `skills/` end-to-end for the engine)
 ---
 
 # QUEST Playtest System — Blueprint
 
 A living reference for how the QUEST workshop runs playtests of its adventures. This document captures the full design as of **2026-04-18** and is intended to be read cold by future-Claude or any future collaborator.
 
-The core design principle — **the skills are the process** — is ported from the `C:\src\chronicle` LUCIA project, where 14 skills orchestrate an 11-stage pipeline that teaches itself through an innovation-feedback loop.
+The core design principle — **the skills are the process** — is ported from the `chronicle` LUCIA project, where 14 skills orchestrate an 11-stage pipeline that teaches itself through an innovation-feedback loop.
 
 ---
 

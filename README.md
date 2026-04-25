@@ -20,7 +20,7 @@ The output of step 3 feeds step 1. The learnings from step 1 change step 2. The 
 
 ## The Emergent Skills AI pattern
 
-QUEST is a **port** of the pattern first built in `C:\src\chronicle` (the LUCIA project, a long-form novel engine). Same skeleton, different medium:
+QUEST is a **port** of the pattern first built in `chronicle` (the LUCIA project, a long-form novel engine). Same skeleton, different medium:
 
 | Chronicle (prose)              | QUEST (D&D)                            |
 |---                             |---                                     |

@@ -64,4 +64,4 @@ The session rubric (`personas/playtest-rubric.md`) does not yet exist — it wil
 - Expected pace: ~8-9 scenes, ~3-5 in-fiction hours of exploration.
 - Pipeline stage: after LOG, proceed to GATE / PANEL / INNOVATE / HANDOFF — all advisory for S01.
 
-**Seed commit:** S01-20260418. Dice script: `C:/src/marathon/scripts/dice.sh`. All rolls traced.
+**Seed commit:** S01-20260418. Dice script: `marathon/scripts/dice.sh`. All rolls traced.

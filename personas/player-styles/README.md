@@ -12,7 +12,7 @@ This directory is a catalog of **player archetypes that emerge across playtest s
 
 ## Chronicle's analog
 
-`guides/VOICE-SPECTRUM.md` in `C:\src\chronicle` contains 45+ prose voice registers that emerged from clustered writing innovations — not designed but *discovered*. Chronicle's first voice registers landed at chapter-v1.4 after roughly 15 chapters. Expect similar pacing here: **no player-style is likely to emerge before session 3-5**, and the first few styles will feel tentative.
+`guides/VOICE-SPECTRUM.md` in `chronicle` contains 45+ prose voice registers that emerged from clustered writing innovations — not designed but *discovered*. Chronicle's first voice registers landed at chapter-v1.4 after roughly 15 chapters. Expect similar pacing here: **no player-style is likely to emerge before session 3-5**, and the first few styles will feel tentative.
 
 ## Entry Format (when entries exist)
 

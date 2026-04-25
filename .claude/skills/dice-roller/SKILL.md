@@ -20,13 +20,13 @@ A DM running a session needs to roll dice honestly. Claude improvising numbers i
 From inside a Bash tool call:
 
 ```bash
-bash C:/src/marathon/scripts/dice.sh "1d20+5"
+bash marathon/scripts/dice.sh "1d20+5"
 # → rolls=[14] mod=5 total=19
 
-bash C:/src/marathon/scripts/dice.sh "1d20+3 adv"
+bash marathon/scripts/dice.sh "1d20+3 adv"
 # → rolls=[7, 18] (adv → 18) mod=3 total=21
 
-bash C:/src/marathon/scripts/dice.sh "2d6+2"
+bash marathon/scripts/dice.sh "2d6+2"
 # → rolls=[4 3] mod=2 total=9
 ```
 
