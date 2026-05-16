@@ -4,6 +4,10 @@ QUEST is a workshop for **designing, playtesting, and improving D&D 5e adventure
 
 Creative principle: **the treasures are the story.** Every adventure is seeded by an artifact whose history carries the narrative weight; curses and consequences make loot a real decision.
 
+**Review roles:** This repo uses
+[ROLES](https://github.com/giodl73-repo/ROLES), the `.roles` convention for
+repository-local review panels.
+
 ---
 
 ## Mission
