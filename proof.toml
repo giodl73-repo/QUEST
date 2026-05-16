@@ -1,0 +1,20 @@
+[meta]
+name = "QUEST"
+description = "D&D workshop — designing, playtesting, and improving adventures"
+
+[files]
+root = true
+include = ["**/*.md"]
+exclude = ["_archive/**"]
+
+[[compile]]
+source_dir = "src/guides"
+output_dir = "docs/guides"
+
+[ascii_box]
+enabled = true
+tolerance = 2
+code_blocks_only = true
+
+[markdown]
+enabled = true
