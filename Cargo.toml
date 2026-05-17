@@ -9,7 +9,13 @@ edition = "2021"
 name = "quest"
 path = "src/main.rs"
 
+[[bin]]
+name = "quest-muddle"
+path = "src/bin/quest-muddle.rs"
+
 [dependencies]
+muddle-cli = { git = "https://github.com/giodl73-repo/MUDDLE.git" }
+muddle-core = { git = "https://github.com/giodl73-repo/MUDDLE.git" }
 rally-core = { git = "https://github.com/giodl73-repo/RALLY.git" }
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"

@@ -49,6 +49,9 @@ __pycache__/
 .venv/
 venv/
 
+# Rust
+target/
+
 # Env files with potential secrets
 .env
 .env.local

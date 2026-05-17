@@ -15,6 +15,46 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f8ca58f447f06ed17d5fc4043ce1b10dd205e060fb3ce5b979b8ed8e59ff3f79"
 
 [[package]]
+name = "muddle-amaze-spike"
+version = "0.1.0"
+source = "git+https://github.com/giodl73-repo/MUDDLE.git#0c2d04a121536d9c8e638f50987861a9361000ec"
+dependencies = [
+ "muddle-core",
+]
+
+[[package]]
+name = "muddle-banish-spike"
+version = "0.1.0"
+source = "git+https://github.com/giodl73-repo/MUDDLE.git#0c2d04a121536d9c8e638f50987861a9361000ec"
+dependencies = [
+ "muddle-core",
+]
+
+[[package]]
+name = "muddle-cli"
+version = "0.1.0"
+source = "git+https://github.com/giodl73-repo/MUDDLE.git#0c2d04a121536d9c8e638f50987861a9361000ec"
+dependencies = [
+ "muddle-amaze-spike",
+ "muddle-banish-spike",
+ "muddle-core",
+ "muddle-mock-sim",
+]
+
+[[package]]
+name = "muddle-core"
+version = "0.1.0"
+source = "git+https://github.com/giodl73-repo/MUDDLE.git#0c2d04a121536d9c8e638f50987861a9361000ec"
+
+[[package]]
+name = "muddle-mock-sim"
+version = "0.1.0"
+source = "git+https://github.com/giodl73-repo/MUDDLE.git#0c2d04a121536d9c8e638f50987861a9361000ec"
+dependencies = [
+ "muddle-core",
+]
+
+[[package]]
 name = "proc-macro2"
 version = "1.0.106"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -27,6 +67,8 @@ dependencies = [
 name = "quest"
 version = "0.1.0"
 dependencies = [
+ "muddle-cli",
+ "muddle-core",
  "rally-core",
  "serde",
  "serde_json",

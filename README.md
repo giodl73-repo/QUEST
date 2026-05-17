@@ -158,13 +158,29 @@ cargo run -- bind-module 0007-the-silver-ingot-confession
 Pieces:
 
 - **`src/main.rs`** — CLI entry point; re-entrant via `state/checkpoint.json`.
+- **`src/lib.rs`** — reusable crate surface for non-CLI runners, including
+  `run_cli()`, `ai_dm_muddle_surface()`, and `ai_dm_muddle_host()`.
 - **`DiceEngine` + `rally-core::RunSeed`** — seed-locked RNG; every CLI roll can be logged to `state/dice_log.jsonl` with a reproducible seed. No faked rolls; no mental rolls.
 - **`PersistedState`** — party/session/campaign facts persisted as JSON.
 - **Module + party loaders** — parse `module.md` + PC sheets into Rust structs for deterministic session setup.
 - **Inbound checkpoint validator** — accepts narrative packets from the LLM, validates scene advancement and mutable state keys, writes accepted events to `state/event_log.jsonl`, and clears checkpoints.
 - **`bind-module`** — compiles an adventure directory into a table-ready `module.md` with scenes and a DM cheatsheet.
+- **`quest-muddle`** — product-owned MUDDLE launcher for a deterministic
+  AI-DM table loop with visible threat, party focus, treasure consequence, and
+  transcript/save support.
 
 The engine is what lets `session-runner` claim its "no fake rolls" quality gate with a straight face.
+
+Reusable callers should link the crate instead of shelling out:
+
+```rust
+let code = quest::run_cli(vec!["status".to_string()]);
+let mut host = quest::ai_dm_muddle_host();
+```
+
+```bash
+cargo run --bin quest-muddle -- --save target\quest-ai.muddle --transcript target\quest-ai.txt
+```
 
 ---
 
