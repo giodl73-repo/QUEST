@@ -1,0 +1,56 @@
+name: Rust gates
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  rust:
+    name: QUEST
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Rust
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          components: rustfmt
+
+      - name: Allow GitHub Cargo dependencies
+        run: |
+          git config --global url."https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/".insteadOf "https://github.com/"
+
+      - name: Format check
+        run: cargo fmt -- --check
+
+      - name: Test
+        run: cargo test --quiet
+
+      - name: Release build
+        run: cargo build --quiet --release
+
+      - name: Roll smoke
+        run: |
+          mkdir -p target/quest-roll-smoke
+          cd target/quest-roll-smoke
+          ../release/quest roll 1d20+5 --seed ci-smoke --adv --bless
+
+      - name: MUDDLE launcher smoke
+        run: |
+          cat > target/quest-smoke.script <<'EOF'
+          go scene
+          scout room
+          advance scene
+          enemy turn
+          rally party
+          go treasure
+          unseal treasure
+          quit
+          EOF
+          target/release/quest-muddle --script target/quest-smoke.script --save target/quest-smoke.muddle --transcript target/quest-smoke.txt
+          ! grep -E "Command failed|UnknownCommand|Error:" target/quest-smoke.txt
