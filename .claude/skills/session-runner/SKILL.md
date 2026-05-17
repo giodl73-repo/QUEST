@@ -15,7 +15,7 @@ This skill covers **PREP → PLAY → LOG** (stages 1-3) of the 7-stage playtest
 
 - Adventure has a compiled `module.md`.
 - Party directory exists at `personas/parties/<party-slug>/` with README + PC files.
-- `scripts/dice.sh` is executable.
+- Rust QUEST CLI builds with `cargo test`.
 - Session number N determined by counting existing `sessions/S*-log.md` files + 1.
 
 ## Stage 1 — PREP
@@ -26,10 +26,8 @@ This skill covers **PREP → PLAY → LOG** (stages 1-3) of the 7-stage playtest
 - Any prior sessions: `sessions/HANDOFF-S*.md` for context.
 - Encounter pressure tables if the module includes them.
 
-### 1.2 Seed the RNG
-```bash
-export DICE_SEED=S{N}-<YYYY-MM-DD>
-```
+### 1.2 Name the RNG seed
+Use `S{N}-<YYYY-MM-DD>` as the base seed for `cargo run -- roll ... --seed <base>-<scene-or-beat>`.
 
 Log this seed at the top of the prep file.
 
@@ -292,7 +290,7 @@ If `sessions/S{N}-log.md` exists, bump to `S{N}.v2-log.md` and report.
 - [ ] Every PC acted at least twice per scene they were present in.
 - [ ] Every PC used at least one signature move during the session.
 - [ ] No fake dice rolls (every mechanical resolution has a `🎲` line).
-- [ ] All dice go through Python DiceEngine (marathon-runner CLI). Do not call `scripts/dice.sh` directly for session dice — it bypasses the JSONL audit log. If running without marathon-runner, use `scripts/dice.sh` for every roll but note the logging gap.
+- [ ] All dice go through the Rust QUEST CLI (`cargo run -- roll ...`). Do not invent rolls or use external dice.
 - [ ] ≥ 3 manifest symptoms landed (if the adventure has a manifest).
 - [ ] Wandering-pressure tables rolled on schedule.
 - [ ] Session log ≥ 2,000 words (a real playthrough should produce substance).

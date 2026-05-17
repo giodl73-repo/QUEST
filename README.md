@@ -16,7 +16,7 @@ Three things happen here, in order, on a loop:
 
 1. **Analyze** — read the session log, the panel reviews, and the gate scorecard; surface every move the rubric did not anticipate.
 2. **Design** — compose adventures, parties, NPCs, treasures, and campaigns through a pipeline of small, single-purpose skills.
-3. **Script** — run the adventure at the table via a deterministic Python engine that owns the mechanical layer (dice, state, PC heuristics) and leaves narrative to the LLM.
+3. **Script** — run the adventure at the table via a deterministic Rust engine that owns the mechanical layer (dice, state, event logging, route state) and leaves narrative to the LLM.
 
 The output of step 3 feeds step 1. The learnings from step 1 change step 2. The rubric, the player-style catalog, and the skills themselves are versioned artifacts that mutate across sessions.
 
@@ -50,11 +50,8 @@ marathon/
 ├── CLAUDE.md                   conventions (frontmatter, naming, accessibility)
 ├── TRACKER.md                  living per-session score + verdict table
 ├── .claude/skills/             20 single-purpose skills (see below)
-├── scripts/                    Python game engine + bash dice
-│   ├── marathon.py             CLI: start / resume / status
-│   ├── dice.sh                 seed-locked fair RNG
-│   ├── module_binder.py        compile adventure → table-ready module.md
-│   └── engine/                 loader, state, dice, heuristics, emitter…
+├── Cargo.toml                  Rust game engine crate
+├── src/main.rs                 CLI: start / resume / status / roll / bind-module
 ├── personas/
 │   ├── rubric.md               8-axis design rubric (persona reviews)
 │   ├── playtest-rubric.md      8-axis play rubric (live-table scoring)
@@ -134,36 +131,38 @@ The rubric has moved v1.0 → v1.12 across seven campaigns without a single retr
 
 ---
 
-## The game engine (`scripts/`)
+## The game engine (`quest`)
 
-Live play is driven by a small Python engine. The LLM runs the narrative; Python owns dice, state, and the PC decision-order.
+Live play is driven by a small Rust engine backed by `rally-core`. The LLM runs the narrative; Rust owns dice, state, event logging, route tracking, and checkpoint validation.
 
 ```bash
 # start a new session
-python scripts/marathon.py start --adventure 0007-the-silver-ingot-confession \
-                                 --session S07 \
-                                 --party varduin-muster
+cargo run -- start --adventure 0007-the-silver-ingot-confession \
+                  --session S07 \
+                  --party compact-wardens
 
 # resume at the last checkpoint (the engine writes one before every LLM beat)
-python scripts/marathon.py resume
+cargo run -- resume
 
 # inspect current state: party HP, slots, attunements, pending checkpoint, dice rolls,
 # aggregated event-log summary
-python scripts/marathon.py status
+cargo run -- status
+
+# seed-locked mechanical roll
+cargo run -- roll 1d20+5 --seed S07-scene6 --adv --bless
+
+# compile an adventure directory into module.md
+cargo run -- bind-module 0007-the-silver-ingot-confession
 ```
 
 Pieces:
 
-- **`marathon.py`** — CLI entry point; re-entrant via `state/checkpoint.json`.
-- **`engine/dice.py`** + **`dice.sh`** — seed-locked RNG; every roll is logged to `state/dice_log.jsonl` with a reproducible seed. No faked rolls; no mental rolls.
-- **`engine/state.py`** — `PartyState`, `SessionState`, `CampaignFacts`. Persisted as JSON.
-- **`engine/loader.py`** — parses `module.md` + PC sheets into `Adventure` / `PC` objects.
-- **`engine/heuristics.py`** — encodes each PC's Decision Order + doubt-die resolution so the engine can mechanically resolve beats the LLM doesn't need.
-- **`engine/classifier.py`** — routes each beat: *Python can resolve* vs *LLM required*.
-- **`engine/emitter.py`** — builds the JSON decision-packet handed to the LLM.
-- **`engine/event_log.py`** — every spell cast, save, reaction, condition, near-death event lands in `state/event_log.jsonl` for cross-session analysis (powers RV5 depletion-amplification studies and more).
-- **`engine/log_writer.py`** — consolidates the running log into `sessions/S{N}-log.md` at session end.
-- **`module_binder.py`** — compiles an adventure directory into a table-ready `module.md` with inlined rooms, stat blocks, treasures, and a DM cheatsheet with SRD rules inlined (not linked).
+- **`src/main.rs`** — CLI entry point; re-entrant via `state/checkpoint.json`.
+- **`DiceEngine` + `rally-core::RunSeed`** — seed-locked RNG; every CLI roll can be logged to `state/dice_log.jsonl` with a reproducible seed. No faked rolls; no mental rolls.
+- **`PersistedState`** — party/session/campaign facts persisted as JSON.
+- **Module + party loaders** — parse `module.md` + PC sheets into Rust structs for deterministic session setup.
+- **Inbound checkpoint validator** — accepts narrative packets from the LLM, validates scene advancement and mutable state keys, writes accepted events to `state/event_log.jsonl`, and clears checkpoints.
+- **`bind-module`** — compiles an adventure directory into a table-ready `module.md` with scenes and a DM cheatsheet.
 
 The engine is what lets `session-runner` claim its "no fake rolls" quality gate with a straight face.
 
@@ -177,7 +176,7 @@ Seven campaigns, forty-nine sessions, one workshop:
 |---|---|---|---|---|
 | **C1 — Moon-Silver Cycle**  | "What is an emotion worth trading?"          | 7 | D×7 | Rubric v1.0 → v1.4; 2 player-styles; Silver-Ingot Confession spoken |
 | **C2 — The Conclave Compact** | "When a covenant breaks, who bears the cost?" | 7 | D×7 | Rubric v1.4 → v1.5; 100% manifest every session; compact spoken |
-| **C3 — The Halted Spire**    | "Who gets to decide who is worth saving?"    | 7 | D×7 | Rubric v1.8; 2 new styles; 8/8 NPC arcs; `module_binder.py` built here |
+| **C3 — The Halted Spire**    | "Who gets to decide who is worth saving?"    | 7 | D×7 | Rubric v1.8; 2 new styles; 8/8 NPC arcs; module binder built here |
 | **C4 — The Thorngate Watch** | "How much of yourself do you spend on people who don't trust you yet?" | 7 | E×1 | Rubric v1.11; documentary-witness proposed; hardest-route siege resolved |
 | **C5 — The Silken Ledger**   | "When the guild you serve becomes the thing you're stealing from…"     | 7 | B | RV1–RV4 all confirmed; PC-authored deliverable (false dossier) |
 | **C6 — The Border Watch**    | "When orders become wrong, how do you know — and who do you tell?"     | 7 | E | RV5–RV8 all confirmed; Unit Cohesion Die mechanic validated |
@@ -203,7 +202,7 @@ Every campaign has a **design spec** in `docs/specs/` and a **retrospective** in
 
 - **New reader:** start with `CLAUDE.md` (conventions + campaign state), then `docs/specs/2026-04-18-dnd-workshop-design.md` (original design) and `docs/specs/2026-04-18-playtest-system-blueprint.md` (the learning loop).
 - **Want to see the loop in action:** read any `docs/campaign/*-retrospective.md`. The RV verdicts show the workshop asking and answering questions about its own design.
-- **Want to run a session:** read `.claude/skills/session-runner/SKILL.md`, pick an adventure with a `module.md`, pick a party, and run `python scripts/marathon.py start …`.
+- **Want to run a session:** read `.claude/skills/session-runner/SKILL.md`, pick an adventure with a `module.md`, pick a party, and run `cargo run -- start …`.
 - **Want to propose a change:** write a spec in `docs/specs/YYYY-MM-DD-<slug>.md`. That is how every major system here started.
 
 The workshop is a loop. Feed it a session; it feeds you a better rubric.

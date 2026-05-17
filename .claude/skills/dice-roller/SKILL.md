@@ -1,53 +1,53 @@
 ---
 name: dice-roller
-description: Roll D&D dice deterministically via a bash script, never by Claude-faking numbers. Use for every resolution roll during a playtest session — attacks, saves, skill checks, damage, curse saves. Supports NdS+M, advantage, disadvantage, d20-crit detection. Logs every roll to the session log with a seed for reproducibility.
+description: Roll D&D dice deterministically via the Rust QUEST CLI, never by Claude-faking numbers. Use for every resolution roll during a playtest session — attacks, saves, skill checks, damage, curse saves. Supports NdS+M, advantage, disadvantage, bless, and d20-crit detection. Logs every roll to the session log with a seed for reproducibility.
 ---
 
 # dice-roller
 
-**Claude does not fake dice.** Every die in a playtest goes through `scripts/dice.sh` (or a sibling implementation) so rolls are real, reproducible, and auditable.
+**Claude does not fake dice.** Every die in a playtest goes through `cargo run -- roll ...` so rolls are real, reproducible, and auditable.
 
 ## Why this skill exists
 
 A DM running a session needs to roll dice honestly. Claude improvising numbers is forbidden in this workshop — it poisons playtest data and makes the persona-panel reviews meaningless. Every roll is:
 
-1. **Rolled by a real RNG** (bash `$RANDOM`, seeded at session start).
+1. **Rolled by the Rust engine** (`rally-core::RunSeed`, seeded at session start).
 2. **Logged to the session log** with context (who, what, against what DC).
 3. **Auditable** — anyone can re-roll from the seed and see the same sequence.
 
 ## Usage
 
-From inside a Bash tool call:
+From the QUEST repo root:
 
 ```bash
-bash marathon/scripts/dice.sh "1d20+5"
+cargo run -- roll 1d20+5 --seed S01-scene01
 # → rolls=[14] mod=5 total=19
 
-bash marathon/scripts/dice.sh "1d20+3 adv"
+cargo run -- roll 1d20+3 --seed S01-scene01 --adv
 # → rolls=[7, 18] (adv → 18) mod=3 total=21
 
-bash marathon/scripts/dice.sh "2d6+2"
+cargo run -- roll 2d6+2 --seed S01-scene01
 # → rolls=[4 3] mod=2 total=9
 ```
 
 Expressions:
 
 - `NdS` or `NdS+M` or `NdS-M` — N dice of S sides with optional modifier.
-- `adv` / `advantage` — only valid on `1d20`. Rolls twice, keeps higher.
-- `dis` / `disadvantage` — only valid on `1d20`. Rolls twice, keeps lower.
-- Case-insensitive.
+- `--adv` — only valid on `1d20`. Rolls twice, keeps higher.
+- `--disadv` — only valid on `1d20`. Rolls twice, keeps lower.
+- `--bless` — adds a seed-locked `1d4`.
 
 Crit detection on `1d20`: if any die is 20, the output includes `CRIT`; if 1, includes `FUMBLE`.
 
 ## Seeding
 
-At session start, `session-runner` seeds the RNG:
+At session start, `session-runner` names the deterministic seed:
 
 ```bash
-export DICE_SEED=<session_number><date>  # e.g., export DICE_SEED=012026-04-18
+cargo run -- roll 1d20 --seed S{N}-<YYYY-MM-DD>-scene01
 ```
 
-The script honors `$DICE_SEED` if set. If unset, it uses `$RANDOM` defaults. For **reproducible playtests**, always seed.
+For **reproducible playtests**, always pass an explicit `--seed`.
 
 ## Integration with session-runner
 
@@ -90,7 +90,7 @@ Nothing written to files by this skill directly. It produces numbers that the ca
 
 ## The script
 
-Lives at `scripts/dice.sh`. See that file for implementation. Any fork or sibling implementation MUST match the output contract above: lines of the form
+Lives in `src/main.rs` as the `roll` command. Any fork or sibling implementation MUST match the output contract above: lines of the form
 
 ```
 rolls=[<space-separated-ints>] mod=<int> total=<int> [CRIT|FUMBLE]

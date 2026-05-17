@@ -154,7 +154,7 @@ Last updated: 2026-04-22 by session-handoff (C7-S7 — PASS 77/80 — CAMPAIGN C
 | module-binder | 2026-04-18 | with inlined-SRD rule | 1 (module.md for 0001) |
 | adventure-lint | 2026-04-18 | new | 1 (0001 baseline) |
 | party-builder | 2026-04-18 | new | 1 (varduin-muster) |
-| dice-roller | 2026-04-18 | `scripts/dice.sh` verified | many (per S01) |
+| dice-roller | 2026-04-18 | Rust `quest roll` via RALLY seed | many (per S01) |
 | session-runner | 2026-04-18 | new | 1 (S01) |
 | session-gate | 2026-04-18 | new | 1 (S01-gate) |
 | playtest-panel | 2026-04-18 | new | 1 (S01-panel) |
@@ -202,7 +202,7 @@ Last updated: 2026-04-22 by session-handoff (C7-S7 — PASS 77/80 — CAMPAIGN C
 **2026-04-21 (C3-S1) — CAMPAIGN 3 OPENS:**
 - 0015-the-gatehouse-watch built (brainstorm → spec → campaign-planner → party-builder → premise → treasure-forger → dungeon-smith → module-binder → session-runner → gate → panel → innovation → handoff). Full pipeline run in one session.
 - **Outcome:** Route D. Mig's arc-completion fired (she crossed the threshold). Ghoul destroyed. Inner door opened. Party at full HP. V.S. initials found by Renn (returned without comment). Dren's crack seeded (fires at threshold, not at designed trigger). Gate 64/80 ADVISORY; panel mean 63.9/80. 4 innovations logged.
-- module_binder.py built as Python script (replaces manual module-binder skill for compilation). Tests: 32 passing. Fixed: encounter header stripping, directory guards, named file checks, tightened regex, adventure-specific background generalized.
+- module binder first built during this run; now carried by Rust `quest bind-module` after the Dakar conversion.
 - Amendment proposal pending: v1.6 → v1.7 (Atmospheric Landing, framework-failure arc-activation).
 - `the-witnesses` party active. XP: 200 each. Next: adventure 0016-the-nave-congregation (not yet designed).
 
