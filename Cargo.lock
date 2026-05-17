@@ -86,7 +86,7 @@ dependencies = [
 [[package]]
 name = "rally-core"
 version = "0.1.0"
-source = "git+https://github.com/giodl73-repo/RALLY.git#d44cd4e7f5b351cf6d63794e30beb43d87a94284"
+source = "git+https://github.com/giodl73-repo/RALLY.git#c2e4252c0b99999d7fed34345fe5dea969e9aff7"
 
 [[package]]
 name = "serde"

@@ -1,4 +1,4 @@
-use rally_core::RunSeed;
+use rally_core::{DiceRoller as RallyDiceRoller, RollKeep};
 use serde::{Deserialize, Serialize};
 use serde_json::{json, Value};
 use std::collections::BTreeMap;
@@ -644,22 +644,20 @@ fn load_events() -> Vec<Value> {
 }
 
 pub struct DiceEngine {
-    rng: RunSeed,
-    position: u64,
+    roller: RallyDiceRoller,
     log_path: Option<PathBuf>,
 }
 
 impl DiceEngine {
     pub fn new(seed: &str, log_path: Option<PathBuf>) -> Self {
         Self {
-            rng: RunSeed::new(seed),
-            position: 0,
+            roller: RallyDiceRoller::new(seed),
             log_path,
         }
     }
 
     pub fn position(&self) -> u64 {
-        self.position
+        self.roller.position()
     }
 
     pub fn roll_options(&mut self, options: RollOptions) -> Result<RollResult, String> {
@@ -684,48 +682,40 @@ impl DiceEngine {
         beat_index: Option<usize>,
         log_stub: Option<String>,
     ) -> Result<RollResult, String> {
-        let (count, sides, modifier) = parse_roll_expression(expression)?;
-        let mut rolls = (0..count)
-            .map(|_| self.rng.next_bounded(sides) + 1)
-            .collect::<Vec<_>>();
-        let kept = if (adv || disadv) && count == 1 && sides == 20 {
-            let second = self.rng.next_bounded(sides) + 1;
-            rolls.push(second);
-            Some(if adv {
-                rolls.iter().copied().max().unwrap_or(rolls[0])
-            } else {
-                rolls.iter().copied().min().unwrap_or(rolls[0])
-            })
+        let (count, sides, _) = parse_roll_expression(expression)?;
+        let keep = if adv {
+            RollKeep::Highest
+        } else if disadv {
+            RollKeep::Lowest
         } else {
-            None
+            RollKeep::Sum
         };
+        let extra_rolls = u32::from((adv || disadv) && count == 1 && sides == 20);
+        let outcome = self.roller.roll_with_extra(expression, keep, extra_rolls)?;
         let bless_roll = if bless {
-            Some(self.rng.next_bounded(4) + 1)
+            Some(self.roller.roll_die_value(4))
         } else {
             None
         };
-        let base = kept.unwrap_or_else(|| rolls.iter().sum());
-        let total = base as i32 + modifier + bless_roll.unwrap_or(0) as i32;
         let effective_d20 = if sides == 20 && count == 1 {
-            kept.or_else(|| rolls.first().copied())
+            outcome.kept.or_else(|| outcome.rolls.first().copied())
         } else {
             None
         };
         let result = RollResult {
             expression: expression.to_string(),
-            rolls,
-            kept,
-            mod_value: modifier,
+            rolls: outcome.rolls,
+            kept: outcome.kept,
+            mod_value: outcome.spec.modifier,
             bless_roll,
-            total,
+            total: outcome.total + bless_roll.unwrap_or(0) as i32,
             crit: effective_d20 == Some(20),
             fumble: effective_d20 == Some(1),
-            seed_position: Some(self.position),
+            seed_position: Some(outcome.seed_position),
             scene_id,
             beat_index,
             log_stub,
         };
-        self.position += 1;
         self.log_roll(&result)?;
         Ok(result)
     }
@@ -748,28 +738,8 @@ impl DiceEngine {
 }
 
 pub fn parse_roll_expression(expression: &str) -> Result<(u32, u32, i32), String> {
-    let expr = expression.trim().to_ascii_lowercase();
-    let Some((count_text, rest)) = expr.split_once('d') else {
-        return Err(format!("invalid expression: {expression}"));
-    };
-    let count = count_text
-        .parse::<u32>()
-        .map_err(|_| format!("invalid expression: {expression}"))?;
-    let split_at = rest.find(['+', '-']).unwrap_or(rest.len());
-    let sides = rest[..split_at]
-        .parse::<u32>()
-        .map_err(|_| format!("invalid expression: {expression}"))?;
-    let modifier = if split_at < rest.len() {
-        rest[split_at..]
-            .parse::<i32>()
-            .map_err(|_| format!("invalid expression: {expression}"))?
-    } else {
-        0
-    };
-    if count == 0 || sides == 0 {
-        return Err(format!("invalid expression: {expression}"));
-    }
-    Ok((count, sides, modifier))
+    let spec = rally_core::parse_roll_expression(expression)?;
+    Ok((spec.count, spec.sides, spec.modifier))
 }
 
 fn load_adventure(path: &Path) -> Result<Adventure, String> {

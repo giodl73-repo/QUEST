@@ -161,7 +161,7 @@ Pieces:
 - **`src/lib.rs`** — reusable crate surface for non-CLI runners, including
   `run_cli()`, `DiceEngine`, `RollOptions`, `ai_dm_muddle_surface()`, and
   `ai_dm_muddle_host()`.
-- **`DiceEngine` + `rally-core::RunSeed`** — seed-locked RNG; every CLI roll can be logged to `state/dice_log.jsonl` with a reproducible seed. No faked rolls; no mental rolls.
+- **`DiceEngine` + `rally-core::DiceRoller`** — seed-locked RNG; every CLI roll can be logged to `state/dice_log.jsonl` with a reproducible seed. No faked rolls; no mental rolls.
 - **`PersistedState`** — party/session/campaign facts persisted as JSON.
 - **Module + party loaders** — parse `module.md` + PC sheets into Rust structs for deterministic session setup.
 - **Inbound checkpoint validator** — accepts narrative packets from the LLM, validates scene advancement and mutable state keys, writes accepted events to `state/event_log.jsonl`, and clears checkpoints.
