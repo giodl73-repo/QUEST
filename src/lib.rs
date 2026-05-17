@@ -7,7 +7,7 @@ use muddle_core::{
 
 pub mod cli;
 
-pub use cli::run_cli;
+pub use cli::{parse_roll_expression, run_cli, DiceEngine, RollOptions, RollResult};
 
 #[derive(Debug, Clone, PartialEq, Eq)]
 pub struct QuestMuddleSurface {

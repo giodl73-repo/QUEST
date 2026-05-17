@@ -159,7 +159,8 @@ Pieces:
 
 - **`src/main.rs`** — CLI entry point; re-entrant via `state/checkpoint.json`.
 - **`src/lib.rs`** — reusable crate surface for non-CLI runners, including
-  `run_cli()`, `ai_dm_muddle_surface()`, and `ai_dm_muddle_host()`.
+  `run_cli()`, `DiceEngine`, `RollOptions`, `ai_dm_muddle_surface()`, and
+  `ai_dm_muddle_host()`.
 - **`DiceEngine` + `rally-core::RunSeed`** — seed-locked RNG; every CLI roll can be logged to `state/dice_log.jsonl` with a reproducible seed. No faked rolls; no mental rolls.
 - **`PersistedState`** — party/session/campaign facts persisted as JSON.
 - **Module + party loaders** — parse `module.md` + PC sheets into Rust structs for deterministic session setup.
@@ -175,6 +176,16 @@ Reusable callers should link the crate instead of shelling out:
 
 ```rust
 let code = quest::run_cli(vec!["status".to_string()]);
+let mut dice = quest::DiceEngine::new("S07-scene6", None);
+let roll = dice.roll_options(quest::RollOptions {
+    expression: "1d20+5".to_string(),
+    advantage: true,
+    disadvantage: false,
+    bless: true,
+    scene_id: Some(6),
+    beat_index: Some(0),
+    log_stub: Some("library roll".to_string()),
+})?;
 let mut host = quest::ai_dm_muddle_host();
 ```
 

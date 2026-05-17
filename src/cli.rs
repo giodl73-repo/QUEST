@@ -95,20 +95,31 @@ struct Adventure {
     dc_table: Vec<Value>,
 }
 
-#[derive(Debug, Clone, Serialize)]
-struct RollResult {
-    expression: String,
-    rolls: Vec<u32>,
-    kept: Option<u32>,
-    mod_value: i32,
-    bless_roll: Option<u32>,
-    total: i32,
-    crit: bool,
-    fumble: bool,
-    seed_position: Option<u64>,
-    scene_id: Option<usize>,
-    beat_index: Option<usize>,
-    log_stub: Option<String>,
+#[derive(Debug, Clone, Serialize, PartialEq, Eq)]
+pub struct RollResult {
+    pub expression: String,
+    pub rolls: Vec<u32>,
+    pub kept: Option<u32>,
+    pub mod_value: i32,
+    pub bless_roll: Option<u32>,
+    pub total: i32,
+    pub crit: bool,
+    pub fumble: bool,
+    pub seed_position: Option<u64>,
+    pub scene_id: Option<usize>,
+    pub beat_index: Option<usize>,
+    pub log_stub: Option<String>,
+}
+
+#[derive(Debug, Clone, PartialEq, Eq)]
+pub struct RollOptions {
+    pub expression: String,
+    pub advantage: bool,
+    pub disadvantage: bool,
+    pub bless: bool,
+    pub scene_id: Option<usize>,
+    pub beat_index: Option<usize>,
+    pub log_stub: Option<String>,
 }
 
 fn default_party_slug() -> String {
@@ -632,14 +643,14 @@ fn load_events() -> Vec<Value> {
         .unwrap_or_default()
 }
 
-struct DiceEngine {
+pub struct DiceEngine {
     rng: RunSeed,
     position: u64,
     log_path: Option<PathBuf>,
 }
 
 impl DiceEngine {
-    fn new(seed: &str, log_path: Option<PathBuf>) -> Self {
+    pub fn new(seed: &str, log_path: Option<PathBuf>) -> Self {
         Self {
             rng: RunSeed::new(seed),
             position: 0,
@@ -647,7 +658,23 @@ impl DiceEngine {
         }
     }
 
-    fn roll(
+    pub fn position(&self) -> u64 {
+        self.position
+    }
+
+    pub fn roll_options(&mut self, options: RollOptions) -> Result<RollResult, String> {
+        self.roll(
+            &options.expression,
+            options.advantage,
+            options.disadvantage,
+            options.bless,
+            options.scene_id,
+            options.beat_index,
+            options.log_stub,
+        )
+    }
+
+    pub fn roll(
         &mut self,
         expression: &str,
         adv: bool,
@@ -720,7 +747,7 @@ impl DiceEngine {
     }
 }
 
-fn parse_roll_expression(expression: &str) -> Result<(u32, u32, i32), String> {
+pub fn parse_roll_expression(expression: &str) -> Result<(u32, u32, i32), String> {
     let expr = expression.trim().to_ascii_lowercase();
     let Some((count_text, rest)) = expr.split_once('d') else {
         return Err(format!("invalid expression: {expression}"));
@@ -1067,6 +1094,29 @@ mod tests {
         assert_eq!(l.rolls, r.rolls);
         assert_eq!(l.total, r.total);
         assert_eq!(l.seed_position, Some(0));
+    }
+
+    #[test]
+    fn dice_engine_supports_public_roll_options() {
+        let mut engine = DiceEngine::new("library-seed", None);
+        let result = engine
+            .roll_options(RollOptions {
+                expression: "1d20+2".to_string(),
+                advantage: true,
+                disadvantage: false,
+                bless: true,
+                scene_id: Some(3),
+                beat_index: Some(1),
+                log_stub: Some("library-call".to_string()),
+            })
+            .expect("library roll succeeds");
+
+        assert_eq!(result.expression, "1d20+2");
+        assert_eq!(result.scene_id, Some(3));
+        assert_eq!(result.beat_index, Some(1));
+        assert_eq!(result.log_stub.as_deref(), Some("library-call"));
+        assert_eq!(result.seed_position, Some(0));
+        assert_eq!(engine.position(), 1);
     }
 
     #[test]
