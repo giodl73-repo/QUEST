@@ -329,6 +329,70 @@ impl MuddleHost for QuestAiDmMuddleHost {
             .collect()
     }
 
+    fn export_checkpoint(&self) -> Option<String> {
+        Some(format!(
+            "scene={};party_hp={};party_focus={};threat={};treasure_sealed={};last_dm_move={}",
+            self.state.scene,
+            self.state.party_hp,
+            self.state.party_focus,
+            self.state.threat,
+            self.state.treasure_sealed,
+            self.state.last_dm_move
+        ))
+    }
+
+    fn import_checkpoint(&mut self, checkpoint: &str) -> Result<(), MuddleError> {
+        let mut scene = None;
+        let mut party_hp = None;
+        let mut party_focus = None;
+        let mut threat = None;
+        let mut treasure_sealed = None;
+        let mut last_dm_move = None;
+
+        for part in checkpoint.split(';') {
+            let (key, value) =
+                part.split_once('=')
+                    .ok_or_else(|| MuddleError::InvalidHostCheckpoint {
+                        message: format!("malformed checkpoint field `{part}`"),
+                    })?;
+            match key {
+                "scene" => scene = Some(parse_checkpoint_u32(key, value)?),
+                "party_hp" => party_hp = Some(parse_checkpoint_i32(key, value)?),
+                "party_focus" => party_focus = Some(parse_checkpoint_i32(key, value)?),
+                "threat" => threat = Some(parse_checkpoint_u32(key, value)?),
+                "treasure_sealed" => treasure_sealed = Some(parse_checkpoint_bool(key, value)?),
+                "last_dm_move" => last_dm_move = Some(value.to_string()),
+                _ => {
+                    return Err(MuddleError::InvalidHostCheckpoint {
+                        message: format!("unknown checkpoint field `{key}`"),
+                    });
+                }
+            }
+        }
+
+        self.state = QuestAiDmState {
+            scene: scene.ok_or_else(|| MuddleError::InvalidHostCheckpoint {
+                message: "missing scene checkpoint field".to_string(),
+            })?,
+            party_hp: party_hp.ok_or_else(|| MuddleError::InvalidHostCheckpoint {
+                message: "missing party_hp checkpoint field".to_string(),
+            })?,
+            party_focus: party_focus.ok_or_else(|| MuddleError::InvalidHostCheckpoint {
+                message: "missing party_focus checkpoint field".to_string(),
+            })?,
+            threat: threat.ok_or_else(|| MuddleError::InvalidHostCheckpoint {
+                message: "missing threat checkpoint field".to_string(),
+            })?,
+            treasure_sealed: treasure_sealed.ok_or_else(|| MuddleError::InvalidHostCheckpoint {
+                message: "missing treasure_sealed checkpoint field".to_string(),
+            })?,
+            last_dm_move: last_dm_move.ok_or_else(|| MuddleError::InvalidHostCheckpoint {
+                message: "missing last_dm_move checkpoint field".to_string(),
+            })?,
+        };
+        Ok(())
+    }
+
     fn handle_command(
         &mut self,
         room_id: &str,
@@ -413,9 +477,36 @@ impl MuddleHost for QuestAiDmMuddleHost {
     }
 }
 
+fn parse_checkpoint_bool(key: &str, value: &str) -> Result<bool, MuddleError> {
+    match value {
+        "true" => Ok(true),
+        "false" => Ok(false),
+        _ => Err(MuddleError::InvalidHostCheckpoint {
+            message: format!("invalid boolean checkpoint field `{key}={value}`"),
+        }),
+    }
+}
+
+fn parse_checkpoint_i32(key: &str, value: &str) -> Result<i32, MuddleError> {
+    value
+        .parse::<i32>()
+        .map_err(|_| MuddleError::InvalidHostCheckpoint {
+            message: format!("invalid integer checkpoint field `{key}={value}`"),
+        })
+}
+
+fn parse_checkpoint_u32(key: &str, value: &str) -> Result<u32, MuddleError> {
+    value
+        .parse::<u32>()
+        .map_err(|_| MuddleError::InvalidHostCheckpoint {
+            message: format!("invalid unsigned checkpoint field `{key}={value}`"),
+        })
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
+    use muddle_core::MuddleSession;
 
     #[test]
     fn ai_dm_enemy_turn_spends_armed_threat() {
@@ -457,5 +548,46 @@ mod tests {
             .expect("exit succeeds");
 
         assert_eq!(outcome.next_room, Some("encounter".to_string()));
+    }
+
+    #[test]
+    fn ai_dm_resumes_from_checkpoint_save() {
+        let mut host = ai_dm_muddle_host();
+        let mut session = MuddleSession::for_host(&host).expect("host has start room");
+        for command in [
+            "go scene",
+            "advance scene",
+            "enemy turn",
+            "go treasure",
+            "unseal treasure",
+        ] {
+            session
+                .play_turn(&mut host, MuddleCommand::parse(command))
+                .expect("command plays");
+        }
+
+        let save = session.save_for_host(&host);
+        assert!(save
+            .host_checkpoint
+            .as_deref()
+            .unwrap_or_default()
+            .contains("treasure_sealed=false"));
+
+        let checkpoint_only_save = muddle_core::MuddleSessionSave {
+            current_room: "treasure".to_string(),
+            commands: vec![
+                "go scene".to_string(),
+                "go encounter".to_string(),
+                "go treasure".to_string(),
+            ],
+            host_checkpoint: save.host_checkpoint,
+        };
+        let mut resumed_host = ai_dm_muddle_host();
+        let resumed = MuddleSession::resume_for_host(&mut resumed_host, &checkpoint_only_save)
+            .expect("session resumes from host checkpoint");
+
+        assert_eq!(resumed.current_room, "treasure");
+        assert!(!resumed_host.state().treasure_sealed);
+        assert!(resumed_host.state().threat >= 2);
     }
 }

@@ -168,9 +168,10 @@ Pieces:
 - **`bind-module`** — compiles an adventure directory into a table-ready `module.md` with scenes and a DM cheatsheet.
 - **`quest-muddle`** — product-owned MUDDLE launcher for a deterministic
   AI-DM table loop with visible threat, party focus, treasure consequence, and
-  transcript/save support.
+  transcript/checkpoint-save support.
 - **`quest-muddle-window`** — product-owned MUDDLE window launcher over the
-  same AI-DM host and shared window runner.
+  same AI-DM host and shared window runner. The host exports/imports checkpoints
+  for scene, HP, focus, threat, treasure, and last-DM-move state.
 
 The engine is what lets `session-runner` claim its "no fake rolls" quality gate with a straight face.
 
