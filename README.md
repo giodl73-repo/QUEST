@@ -194,6 +194,8 @@ let mut host = quest::ai_dm_muddle_host();
 ```bash
 cargo run --bin quest-muddle -- --save target\quest-ai.muddle --transcript target\quest-ai.txt
 cargo run --bin quest-muddle-window -- --open
+cargo run --bin quest-muddle-window -- --save target\quest-ai.window.muddle --transcript target\quest-ai.window.txt --open
+cargo run --bin quest-muddle-window -- --load target\quest-ai.window.muddle --save target\quest-ai.window.muddle --transcript target\quest-ai.window.txt --open
 ```
 
 ---
