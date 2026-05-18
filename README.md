@@ -172,6 +172,9 @@ Pieces:
 - **`quest-muddle-window`** — product-owned MUDDLE window launcher over the
   same AI-DM host and shared window runner. The host exports/imports checkpoints
   for scene, HP, focus, threat, treasure, and last-DM-move state.
+- **`quest-muddle-macroquad`** — product-owned MUDDLE/Macroquad launcher over
+  the same AI-DM host with a native table title and default
+  save/transcript/import/export paths.
 
 The engine is what lets `session-runner` claim its "no fake rolls" quality gate with a straight face.
 
@@ -197,7 +200,11 @@ cargo run --bin quest-muddle -- --save target\quest-ai.muddle --transcript targe
 cargo run --bin quest-muddle-window -- --open
 cargo run --bin quest-muddle-window -- --save target\quest-ai.window.muddle --transcript target\quest-ai.window.txt --open
 cargo run --bin quest-muddle-window -- --load target\quest-ai.window.muddle --save target\quest-ai.window.muddle --transcript target\quest-ai.window.txt --open
+cargo run --bin quest-muddle-macroquad
 ```
+
+The first visible native AI-DM table arc is: `go scene`, `scout room`,
+`advance scene`, `enemy turn`, `rally party`, `go treasure`, `unseal treasure`.
 
 ---
 

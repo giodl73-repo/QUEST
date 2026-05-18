@@ -17,9 +17,15 @@ path = "src/bin/quest-muddle.rs"
 name = "quest-muddle-window"
 path = "src/bin/quest-muddle-window.rs"
 
+[[bin]]
+name = "quest-muddle-macroquad"
+path = "src/bin/quest-muddle-macroquad.rs"
+
 [dependencies]
+macroquad = "0.4"
 muddle-cli = { git = "https://github.com/giodl73-repo/MUDDLE.git" }
 muddle-core = { git = "https://github.com/giodl73-repo/MUDDLE.git" }
+muddle-macroquad = { git = "https://github.com/giodl73-repo/MUDDLE.git" }
 muddle-window = { git = "https://github.com/giodl73-repo/MUDDLE.git" }
 rally-core = { git = "https://github.com/giodl73-repo/RALLY.git" }
 serde = { version = "1", features = ["derive"] }
