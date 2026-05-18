@@ -169,6 +169,8 @@ Pieces:
 - **`quest-muddle`** — product-owned MUDDLE launcher for a deterministic
   AI-DM table loop with visible threat, party focus, treasure consequence, and
   transcript/save support.
+- **`quest-muddle-window`** — product-owned MUDDLE window launcher over the
+  same AI-DM host and shared window runner.
 
 The engine is what lets `session-runner` claim its "no fake rolls" quality gate with a straight face.
 
@@ -191,6 +193,7 @@ let mut host = quest::ai_dm_muddle_host();
 
 ```bash
 cargo run --bin quest-muddle -- --save target\quest-ai.muddle --transcript target\quest-ai.txt
+cargo run --bin quest-muddle-window -- --open
 ```
 
 ---
