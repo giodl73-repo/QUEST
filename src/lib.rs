@@ -363,7 +363,10 @@ impl MuddleHost for QuestAiDmMuddleHost {
             MuddleVisualNode::text(
                 "party-state-label",
                 "Party state",
-                format!("HP {} / Focus {}", self.state.party_hp, self.state.party_focus),
+                format!(
+                    "HP {} / Focus {}",
+                    self.state.party_hp, self.state.party_focus
+                ),
             )
             .with_layer(30)
             .with_rect(3, 5, 4, 1),
@@ -673,7 +676,12 @@ mod tests {
     fn ai_dm_emits_visual_scene_nodes() {
         let mut host = ai_dm_muddle_host();
         let mut session = MuddleSession::for_host(&host).expect("host has start room");
-        for command in ["go scene", "advance scene", "go treasure", "unseal treasure"] {
+        for command in [
+            "go scene",
+            "advance scene",
+            "go treasure",
+            "unseal treasure",
+        ] {
             session
                 .play_turn(&mut host, MuddleCommand::parse(command))
                 .expect("command plays");
@@ -684,7 +692,10 @@ mod tests {
             .iter()
             .find(|node| node.id == "quest-ai-dm-scene")
             .expect("scene group exists");
-        assert!(scene.children.iter().any(|node| node.id == "treasure-token"));
+        assert!(scene
+            .children
+            .iter()
+            .any(|node| node.id == "treasure-token"));
         assert!(scene
             .children
             .iter()
