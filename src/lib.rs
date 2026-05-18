@@ -2,7 +2,7 @@ use std::collections::HashMap;
 
 use muddle_core::{
     MuddleCommand, MuddleCommandHint, MuddleCommandOutcome, MuddleError, MuddleExit, MuddleHost,
-    MuddleInventoryItem, MuddleResource, MuddleRoom,
+    MuddleInventoryItem, MuddleResource, MuddleRoom, MuddleVisualNode,
 };
 
 pub mod cli;
@@ -329,6 +329,68 @@ impl MuddleHost for QuestAiDmMuddleHost {
             .collect()
     }
 
+    fn visual_nodes(&self, current_room: &str) -> Vec<MuddleVisualNode> {
+        let threat_frame = if self.state.threat >= 3 {
+            "armed"
+        } else {
+            "building"
+        };
+        let mut children = vec![
+            MuddleVisualNode::sprite(
+                "quest-table-map",
+                "QUEST table map",
+                "sprites/quest/ai-dm-table.png",
+                "A table-to-treasure scene strip for the AI DM slice.",
+            )
+            .with_layer(0)
+            .with_rect(0, 0, 8, 4),
+            MuddleVisualNode::text("current-room-label", "Current room", current_room)
+                .with_layer(30)
+                .with_rect(1, 0, 4, 1),
+            quest_room_token("table-token", "Table", "table", current_room, 1),
+            quest_room_token("scene-token", "Scene", "scene", current_room, 2),
+            quest_room_token("encounter-token", "Encounter", "encounter", current_room, 3),
+            quest_room_token("treasure-token", "Treasure", "treasure", current_room, 4),
+            MuddleVisualNode::sprite(
+                "threat-clock",
+                "Threat clock",
+                "sprites/quest/threat-clock.png",
+                format!("Threat clock at {}", self.state.threat),
+            )
+            .with_layer(20)
+            .with_rect(1, 5, 2, 1)
+            .with_frame(threat_frame),
+            MuddleVisualNode::text(
+                "party-state-label",
+                "Party state",
+                format!("HP {} / Focus {}", self.state.party_hp, self.state.party_focus),
+            )
+            .with_layer(30)
+            .with_rect(3, 5, 4, 1),
+        ];
+
+        if !self.state.treasure_sealed {
+            children.push(
+                MuddleVisualNode::sprite(
+                    "treasure-claimed-badge",
+                    "Treasure claimed",
+                    "sprites/quest/silver-oath.png",
+                    "Silver oath treasure claimed badge.",
+                )
+                .with_layer(20)
+                .with_rect(6, 5, 2, 1)
+                .with_frame("claimed")
+                .with_animation("pulse"),
+            );
+        }
+
+        vec![MuddleVisualNode::group(
+            "quest-ai-dm-scene",
+            "QUEST AI DM scene",
+            children,
+        )]
+    }
+
     fn export_checkpoint(&self) -> Option<String> {
         Some(format!(
             "scene={};party_hp={};party_focus={};threat={};treasure_sealed={};last_dm_move={}",
@@ -496,6 +558,29 @@ fn parse_checkpoint_bool(key: &str, value: &str) -> Result<bool, MuddleError> {
     }
 }
 
+fn quest_room_token(
+    id: &str,
+    label: &str,
+    room_id: &str,
+    current_room: &str,
+    order: i32,
+) -> MuddleVisualNode {
+    let frame = if current_room == room_id {
+        "active"
+    } else {
+        "idle"
+    };
+    MuddleVisualNode::sprite(
+        id,
+        label,
+        format!("sprites/quest/{room_id}.png"),
+        format!("{label} room token"),
+    )
+    .with_layer(10)
+    .with_rect(order * 2 - 1, 2, 1, 1)
+    .with_frame(frame)
+}
+
 fn parse_checkpoint_i32(key: &str, value: &str) -> Result<i32, MuddleError> {
     value
         .parse::<i32>()
@@ -582,6 +667,28 @@ mod tests {
 
         assert_eq!(session.current_room, "treasure");
         assert!(!host.state().treasure_sealed);
+    }
+
+    #[test]
+    fn ai_dm_emits_visual_scene_nodes() {
+        let mut host = ai_dm_muddle_host();
+        let mut session = MuddleSession::for_host(&host).expect("host has start room");
+        for command in ["go scene", "advance scene", "go treasure", "unseal treasure"] {
+            session
+                .play_turn(&mut host, MuddleCommand::parse(command))
+                .expect("command plays");
+        }
+
+        let visuals = host.visual_nodes(&session.current_room);
+        let scene = visuals
+            .iter()
+            .find(|node| node.id == "quest-ai-dm-scene")
+            .expect("scene group exists");
+        assert!(scene.children.iter().any(|node| node.id == "treasure-token"));
+        assert!(scene
+            .children
+            .iter()
+            .any(|node| node.id == "treasure-claimed-badge"));
     }
 
     #[test]
