@@ -404,6 +404,9 @@ impl MuddleHost for QuestAiDmMuddleHost {
         }
 
         match (room_id, normalized.as_str()) {
+            ("table", "go treasure") => Ok(MuddleCommandOutcome::stay(
+                "Treasure is behind the encounter frame. Open the scene and resolve the encounter path first.",
+            )),
             ("table", "go scene") => Ok(MuddleCommandOutcome::move_to(
                 "The table opens on the active scene.",
                 "scene",
@@ -423,6 +426,12 @@ impl MuddleHost for QuestAiDmMuddleHost {
             ("encounter", "go treasure") => Ok(MuddleCommandOutcome::move_to(
                 "You move to the treasure decision.",
                 "treasure",
+            )),
+            ("encounter", "scout room") => Ok(MuddleCommandOutcome::stay(
+                "The room has already become an encounter. Use enemy turn, rally party, or go treasure.",
+            )),
+            ("encounter", "advance scene") => Ok(MuddleCommandOutcome::stay(
+                "This scene has already advanced into the encounter frame.",
             )),
             ("treasure", "go table") => Ok(MuddleCommandOutcome::move_to(
                 "You return to the session table with the consequence in view.",
@@ -548,6 +557,31 @@ mod tests {
             .expect("exit succeeds");
 
         assert_eq!(outcome.next_room, Some("encounter".to_string()));
+    }
+
+    #[test]
+    fn ai_dm_guides_friction_commands() {
+        let mut host = ai_dm_muddle_host();
+        let mut session = MuddleSession::for_host(&host).expect("host has start room");
+        for command in [
+            "go treasure",
+            "go scene",
+            "scout room",
+            "advance scene",
+            "scout room",
+            "advance scene",
+            "enemy turn",
+            "rally party",
+            "go treasure",
+            "unseal treasure",
+        ] {
+            session
+                .play_turn(&mut host, MuddleCommand::parse(command))
+                .expect("friction command remains guided");
+        }
+
+        assert_eq!(session.current_room, "treasure");
+        assert!(!host.state().treasure_sealed);
     }
 
     #[test]
