@@ -1,4 +1,4 @@
-# QUEST — A D&D Workshop That Learns From Itself
+﻿# QUEST — A D&D Workshop That Learns From Itself
 
 QUEST is a workshop for **designing, playtesting, and improving D&D 5e adventures** in the Dragonlance setting. It is one repository in a family of **Emergent Skills AI** projects — systems where skills, rubrics, and player archetypes are *discovered through use* rather than designed up front.
 
@@ -261,6 +261,13 @@ Six papers document findings from the workshop's seven campaigns. LaTeX sources 
 - [An 8-Dimension Playtest Rubric as a Research Instrument](research/publications/glyph-rubric-instrument/main.pdf)
 
 ---
+
+## Games infrastructure
+
+QUEST uses two shared games-design tools:
+
+- **[MUDDLE](https://github.com/giodl73-repo/MUDDLE)** — shared room-command UX engine. QUEST hosts the AI-DM table through MUDDLE's adapter contracts, with CLI (`quest-muddle`), browser-window (`quest-muddle-window`), and native Macroquad (`quest-muddle-macroquad`) clients.
+- **[RALLY](https://github.com/giodl73-repo/RALLY)** — shared simulation and validation substrate. RALLY is the planned path for QUEST's deterministic dice, event logging, checkpoint validation, and mechanical beat validation as the pipeline graduates from Python.
 
 ## License
 
