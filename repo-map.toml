@@ -1,0 +1,33 @@
+# Local tracker repo map for generated Cargo dependency overrides.
+# Cargo does not read this file directly; run:
+#
+#   python tools\repo_map.py write-cargo-config
+#
+
+[standard]
+version = 1
+cargo_config = ".cargo/config.toml"
+
+[repos.this_repo]
+role = "current repository"
+relative = "."
+clone_url = "https://github.com/giodl73-repo/QUEST.git"
+
+[repos.muddle]
+role = "tracker dependency for quest"
+relative = "..\\muddle"
+clone_url = "https://github.com/giodl73-repo/MUDDLE.git"
+cargo_patches = [
+  { package = "muddle-cli", source = "https://github.com/giodl73-repo/MUDDLE.git", path = "crates/muddle-cli" },
+  { package = "muddle-core", source = "https://github.com/giodl73-repo/MUDDLE.git", path = "crates/muddle-core" },
+  { package = "muddle-macroquad", source = "https://github.com/giodl73-repo/MUDDLE.git", path = "crates/muddle-macroquad" },
+  { package = "muddle-window", source = "https://github.com/giodl73-repo/MUDDLE.git", path = "crates/muddle-window" },
+]
+
+[repos.rally]
+role = "tracker dependency for quest"
+relative = "..\\rally"
+clone_url = "https://github.com/giodl73-repo/RALLY.git"
+cargo_patches = [
+  { package = "rally-core", source = "https://github.com/giodl73-repo/RALLY.git", path = "." },
+]
