@@ -742,4 +742,16 @@ mod tests {
         assert!(!resumed_host.state().treasure_sealed);
         assert!(resumed_host.state().threat >= 2);
     }
+
+    #[test]
+    fn ai_dm_rejects_invalid_checkpoint_fields() {
+        let mut host = ai_dm_muddle_host();
+        let error = host
+            .import_checkpoint(
+                "scene=1;party_hp=24;party_focus=3;threat=1;treasure_sealed=maybe;last_dm_move=bad",
+            )
+            .expect_err("invalid boolean checkpoint should be rejected");
+
+        assert!(format!("{error:?}").contains("invalid boolean checkpoint field"));
+    }
 }
