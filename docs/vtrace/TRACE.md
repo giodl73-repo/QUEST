@@ -25,6 +25,11 @@ Baseline date: 2026-06-01
 | GAP-QST-002 | Engine recovery tests need selected command proof. | Create work package for checkpoint/recovery verification. |
 | GAP-QST-003 | MUDDLE interface rows need fixture execution evidence. | Create work package for MUDDLE surface proof. |
 
+Deferred specification visibility: SPEC-QST-UNK-001, SPEC-QST-UNK-002, and
+SPEC-QST-UNK-003 are intentionally dispositioned through later validation,
+verification, interfaces, and work-package rows rather than treated as accepted
+implementation specs.
+
 ## Role Review Summary
 
 Role lenses applied from `.roles/`. No critical or major actionable trace gaps

@@ -22,6 +22,14 @@ Baseline date: 2026-06-01
 | `docs/vtrace/VALIDATION.md` | reviewed |
 | `docs/vtrace/TRACE.md` | reviewed |
 
+## Review Lanes
+
+| Lane | Required | Decision | Evidence / Rationale |
+|---|---|---|---|
+| Table workflow and closeout | yes | accepted | Closeout checklist concerns are deferred to a work package and later locked. |
+| Mechanical state integrity | yes | accepted | Engine checkpoint/recovery proof is tracked as a verification work package. |
+| Shared-client boundary | yes | accepted | MUDDLE surface proof remains QUEST-owned and fixture-scoped. |
+
 ## Fixed-Point Findings
 
 | Finding ID | Finding | Disposition |
