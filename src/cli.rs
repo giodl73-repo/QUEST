@@ -943,27 +943,76 @@ fn bind_module(adv_dir: &Path, slug: &str) -> String {
     }
     let room_dir = adv_dir.join("rooms");
     let mut dc_rows = Vec::new();
-    if let Ok(entries) = fs::read_dir(&room_dir) {
-        for (idx, entry) in entries.filter_map(Result::ok).enumerate() {
-            let path = entry.path();
-            if path.extension().is_some_and(|ext| ext == "md") {
-                if let Ok(raw) = fs::read_to_string(&path) {
-                    out.push_str("\n\n---\n\n");
-                    out.push_str(&format!(
-                        "### Scene {} — {}\n\n",
-                        idx + 1,
-                        room_title(&raw, &path)
-                    ));
-                    out.push_str(strip_frontmatter(&raw).trim());
-                    dc_rows.extend(extract_dcs(&raw, idx + 1));
-                }
-            }
+    for (scene, path) in module_room_paths(&room_dir).into_iter().enumerate() {
+        if let Ok(raw) = fs::read_to_string(&path) {
+            out.push_str("\n\n---\n\n");
+            out.push_str(&format!(
+                "### Scene {} — {}\n\n",
+                scene + 1,
+                room_title(&raw, &path)
+            ));
+            out.push_str(strip_frontmatter(&raw).trim());
+            dc_rows.extend(extract_dcs(&raw, scene + 1));
         }
+    }
+    let map = room_dir.join("map.md");
+    if let Ok(raw) = fs::read_to_string(&map) {
+        out.push_str("\n\n---\n\n## Map\n\n");
+        out.push_str(demote_headings(strip_frontmatter(&raw).trim(), 3).trim());
     }
     out.push_str("\n\n---\n\n## DM Cheatsheet\n\n### Quick Reference — Key DCs (by scene)\n\n");
     out.push_str(&dc_table(&dc_rows));
     out.push('\n');
     out
+}
+
+fn module_room_paths(room_dir: &Path) -> Vec<PathBuf> {
+    let mut paths = fs::read_dir(room_dir)
+        .map(|entries| {
+            entries
+                .filter_map(Result::ok)
+                .map(|entry| entry.path())
+                .filter(|path| {
+                    path.extension().is_some_and(|ext| ext == "md")
+                        && path.file_name().is_some_and(|name| name != "map.md")
+                })
+                .collect::<Vec<_>>()
+        })
+        .unwrap_or_default();
+    paths.sort_by(|left, right| {
+        let left_key = room_sort_key(left);
+        let right_key = room_sort_key(right);
+        left_key.cmp(&right_key)
+    });
+    paths
+}
+
+fn room_sort_key(path: &Path) -> (u32, String) {
+    let stem = path
+        .file_stem()
+        .unwrap_or_default()
+        .to_string_lossy()
+        .to_string();
+    let numeric_prefix = stem
+        .split_once('-')
+        .and_then(|(prefix, _)| prefix.parse::<u32>().ok())
+        .unwrap_or(u32::MAX);
+    (numeric_prefix, stem)
+}
+
+fn demote_headings(raw: &str, levels: usize) -> String {
+    raw.lines()
+        .map(|line| {
+            if line.starts_with('#') {
+                let hashes = line.chars().take_while(|ch| *ch == '#').count();
+                if line.chars().nth(hashes) == Some(' ') {
+                    return format!("{}{}", "#".repeat(levels), line);
+                }
+            }
+            line.to_string()
+        })
+        .collect::<Vec<_>>()
+        .join("\n")
 }
 
 fn strip_frontmatter(raw: &str) -> &str {
@@ -978,10 +1027,12 @@ fn strip_frontmatter(raw: &str) -> &str {
 fn room_title(raw: &str, path: &Path) -> String {
     raw.lines()
         .find_map(|line| {
-            line.strip_prefix("# Room ").and_then(|rest| {
-                rest.split_once('—')
-                    .map(|(_, title)| title.trim().to_string())
-            })
+            line.strip_prefix("# Room ")
+                .or_else(|| line.strip_prefix("# Scene "))
+                .and_then(|rest| {
+                    rest.split_once('—')
+                        .map(|(_, title)| title.trim().to_string())
+                })
         })
         .unwrap_or_else(|| {
             path.file_stem()
@@ -992,21 +1043,42 @@ fn room_title(raw: &str, path: &Path) -> String {
 }
 
 fn extract_dcs(raw: &str, scene: usize) -> Vec<Value> {
-    raw.split("DC ")
-        .skip(1)
-        .filter_map(|part| {
-            let dc = part
-                .split_whitespace()
-                .next()
-                .and_then(|value| value.parse::<u64>().ok())?;
-            Some(json!({
-                "dc": dc,
-                "check": part.split(" to ").next().unwrap_or("").trim(),
-                "scene": scene,
-                "consequence": part.split(" to ").nth(1).unwrap_or("").trim().trim_end_matches('.'),
-            }))
-        })
-        .collect()
+    let mut rows = Vec::new();
+    for line in raw.lines() {
+        if line.contains('|') || line.contains('×') || !line.contains("DC ") {
+            continue;
+        }
+        let Some((before, after)) = line.split_once("DC ") else {
+            continue;
+        };
+        let Some(dc) = after
+            .split(|ch: char| !ch.is_ascii_digit())
+            .next()
+            .and_then(|value| value.parse::<u64>().ok())
+        else {
+            continue;
+        };
+        let check = compact_check(before);
+        if check.is_empty() {
+            continue;
+        }
+        let consequence = after
+            .find(|ch: char| matches!(ch, '.' | ';' | ')' | ']'))
+            .map(|idx| &after[..=idx])
+            .unwrap_or(after)
+            .trim();
+        let consequence = compact_consequence(consequence);
+        if consequence.is_empty() || consequence.chars().all(|ch| !ch.is_alphanumeric()) {
+            continue;
+        }
+        rows.push(json!({
+            "dc": dc,
+            "check": check,
+            "scene": scene,
+            "consequence": consequence,
+        }));
+    }
+    rows
 }
 
 fn dc_table(rows: &[Value]) -> String {
@@ -1025,6 +1097,58 @@ fn dc_table(rows: &[Value]) -> String {
         ));
     }
     out
+}
+
+fn sanitize_table_cell(value: &str) -> String {
+    value
+        .replace('|', "/")
+        .replace('🎲', "")
+        .replace('\n', " ")
+        .replace("**", "")
+        .split_whitespace()
+        .collect::<Vec<_>>()
+        .join(" ")
+}
+
+fn compact_check(value: &str) -> String {
+    let cleaned = sanitize_table_cell(value)
+        .trim_start_matches('-')
+        .trim_start_matches('*')
+        .trim_start_matches('>')
+        .trim()
+        .trim_end_matches(':')
+        .trim()
+        .to_string();
+    let segment = cleaned
+        .rsplit_once('.')
+        .map(|(_, right)| right)
+        .unwrap_or(&cleaned)
+        .trim();
+    let segment = segment
+        .rsplit_once(':')
+        .map(|(_, right)| right)
+        .unwrap_or(segment)
+        .trim();
+    let segment = segment
+        .rsplit_once(')')
+        .map(|(_, right)| right)
+        .unwrap_or(segment)
+        .trim();
+    let segment = segment
+        .rsplit_once('(')
+        .map(|(_, right)| right)
+        .unwrap_or(segment)
+        .trim();
+    sanitize_table_cell(segment)
+}
+
+fn compact_consequence(value: &str) -> String {
+    let cleaned = sanitize_table_cell(value);
+    cleaned
+        .trim_start_matches(|ch: char| ch.is_ascii_digit() || ch.is_whitespace())
+        .trim_start_matches(':')
+        .trim()
+        .to_string()
 }
 
 fn title_case(slug: &str) -> String {
@@ -1127,5 +1251,45 @@ mod tests {
         assert_eq!(scenes.len(), 2);
         assert_eq!(scenes[0].name, "The Arrival");
         assert_eq!(scenes[1].stat_blocks[0].name, "Test Guard");
+    }
+
+    #[test]
+    fn module_binder_orders_numbered_rooms_and_keeps_map_out_of_scene_count() {
+        let root = env::temp_dir().join(format!("quest-bind-module-test-{}", std::process::id()));
+        let adv_dir = root.join("adventures").join("0007-test");
+        let rooms_dir = adv_dir.join("rooms");
+        let _ = fs::remove_dir_all(&root);
+        fs::create_dir_all(&rooms_dir).unwrap();
+        fs::write(
+            adv_dir.join("premise.md"),
+            "---\nadventure: test\n---\n\n# Premise\n\nSummary.",
+        )
+        .unwrap();
+        fs::write(
+            rooms_dir.join("02-second.md"),
+            "---\nadventure: test\n---\n\n# Scene 02 — Second\n\n- Door DC 12 Investigation to open safely.",
+        )
+        .unwrap();
+        fs::write(
+            rooms_dir.join("01-first.md"),
+            "---\nadventure: test\n---\n\n# Scene 01 — First\n\n- Trap DC 10 Dexterity; failure costs time.",
+        )
+        .unwrap();
+        fs::write(
+            rooms_dir.join("map.md"),
+            "---\nadventure: test\n---\n\n# Map\n\n| A | B |\n|---|---|\n| x | y |",
+        )
+        .unwrap();
+
+        let module = bind_module(&adv_dir, "0007-test");
+
+        assert!(module.contains("### Scene 1 — First"));
+        assert!(module.contains("### Scene 2 — Second"));
+        assert!(!module.contains("### Scene 3 — map"));
+        assert!(module.contains("## Map"));
+        assert!(module.contains("| 10 | Trap | 1 | Dexterity; |"));
+        assert!(module.contains("| 12 | Door | 2 | Investigation to open safely. |"));
+
+        let _ = fs::remove_dir_all(&root);
     }
 }

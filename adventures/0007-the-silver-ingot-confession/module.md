@@ -1,146 +1,82 @@
 ---
 adventure: 0007-the-silver-ingot-confession
-tier: 2
-author: module-binder
-created: 2026-04-20
-campaign: moon-silver-cycle
-campaign-position: 7 of 7
-rubric-compliance: v1.4
-compiled-from:
-  - premise.md
-  - rooms/map.md
-  - rooms/01-cold-vein-site.md
-  - rooms/02-vaenshold-arrival.md
-  - rooms/03-workshop-approach.md
-  - rooms/04-the-pine-tree.md
-  - rooms/05-forge-preparation.md
-  - rooms/06-the-silver-ingot-confession.md
-  - rooms/07-aftermath.md
 ---
 
-# The Silver-Ingot Confession — DM Module
-
-*Aelwen of Vaenshold made six moon-silver objects to hold grief instead of releasing it. In PC 179 she was given cold-vein silver — the shame-vein, the right material — and could not forge the seventh object that would have been the tool of release. She hanged herself instead. Her workshop has been empty for two hundred years. The party has everything needed to complete what she could not: the cold-vein silver, the understanding, the four hints, and the grief that the campaign has been carrying. The Silver-Ingot Confession is not a treasure to find. It is an act to perform.*
-
-**Tier:** 2  |  **Party:** 4 × L4 (post-S06; ~3,425 XP each)  |  **Playtime:** one session, 3-4 hours
-**Setting:** Kharolis border foothills (Scene 01) → Vaenshold Estate, western Abanasinia (Scenes 02-07); PC 20, approximately one week after S06
-**Campaign:** #0007 of 7 Moon-Silver Cycle. **Emotion:** Shame. **Spotlight PC:** All four (this is the finale; every arc closes here).
-
----
-
-## Table of Contents
-
-1. Summary
-2. Hook
-3. Setting & Background
-4. Map
-5. Scenes 1-7
-6. Encounters Appendix
-7. DM Cheatsheet
-
----
+# 0007 The Silver Ingot Confession — DM Module
 
 ## Summary
 
-A single-session finale built around one act that two hundred years of history have been waiting for. The party rides from Stonfold to the Kharolis border foothills for a half-day mining operation — cold-vein moon-silver, the shame-keyed third vein, the one Aelwen acquired and could not use. Then southwest to Vaenshold Estate, where Aelwen's workshop has been locked since PC 178. They enter. They find the fresco of Ilendra's parents on the north wall, six empty forging-stands, a vault with six indentations and one empty ingot-shaped space, and a forge that has been cold for two hundred years and is shaped exactly right for moon-silver work.
+# Premise — The Silver-Ingot Confession
 
-Grom heats the forge overnight. At dawn, he places the quarter-pound of cold-vein ore in the crucible. He works it into an ingot. While he works, he says aloud what Aelwen could not: *"I made things to hold grief instead of releasing it. I could have made the tool of release. I was too ashamed to try."* The silver listens. The forge confirms. The fresco changes.
+**Campaign position:** #0007 of 7 in the **Moon-Silver Cycle**. Emotion: **Shame**. PC spotlight: **All four** (this is the finale; every arc closes here).
 
-This is Route D (optimal inversion). All four hints delivered. All four arcs closed. The Moon-Silver Cycle ends here, in the building where it began, with an ingot on the workbench and the fresco changed and four people walking out through a gate that has been waiting two hundred years for someone to finish the work.
+**Logline:** Aelwen of Vaenshold made six moon-silver objects to hold grief instead of releasing it. In PC 179 she was given cold-vein silver — the shame-vein, the right material — and could not forge the seventh object that would have been the tool of release. She hanged herself instead. Her workshop has been empty for two hundred years. The party has everything needed to complete what she could not: the cold-vein silver, the understanding, the four hints, and the grief that the campaign has been carrying. The Silver-Ingot Confession is not a treasure to find. It is an act to perform.
 
----
+## Setting
+
+**Place:** **Vaenshold Estate**, western Abanasinia — the original Vaenor family holding, abandoned since Baron Edric's death in PC 143, more than a century before the adventure begins. Aelwen's workshop is in a low stone building behind the main house, beside the pine tree. The estate is not dangerous; it is simply empty. **The pine tree is still there.**
+
+**Time:** Late Age of Might, **PC 20** (approximately one week after S06, allowing the party to ride from Stonfold back through Crystalmir and southwest to Vaenshold).
 
 ## Hook
 
-Kessa knows where this ends. She has had the three-vein documentation since S06, the Hint 4 synthesis since S05, and the full intellectual foundation since S04's Reorx-rite delivered Hint 3 to Grom. After riding home from Stonfold, she says to the party — not as a question — *"We need to go to Vaenshold. Aelwen's workshop. We need to forge the ingot she couldn't."*
+Kessa knows where this ends. She has had the three-vein documentation since S06, the Hint 4 synthesis since S05, and the full intellectual foundation since S04's Reorx-rite delivered Hint 3 to Grom. She has been waiting to be ready. After riding home from Stonfold, she says to the party — not as a question — *"We need to go to Vaenshold. Aelwen's workshop. We need to forge the ingot she couldn't."*
 
 **Brother Laen's Council letter** (waiting at Varduin when the party arrives): the Rose Council has located the Vaenshold estate, now held in trust by the Solamnic Order as an unclaimed property. Laen has arranged access. *"I do not know what you intend to do there. I trust that you know. — L."*
 
-**The cold-vein silver:** Kessa has Tova's archive documentation with the location of the third vein — the cold kind, deep Kharolis border-country. A half-day detour on the road southwest to Vaenshold becomes the opening scene. Grom knows how to mine it. The party has hands and a purpose.
+**The cold-vein silver:** Kessa has Tova's archive documentation with the location of the third vein (deep Kharolis border-country; a 4-day ride from Vaenshold via the southern route OR: the party already has enough cold-vein silver if Kann's Stonfold finger-bone had Stonfold silver, and... actually, Kann's finger-bone is Stonfold-vein (cool; longing-keyed). They need cold-vein (shame-keyed; third vein). Let them need to acquire it — this becomes the opening scene. Mira, at Stonfold, can provide the location; or Tova's map in the archive gives the prospector's location. A half-day detour to the cold-vein site; a small mining operation (Grom knows how); and they have the raw material.
 
----
+## The Silver-Ingot Confession: what it is
 
-## Setting & Background
+Aelwen's un-forged seventh object was not a sixth artifact — it was the **inverse** of all six. An ingot of cold-vein silver, forged in the heat of honest shame, and named aloud while being made: *"I made things to hold grief instead of releasing it. I could have made the tool of release. I was too ashamed to try."* When the ingot exists and the shame is named, the grief-coil sequence inverts:
 
-**Vaenshold Estate** is a Solamnic trust-held property in western Abanasinia, unclaimed since Baron Edric's death in PC 143, more than a century before the adventure begins. The Solamnic Order has maintained it structurally — the shutters are intact, the path is visible under pine-needles and moss, the workshop's forge-flue has been checked annually — but no one has entered the workshop. The estate is not dangerous. It is simply empty.
+- The destroyed forgings (Mirror, Wrath-Coin, Thread) release cleanly — their grief is acknowledged, not just unmade.
+- The surviving forgings (Varran-reliquary; Pride-Circlet) can now be properly resolved — the reliquary's Minute plays differently when release is possible; the Circlet can be destroyed or surrendered without violence to what it represented.
+- The Fresco-Heal (Hint 1, caught by Grom in S01) completes: Ilendra Vaenor's grief for Caen — which the Silver Rose was made to hold — is released. The fresco's faces (Ilendra's parents) are the visual confirmation: they look as they would look if they had been told the truth.
 
-**The workshop** is a low stone building behind the manor house, beside a pine tree. The door opens outward because Aelwen built it that way — a smith's door opens out so you can push it open when your hands are full. Inside: a forge cold for two hundred years; six forging-stands along the east and south walls, five with rings of oxidation, one clean; a fresco of Ilendra's parents on the north wall; a vault that held six artifacts and now holds the absence of them; and the indentation in the workbench leather from where the cold-vein silver rested on Aelwen's last morning.
+This is Route D (optimal inversion). It requires all four hints caught and the shame-naming performed.
 
-**The three veins:** Vaenshold silver (warm; golden; grief-coiled — the first five artifacts). Stonfold silver (cool; slightly blue; longing-keyed — the Thread-That-Frays, and Kann's finger-bone from S03). Cold-vein silver (cold; blue-grey; shame-keyed — the un-forged seventh object, the one that could have been the tool of release). Aelwen acquired the cold-vein ore in PC 177 from a Nerakan prospector and worked with it for two years without touching it. She put it on the workbench on her last day and went to the pine tree without using it.
+**Route C (default):** The party arrives at Vaenshold, deals with each artifact individually (Reorx-rite for the Circlet; narrative farewell for the reliquary), without performing the inversion. The campaign ends cleanly but not inversely. The grief-coils are ended, not released.
 
-**The four hints in play (all four confirmed):**
+**Route A (fallback):** The ingot is forged but not named aloud — the shame is acknowledged materially but not spoken. Partial inversion; the artifacts can be resolved but the fresco doesn't complete.
 
-| Hint | Where caught | Status entering #0007 |
+## Themes
+
+- Shame is the thing you could have done and did not. Grief is the thing done to you.
+- Aelwen could not forge the release-tool because to do so would require naming her failure aloud over hot metal. She chose the pine tree instead.
+- The party has been undoing her work for seven adventures. In this one, they complete it.
+- The completion is not a victory over death; it is an acknowledgment. The acknowledgment is the release.
+- Every PC has a grief that the campaign has been about. This session, the grief is named. Not resolved — named. That is what release means.
+
+## The Four Hints in the Finale
+
+| Hint | Where caught | How it functions in #0007 |
 |---|---|---|
-| Hint 1 (Fresco-Heal) | Grom, S01, Perception CRIT 23 | Delivery begins at workshop entry (Scene 03); completes when ingot forged |
-| Hint 2 (Vethrenn's margin) | Kessa, S04 rite | Fires at workshop threshold (Scene 03); answered in writing by Kessa (Scene 05) |
-| Hint 3 (Reorx's Judgment) | Grom, S04 (silent) | "A coil can be uncoiled." Speaks through Grom's hands at the forge (Scene 06) |
-| Hint 4 (Aelwen's Confession) | Kessa, S05 synthesis; S06 confirmed | Auto-delivers at passive Perception 15 when ingot exists (Scene 06); all four PCs simultaneously |
+| Hint 1 (Fresco-Heal) | Grom, S01, Perception CRIT 23 | Grom sees Ilendra's parents' faces clearly at the fresco in the Vaenshold workshop (they are here; the estate is the Rose Cairn's origin family). The fresco-heal completes when the ingot is forged. |
+| Hint 2 (Vethrenn's margin) | Kessa, S04 rite | "Release is possible; I do not know how." Kessa now knows how. The inversion IS the release. She speaks this to the margin — to Vethrenn — as the answer she earned. |
+| Hint 3 (Reorx's Judgment) | Grom, S04 (silent) | "A coil can be uncoiled." Grom's craft-understanding enables him to forge the ingot and speak the shame-naming. The Reorx-judgment IS the rite's theological foundation. He does not quote it; he acts it. |
+| Hint 4 (Aelwen's Confession) | Kessa, S05 synthesis; S06 confirmed | "I should have forged an ingot instead." Kessa completes Aelwen's sentence when the ingot is done: *"She did. We did it for her."* Auto-delivery at passive-Perception 15 when the ingot exists; all four PC's receive it simultaneously. |
 
-**Campaign-permanent constraints entering this session:**
-- Aelric attuned the Varran-reliquary (S02 Scene 6). He has the sixty-second Minute. He cannot volunteer Varran-memories he does not have; he can speak of Varran's last minute in first-person.
-- Keloth is dead. Idra is dead. The S03 threat is resolved. The Second House is still active (Felor, new principal) but not present this session.
-- Kessa carries Keloth's mother's bracelet + the transcription of Keloth's vault-ledger. The cross-adventure phrase exists in her notes; she has not re-read it.
-- Thread-That-Frays: disposed of per S06 resolution (write disposition to log if not already done).
+## The Four PC Arcs
 
----
+- **Grom:** The forge-priest who understands grief-coils performs the Silver-Ingot Confession. His Hint 3 (silent since S04) speaks through his hands into the silver. This is why Reorx accepted Aelwen's soul but not her forgings — she left the work undone. Grom finishes it. Option C mandatory.
+- **Aelric:** The Varran-reliquary. The inversion makes the reliquary's Minute playable differently — not restored, but re-contextualized. The sixty-second Minute was a coil (grief held in silver); the inversion means Aelric can hear it as release, not as the only memory. He still only has sixty seconds. But sixty seconds in release is different from sixty seconds in coil. Option C available.
+- **Kessa:** Vethrenn's margin. She answers it. "Release is possible; I do not know how." — Vethrenn, PC 100. "She was right. Here is how." — Kessa, PC 20. The margin was waiting. Kessa closes it.
+- **Thera:** The fresco of Ilendra's parents. Grom saw it once (S01 CRIT). Now Thera stands in front of it. The two people in the fresco look the way people look when they will not see their daughter for another century. She will cut the bread long-ways when she gets home. That is not a plan; it is a fact she knows now.
 
-## Map
+## Expected outcome paths
 
-Three zones: **Cold-vein site** (Scene 01) → **Vaenshold Estate** (Scenes 02-06) → **Departure** (Scene 07).
+- **Route D (optimal):** Grom forges the ingot; names the shame aloud; the fresco-heal completes; Aelric's reliquary releases; Kessa answers the margin; Thera stands at the fresco. Campaign closed. Clean.
+- **Route C (default):** Grom forges but doesn't name (Wis save or player choice to stay silent); artifacts dealt with individually; fresco completes partially; the shame is acknowledged materially but not spoken. Still a good ending.
+- **Route A (no naming, no ingot):** Party deals with artifacts one by one; no inversion; the Moon-Silver Cycle ends as individual grief-management rather than collective release.
 
-```
-        (road from Stonfold via Crystalmir; ~7 days total)
-                        |
-              [1] Cold-Vein Site
-              (Kharolis border foothills)
-              (half-day detour; Grom mines)
-                        |
-              ~~ road southwest ~~
-                        |
-         +----[2] Vaenshold Estate----+
-         |  grounds + manor house     |
-         |                            |
-    [3] Aelwen's Workshop         [old forge-hall]
-    (behind manor; low stone)     (cold now; usable)
-         |                            |
-    [4] Interior workshop         [5] The Pine Tree
-    (six forging-stands;          (behind workshop)
-     fresco; empty vault)              |
-         |                        [the place where
-    [6] The Ingot Forge           Aelwen went]
-    (central; main anvil)
-         |
-    [7] Departure
-```
-
-### Connections
-
-| From | To | Type | Notes |
-|---|---|---|---|
-| Road | [1] Cold-vein site | Detour | Half-day; Grom mines with help |
-| [1] | Vaenshold road | Return | Then southwest to estate |
-| Road | [2] Estate grounds | Approach | Laen's Council writ; Solamnic steward opens gates |
-| [2] grounds | [3] Workshop | Path | Behind manor; low stone building; door has not been opened in decades |
-| [3] Workshop | [4] Interior | Door | Investigation DC 10 finds the latch; Kessa's Arcana: she knows Aelwen's mark |
-| [4] Interior | [5] Pine tree | Back door | The door Aelwen used when she left |
-| [4] Interior | [6] Forge (central anvil) | Interior | The working forge; still usable with Grom's preparation |
-| [6] | [7] Departure | Resolution | Through the front door; the estate is quiet |
-
-**DM notes:**
-
-- **Vaenshold Estate is not dangerous.** There are no monsters, no traps, no undead. It has been empty for decades but is structurally sound (the Solamnic Order has maintained it as unclaimed property). The only threat is emotional.
-- **The pine tree.** Behind the workshop. Grom will know where it is when he sees it. So will Kessa. Thera will ask what it is. Aelric will look at it and then look away.
-- **The fresco.** Inside the workshop, on the north wall. Ilendra's parents — their faces, painted when Ilendra was young, before everything. Grom saw them in S01 (Perception CRIT 23). He will recognize them here.
-- **The empty vault.** Where Heva placed the six artifacts in PC 179. Empty now — all six artifacts have been accounted for. The vault is a room that held grief and is now holding the absence of it.
-- **The forge.** Central. Still functional. Grom will have it at temperature by dawn with one hour of preparation.
-- **v1.4 compliance:** the cold-vein site (Scene 01) has a minimal skill encounter (Athletics for mining; Stonecunning for vein identification). No combat required; the Tactician's dice-weight is covered by Scene 01's physical work rather than violence.
+All three are valid endings. Route D is earned by having caught 2+ of 3 required hints (Hints 1 + 2 confirmed; Hint 3 planted; Hint 4 synthesized by Kessa). The party has all four in play.
 
 ---
-
-## Scenes
 
 ### Scene 1 — The Cold-Vein Site
+
+# Scene 01 — The Cold-Vein Site
 
 **Location:** Kharolis border foothills, half-day detour from the Vaenshold road. **Time:** Day 4 of travel (party left Stonfold Day 1; reached Crystalmir Day 3; detour Day 4 morning).
 
@@ -155,10 +91,9 @@ Three zones: **Cold-vein site** (Scene 01) → **Vaenshold Estate** (Scenes 02-0
 - **The sky.** It is early in the morning. The Kharolis hills are quiet. This is the first time in the campaign that the party has been somewhere truly out of the way — no politics, no death, no NPC who wants something. Just cold ore and a purpose.
 
 **Dice rolled this scene (v1.4 dice-weight):**
-
-- **Grom Stonecunning (vein identification)** — passive 18; automatic on sight.
-- **Athletics checks (4 PCs × DC 12) for extraction:** 2 hours work. Each PC makes 1 check; failure means 30 minutes longer.
-- **Grom Religion DC 10 (pre-forge blessing at the vein site):** Grom may speak a Reorx-blessing over the raw ore before they leave. This grants advantage on his Religion check at the finale rite. Optional but Grom will do it because he always does.
+- **🎲 Grom Stonecunning (vein identification)** — passive 18; automatic on sight.
+- **🎲 Athletics checks (4 PCs × DC 12) for extraction:** 2 hours work. Each PC makes 1 check; failure means 30 minutes longer.
+- **🎲 Grom Religion DC 10 (pre-forge blessing at the vein site):** Grom may speak a Reorx-blessing over the raw ore before they leave. This grants advantage on his Religion check at the finale rite. Optional but Grom will do it because he always does.
 
 **Encounter:** None. This is skilled physical labor.
 
@@ -172,11 +107,17 @@ Three zones: **Cold-vein site** (Scene 01) → **Vaenshold Estate** (Scenes 02-0
 - **The party works together.** Four people digging in the Kharolis hills before dawn to extract the material for an act of collective acknowledgment. This is what the campaign has been building toward. Play it without irony.
 - **Thera digs.** She does not ask why this silver is different. She digs. The letter is still in her pocket.
 
-**Memory Fragment:**
+### Memory Fragment (optional)
 
 > *Aelwen came to this site herself in PC 177, alone, on a horse she did not own. She paid the prospector for a half-pound of ore and rode back to Vaenshold in two days. She put it in the workshop vault with the other materials. She looked at it for two years. In PC 179 she picked it up once, carried it to the central forge, put it back. She picked it up again six months later, put it back. In autumn PC 179, she put it on the workbench and then went to the pine tree without touching it. Heva found it there. She gave it to a trader three years later because she did not know what else to do with something that had never been started.*
 
-**Per-PC reception:**
+## Manifest symptoms landed
+
+- Grom recognizes cold-vein silver (anchor: Stonecunning passive 18; path a auto; path b — prior sessions' silver-comparison (Stonfold vs Vaenshold) context makes this immediate)
+- The ore's quiet vibration (passive touch; no roll; path a)
+- Thera digs without asking why (silent reception; path a)
+
+## Per-PC reception
 
 | Symptom | FINDER | RECEIVER |
 |---|---|---|
@@ -187,6 +128,8 @@ Three zones: **Cold-vein site** (Scene 01) → **Vaenshold Estate** (Scenes 02-0
 ---
 
 ### Scene 2 — Vaenshold Estate, Arrival
+
+# Scene 02 — Vaenshold Estate, Arrival
 
 **Location:** Vaenshold Estate exterior — grounds, manor house, approach. **Time:** Day 6 of travel; late afternoon.
 
@@ -217,11 +160,17 @@ Three zones: **Cold-vein site** (Scene 01) → **Vaenshold Estate** (Scenes 02-0
 - **The fresco.** Grom will recognize it when he sees it. He saw Ilendra's parents' faces in S01 Perception CRIT 23. He does not know yet that the faces are here, inside the workshop, painted on the north wall. He will know when the door opens.
 - **Aelric's connection.** The Vaenshold estate is the origin of the Silver Rose. This is the place where his grief (Varran; the armor he wears) was seeded, two hundred years ago, by a smith he has never met. He is wearing the weight of this place's history.
 
-**Memory Fragment:**
+### Memory Fragment (optional)
 
 > *Heva Aelwensdaughter locked the workshop door in PC 178, one year after her mother died. She planted the new pine tree the same day. She went inside the workshop once after that, in PC 165, to remove the six artifacts and begin the process of dispersal. She stood at the workbench and looked at the central forge for a long time. She thought: "She should have done it here. She had everything she needed. The silver was on the bench." She locked the door again. She never went back.*
 
-**Per-PC reception:**
+## Manifest symptoms landed
+
+- Aelwen's maker-mark on door (anchor: Kessa auto-recognition; path a + c via prior sessions)
+- The pine tree visible from the side (anchor: all PCs; path a; Grom will recognize the significance before it's spoken)
+- Steward's "I will be at the gate" (anchor: NPC confirms this is a threshold; path c)
+
+## Per-PC reception
 
 | Symptom | FINDER | RECEIVER |
 |---|---|---|
@@ -232,6 +181,8 @@ Three zones: **Cold-vein site** (Scene 01) → **Vaenshold Estate** (Scenes 02-0
 ---
 
 ### Scene 3 — Aelwen's Workshop (Approach and Entry)
+
+# Scene 03 — Aelwen's Workshop (Approach and Entry)
 
 **Location:** Workshop exterior and threshold. **Time:** Day 6, late afternoon.
 
@@ -259,16 +210,28 @@ Three zones: **Cold-vein site** (Scene 01) → **Vaenshold Estate** (Scenes 02-0
 - **The sixth vault-indentation.** The indentation for the un-forged ingot is the only one without an artifact's shape. It is rectangular. Ingot-shaped. Waiting for two hundred years.
 - **The back door (the pine tree door).** Aelric may open it or may not. If he does: the pine tree is there. Behind it, where the original pine was, the ground is a little lower than it should be. The earth settled once, long ago, when Heva did what she had to do.
 
-**Memory Fragment:**
+### Memory Fragment (optional)
 
 > *Kessa's commonplace book: at some point in the last two hundred years, the overwritten margin-note about the Silver Rose was joined by a second overwriting, in a different hand (not Vethrenn's; perhaps a later White Robe who examined the book). This second hand wrote: "She was right. But who?" The question was never answered. Kessa, in Aelwen's workshop, with the cold-vein silver in Grom's hands, is about to be the answer to someone's two-hundred-year-old question.*
 
-**Hint deliveries (Scene 03):**
+## Hint deliveries (Scene 03)
 
-- **Hint 1 — Fresco-Heal (beginning of delivery).** Grom sees the faces. He recognizes them from S01's Perception CRIT 23. The fresco is not the rite — but the rite will complete it. When the ingot is forged, the faces will change in a way only Grom will notice: they will look the way people look when they have been told the truth.
-- **Hint 2 — Vethrenn's margin (full delivery at threshold).** Kessa's book warms. The margin surfaces. She reads it aloud, one more time. Then she closes it. Then she says: *"I know how."*
+### ⭐ Hint 1 — Fresco-Heal (beginning of delivery)
 
-**Per-PC reception:**
+Grom sees the faces. He recognizes them from S01's Perception CRIT 23. The fresco is not the rite — but the rite will complete it. When the ingot is forged, the faces will change in a way only Grom will notice: they will look the way people look when they have been told the truth.
+
+### ⭐ Hint 2 — Vethrenn's margin (full delivery at threshold)
+
+Kessa's book warms. The margin surfaces. She reads it aloud, one more time. Then she closes it. Then she says: *"I know how."*
+
+## Manifest symptoms landed
+
+- **Fresco-faces recognized by Grom** (anchor: Hint 1 beginning; Grom passive 13+ auto; path a+b)
+- **Kessa's margin warms at threshold** (anchor: Hint 2 full delivery; path a; no roll needed; path c — workshop is the semantic location the ward was waiting for)
+- **Sixth vault-indentation (ingot-shaped, empty)** (anchor: Investigation 10; path a; path b — six indentations visible)
+- **Cold-vein silver in Grom's hands (Grom reads it against the workshop's air)** (anchor: Stonecunning passive; path a)
+
+## Per-PC reception
 
 | Symptom | FINDER | RECEIVER |
 |---|---|---|
@@ -281,6 +244,8 @@ Three zones: **Cold-vein site** (Scene 01) → **Vaenshold Estate** (Scenes 02-0
 
 ### Scene 4 — The Pine Tree (Optional)
 
+# Scene 04 — The Pine Tree (Optional)
+
 **Location:** Behind the workshop; the grounds behind the manor; the specific spot. **Time:** Day 6 evening — after entering the workshop but before the forge is hot.
 
 **Read-aloud:**
@@ -289,9 +254,9 @@ Three zones: **Cold-vein site** (Scene 01) → **Vaenshold Estate** (Scenes 02-0
 
 **Features:**
 
-- **The tree.** Heva planted this one in a Crystalmir spring, two seasons after the original was cleared. This tree has not held anything. It is just a pine.
-- **The low ground.** Where Heva cleared the original tree and the earth settled afterward. Kessa, if asked: *"She was interred in the Vaenshold chapel. Heva cleared the original tree. I do not know why the ground settled."* She knows. She does not say it.
-- **Thera's question.** If Thera walked to the back door and stands in front of this pine tree, she would ask: *"What happened here?"* Kessa will answer. She will not be indirect: *"Aelwen hanged herself from the original tree. Heva planted a replacement. Vaenshold-family silversmith tradition: you do not leave a place empty if it was a good place before the grief."*
+- **The tree.** Tova's great-grandmother's great-grandmother planted this one. It is not Aelwen's pine; it is the replacement. This tree has not held anything. It is just a pine.
+- **The low ground.** Where Heva buried Aelwen (or where the ground settled; it is ambiguous; the party can ask Kessa who will say: *"She was interred in the Vaenshold chapel. Heva cleared the original tree. I do not know why the ground settled."* She knows. She does not say it.)
+- **Thera's question.** If Thera stood in front of this pine tree — which she may, if she walked to the back door — she would ask: *"What happened here?"* Kessa will answer. She will not be indirect: *"Aelwen hanged herself from the original tree. Heva planted a replacement. Vaenshold-family silversmith tradition: you do not leave a place empty if it was a good place before the grief."*
 
 **Why this scene exists:**
 
@@ -306,13 +271,21 @@ The party has been carrying Aelwen's death across seven adventures. She is not a
 - **Grom and the Reorx-tradition.** He may speak a Reorx-benediction at the tree if he is moved to. *"Thou'rt seen."* It does not change anything. It honors something.
 - **Thera does not ask about the bread.** She does not think about the bread here. She might think about it when she gets home. She will cut it long-ways. She does not need to announce this.
 
-**Memory Fragment:**
+### Memory Fragment (optional)
 
 > *Heva Aelwensdaughter, PC 178: she planted the new pine tree in a Crystalmir spring, two seasons after the original was cleared. She brought the sapling from the hill-nursery herself. She did not say any words. She was eighteen. She had been managing the Vaenshold estate, the silversmith line, the six hidden artifacts, and her mother's death for one year. She planted the tree because her mother had said, once, when Heva was twelve: "The pine is the right tree for the back of the workshop. It does not ask for attention." Heva thought: "Then plant it. It will not ask for anything."*
+
+## Manifest symptoms landed
+
+- **The pine tree itself** (anchor: all PCs witness; path a; no roll needed; path b — present throughout Scenes 03-04)
+- **Kessa's disclosure about Aelwen's death at this spot** (anchor: Thera prompts; Kessa delivers; path c)
+- **Low ground behind the tree** (anchor: passive Perception 12 for "that ground is lower than it should be"; path a)
 
 ---
 
 ### Scene 5 — Forge Preparation (Night Before)
+
+# Scene 05 — Forge Preparation (Night Before)
 
 **Location:** Workshop; central forge. **Time:** Day 6 night; the party has until dawn.
 
@@ -337,37 +310,44 @@ The party has been carrying Aelwen's death across seven adventures. She is not a
 - **The forge fire's color.** As it gets hot, it shifts from orange to white with Kharolis-stone's specific tint — a blue-white that Grom recognizes as the right temperature for moon-silver work. Kessa: Arcana DC 10 — the forge temperature matches the cold-vein silver's working temperature exactly. Aelwen built this forge for this purpose. She knew what she was going to do. She just couldn't do it.
 - **Aelric and the reliquary.** He may, at some point during the night, hold the Varran-reliquary — not to attune further, not to play the Minute, just to hold it. The ingot-forging is tomorrow. He wants to know what he's bringing into it. He is not ready to decide yet. He does not decide tonight. He puts it away and goes back to polishing.
 
-**Memory Fragment:**
+### Memory Fragment (optional)
 
 > *The forge Aelwen built has been cold for two hundred years. In that time it has been technically maintained (the estate steward checks the flue annually; the firebox has been cleaned twice). But it has not been used. The forge knows it has not been used. Forges built for specific work carry the purpose of that work in their structure — the angle of the bellows, the depth of the firebox, the position of the working-anvil. This forge was built to smelt and work moon-silver. The shape is exactly right. Grom knows this the way he knows inside-curve. He says: "It was waiting."*
 
-**Per-PC reception:**
+## Manifest symptoms landed
+
+- **Kessa's answer to Vethrenn's margin** (anchor: Kessa writes it; path a; path c — workshop is the correct location for the answer)
+- **Forge built for moon-silver work** (anchor: Grom Stonecunning passive; Kessa Arcana 10; path a+b)
+- **Thera reads the letter in Aelwen's workshop** (anchor: Thera's private act; silent reception; path a)
+- **Aelric holding the reliquary overnight** (anchor: Aelric's private decision; no roll; path a — silent reception)
+
+## Per-PC reception
 
 | Symptom | FINDER | RECEIVER |
 |---|---|---|
 | Kessa's answer to Vethrenn | Kessa (writes it) | Kessa (closes the loop); Vethrenn's question (finally answered) |
-| Forge built for moon-silver work | Grom (feels it) | Grom + Kessa (the forge was waiting) |
+| Forge built for this exact purpose | Grom (feels it) | Grom + Kessa (the forge was waiting) |
 | Thera in the workshop with the letter | Thera (private) | Thera (she knows what it says here too) |
 
 ---
 
 ### Scene 6 — The Silver-Ingot Confession (Dawn)
 
-**Location:** Workshop; central forge; all four PCs present. **Time:** Day 7 dawn.
+# Scene 06 — The Silver-Ingot Confession (Dawn)
 
-**This is the session's moral center — the entire campaign in one room. All four PCs; all four arcs; all four hints; the six artifacts; the forge; the fresco; the pine tree outside. Do not rush any of it.**
+**Location:** Workshop; central forge; all four PCs present. **Time:** Day 7 dawn.
 
 **Read-aloud:**
 
 > The forge reaches working temperature at dawn. Grom checks it once more — inside-curve of the firebox; the glow is the blue-white of cold-vein moon-silver's working temperature, exactly as it should be. He sets the quarter-pound of cold ore in the crucible. He looks at the party. He says: "Does anyone need to leave the room for this?" No one does.
 
+**This is the session's moral center. It has three parts.**
+
 ---
 
-#### Part 1 — The Confession (Grom)
+### Part 1 — The Confession (Grom)
 
-**This is an Option C moment — spawn Grom as a subagent OR play per heuristic + decision-order.**
-
-**Option C subagent prompt for Grom (INLINE VERBATIM):**
+**This is an Option C moment — spawn Grom as a subagent OR play per heuristic + decision-order:**
 
 ```
 You are Grom Ironhand, forge-priest of Reorx of the Varduin Muster.
@@ -406,63 +386,70 @@ Respond in a single paragraph of Grom's voice: what he says over the
 forge while working the silver. The response is binding.
 ```
 
-**If Agent tool unavailable:** ask the Grom-player in-character: *"Grom, the ore is in the crucible. The forge is right. What do you say while you work?"* Their answer is binding. Write the exact words in the session log.
+**If Agent tool unavailable:** ask the Grom-player in-character: *"Grom, the ore is in the crucible. The forge is right. What do you say while you work?"* Their answer is binding.
 
-**[P0 — Scaffold versions if player is uncertain. Offer one; they modify as needed:]**
+**[P0 FIX — Scaffold versions if player is uncertain]**
 
-*Short:* "She made things to hold grief instead of releasing it. She could have forged the release. I am naming the shame she could not. I am finishing it."
+If the Grom-player doesn't know where to start, offer one of these as a starting point they can modify:
 
-*Medium:* "Reorx accepted her soul. He did not accept her work — because she made holdings, not tools. Grief-coiled, not forged-with-intent. I know this because he told me so. What she should have said is: she was too ashamed to forge the thing that would have released what she made. I am saying it now. The silver hears it. The forge confirms it. This is the work she could not do. It is done."
+**Short (speak directly; ~20 words):**
+> *"She made things to hold grief instead of releasing it. She could have forged the release. I am naming the shame she could not. I am finishing it."*
 
-*Long:* "Aelwen of Vaenshold made six objects in the year before she died. She made them from grief because grief was what she had. She made them to hold what she could not release. She could have made a seventh — a tool of release, an ingot of honest shame — and she had the silver on this bench and the forge at temperature and two hundred years of smith-knowledge in her hands. She chose the pine tree instead. That choice was made from shame: she could not say, over hot silver, that she had spent her life holding grief instead of releasing it. I can say it. I am saying it. She made things to hold grief instead of releasing it. She could have made the tool of release. She was too ashamed to try. I am not ashamed. I am finishing the work."
+**Medium (~60 words):**
+> *"Reorx accepted her soul. He did not accept her work — because she made holdings, not tools. Grief-coiled, not forged-with-intent. I know this because he told me so. What she should have said is: she was too ashamed to forge the thing that would have released what she made. I am saying it now. The silver hears it. The forge confirms it. This is the work she could not do. It is done."*
+
+**Long (~120 words; for a player who wants to inhabit the moment fully):**
+> *"Aelwen of Vaenshold made six objects in the year before she died. She made them from grief because grief was what she had. She made them to hold what she could not release. She could have made a seventh — a tool of release, an ingot of honest shame — and she had the silver on this bench and the forge at temperature and two hundred years of smith-knowledge in her hands. She chose the pine tree instead. That choice was made from shame: she could not say, over hot silver, that she had spent her life holding grief instead of releasing it. I can say it. I am saying it. She made things to hold grief instead of releasing it. She could have made the tool of release. She was too ashamed to try. I am not ashamed. I am finishing the work."*
+
+Write Grom's actual response verbatim in the session log — whether the player speaks it themselves, uses one of these scaffolds, or the subagent provides it. **It is binding.**
 
 ---
 
-#### Part 2 — The Ingot Completes
+### Part 2 — The Ingot Completes
 
-**🎲 Grom Religion DC 12** (advantage from prior hearth-greetings + Hint 3 reception; Aelric may cast Bless L1 + 1d4).
+**🎲 Grom Religion DC 12** (advantage from prior hearth-greetings + Hint 3 reception; Aelric may cast Bless L1 + 1d4 if he chooses).
 
-**On success (12+):** full Route D — ingot whole, voice clear, fresco changes cleanly, all four hints deliver at full power. See below.
+**[P0 FIX — Graceful failure state]**
 
-**On failure (≤11) [P0 — graceful failure state]:** the ingot forms but cracks along one seam — not broken, cracked. Still usable. The ingot still speaks (Hint 4 auto-delivers at passive 15) but quieter. The fresco still changes, but less sharply — *"the faces look almost as if they have been told the truth."* Route C outcome rather than Route D; still a valid campaign close. A cracked ingot is not a bad ingot; it is an honest one. **Do not re-roll.**
+On **success (12+):** full Route D — ingot whole, voice clear, fresco changes cleanly, all four hints deliver at full power. See Part 2 below.
+
+On **failure (≤11):** the ingot forms but cracks along one seam — not broken, cracked. Still usable. The ingot still speaks (Hint 4 auto-delivers at passive 15), but quieter: *"I should have..."* — the voice trails. The fresco changes, but less sharply: *"the faces look almost as if they have been told the truth."* Route C outcome rather than Route D; still a valid ending; the campaign closes. The crack does not mean Grom failed — it means Aelwen's shame was heavier than expected. He finishes the work anyway. **Log the failure; do not re-roll.** A cracked ingot is not a bad ingot; it is an honest one.
 
 When the ingot is cast and the words are spoken, the following happen simultaneously (deliver all in one narration after the rite completes):
 
 **Hint 1 — Fresco-Heal (delivered):**
 The fresco of Ilendra's parents changes in the way that it has always been just about to change. The faces now look the way people look when they have been told the truth: still sad; still recognizing loss; but not holding it any more. Grom sees it. He says nothing. Kessa sees it. She writes it in her notebook. Thera asks: *"Did that change?"* Aelric: *"Yes."*
 
-**Hint 4 — Aelwen's Confession ingot (auto-delivered, passive Perception 15):**
+**Hint 4 — Aelwen's Confession ingot (auto-delivered, passive 15):**
 Every PC with passive Perception 15+ hears, in the specific way that silver speaks in a forge when it is being worked with purpose, a sound that is not quite a voice: *"I should have forged an ingot instead."* It is Aelwen's voice, or an echo of it, or the silver carrying the intention across two hundred years. Kessa: *"She did. We did it for her."*
 
-**The six artifacts — the inversion:**
+**The six artifacts:**
 - The three destroyed (Mirror, Wrath-Coin, Thread) — released. The grief they coiled is acknowledged; the acknowledgment inverts the coil; the release is clean.
-- The living artifacts await their individual resolutions (see Part 3 below).
+- The living artifacts await their individual resolutions (see Part 3).
 
 ---
 
-#### Part 3 — The Individual Resolutions
+### Part 3 — The Individual Resolutions
 
-**Aelric's reliquary (Option C available — spawn if desired; or play per heuristic):**
+#### Aelric's reliquary (Option C — spawn if desired; or play per heuristic)
 
 The inversion makes the Varran-reliquary's Minute playable differently. The grief was coiled; now it can be released. Aelric can play the Minute one final time — the sixty seconds of Varran dying — and hear it as release rather than as the only-memory-remaining.
 
-The question for Aelric: Does he play the Minute? If he does, what does he hear? The Minute is the same sixty seconds. But the campaign has been a hundred sessions of grief-work. He is not the Aelric who attuned in S02. He knows more about grief and what to do with it. He plays the Minute and it sounds like release.
+**The question for Aelric:** Does he play the Minute? If he does, what does he hear? The Minute is the same sixty seconds. But the campaign has been a hundred sessions of grief-work. He is not the Aelric who attuned in S02. He knows more about grief and what to do with it. He plays the Minute and it sounds like release.
 
 **If Aelric plays the Minute:** the reliquary does not un-attune (the memory-loss is permanent; the Measure commits to what it commits to). But the sixty seconds of Varran dying is acknowledged as a *gift* — Varran knew the party would come for Pella; Varran's last minute was the last minute of someone who knew what he was doing. The grief is not resolved. It is named.
 
 **If Aelric doesn't play the Minute:** that is correct too. He has been Aelric for seven adventures. He knows what he has.
 
-**Option C for Aelric:** If the player reaches a decision point, spawn Aelric as a subagent — prompt: *Read your PC sheet at personas/parties/varduin-muster/aelric-crownhold.md. The ingot has been forged. The fresco has changed. Grom has said the words Aelwen could not. You are holding the Varran-reliquary. The sixty-second Minute is available. Do you play it? If yes, what do you hear — and does it sound different now? Respond in a single paragraph. Binding.* If Agent unavailable: ask Aelric's player in-character.
-
-**Kessa's Vethrenn margin (already closed in Scene 05):**
+#### Kessa's Vethrenn margin (already closed in Scene 05)
 
 Kessa wrote the answer. She is done. She has been done since she picked up her pen. The margin is closed. She does not need to say anything aloud. She can show the book to anyone who asks.
 
-**Thera and Adda (no artifact; just truth):**
+#### Thera and Adda (no artifact; just truth)
 
 Thera has no artifact to resolve in the formal sense. She named Adda in S06. She read the letter in S06. She knows where Nenn's address is. The inversion does not change anything for her — she was not holding a grief-coil; she was holding a grief. The difference is: a coil is a thing that was made. Thera's grief was just grief. The ingot acknowledges that her grief was real. That is enough.
 
-**The Pride-Circlet (if in party custody and not yet destroyed):**
+#### The Pride-Circlet (if in party custody and not yet destroyed)
 
 If the party still has the Pride-Circlet: the inversion means it can now be destroyed via Grom's Reorx-rite in this same forge, in this same session, without a separate ceremony. Religion DC 15; same forge, same dawn; same purpose. The pride-circlet's Pride-Lock is an artifact of the grief-coil cycle; the inversion releases the context. It can be ended cleanly.
 
@@ -473,13 +460,20 @@ If the party still has the Pride-Circlet: the inversion means it can now be dest
 - **This scene is the entire campaign in one room.** All four PCs; all four arcs; all four hints; the six artifacts; the forge; the fresco; the pine tree outside. Do not rush any of it.
 - **The ingot is not a treasure.** When it cools, it is a quarter-pound ingot of cold-vein moon-silver, shaped like any other ingot, worth maybe 15 gp raw. The party may keep it, leave it in the sixth vault-space, or give it to the workshop archive. There is no wrong answer. The value was in the making.
 - **Grom's words are the session's closing.** Whatever he said over the forge — that is what Aelwen could not say. The party witnessed it. Write it verbatim in the session log.
-- **POST-SESSION MANDATORY:** Grom's exact words; Aelric's reliquary decision; Kessa's margin note (verbatim); Circlet final disposition; Ingot final location. All to CLAUDE.md.
+- **POST-SESSION MANDATORY:** Grom's exact words; Aelric's reliquary decision; Kessa's margin note; Circlet final disposition; Ingot final location. All to CLAUDE.md.
 
-**Memory Fragment:**
+### Memory Fragment (optional)
 
 > *Aelwen, PC 179, early morning: she put the cold-vein silver on the workbench. She stood at the forge for one hour. She knew what she needed to say. She had written it in her notes: "I could have forged the tool of release. I chose to forge coils instead." She looked at the fresco of Ilendra's parents on the north wall — she had painted it herself, as a commission, thirty years earlier. She thought: "If I say this aloud over the hot silver, it will be true. It will be documented in the silver itself. I will have to live with having said it." She left the silver on the bench. She went to the pine tree. That is the difference between Aelwen and Grom: he lives with what he says.*
 
-**Per-PC reception:**
+## Manifest symptoms landed
+
+- **Hint 1 (Fresco-Heal) delivered** (anchor: Grom perceives the fresco-change; path a; Kessa writes it; Thera asks)
+- **Hint 3 (Reorx's Judgment) speaks through Grom's hands** (anchor: craft-witness silent delivery; path a — Grom's words confirm the Judgment he has been carrying since S04)
+- **Hint 4 (Aelwen's Confession) auto-delivered** (anchor: passive 15; path a — all PCs with passive 15 hear it; path c — Kessa quotes it)
+- **Ingot exists** (anchor: physical object; can be touched; path a+b)
+
+## Per-PC reception
 
 | Symptom | FINDER | RECEIVER |
 |---|---|---|
@@ -491,7 +485,9 @@ If the party still has the Pride-Circlet: the inversion means it can now be dest
 
 ---
 
-### Scene 7 — Aftermath (Vaenshold, Day 7 Morning)
+### Scene 7 — Aftermath (Vaenshold, Day 7 morning)
+
+# Scene 07 — Aftermath (Vaenshold, Day 7 morning)
 
 **Location:** Workshop and grounds; the path to the gate. **Time:** Day 7, morning — after the forge has cooled.
 
@@ -499,11 +495,18 @@ If the party still has the Pride-Circlet: the inversion means it can now be dest
 
 > The ingot sits on the workbench where the cold-vein silver once sat, waiting to become something. The forge is cooling. The fresco of Ilendra's parents is on the north wall. The pine tree is outside. The Solamnic steward is at the gate. The Varduin Muster is in Aelwen's workshop on the morning after, and the work is done.
 
+**The scene:**
+
+This is the campaign's final scene. There is no mechanical resolution left. The party has completed the Moon-Silver Cycle. What remains is the space after.
+
 **What each PC may do:**
 
 - **Grom:** He may touch the ingot before the party leaves. He will run his thumb along the inside edge. It is honest work. He may leave it in the sixth vault-space — the indentation that was waiting. Or he may carry it. His choice.
+
 - **Kessa:** She has answered the margin. She may read it one last time. She may close the book and not open it again for a while. She may leave the book in the workshop archive for the next person who needs it. Any of these is correct. She will know which when she gets there.
+
 - **Aelric:** He wears his brother's armor. He has worn it since before S01. He will wear it home. The reliquary is with him, as it has been since S02. He played the Minute or he didn't; either way he knows what it was. He will write a letter to Varran tonight. He always does. This one will be different, a little. He does not know yet how.
+
 - **Thera:** She looks back once when the party reaches the gate. The workshop is behind them; the manor house is behind them; the pine tree is around the corner, invisible from the gate. She does not look at the pine tree. She looks at the gate-hinge of the estate gate. It is original — Vaenshold ironwork, two hundred years old, still functioning. The inside curve is true. She does not say this aloud. She notes it.
 
 **The steward at the gate:**
@@ -512,15 +515,19 @@ He asks: *"Did you find what you needed?"*
 
 One of the PCs answers. The answer is binding — write it in the session log.
 
-**The ingot's final location** — the party decides before leaving. Options:
+**What the Moon-Silver Cycle is:**
+
+Seven adventures. Seven emotions. Seven moon-silver artifacts made from three veins of grief. The campaign ends here, in the building where it began, with an ingot on the workbench and the fresco changed and four people walking out through a gate that has been waiting two hundred years for someone to finish the work.
+
+**The ingot's final location:**
+
+The party decides before leaving. Options:
 
 - **Leave it in the sixth vault-space.** The indentation has been waiting for exactly this shape. The vault is complete. The workshop can be closed again; the Solamnic steward can lock it; the estate can rest.
 - **Carry it.** The ingot is physical evidence that the work was done. Someone may want it. Kessa's collection (Aelwen triplet + this ingot = four Aelwen writings/objects) is complete.
 - **Leave it on the workbench.** Aelwen left the silver on the workbench before she went to the pine tree. Leaving the ingot on the workbench is completing the gesture — she went away leaving raw material; they are going away leaving finished work.
 
-**Treasure:** The ingot (15 gp raw value; priceless campaign significance). Brother Laen will arrange a final payment for the Vaenshold estate service (100 gp; symbolic; the Council's acknowledgment). What the party actually has: four people who went into the world carrying grief in various forms and came out the other side still carrying it, but named. That is not a treasure. It is a fact. It will do.
-
-**Campaign-continuity updates (write to CLAUDE.md post-session):**
+**Post-session commitments (write to CLAUDE.md):**
 
 - Grom's exact words over the forge (verbatim from the subagent/player response).
 - Aelric's reliquary decision (played the Minute / did not play; what he heard if he did).
@@ -531,153 +538,93 @@ One of the PCs answers. The answer is binding — write it in the session log.
 
 **Encounter:** None. The Moon-Silver Cycle is complete.
 
-**Memory Fragment:**
+**Treasure:** The ingot (15 gp raw value; priceless campaign significance). Brother Laen will arrange a final payment for the Vaenshold estate service (100 gp; symbolic; the Council's acknowledgment). What the party actually has: four people who went into the world carrying grief in various forms and came out the other side still carrying it, but named. That is not a treasure. It is a fact. It will do.
 
-> *Heva Aelwensdaughter stood at the gate of the Vaenshold estate and locked it for what she thought was the last time. She had the six artifacts in cases in a cart behind her. She was eighteen years old. She had just planted a new pine tree. She looked back once. She had no way of knowing that two hundred years later, four people would unlock the gate from the outside, go in, and complete the work. She would have been glad. She spent the rest of her long life not being glad — not being sad either, just being Heva, carrying what her mother left, doing the next thing. But she would have been glad to know.*
+### Memory Fragment (optional — the campaign's closing)
+
+> *In PC 179, Heva Aelwensdaughter stood at the gate of the Vaenshold estate and locked it for what she thought was the last time. She had the six artifacts in cases in a cart behind her. She was eighteen years old. She had just planted a new pine tree. She looked back once. She had no way of knowing that two hundred years later, four people would unlock the gate from the outside, go in, and complete the work. She would have been glad. She spent the rest of her long life not being glad — not being sad either, just being Heva, carrying what her mother left, doing the next thing. But she would have been glad to know.*
+
+## Campaign Summary (post-session)
+
+The Varduin Muster spent the Age of Might's final twenty years — the Cataclysm is coming, though none of them know this yet — doing what the campaign asked:
+
+- **S01:** Found the Silver Rose and returned it to the Council. Planted the first seeds.
+- **S02:** Rescued Pella and faced the Bone-Collectors. Aelric attuned the Varran-reliquary. The grief-coil cycle became personal.
+- **S03:** Found the Mirror and destroyed it. Mira named Seralen. The cross-adventure phrase caught.
+- **S04:** Found the Wrath-Coin and destroyed it. Grom received the Reorx-Judgment. Duren's murder acknowledged.
+- **S05:** Found the Pride-Circlet and left it with Tiran heard. Kessa named the ingot-theory.
+- **S06:** Found the Thread and destroyed it. Thera found Nenn. Three-vein accounting complete.
+- **S07:** Came to Vaenshold and completed the work Aelwen could not. Grom named the shame over hot metal. The fresco changed.
+
+The Cataclysm will come in twenty years. These four people will be in their forties and fifties. What they did here will not stop the Cataclysm. But someone, somewhere, walking through the ruins of Istar and the ruins of Vaenshold and the ruins of a world, will find an ingot of cold-vein moon-silver on a workbench in a workshop behind a manor house that somehow survived the falling fire. They will pick it up. They will feel that it is old and has been made with purpose. They will not know what it means. They will carry it anyway.
+
+That is enough.
 
 ---
 
-## Encounters Appendix
+## Map
 
-### No Combat Encounters
+#### Map — The Silver-Ingot Confession
 
-**Vaenshold Estate is not dangerous.** There are no monsters, no traps, no undead. The estate is structurally sound, maintained by the Solamnic Order as unclaimed property. The only threat is emotional. This adventure has no combat encounters by design.
+Three zones: **Cold-vein site** (Scene 01) → **Vaenshold Estate** (Scenes 02-06) → **Departure** (Scene 07).
 
-**Dice-weight for this adventure** is carried by Scene 01's skill encounter (Athletics DC 12 × 4 for mining; Stonecunning passive 18 for vein identification; optional Religion DC 10 pre-forge blessing). All dice-weight is resolved before the estate.
+```
+        (road from Stonfold via Crystalmir; ~7 days total)
+                        |
+              [1] Cold-Vein Site
+              (Kharolis border foothills)
+              (half-day detour; Grom mines)
+                        |
+              ~~ road southwest ~~
+                        |
+         +----[2] Vaenshold Estate----+
+         |  grounds + manor house     |
+         |                            |
+    [3] Aelwen's Workshop         [old forge-hall]
+    (behind manor; low stone)     (cold now; usable)
+         |                            |
+    [4] Interior workshop         [5] The Pine Tree
+    (six forging-stands;          (behind workshop)
+     fresco; empty vault)              |
+         |                        [the place where
+    [6] The Ingot Forge           Aelwen went]
+    (central; main anvil)
+         |
+    [7] Departure
+```
 
-**If the party escalates against the steward (theoretical):** the Solamnic steward is a non-combatant, non-curious custodian. He will withdraw. He has a Solamnic Order contact he could alert, but he would not — the Council letter grants legitimate access. Escalation has no mechanical path; there is no one to fight.
+##### Connections
 
-**Route outcomes (no combat in any route):**
+| From | To | Type | Notes |
+|---|---|---|---|
+| Road | [1] Cold-vein site | Detour | Half-day; Grom mines with help |
+| [1] | Vaenshold road | Return | Then southwest to estate |
+| Road | [2] Estate grounds | Approach | Laen's Council writ; Solamnic steward opens gates |
+| [2] grounds | [3] Workshop | Path | Behind manor; low stone building; door has not been opened in decades |
+| [3] Workshop | [4] Interior | Door | Investigation DC 10 finds the latch; Kessa's Arcana: she knows Aelwen's mark |
+| [4] Interior | [5] Pine tree | Back door | The door Aelwen used when she left |
+| [4] Interior | [6] Forge (central anvil) | Interior | The working forge; still usable with Grom's preparation |
+| [6] | [7] Departure | Resolution | Through the front door; the estate is quiet |
 
-| Route | Trigger | Outcome |
-|---|---|---|
-| D (optimal inversion) | All 4 hints caught; Grom names shame aloud | Fresco-Heal completes; grief-coil sequence inverts; all six artifacts acknowledged |
-| C (default) | Grom forges but does not name aloud (Wis save or choice) | Artifacts resolved individually; fresco partial; shame acknowledged materially, not spoken |
-| A (fallback) | No naming, no ingot | Party deals with artifacts one by one; grief ended, not released; Moon-Silver Cycle closes without inversion |
+##### DM notes
 
-All three routes are valid campaign endings. Route D is earned — the party has all four hints in play entering this session.
+- **Vaenshold Estate is not dangerous.** There are no monsters, no traps, no undead. It has been empty for decades but is structurally sound (the Solamnic Order has maintained it as unclaimed property). The only threat is emotional.
+- **The pine tree.** Behind the workshop. Grom will know where it is when he sees it. So will Kessa. Thera will ask what it is. Aelric will look at it and then look away.
+- **The fresco.** Inside the workshop, on the north wall. Ilendra's parents — their faces, painted when Ilendra was young, before everything. Grom saw them in S01 (Perception CRIT 23). He will recognize them here.
+- **The empty vault.** Where Heva placed the six artifacts in PC 179. Empty now — all six artifacts have been accounted for. The vault is a room that held grief and is now holding the absence of it.
+- **The forge.** Central. Still functional. Grom will have it at temperature by dawn with one hour of preparation.
+- **v1.4 compliance:** the cold-vein site (Scene 01) has a minimal skill encounter (Athletics for mining; Stonecunning for vein identification). No combat required; the Tactician's dice-weight is covered by Scene 01's physical work rather than violence.
 
 ---
 
 ## DM Cheatsheet
 
-### Key DCs (by scene)
+### Quick Reference — Key DCs (by scene)
 
 | DC | Check | Scene | Consequence |
 |---|---|---|---|
-| 10 | Religion (pre-forge blessing at vein site; optional) | 01 | Advantage on Religion DC 12 at Scene 06 |
-| 10 | Investigation (vault indentations) | 03 | Six indentations; sixth is ingot-shaped, empty |
-| 10 | Investigation (workshop door latch) | 03 | Kessa auto-recognizes Aelwen's maker-mark |
-| 10 | Arcana (Kessa; forge temperature match) | 05 | Forge was built for cold-vein moon-silver; Aelwen knew what she was building |
-| 12 | Athletics (per PC; mining at cold-vein site) | 01 | Fail = 30 minutes longer; 4 PCs total |
-| 12 | Religion (Grom; the ingot rite) | 06 | **The threshold.** Advantage from hearth-greetings + Hint 3; Aelric Bless adds +1d4 |
-| 12 | Passive Perception (low ground behind pine tree) | 04 | The earth settled; Kessa can explain if asked |
-| 13 | Grom Stonecunning passive (fresco detail recognition) | 03 | Recognizes faces from S01 Perception CRIT 23 |
-| 14 | Investigation (rear workshop door) | 02 | Back door unlocked from inside; the door Aelwen used |
-| 15 | Passive Perception (Hint 4 auto-delivery) | 06 | *"I should have forged an ingot instead."* All PCs at passive 15+ hear it simultaneously |
-| 18 | Grom Stonecunning passive (cold-vein identification) | 01 | Automatic; "This is the shame-kind." |
-
-### Attunement Rules (this adventure)
-
-**No new attunements in this adventure.** The Silver-Ingot Confession is not an artifact — it is an act. The ingot that results from the rite has no magical properties and requires no attunement.
-
-**Existing attunements entering this session:**
-- Aelric: Varran-reliquary (1/3 slots used). The Minute is available. Campaign-permanent memory state unchanged by this adventure — the inversion recontextualizes the Minute but does not restore consumed memories.
-- If Thread-That-Frays was attuned in S06: per S06 disposition written to CLAUDE.md. If destroyed, attunement ended; if attuned, check thread-count entering this session.
-
-**The reliquary question is narrative, not mechanical.** Whether Aelric plays the Minute in Scene 06 is a roleplay decision, not a rules decision. The reliquary's mechanics are unchanged. The inversion changes the *meaning* of the Minute, not its mechanics.
-
-### Option C Subagent Prompt — Grom (Scene 06, Part 1) — INLINE VERBATIM
-
-*Use when the forge reaches working temperature and the ore is in the crucible. Spawn as general-purpose subagent. Record the response verbatim. It is binding.*
-
-```
-You are Grom Ironhand, forge-priest of Reorx of the Varduin Muster.
-Your full PC sheet is at personas/parties/varduin-muster/grom-ironhand.md.
-READ THAT SHEET FIRST.
-
-Context: You are at the central forge in Aelwen of Vaenshold's workshop,
-PC 20, at dawn. The cold-vein ore is in the crucible. The forge is at the
-right temperature. The fresco of Ilendra's parents is on the north wall.
-The pine tree is outside the back door.
-
-You have held Reorx's Judgment silently since S04: "Grief-coiled, not
-forged-with-intent. A coil can be uncoiled." You have been carrying it
-through three adventures without speaking it aloud.
-
-To perform the Silver-Ingot Confession, you must:
-1. Work the cold-vein silver into an ingot (Religion DC 12; Aelric's
-   Bless adds +1d4 if cast).
-2. While working, speak aloud what Aelwen could not say:
-   "I made things to hold grief instead of releasing it. I could have
-   made the tool of release. I was too ashamed to try."
-3. You speak this as a naming, not a confession to a priest. You are
-   not Aelwen; you are performing the act she could not. The silver
-   listens. The forge confirms.
-
-You do not need to say exactly those words. But you must say three things:
-- That things were made to hold rather than release.
-- That the tool of release could have been made.
-- That shame prevented it.
-
-The party is watching. The fresco is on the north wall. The pine tree
-is outside. Kessa has answered Vethrenn's margin. Aelric is holding the
-reliquary. Thera has read her letter.
-
-Respond in a single paragraph of Grom's voice: what he says over the
-forge while working the silver. The response is binding.
-```
-
-**Option C no-Agent fallback (Grom):** ask Grom's player in-character: *"Grom, the ore is in the crucible. The forge is right. What do you say while you work?"* Their answer is binding. Write it verbatim.
-
-### Option C for Aelric (Scene 06, Part 3) — Brief
-
-*Use if Aelric's player reaches the reliquary-decision point and the moment feels too large to improvise.*
-
-Spawn Aelric as subagent: *"Read your PC sheet at personas/parties/varduin-muster/aelric-crownhold.md. The ingot has been forged. The fresco has changed. Grom has said the words Aelwen could not. You are holding the Varran-reliquary. The sixty-second Minute is available. Do you play it? If yes, what do you hear — and does it sound different now? Respond in a single paragraph. Binding."*
-
-**If Agent unavailable:** ask Aelric's player in-character. Their answer is binding.
-
-### Hint Delivery Mechanics (all four deliver at Scene 06)
-
-| Hint | Delivery trigger | Path | Who receives |
-|---|---|---|---|
-| Hint 1 (Fresco-Heal) | Ingot forged; fresco changes | Path a (Grom sees first); path b (Kessa writes it); path c (Thera asks; Aelric confirms) | All four PCs |
-| Hint 2 (Vethrenn's margin) | Already closed in Scene 05 (Kessa writes answer) | Path a (Kessa writes); path c (she can show anyone) | Kessa primary; all witness |
-| Hint 3 (Reorx's Judgment) | Speaks through Grom's hands at the forge | Path a (craft-witness silent delivery; Grom's words confirm it); path b (carried since S04 through three adventures) | Grom primary; all witness the act |
-| Hint 4 (Aelwen's Confession) | Auto at passive Perception 15 when ingot exists | Path a (passive 15; all PCs auto or near-auto); path c (Kessa quotes it: *"She did. We did it for her."*) | All four simultaneously |
-
-### Scene Triggers
-
-| If party... | Handle as |
-|---|---|
-| Asks what the cold-vein silver is (Scene 01) | Grom Stonecunning auto 18: "This is the shame-kind." No further check needed |
-| Fails Athletics DC 12 at the vein site | Mining takes 30 minutes longer per failure; party still extracts ore; no scene failure |
-| Goes directly to the forge without visiting the pine tree | Correct; Scene 04 is optional; do not force it |
-| Aelric opens the back door and sees the pine tree | He looks at it and then looks away; that is his response; do not prompt further |
-| Kessa's book warms at the threshold | Read Vethrenn's margin aloud; let silence happen; Kessa says *"I know how."* |
-| Grom recognizes the fresco faces | He goes still; *"I know them."* Let the party ask; he explains S01 CRIT |
-| Grom performs the rite (DC 12 passed) | Deliver all three simultaneous events: Fresco-Heal, Hint 4, the six-artifact release |
-| Grom fails the Religion DC 12 | The rite can be re-attempted after one hour (forge holds temperature). Not a session-failure; the work is the thing. DC 12 is accessible. |
-| Aelric plays the Minute | Deliver as release: the same 60 seconds, heard differently; grief named, not resolved |
-| Aelric does not play the Minute | That is correct; do not prompt |
-| Party leaves ingot in vault | The vault is complete; write it; the Solamnic steward locks the workshop |
-| Party carries the ingot | Kessa's Aelwen-object collection is complete (four items); record in party inventory |
-| Party leaves ingot on workbench | The gesture completes Aelwen's gesture; write it; the most resonant placement |
-| Steward asks "Did you find what you needed?" | One PC answers; write verbatim; it closes the log |
-
-> **POST-SESSION MANDATORY — Write all entries below to `CLAUDE.md` under Campaign-permanent party state.**
-
-- **Grom's exact words over the forge** (verbatim from subagent or player).
-- **Aelric's reliquary decision** (played the Minute / did not play; what he heard if he did).
-- **Kessa's margin note** (exact text she wrote in Vethrenn's commonplace book).
-- **Ingot final location** (sixth vault-space / carried by party / left on workbench).
-- **The steward's question and the party's answer** (verbatim).
-- **Campaign status: COMPLETE.** Note any open threads (Nenn's address; Pella at Varduin; Felor's new principal; anything the party named as unfinished).
-- **Session emotion (Shame)** delivered. Note which route resolved (D / C / A) and what the DM flagged as the session's most-received moment.
-
----
-
-> *The Cataclysm is coming in twenty years. These four people will be in their forties and fifties. What they did here will not stop the Cataclysm. But someone, somewhere, walking through the ruins of Istar and the ruins of Vaenshold and the ruins of a world, will find an ingot of cold-vein moon-silver on a workbench in a workshop behind a manor house that somehow survived the falling fire. They will pick it up. They will feel that it is old and has been made with purpose. They will not know what it means. They will carry it anyway.*
->
-> *That is enough.*
+| 12 | Athletics | 1 | per PC to help dig; |
+| 10 | Grom Religion | 1 | (pre-forge blessing at the vein site) |
+| 10 | Investigation | 3 | six indentation marks in the vault floor, one per artifact case. |
+| 10 | Arcana | 5 | — the forge temperature matches the cold-vein silver's working temperature exactly. |
+| 12 | Grom Religion | 6 | (advantage from prior hearth-greetings + Hint 3 reception; |
