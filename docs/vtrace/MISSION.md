@@ -45,9 +45,9 @@ results back into rubrics, player-style catalogs, skills, and campaign state.
 
 ```powershell
 cargo test --quiet
-cargo run -- status
-cargo run -- roll 1d20+5 --seed S07-scene6 --adv --bless
-cargo run -- bind-module 0007-the-silver-ingot-confession
+cargo run --bin quest -- status
+cargo run --bin quest -- roll 1d20+5 --seed S07-scene6 --adv --bless
+cargo run --bin quest -- bind-module 0007-the-silver-ingot-confession
 cargo run --bin quest-muddle -- --save target\quest-ai.muddle --transcript target\quest-ai.txt
 ```
 
