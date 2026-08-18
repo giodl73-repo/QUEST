@@ -158,7 +158,7 @@ cargo run -- bind-module 0007-the-silver-ingot-confession
 Pieces:
 
 - **`src/main.rs`** — CLI entry point; re-entrant via `state/checkpoint.json`.
-- **`src/lib.rs`** — reusable crate surface for non-CLI runners, including
+- **`src/lib.rs`** — product-internal crate surface shared by QUEST-owned runners, including
   `run_cli()`, `DiceEngine`, `RollOptions`, `ai_dm_muddle_surface()`, and
   `ai_dm_muddle_host()`.
 - **`DiceEngine` + `rally-core::DiceRoller`** — seed-locked RNG; every CLI roll can be logged to `state/dice_log.jsonl` with a reproducible seed. No faked rolls; no mental rolls.
@@ -178,7 +178,7 @@ Pieces:
 
 The engine is what lets `session-runner` claim its "no fake rolls" quality gate with a straight face.
 
-Reusable callers should link the crate instead of shelling out:
+QUEST-owned runners link the crate instead of shelling out:
 
 ```rust
 let code = quest::run_cli(vec!["status".to_string()]);
@@ -205,6 +205,27 @@ cargo run --bin quest-muddle-macroquad
 
 The first visible native AI-DM table arc is: `go scene`, `scout room`,
 `advance scene`, `enemy turn`, `rally party`, `go treasure`, `unseal treasure`.
+
+## Reuse boundary
+
+QUEST is intentionally a specialist D&D workshop and game product. Its supported
+unit is this repository's campaign evidence, authoring pipeline, and `quest`
+executables—not a general-purpose Rust library or portable adventure schema.
+
+The public items in `src/lib.rs` are internal integration seams for QUEST's own
+binaries. The 0.1.0 crate is unpublished, has no downstream manifest, and has no
+consumer-owned compatibility test, so those items do not carry a cross-repository
+stability promise. Likewise, QUEST's rubrics, state files, modules, and campaign
+records combine Dragonlance canon, 5e SRD material, workshop policy, and played
+continuity; copying their shapes would copy product assumptions rather than a
+neutral contract.
+
+For shared mechanics, depend on the owning foundations instead:
+[MUDDLE](https://github.com/giodl73-repo/MUDDLE) owns room-command and host
+contracts, while [RALLY](https://github.com/giodl73-repo/RALLY) owns deterministic
+simulation and validation primitives. Reconsider a QUEST library contract only
+when a named external adopter pins a versioned surface, supplies neutral fixtures,
+and runs compatibility tests in the consumer repository.
 
 ---
 
