@@ -31,3 +31,10 @@ clone_url = "https://github.com/giodl73-repo/RALLY.git"
 cargo_patches = [
   { package = "rally-core", source = "https://github.com/giodl73-repo/RALLY.git", path = "." },
 ]
+
+[repos.vtrace]
+role = "methodology source for the QUEST VTRACE process spine"
+relative = "..\\..\\standards-protocols\\vtrace"
+canonical = "giodl73-repo/VTRACE"
+clone_url = "https://github.com/giodl73-repo/VTRACE.git"
+required_by = ["docs/vtrace"]
