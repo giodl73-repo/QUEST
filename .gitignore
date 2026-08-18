@@ -31,18 +31,12 @@ node_modules/
 *.synctex.gz
 *.toc
 
-# Local/editor state (not public)
+# Local state
 .claude/settings.local.json
 .claude/scheduled_tasks.lock
-.DS_Store
-.vscode/
-.idea/
-*.swp
-*.swo
 
 # Python
-__pycache__/
-*.pyc
+.coverage
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
@@ -53,7 +47,6 @@ venv/
 target/
 
 # Env files with potential secrets
-.env
 .env.local
 
 .cargo/config.toml
