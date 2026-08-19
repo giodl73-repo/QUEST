@@ -294,9 +294,10 @@ QUEST uses two shared games-design tools:
 
 ## License
 
-QUEST is released under the **MIT License** — see [`LICENSE`](LICENSE).
-
-Third-party content carries its own terms:
-
-- **5e SRD** in `reference/srd/` is Wizards of the Coast's System Reference Document, used under **CC-BY-4.0**. See `reference/srd/LICENSE.md`.
-- **Dragonlance** is a Wizards of the Coast setting. Files in `reference/dragonlance/` are curated notes for the workshop's use; invented names and lore added by this project are tracked in `reference/dragonlance/workshop-canon.md` and are released under the MIT License together with the rest of this repository.
+QUEST uses separate licenses for software and content. Source code,
+executable scripts, tests, configuration, and ordinary software
+documentation are MIT-licensed (copyright Gio Della-Libera & Chris Robison). Original
+non-software content is licensed CC BY-NC 4.0 (copyright Gio Della-Libera & Chris Robison);
+commercial use of that content requires separate written permission.
+Third-party material remains under its own terms.
+See [LICENSE](./LICENSE) for the complete notice.
